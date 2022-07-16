@@ -1,0 +1,35 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Byss",
+			"CoordX": -48,
+			"CoordY": -182
+		},
+		{
+			"Name": "Prakith",
+			"CoordX": -44,
+			"CoordY": -88
+		},
+		{
+			"Name": "Keeara Major",
+			"CoordX": -7,
+			"CoordY": -58
+		},
+		{
+			"Name": "Empress Teta",
+			"CoordX": 1,
+			"CoordY": -52
+		},
+		{
+			"Name": "Jerrilek",
+			"CoordX": 2,
+			"CoordY": -24
+		},
+		{
+			"Name": "Ruan",
+			"CoordX": 0,
+			"CoordY": -13
+		}
+	]
+}

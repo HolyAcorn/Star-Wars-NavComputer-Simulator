@@ -1,0 +1,55 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Cal-Seti",
+			"CoordX": -74,
+			"CoordY": -34
+		},
+		{
+			"Name": "Fresia",
+			"CoordX": -58,
+			"CoordY": -29
+		},
+		{
+			"Name": "Galand",
+			"CoordX": -54,
+			"CoordY": -24
+		},
+		{
+			"Name": "Worru'du",
+			"CoordX": -39,
+			"CoordY": -18
+		},
+		{
+			"Name": "Salliche",
+			"CoordX": -26,
+			"CoordY": -19
+		},
+		{
+			"Name": "Stassia",
+			"CoordX": -13,
+			"CoordY": -11
+		},
+		{
+			"Name": "Ruan",
+			"CoordX": 0,
+			"CoordY": -13
+		},
+		{
+			"Name": "Yulant",
+			"CoordX": 34,
+			"CoordY": -16
+		},
+		{
+			"Name": "Aargau",
+			"CoordX": 40,
+			"CoordY": -20
+		},
+		{
+			"Name": "Broest",
+			"CoordX": 65,
+			"CoordY": -24
+		}
+	]
+}

@@ -1,0 +1,12 @@
+When choosing a starting location it will check if the starting location is a planet.
+
+If STarting Location is NOT a planet or if planet is not connected to a hyperspace route, 
+	it will search around itself untill it finds a planet connected to a hyperspace route, from there, 
+	it will search for the planet through hyperspace routes.
+
+If starting location is a planet that is connected to a hyperspace route
+	it will search for the planet through hyperspace routes.
+
+
+If target location is Not on hyperspace route
+	it will look at the hyperspace connected planet closest to it, and calculate travel through there.

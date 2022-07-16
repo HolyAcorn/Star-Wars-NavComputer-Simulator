@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71ffe9f08995a945a6d6c9102966a98, type: 3}
+  m_Name: Planet List
+  m_EditorClassIdentifier: 
+  Planets:
+  - {fileID: 11400000, guid: 6fb5f715691ffe9459f121c815e3d326, type: 2}
+  - {fileID: 11400000, guid: e8c0da6726c8a824280e2de8ce69fe31, type: 2}
+  - {fileID: 11400000, guid: a7511e8286de6a74bbfaef1ff546fcb4, type: 2}
+  - {fileID: 11400000, guid: 540b64369dea95c41a023618cf576cf0, type: 2}
+  - {fileID: 11400000, guid: da44c506b424ede418863e560049ce22, type: 2}
+  - {fileID: 11400000, guid: 3b56a1637bf561646ae614d215ef68fa, type: 2}
+  - {fileID: 11400000, guid: d0c3d260cf5fdc344a9e772549f71809, type: 2}
+  - {fileID: 11400000, guid: 1f4dedbc7ed32274a923edecf280efc9, type: 2}
+  - {fileID: 11400000, guid: 589f918e53bc6c64e8a7f03f2076030e, type: 2}
+  - {fileID: 11400000, guid: 17b6f44567c319b40bd715147c719994, type: 2}
+  - {fileID: 11400000, guid: 648e96e8e5ea7dc45b4db45880f289ac, type: 2}
+  - {fileID: 11400000, guid: 4ef4191a8750d994c836d9977e57cdc3, type: 2}
+  - {fileID: 11400000, guid: 38b003a4a52098d45bad483ac766fff7, type: 2}
+  - {fileID: 11400000, guid: 34662e4ac13d022448f39ca53096ab58, type: 2}
+  - {fileID: 11400000, guid: 6cec5d9ec101a9a4ca96ddc6ad2d1823, type: 2}
+  - {fileID: 11400000, guid: 8bf84100d03c82c43867e68d7c1214c2, type: 2}
+  - {fileID: 11400000, guid: f5fc3441a9dcce24b80031a06d8c3f7c, type: 2}
+  - {fileID: 11400000, guid: 9e7bf908e54c75b418816f75ae70b058, type: 2}

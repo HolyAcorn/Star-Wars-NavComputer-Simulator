@@ -1,0 +1,25 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Galantos",
+			"CoordX": -95,
+			"CoordY": -56
+		},
+		{
+			"Name": "Cal-Seti",
+			"CoordX": -74,
+			"CoordY": -34
+		},
+		{
+			"Name": "Alland",
+			"CoordX": -46,
+			"CoordY": -14
+		},
+		{
+			"Name": "Norkronia",
+			"CoordX": -33,
+			"CoordY": -7
+		}
+	]
+}

@@ -1,0 +1,16 @@
+Formula:
+
+
+H = Hyperspace
+S = Subspace
+h = Hyperdrive
+Sm = Subspace modifier
+Hm = Hyperspace Modifier
+
+P = Parsecs per hours (93,75 if well charted)
+Hd = Hypserspace Distance
+Sd = Subspace Distance
+
+(((Hd / P) * h) + Hm) + ((Sd * P) + Sm)
+
+
