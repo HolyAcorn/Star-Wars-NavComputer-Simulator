@@ -205,7 +205,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &515147709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,7 +219,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointMasterList: {fileID: 0}
-  otherPoints: {fileID: 0}
   hyperLaneList: {fileID: 11400000, guid: 8185c8d8d18ba094fa77870671083f38, type: 2}
   startingPlanet: {fileID: 11400000, guid: b99d58ab6706b1542ad0a537db66b239, type: 2}
   targetPlanet: {fileID: 11400000, guid: ca613a216e9d6df44bd4c2c957598948, type: 2}
