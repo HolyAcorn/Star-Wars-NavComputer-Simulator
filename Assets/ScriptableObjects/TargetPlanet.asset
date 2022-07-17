@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b71ffe9f08995a945a6d6c9102966a98, type: 3}
   m_Name: TargetPlanet
   m_EditorClassIdentifier: 
-  Planets: []
+  Planets:
+  - {fileID: 11400000, guid: 17b6f44567c319b40bd715147c719994, type: 2}

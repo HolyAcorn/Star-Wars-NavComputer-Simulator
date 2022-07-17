@@ -8,7 +8,7 @@ namespace TravelTime
     public class TravelTimeCalculator : MonoBehaviour
     {
         public HyperLane pointMasterList;
-        public HyperLane otherPoints;
+        private HyperLane otherPoints;
         public HyperLaneList hyperLaneList;
 
         public PlanetList startingPlanet;
@@ -27,23 +27,27 @@ namespace TravelTime
         private void Start()
         {
             pointMasterList = hyperLaneList.CreateMasterPointList();
-            foreach (HyperLanePoint point in pointMasterList.Points)
+            foreach (HyperLanePoint p in pointMasterList.Points)
             {
-                if (point.name == startingPlanet.Planets[0].name)
+                if (p.name == startingPlanet.Planets[0].name)
                 {
-                    startingPoint = point;
+                    startingPoint = p;
                 }
                 if (targetPlanet.Planets.Count > 0)
                 {
-                    if (point.name == targetPlanet.Planets[0].name)
+                    if (p.name == targetPlanet.Planets[0].name)
                     {
-                        targetPoint = point;
+                        targetPoint = p;
                     }
 
                 }
             }
+
             ConnectPoints();
-            //CalculateShortestPath();
+            // CalculateShortestPath();
+
+            Queue<HyperLanePoint> point = Astar();
+            Debug.Log("");
         }
 
         private void ConnectPoints()
@@ -57,10 +61,10 @@ namespace TravelTime
                     ConnectNeighbours(a, b);
                 }
             }
-            for (int i = pointMasterList.Points.Count -1; i >= 0; i--)
+            for (int i = pointMasterList.Points.Count - 1; i >= 0; i--)
             {
                 HyperLanePoint a = pointMasterList.Points[i];
-                for (int p = pointMasterList.Points.Count -1; p >= 0; p--)
+                for (int p = pointMasterList.Points.Count - 1; p >= 0; p--)
                 {
                     HyperLanePoint b = pointMasterList.Points[p];
                     if (a.name == b.name && a != b)
@@ -69,7 +73,20 @@ namespace TravelTime
                         pointMasterList.Points.Remove(a);
                         pointMasterList.Points.Remove(b);
                         pointMasterList.Points.Add(c);
+                        foreach (var neighbour in a.Neighbours)
+                        {
+                            HyperLanePoint nPoint = neighbour.Point;
+                            for (int n = 0; n < nPoint.Neighbours.Count; n++)
+                            {
+                                HyperLanePoint nPoint2 = nPoint.Neighbours[n].Point;
+                                if (nPoint2.name == c.name)
+                                {
+                                    nPoint.Neighbours[n].Point = c;
+                                }
+                            }
+                        }
                     }
+
                 }
             }
         }
@@ -89,10 +106,21 @@ namespace TravelTime
             a.Neighbours.Add(new HyperLanePoint.Neighbour { Point = b, Distance = disance });
             b.Neighbours.Add(new HyperLanePoint.Neighbour { Point = a, Distance = disance });
         }
+
+
         private void CalculateShortestPath()
         {
-            otherPoints = pointMasterList;
+            otherPoints = ScriptableObject.CreateInstance<HyperLane>();
+            otherPoints.Points = new List<HyperLanePoint>();
 
+
+            foreach (HyperLanePoint point in pointMasterList.Points)
+            {
+                if (point != startingPoint)
+                {
+                    otherPoints.Points.Add(point);
+                }
+            }
 
             // Q = set of neighbours
             // u = Neighbour in Q that has the shortest distance from source
@@ -110,6 +138,7 @@ namespace TravelTime
 
             while (Q.Count != 0)
             {
+
                 HyperLanePoint u = Q.OrderBy((v) => dist[v]).First();
 
                 Q.Remove(u);
@@ -148,7 +177,98 @@ namespace TravelTime
 
 
         }
+
+
+        Queue<HyperLanePoint> Astar()
+        {
+            Dictionary<HyperLanePoint, HyperLanePoint> nextPointToTarget= new Dictionary<HyperLanePoint, HyperLanePoint>();
+            PriorityQueue<HyperLanePoint> frontier = new PriorityQueue<HyperLanePoint>();
+            Dictionary<HyperLanePoint, float> distanceToReachPoint = new Dictionary<HyperLanePoint, float>();
+
+            frontier.Enqueue(targetPoint, 0);
+            distanceToReachPoint[targetPoint] = 0;
+
+            while (frontier.Count > 0)
+            {
+                HyperLanePoint currentPpoint = frontier.Dequeue();
+
+                if (currentPpoint == startingPoint) break;
+                foreach (HyperLanePoint.Neighbour neighbour in currentPpoint.Neighbours)
+                {
+                    float newDistance = distanceToReachPoint[currentPpoint] + neighbour.Distance;
+                    var nPoint = neighbour.Point;
+                    if (!distanceToReachPoint.ContainsKey(nPoint) || newDistance < distanceToReachPoint[nPoint])
+                    {
+                        distanceToReachPoint[nPoint] = newDistance;
+                        float priority = newDistance + Distance(nPoint, startingPoint);
+                        frontier.Enqueue(nPoint, priority);
+                        nextPointToTarget[nPoint] = currentPpoint;
+
+                    }
+                }
+            }
+
+            if (!nextPointToTarget.ContainsKey(startingPoint)) return null;
+
+
+            Queue<HyperLanePoint> path = new Queue<HyperLanePoint>();
+            HyperLanePoint curPathPoint = startingPoint;
+            while (curPathPoint != targetPoint)
+            {
+                curPathPoint = nextPointToTarget[curPathPoint];
+                path.Enqueue(curPathPoint);
+            }
+
+            return path;
+
+            float Distance(HyperLanePoint p1, HyperLanePoint p2)
+            {
+                return (p1.Position.x - p2.Position.x) + (p1.Position.y - p2.Position.y);
+            }
+
+        }
+
+        Queue<HyperLanePoint> FloodFill()
+        {
+            Dictionary<HyperLanePoint, HyperLanePoint> nextPlanetToGoal = new Dictionary<HyperLanePoint, HyperLanePoint>();
+            Queue<HyperLanePoint> frontier = new Queue<HyperLanePoint>();
+            List<HyperLanePoint> visitedPlanets = new List<HyperLanePoint>();
+
+            frontier.Enqueue(targetPoint);
+
+            while (frontier.Count > 0)
+            {
+                HyperLanePoint currentPlanet = frontier.Dequeue();
+
+                foreach (HyperLanePoint.Neighbour neighbour in currentPlanet.Neighbours)
+                {
+                    
+                    var nPoint = neighbour.Point;
+                    if (!visitedPlanets.Contains(nPoint) && !frontier.Contains(nPoint))
+                    {
+                        frontier.Enqueue(nPoint);
+                        nextPlanetToGoal[nPoint] = currentPlanet;
+                    }
+                }
+                visitedPlanets.Add(currentPlanet);
+            }
+
+            if (!visitedPlanets.Contains(startingPoint)) return null;
+            
+
+            Queue<HyperLanePoint> path = new Queue<HyperLanePoint>();
+            HyperLanePoint curPathPlanet = startingPoint;
+            while (curPathPlanet != targetPoint)
+            {
+                curPathPlanet = nextPlanetToGoal[curPathPlanet];
+                path.Enqueue(curPathPlanet);
+            }
+
+            return path;
+        }
     }
+
+
 
     public class Path
     {

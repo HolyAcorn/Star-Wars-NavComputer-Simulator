@@ -17,12 +17,79 @@ public class JsonReader : MonoBehaviour
     private string fileName;
 
 
-    private void Start()
+    public void CreatePlanetsAndHyperLanes()
     {
+        
+        foreach (HyperLane hyperLane1 in HyperLaneList.Hyperlanes)
+        {
+            if (hyperLane1.Points.Count > 0)
+            {
+                hyperLane1.Points.Clear();
+            }
+        }
         HyperLaneList.Hyperlanes.Clear();
-        List<Planet> planetList = new List<Planet>();
-        List<string> FileNames = new List<string>();
         PlanetList.ClearList();
+        List<Planet> planetList = new List<Planet>();
+        Files = GetFiles();
+        foreach (string file in Files)
+        {
+            fileName = file;
+            string json = File.ReadAllText(file);
+            List<Planet> tempList = LoadJson(json, file, planetList);
+            foreach (Planet planet in tempList)
+            {
+                planetList.Add(planet);
+            }
+            List<string> hyperNames = new List<string>();
+            for (int i = 0; i < planetList.Count; i++)
+            {
+
+                //if (!PlanetList.Contains(planetList[i]))
+                //{
+                    PlanetList.AddPlanet(planetList[i]);
+                //}
+
+
+
+
+            }
+            JsonFile jsonFile = JsonUtility.FromJson<JsonFile>(json);
+            string regex = @"\/Data\/(.+).json";
+            string result = Regex.Match(file, regex).Groups[1].Value;
+            HyperLane hyperLane = CreateHyperLane(result, planetList);
+            hyperLane.SetType(jsonFile.Type);
+            hyperLane.SetupNeighbours();
+            string dirPath = "Assets/ScriptableObjects/HyperLanes/";
+            AssetDatabase.CreateAsset(hyperLane, dirPath + hyperLane.name + ".asset");
+
+
+
+
+        }
+        for (int i = 0; i < planetList.Count; i++)
+        {
+            AssetDatabase.CreateAsset(planetList[i], "Assets/ScriptableObjects/Planets/" + planetList[i].name + ".asset");
+
+        }
+
+        for (int i = PlanetList.Planets.Count-1; i >= 0; i--)
+        {
+            Planet planet1 = PlanetList.Planets[i];
+            for (int p = PlanetList.Planets.Count-1; p >= 0; p--)
+            {
+                Planet planet2 = PlanetList.Planets[p];
+                if (planet2.name == planet1.name && planet2 != planet1)
+                {
+                    PlanetList.RemovePlanet(planet2);
+                }
+
+            }
+        }
+    }
+
+    private string[] GetFiles()
+    {
+        List<string> FileNames = new List<string>();
         Files = Directory.GetFiles(dirPath);
         foreach (string file in Files)
         {
@@ -36,51 +103,7 @@ public class JsonReader : MonoBehaviour
                 i = 0;
             }
         }
-        Files = FileNames.ToArray();
-        foreach (string file in Files)
-        {
-            fileName = file;
-            string json = File.ReadAllText(file);
-            List<Planet> tempList = LoadJson(json, file, planetList);
-            foreach (Planet planet in tempList)
-            {
-                planetList.Add(planet);
-            }
-            List<string> hyperNames = new List<string>();
-            for (int i = 0; i < planetList.Count; i++)
-            {
-                
-                    if (!PlanetList.Contains(planetList[i]))
-                    {
-                        PlanetList.AddPlanet(planetList[i]);
-                    }
-
-                
-                
-
-            }
-            JsonFile jsonFile = JsonUtility.FromJson<JsonFile>(json);
-            string regex = @"\/Data\/(.+).json";
-            string result = Regex.Match(file, regex).Groups[1].Value;
-            HyperLane hyperLane = CreateHyperLane(result);
-            hyperLane.SetType(jsonFile.Type);
-            hyperLane.SetupNeighbours();
-            string dirPath = "Assets/ScriptableObjects/HyperLanes/";
-            AssetDatabase.CreateAsset(hyperLane, dirPath + hyperLane.name + ".asset");
-
-                   
-
-            
-        }
-        for (int i = 0; i < planetList.Count; i++)
-        {
-            AssetDatabase.CreateAsset(planetList[i], "Assets/ScriptableObjects/Planets/" + planetList[i].name + ".asset");
-
-        }
-
-
-
-
+        return FileNames.ToArray();
     }
     public List<Planet> LoadJson(string json, string fileName, List<Planet> planetList)
     {
@@ -93,14 +116,7 @@ public class JsonReader : MonoBehaviour
         {
             JsonPlanets jsonPlanet = planets.JsonPlanets[i];
             bool shouldCreateNew = true;
-            foreach (Planet planet1 in planetList)
-            {
-                if (planet1.name == jsonPlanet.Name)
-                {
-                    planet1.HyperlaneRoutes.Add(result);
-                    shouldCreateNew = false;
-                }
-            }
+
             if (shouldCreateNew)
             {
                 Planet planet = ScriptableObject.CreateInstance<Planet>();
@@ -112,20 +128,28 @@ public class JsonReader : MonoBehaviour
                 planet.HyperlaneRoutes.Add(result);
                 planetList.Add(planet);
             }
-            
+            /*foreach (Planet planet1 in planetList)
+            {
+                if (planet1.name == jsonPlanet.Name)
+                {
+                    planet1.HyperlaneRoutes.Add(result);
+                    shouldCreateNew = false;
+                }
+            }*/
+
         }
         return planetListNew;
     }
 
-    public HyperLane CreateHyperLane(string HyperLaneName)
+    public HyperLane CreateHyperLane(string HyperLaneName, List<Planet> planetList)
     {
         HyperLane hyperLane = ScriptableObject.CreateInstance<HyperLane>();
         hyperLane.name = HyperLaneName;
         
         hyperLane.Points = new List<HyperLanePoint>();
-        for (int p = 0; p < PlanetList.Planets.Count; p++)
+        for (int p = 0; p < planetList.Count; p++)
         {
-            Planet planet = PlanetList.Planets[p];
+            Planet planet = planetList[p];
             for (int h = 0; h < planet.HyperlaneRoutes.Count; h++)
             {
 

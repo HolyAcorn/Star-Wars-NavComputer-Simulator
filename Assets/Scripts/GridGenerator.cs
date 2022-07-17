@@ -9,6 +9,7 @@ public class GridGenerator : MonoBehaviour
     private Vector2 step;
 
     public GameObject prefab;
+    public GameEvent gameEvent;
 
     private SpriteRenderer spriteRenderer;
     private Sprite sprite;
@@ -21,6 +22,7 @@ public class GridGenerator : MonoBehaviour
         {
             step = new Vector2(sprite.texture.width, sprite.texture.height) / sprite.pixelsPerUnit;
         }
+        gameEvent.Raise();
     }
 
     public void GenerateGrid()

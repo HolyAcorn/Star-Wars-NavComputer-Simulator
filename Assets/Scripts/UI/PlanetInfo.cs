@@ -11,15 +11,17 @@ public class PlanetInfo : MonoBehaviour
     public PlanetList startingPlanet;
 
     private Text planetName;
-
+    private Transform child;
 
     private void Start()
     {
-        for (int c = 0; c < transform.childCount; c++)
+        child = transform.GetChild(1);
+        for (int c = 0; c < child.childCount; c++)
         {
-            if (transform.GetChild(c).name == "PlanetNameContainer")
+
+            if (child.GetChild(c).name == "PlanetNameContainer")
             {
-                Transform container = transform.GetChild(c);
+                Transform container = child.GetChild(c);
                 for (int i = 0; i < container.childCount; i++)
                 {
                     if (container.GetChild(i).name == "PlanetName")
@@ -29,8 +31,22 @@ public class PlanetInfo : MonoBehaviour
                 }
             }
         }
+
+
     }
 
+
+    private void Update()
+    {
+        if (activePlanet.Planets.Count > 0)
+        {
+            planetName.text = activePlanet.Planets[0].name;
+        }
+        else
+        {
+            planetName.text = "";
+        }
+    }
 
     public void SetTargetLocation()
     {
@@ -44,4 +60,11 @@ public class PlanetInfo : MonoBehaviour
         startingPlanet.ClearList();
         startingPlanet.AddPlanet(activePlanet.Planets[0]);
     }
+
+    public void SetVisibility(bool visible)
+    {
+        transform.GetChild(0).gameObject.SetActive(visible);
+        child.gameObject.SetActive(visible);
+    }
+
 }

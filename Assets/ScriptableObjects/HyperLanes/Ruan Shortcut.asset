@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Ruan Shortcut
   m_EditorClassIdentifier: 
   Points:
-  - {fileID: 11400000, guid: 27648411bde288e41a502d6041417640, type: 2}
   - {fileID: 11400000, guid: eb45acc179c297a47b121bb6f852a443, type: 2}
   - {fileID: 11400000, guid: fa0ad580e1519e14f9d7c203c597383a, type: 2}
   - {fileID: 11400000, guid: d6645779880e48345b056184e79f6c20, type: 2}
   - {fileID: 11400000, guid: b409efbc793f80a41a0734cf52941efa, type: 2}
   - {fileID: 11400000, guid: 2879bbbca4b74b84da91defd40007a25, type: 2}
   - {fileID: 11400000, guid: 3718e3df48228a941933d5d0bf613f37, type: 2}
+  - {fileID: 11400000, guid: 27648411bde288e41a502d6041417640, type: 2}
   - {fileID: 11400000, guid: e73433a0c46cc194faff9eba445cc510, type: 2}
   - {fileID: 11400000, guid: 944f3e14710115943a34c8dee7ad2537, type: 2}
   - {fileID: 11400000, guid: 8b383705ea0777747ba8f79c505f6083, type: 2}

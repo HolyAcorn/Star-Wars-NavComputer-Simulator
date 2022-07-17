@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class InputHandler : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class InputHandler : MonoBehaviour
     private CameraFollow cameraFollow;
 
     public PlanetList activePlanet;
+    public GameEvent clickedPlanet;
+    public GameEvent clickedBlank;
 
     public Vector2Reference mousePositionRef;
     [Header("Camera Movement")]
@@ -22,6 +25,7 @@ public class InputHandler : MonoBehaviour
     [SerializeField] float minZoom = 50.0f;
 
     private bool clickedOnPlanet = false;
+
     private void Start()
     {
         cameraFollow = GetComponent<CameraFollow>();
@@ -33,14 +37,18 @@ public class InputHandler : MonoBehaviour
         mousePosition = myCamera.ScreenToWorldPoint(Input.mousePosition);
         if (Input.GetMouseButtonDown(0))
         {
+            if (EventSystem.current.IsPointerOverGameObject()) return;
+
             mousePosition *= 10;
             mousePosition = new Vector2((int)mousePosition.x, (int)mousePosition.y) / 10;
             mousePositionRef.Variable.Value = mousePosition;
             if (!clickedOnPlanet)
             {
                 activePlanet.ClearList();
+                clickedBlank.Raise();
             }
             clickedOnPlanet = false;
+
         }
         if (Input.GetMouseButtonDown(1))
         {
@@ -53,12 +61,16 @@ public class InputHandler : MonoBehaviour
 
     public void OnPlanetClick(Planet planet)
     {
+        if (EventSystem.current.IsPointerOverGameObject()) return;
+
         if (activePlanet.Planets.Count > 0)
         {
             activePlanet.ClearList();
         }
         activePlanet.AddPlanet(planet);
         clickedOnPlanet = true;
+        clickedPlanet.Raise();
+
     }
     private void GetCameraMovement()
     {
@@ -109,16 +121,14 @@ public class InputHandler : MonoBehaviour
             myCamera.orthographicSize -= zoomStep;
 
         }
-        if (Input.GetAxis("Mouse ScrollWheel") < 0 && myCamera.orthographicSize <  minZoom)
+        if (Input.GetAxis("Mouse ScrollWheel") < 0 && myCamera.orthographicSize < minZoom)
         {
 
             myCamera.orthographicSize += zoomStep;
         }
-
-
-
-
     }
+
+
 }
 
 

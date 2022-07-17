@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class HyperLaneLine : MonoBehaviour
 {
-
+    public StyleSettings styleSetting;
     public static List<string> hyperList;
 
     private HyperLane hyperLane;
@@ -19,7 +19,7 @@ public class HyperLaneLine : MonoBehaviour
     private Vector2[] points;
 
     private LineRenderer Line;
-    private GameObject hyperLaneObject;
+    public GameObject hyperLanePrefab;
 
     public Vector3[] InitialState;
 
@@ -29,18 +29,18 @@ public class HyperLaneLine : MonoBehaviour
     public FloatReference majorLineWidth;
     public FloatReference minorLineWidth;
 
-    private void Start()
+    public void GenerateHyperLanes()
     {
-        if (!Line)
-        {
-            Line = GetComponent<LineRenderer>();
-        }
+        
         for (int h = 0; h < hyperLaneList.Hyperlanes.Count; h++)
         {
             hyperLane = hyperLaneList.Hyperlanes[h];
-            hyperLaneObject = new GameObject();
-            hyperLaneObject.name = hyperLane.name;
-            Line = hyperLaneObject.AddComponent<LineRenderer>();
+            GameObject instance= Instantiate(hyperLanePrefab);
+            instance.name = hyperLane.name;
+            Line = instance.GetComponent<LineRenderer>();
+            
+            Line.startColor = styleSetting.HyperLaneColor;
+            Line.endColor = styleSetting.HyperLaneColor;
             switch (hyperLane.Type)
             {
                 case HyperLane.TypeEnum.Major:
@@ -57,6 +57,7 @@ public class HyperLaneLine : MonoBehaviour
             {
                 Line.SetPosition(i, points[i]);
             }
+            instance.transform.parent = transform;
         }
 
     }
