@@ -9,6 +9,7 @@ public class PlanetInfo : MonoBehaviour
     public PlanetList targetPlanet;
 
     public PlanetList startingPlanet;
+    public GameEvent calculatePath;
 
     private Text planetName;
     private Transform child;
@@ -52,6 +53,13 @@ public class PlanetInfo : MonoBehaviour
     {
         targetPlanet.ClearList();
         targetPlanet.AddPlanet(activePlanet.Planets[0]);
+        if (startingPlanet.Planets.Count > 0)
+        {
+            if (calculatePath != null)
+            {
+                calculatePath.Raise();
+            }
+        }
     }
 
     public void SetStartingLocation()
@@ -59,6 +67,7 @@ public class PlanetInfo : MonoBehaviour
 
         startingPlanet.ClearList();
         startingPlanet.AddPlanet(activePlanet.Planets[0]);
+
     }
 
     public void SetVisibility(bool visible)

@@ -199,6 +199,7 @@ GameObject:
   m_Component:
   - component: {fileID: 515147710}
   - component: {fileID: 515147709}
+  - component: {fileID: 515147711}
   m_Layer: 0
   m_Name: TravelTimeCalculator
   m_TagString: Untagged
@@ -220,6 +221,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointMasterList: {fileID: 0}
   hyperLaneList: {fileID: 11400000, guid: 8185c8d8d18ba094fa77870671083f38, type: 2}
+  hyperLanePrefab: {fileID: 9091583450467154375, guid: 7c8c6fbe55514e64ea023fc1d5fff89b, type: 3}
+  majorLineWidth:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: aa838a06a5a8656449e408bf17d3f5ee, type: 2}
+  styleSettings: {fileID: 11400000, guid: 0c9e0d05d836b334c9a1350aef87e624, type: 2}
   startingPlanet: {fileID: 11400000, guid: b99d58ab6706b1542ad0a537db66b239, type: 2}
   targetPlanet: {fileID: 11400000, guid: ca613a216e9d6df44bd4c2c957598948, type: 2}
   modifier:
@@ -228,9 +235,10 @@ MonoBehaviour:
     Variable: {fileID: 0}
   hyperDriveClass:
     UseConstant: 1
-    ConstantValue: 0
+    ConstantValue: 1
     Variable: {fileID: 0}
   parsecsPerHour: 93.75
+  timeRequired: 0
 --- !u!4 &515147710
 Transform:
   m_ObjectHideFlags: 0
@@ -245,6 +253,46 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &515147711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515147708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6de3263a29792c247aead7ffa646f65f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: eb283d4a8d5a0794eab07305dde7f22c, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 515147709}
+        m_TargetAssemblyTypeName: TravelTime.TravelTimeCalculator, Assembly-CSharp
+        m_MethodName: CreatePath
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 515147709}
+        m_TargetAssemblyTypeName: TravelTime.TravelTimeCalculator, Assembly-CSharp
+        m_MethodName: CalculateTimeRequired
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

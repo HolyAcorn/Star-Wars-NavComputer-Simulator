@@ -7,9 +7,15 @@ namespace TravelTime
 {
     public class TravelTimeCalculator : MonoBehaviour
     {
+
+        [HideInInspector]
         public HyperLane pointMasterList;
+        [HideInInspector]
         private HyperLane otherPoints;
         public HyperLaneList hyperLaneList;
+        public GameObject hyperLanePrefab;
+        public FloatReference majorLineWidth;
+        public StyleSettings styleSettings;
 
         public PlanetList startingPlanet;
         public PlanetList targetPlanet;
@@ -20,11 +26,19 @@ namespace TravelTime
         public FloatReference modifier;
         public FloatReference hyperDriveClass;
         public float parsecsPerHour = 93.75f;
+        private float finalDistance;
+        public float timeRequired;
 
         private Path shortestPath = new Path();
 
 
-        private void Start()
+        public void CalculateTimeRequired()
+        {
+            timeRequired = ((finalDistance / parsecsPerHour) * hyperDriveClass.Value) + modifier.Value;
+            Debug.Log("Time required is: " + timeRequired.ToString("0.00") + "hours");
+        }
+
+        public void CreatePath()
         {
             pointMasterList = hyperLaneList.CreateMasterPointList();
             foreach (HyperLanePoint p in pointMasterList.Points)
@@ -42,12 +56,27 @@ namespace TravelTime
 
                 }
             }
-
             ConnectPoints();
-            // CalculateShortestPath();
+            List<HyperLanePoint> point = Astar();
+            GeneratePath(point);
+        }
 
-            Queue<HyperLanePoint> point = Astar();
-            Debug.Log("");
+        private void GeneratePath(List<HyperLanePoint> points)
+        {
+            GameObject instance = Instantiate(hyperLanePrefab);
+            LineRenderer line = instance.GetComponent<LineRenderer>();
+            instance.name = "Generated Path";
+            line.startColor = styleSettings.PathColor;
+            line.endColor = styleSettings.PathColor;
+            line.widthMultiplier = majorLineWidth.Value + 0.1f;
+            line.positionCount = points.Count;
+            line.sortingOrder++;
+            for (int i = 0; i < points.Count; i++)
+            {
+                line.SetPosition(i, points[i].Position / 10);
+            }
+            instance.transform.parent = transform;
+
         }
 
         private void ConnectPoints()
@@ -179,7 +208,7 @@ namespace TravelTime
         }
 
 
-        Queue<HyperLanePoint> Astar()
+        List<HyperLanePoint> Astar()
         {
             Dictionary<HyperLanePoint, HyperLanePoint> nextPointToTarget= new Dictionary<HyperLanePoint, HyperLanePoint>();
             PriorityQueue<HyperLanePoint> frontier = new PriorityQueue<HyperLanePoint>();
@@ -218,8 +247,10 @@ namespace TravelTime
                 curPathPoint = nextPointToTarget[curPathPoint];
                 path.Enqueue(curPathPoint);
             }
-
-            return path;
+            finalDistance = distanceToReachPoint[startingPoint] * 10;
+            Debug.Log("Distance to: "+ targetPoint.name + " is: "+ finalDistance.ToString("0.00") + " parsecs");
+            List<HyperLanePoint> listPath = path.ToList();
+            return listPath;
 
             float Distance(HyperLanePoint p1, HyperLanePoint p2)
             {
@@ -263,7 +294,7 @@ namespace TravelTime
                 curPathPlanet = nextPlanetToGoal[curPathPlanet];
                 path.Enqueue(curPathPlanet);
             }
-
+            
             return path;
         }
     }

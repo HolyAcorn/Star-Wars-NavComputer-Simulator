@@ -371,6 +371,7 @@ MonoBehaviour:
   activePlanet: {fileID: 11400000, guid: 6b4b1fca029b77441a04ff52a29f784f, type: 2}
   targetPlanet: {fileID: 11400000, guid: ca613a216e9d6df44bd4c2c957598948, type: 2}
   startingPlanet: {fileID: 11400000, guid: b99d58ab6706b1542ad0a537db66b239, type: 2}
+  calculatePath: {fileID: 0}
 --- !u!1 &5738370807387026709
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,6 +1425,7 @@ MonoBehaviour:
   activePlanet: {fileID: 11400000, guid: 6b4b1fca029b77441a04ff52a29f784f, type: 2}
   targetPlanet: {fileID: 11400000, guid: ca613a216e9d6df44bd4c2c957598948, type: 2}
   startingPlanet: {fileID: 11400000, guid: b99d58ab6706b1542ad0a537db66b239, type: 2}
+  calculatePath: {fileID: 11400000, guid: eb283d4a8d5a0794eab07305dde7f22c, type: 2}
 --- !u!114 &8922667599885682341
 MonoBehaviour:
   m_ObjectHideFlags: 0

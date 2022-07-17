@@ -36,6 +36,7 @@ public class GridGenerator : MonoBehaviour
                 cell.name = "grid_" + x + y;
                 cell.transform.parent = transform;
                 cell.transform.localPosition = new Vector2(step.x * x, step.y * y);
+                
             }
         }
     }

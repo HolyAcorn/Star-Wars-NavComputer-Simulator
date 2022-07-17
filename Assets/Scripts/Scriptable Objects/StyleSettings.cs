@@ -9,4 +9,5 @@ public class StyleSettings : ScriptableObject
     public Color BackgroundColor;
     public Color PlanetColor;
     public Color HyperLaneColor;
+    public Color PathColor;
 }
