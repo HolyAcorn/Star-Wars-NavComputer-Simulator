@@ -13,8 +13,78 @@
 		},
 		{
 			"Name": "Wukkar",
-			"CoordX": 56,7,
-			"CoordY": -12,5
+			"CoordX": 56.7,
+			"CoordY": -12.5
+		},
+		{
+			"Name": "Kailor V",
+			"CoordX": 69.1,
+			"CoordY": -20
+		},
+		{
+			"Name": "Xorth",
+			"CoordX": 82.5,
+			"CoordY": -28.4
+		},
+		{
+			"Name": "Vuma",
+			"CoordX": 112.7,
+			"CoordY": -59.2
+		},
+		{
+			"Name": "Leria Kerlsil",
+			"CoordX": 125.3,
+			"CoordY": -83.1
+		},
+		{
+			"Name": "Perma",
+			"CoordX": 134.7,
+			"CoordY": -106.7
+		},
+		{
+			"Name": "Lolnar",
+			"CoordX": 138.4,
+			"CoordY": -117.6
+		},
+		{
+			"Name": "Rehemsa",
+			"CoordX": 148.6,
+			"CoordY": -151
+		},
+		{
+			"Name": "Sedratis",
+			"CoordX": 152.2,
+			"CoordY": -162.2
+		},
+		{
+			"Name": "Rydonni Prime",
+			"CoordX": 155,
+			"CoordY": -174.3
+		},
+		{
+			"Name": "Corellia",
+			"CoordX": 157.6,
+			"CoordY": -186
+		},
+		{
+			"Name": "Tinnel IV",
+			"CoordX": 170.5,
+			"CoordY": -213.5
+		},
+		{
+			"Name": "Loronar",
+			"CoordX": 184.2,
+			"CoordY": -247.9
+		},
+		{
+			"Name": "Byblos",
+			"CoordX": 191.7,
+			"CoordY": -264.1
+		},
+		{
+			"Name": "Pencael IV",
+			"CoordX": 198.7,
+			"CoordY": -275.2
 		}
 	]
 }
