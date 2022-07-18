@@ -772,6 +772,10 @@ MonoBehaviour:
     ConstantValue: 1
     Variable: {fileID: 0}
   parsecsPerHour: 93.75
+  finalDistance:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 78ddb1d4450410b4289126ff43f0ec72, type: 2}
   timeRequired:
     UseConstant: 0
     ConstantValue: 0
@@ -1412,7 +1416,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Travelling from X to X will take aproximately X Hours.
+  m_Text: 'Travelling from X to X will take aproximately X Hours. Total distance
+    is: X parsecs.'
 --- !u!222 &969762928
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2929,6 +2934,10 @@ MonoBehaviour:
     UseConstant: 0
     ConstantValue: 0
     Variable: {fileID: 11400000, guid: 679bfc04bc4d8ac4f9158bb533327327, type: 2}
+  finalDistance:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 78ddb1d4450410b4289126ff43f0ec72, type: 2}
 --- !u!1 &2009250773
 GameObject:
   m_ObjectHideFlags: 0

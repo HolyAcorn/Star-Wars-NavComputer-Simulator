@@ -28,7 +28,7 @@ namespace TravelTime
         public FloatReference modifier;
         public FloatReference hyperDriveClass;
         public float parsecsPerHour = 93.75f;
-        private float finalDistance;
+        public FloatReference finalDistance;
         public FloatReference timeRequired;
 
         private Path shortestPath = new Path();
@@ -36,7 +36,7 @@ namespace TravelTime
 
         public void CalculateTimeRequired()
         {
-            timeRequired.Variable.Value = ((finalDistance / parsecsPerHour) * hyperDriveClass.Value) + modifier.Value;
+            timeRequired.Variable.Value = ((finalDistance.Value / parsecsPerHour) * hyperDriveClass.Value) + modifier.Value;
             
         }
 
@@ -253,8 +253,8 @@ namespace TravelTime
                 curPathPoint = nextPointToTarget[curPathPoint];
                 path.Enqueue(curPathPoint);
             }
-            finalDistance = distanceToReachPoint[startingPoint] * 10;
-            Debug.Log("Distance to: "+ targetPoint.name + " is: "+ finalDistance.ToString("0.00") + " parsecs");
+            finalDistance.Variable.Value = distanceToReachPoint[startingPoint] * 10;
+            Debug.Log("Distance to: "+ targetPoint.name + " is: "+ finalDistance.Value.ToString("0.00") + " parsecs");
             List<HyperLanePoint> listPath = path.ToList();
             listPath.Insert(0, startingPoint);
             return listPath;
