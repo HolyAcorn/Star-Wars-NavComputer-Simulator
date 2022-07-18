@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Cal-Seti
   m_EditorClassIdentifier: 
   Name: Cal-Seti
-  CoordX: -74
+  CoordX: -73
   CoordY: -34
   HyperlaneRoutes:
   - Ruan Shortcut

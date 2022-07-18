@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Galantos
   m_EditorClassIdentifier: 
   Name: Galantos
-  CoordX: -95
-  CoordY: -56
+  CoordX: -94
+  CoordY: -55
   HyperlaneRoutes:
   - Metellos Trade Route

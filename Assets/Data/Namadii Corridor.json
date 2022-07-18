@@ -1,0 +1,35 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Coruscant",
+			"CoordX": 0,
+			"CoordY": 0
+		},
+		{
+			"Name": "Tanjay IV",
+			"CoordX": -9,
+			"CoordY": 11.7
+		},
+		{
+			"Name": "Weerden",
+			"CoordX": -13.8,
+			"CoordY": 18
+		},
+		{
+			"Name": "Galvoni III",
+			"CoordX": -15,
+			"CoordY": 29.6
+		},
+		{
+			"Name": "Farrfin",
+			"CoordX": -25.2,
+			"CoordY": 52
+		},
+		{
+			"Name": "Mamendin",
+			"CoordX": -9.3,
+			"CoordY": 58.7
+		}
+	]
+}

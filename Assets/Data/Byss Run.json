@@ -8,18 +8,18 @@
 		},
 		{
 			"Name": "Prakith",
-			"CoordX": -44,
-			"CoordY": -88
+			"CoordX": -44.6,
+			"CoordY": -88.8
 		},
 		{
 			"Name": "Keeara Major",
-			"CoordX": -7,
-			"CoordY": -58
+			"CoordX": -7.3,
+			"CoordY": -58.4
 		},
 		{
 			"Name": "Empress Teta",
-			"CoordX": 1,
-			"CoordY": -52
+			"CoordX": 2,
+			"CoordY": -52.1
 		},
 		{
 			"Name": "Jerrilek",
@@ -29,7 +29,12 @@
 		{
 			"Name": "Ruan",
 			"CoordX": 0,
-			"CoordY": -13
+			"CoordY": -13.9
+		},
+		{
+			"Name": "Coruscant",
+			"CoordX": 0,
+			"CoordY": 0
 		}
 	]
 }

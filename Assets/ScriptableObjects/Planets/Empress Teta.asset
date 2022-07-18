@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Empress Teta
   m_EditorClassIdentifier: 
   Name: Empress Teta
-  CoordX: 1
+  CoordX: 2
   CoordY: -52
   HyperlaneRoutes:
   - Byss Run

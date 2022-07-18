@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Galantos
   m_EditorClassIdentifier: 
   Planet: {fileID: 0}
-  Position: {x: -95, y: -56}
+  Position: {x: -94, y: -55}

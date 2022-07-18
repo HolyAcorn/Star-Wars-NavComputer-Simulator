@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Salliche
   m_EditorClassIdentifier: 
   Name: Salliche
-  CoordX: -26
-  CoordY: -19
+  CoordX: -25
+  CoordY: -18
   HyperlaneRoutes:
   - Ruan Shortcut

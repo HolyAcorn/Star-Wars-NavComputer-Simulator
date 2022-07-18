@@ -9,6 +9,7 @@ public class PlanetPlacer : MonoBehaviour
 
     public StyleSettings styleSetting;
     public List<Sprite> sprites;
+    public FloatReference sizeDifference;
 
     public InputHandler inputHandler;
 
@@ -23,7 +24,7 @@ public class PlanetPlacer : MonoBehaviour
             instance.GetComponent<SpriteRenderer>().color = styleSetting.PlanetColor;
             instance.GetComponent<PlanetObject>().planet = planet;
             instance.GetComponent<PlanetObject>().inputHandler = inputHandler;
-            instance.transform.position = new Vector2(planet.CoordX, planet.CoordY) / 10;
+            instance.transform.position = new Vector2(planet.CoordX, planet.CoordY) / sizeDifference.Value;
             instance.transform.parent = transform;
             instance.name = planet.Name;
         }

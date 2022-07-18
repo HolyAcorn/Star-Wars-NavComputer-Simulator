@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Aargau
   m_EditorClassIdentifier: 
   Planet: {fileID: 0}
-  Position: {x: 40, y: -20}
+  Position: {x: 40, y: -19}

@@ -29,6 +29,8 @@ public class HyperLaneLine : MonoBehaviour
     public FloatReference majorLineWidth;
     public FloatReference minorLineWidth;
 
+    public FloatReference sizeDifference;
+
     public void GenerateHyperLanes()
     {
         
@@ -70,7 +72,7 @@ public class HyperLaneLine : MonoBehaviour
         for (int p = 0; p < hyperLane.Points.Count; p++)
         {
             HyperLanePoint point = hyperLane.Points[p];
-            points[p] = point.Position / 10;
+            points[p] = point.Position / sizeDifference.Value;
         }
         return points;
 
@@ -87,7 +89,7 @@ public class HyperLaneLine : MonoBehaviour
         for (int p = 0; p < planets.Length; p++)
         {
             Planet planet = planets[p];
-            points[p] = new Vector2(planet.CoordX, planet.CoordY) / 10;
+            points[p] = new Vector2(planet.CoordX, planet.CoordY) / sizeDifference.Value;
         }
 
         return points;

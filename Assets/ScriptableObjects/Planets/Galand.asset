@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Galand
   m_EditorClassIdentifier: 
   Name: Galand
-  CoordX: -54
-  CoordY: -24
+  CoordX: -53
+  CoordY: -23
   HyperlaneRoutes:
   - Ruan Shortcut

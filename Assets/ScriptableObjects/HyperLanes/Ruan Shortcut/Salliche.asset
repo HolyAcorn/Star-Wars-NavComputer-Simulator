@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Salliche
   m_EditorClassIdentifier: 
   Planet: {fileID: 0}
-  Position: {x: -26, y: -19}
+  Position: {x: -25, y: -18}

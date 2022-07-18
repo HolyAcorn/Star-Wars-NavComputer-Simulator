@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Empress Teta
   m_EditorClassIdentifier: 
   Planet: {fileID: 0}
-  Position: {x: 1, y: -52}
+  Position: {x: 2, y: -52}

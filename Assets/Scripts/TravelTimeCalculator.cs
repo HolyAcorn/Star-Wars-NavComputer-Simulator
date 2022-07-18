@@ -23,19 +23,21 @@ namespace TravelTime
         private HyperLanePoint startingPoint;
         private HyperLanePoint targetPoint;
 
+        public FloatReference sizeDifference;
+
         public FloatReference modifier;
         public FloatReference hyperDriveClass;
         public float parsecsPerHour = 93.75f;
         private float finalDistance;
-        public float timeRequired;
+        public FloatReference timeRequired;
 
         private Path shortestPath = new Path();
 
 
         public void CalculateTimeRequired()
         {
-            timeRequired = ((finalDistance / parsecsPerHour) * hyperDriveClass.Value) + modifier.Value;
-            Debug.Log("Time required is: " + timeRequired.ToString("0.00") + "hours");
+            timeRequired.Variable.Value = ((finalDistance / parsecsPerHour) * hyperDriveClass.Value) + modifier.Value;
+            
         }
 
         public void CreatePath()
@@ -63,6 +65,10 @@ namespace TravelTime
 
         private void GeneratePath(List<HyperLanePoint> points)
         {
+            for (int i = 0; i < transform.childCount; i++)
+            {
+                Destroy(transform.GetChild(i).gameObject);
+            }
             GameObject instance = Instantiate(hyperLanePrefab);
             LineRenderer line = instance.GetComponent<LineRenderer>();
             instance.name = "Generated Path";
@@ -73,7 +79,7 @@ namespace TravelTime
             line.sortingOrder++;
             for (int i = 0; i < points.Count; i++)
             {
-                line.SetPosition(i, points[i].Position / 10);
+                line.SetPosition(i, points[i].Position / sizeDifference.Value);
             }
             instance.transform.parent = transform;
 
@@ -250,6 +256,7 @@ namespace TravelTime
             finalDistance = distanceToReachPoint[startingPoint] * 10;
             Debug.Log("Distance to: "+ targetPoint.name + " is: "+ finalDistance.ToString("0.00") + " parsecs");
             List<HyperLanePoint> listPath = path.ToList();
+            listPath.Insert(0, startingPoint);
             return listPath;
 
             float Distance(HyperLanePoint p1, HyperLanePoint p2)

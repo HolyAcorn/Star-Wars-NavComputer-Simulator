@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Aargau
   CoordX: 40
-  CoordY: -20
+  CoordY: -19
   HyperlaneRoutes:
   - Ruan Shortcut

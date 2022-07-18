@@ -15,6 +15,8 @@ public class InputHandler : MonoBehaviour
     public GameEvent clickedPlanet;
     public GameEvent clickedBlank;
 
+    public FloatReference sizeDifference;
+
     public Vector2Reference mousePositionRef;
     [Header("Camera Movement")]
     [SerializeField] float moveAmount = 20f;
@@ -40,7 +42,7 @@ public class InputHandler : MonoBehaviour
             if (EventSystem.current.IsPointerOverGameObject()) return;
 
             mousePosition *= 10;
-            mousePosition = new Vector2((int)mousePosition.x, (int)mousePosition.y) / 10;
+            mousePosition = new Vector2((int)mousePosition.x, (int)mousePosition.y) / sizeDifference.Value;
             mousePositionRef.Variable.Value = mousePosition;
             if (!clickedOnPlanet)
             {

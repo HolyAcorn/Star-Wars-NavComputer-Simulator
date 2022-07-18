@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Galand
   m_EditorClassIdentifier: 
   Planet: {fileID: 0}
-  Position: {x: -54, y: -24}
+  Position: {x: -53, y: -23}

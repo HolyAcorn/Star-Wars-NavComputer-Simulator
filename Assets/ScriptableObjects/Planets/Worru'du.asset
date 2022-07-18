@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Worru'du
   m_EditorClassIdentifier: 
   Name: Worru'du
-  CoordX: -39
-  CoordY: -18
+  CoordX: -38
+  CoordY: -17
   HyperlaneRoutes:
   - Ruan Shortcut

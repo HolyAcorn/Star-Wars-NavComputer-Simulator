@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Worru'du
   m_EditorClassIdentifier: 
   Planet: {fileID: 0}
-  Position: {x: -39, y: -18}
+  Position: {x: -38, y: -17}

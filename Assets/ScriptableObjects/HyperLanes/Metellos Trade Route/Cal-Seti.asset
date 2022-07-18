@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Cal-Seti
   m_EditorClassIdentifier: 
   Planet: {fileID: 0}
-  Position: {x: -74, y: -34}
+  Position: {x: -73, y: -34}
