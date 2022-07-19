@@ -1,0 +1,35 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Coruscant",
+			"CoordX": 0,
+			"CoordY": 0
+		},
+		{
+			"Name": "Thokos",
+			"CoordX": 6,
+			"CoordY": 17.1
+		},
+		{
+			"Name": "Velusia",
+			"CoordX": 7,
+			"CoordY": 35.9
+		},
+		{
+			"Name": "Shawken",
+			"CoordX": 28.7,
+			"CoordY": 45
+		},
+		{
+			"Name": "Challon",
+			"CoordX": 28.4,
+			"CoordY": 51.7
+		},
+		{
+			"Name": "Wakeelmui",
+			"CoordX": 53.6,
+			"CoordY": 70.4
+		}
+	]
+}

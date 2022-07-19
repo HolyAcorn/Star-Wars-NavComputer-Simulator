@@ -25,6 +25,8 @@ public class InputHandler : MonoBehaviour
     [SerializeField] float zoomStep = 1f;
     [SerializeField] float maxZoom = 5.0f;
     [SerializeField] float minZoom = 50.0f;
+    [SerializeField] FloatReference currentCameraZoom;
+    [SerializeField] GameEvent CheckCameraSize;
 
     private bool clickedOnPlanet = false;
 
@@ -121,16 +123,18 @@ public class InputHandler : MonoBehaviour
         if (Input.GetAxis("Mouse ScrollWheel") > 0 && myCamera.orthographicSize > maxZoom)
         {
             myCamera.orthographicSize -= zoomStep;
+            currentCameraZoom.Variable.Value = myCamera.orthographicSize;
 
         }
         if (Input.GetAxis("Mouse ScrollWheel") < 0 && myCamera.orthographicSize < minZoom)
         {
 
             myCamera.orthographicSize += zoomStep;
+            currentCameraZoom.Variable.Value = myCamera.orthographicSize;
+
         }
+        CheckCameraSize.Raise();
     }
-
-
 }
 
 

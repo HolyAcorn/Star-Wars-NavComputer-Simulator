@@ -2,34 +2,104 @@
 	"Type": 0,
 	"JsonPlanets": [
 		{
-			"Name": "Coruscant",
-			"CoordX": 0,
-			"CoordY": 0
+			"Name": "Velusia",
+			"CoordX": 7,
+			"CoordY": 35.9
 		},
 		{
-			"Name": "Tanjay IV",
-			"CoordX": -9,
-			"CoordY": 11.7
+			"Name": "Twith",
+			"CoordX": -28.5,
+			"CoordY": 42.6
 		},
 		{
-			"Name": "Weerden",
-			"CoordX": -13.8,
-			"CoordY": 18
+			"Name": "Pantolomin",
+			"CoordX": -37.2,
+			"CoordY": 44.4
 		},
 		{
-			"Name": "Galvoni III",
-			"CoordX": -15,
-			"CoordY": 29.6
+			"Name": "Borleias",
+			"CoordX": -41.3,
+			"CoordY": 63.1
 		},
 		{
-			"Name": "Farrfin",
-			"CoordX": -25.2,
-			"CoordY": 52
+			"Name": "Ord Mirit",
+			"CoordX": -47.3,
+			"CoordY": 74.1
 		},
 		{
-			"Name": "Mamendin",
-			"CoordX": -9.3,
-			"CoordY": 58.7
+			"Name": "Palanhi",
+			"CoordX": -66.4,
+			"CoordY": 97.7
+		},
+		{
+			"Name": "Carratos",
+			"CoordX": -90,
+			"CoordY": 125
+		},
+		{
+			"Name": "Voltare",
+			"CoordX": -93.8,
+			"CoordY": 135.7
+		},
+		{
+			"Name": "Meastrinnar",
+			"CoordX": -94.3,
+			"CoordY": 142
+		},
+		{
+			"Name": "Aphran IV",
+			"CoordX": -97.9,
+			"CoordY": 147.1
+		},
+		{
+			"Name": "Bengat",
+			"CoordX": -110.5,
+			"CoordY": 157.2
+		},
+		{
+			"Name": "Bilbringi",
+			"CoordX": -121.4,
+			"CoordY": 161.3
+		},
+		{
+			"Name": "Rondai-2",
+			"CoordX": -127.6,
+			"CoordY": 172.8
+		},
+		{
+			"Name": "Dorin",
+			"CoordX": -141.7,
+			"CoordY": 192.7
+		},
+		{
+			"Name": "Vaced",
+			"CoordX": -164.6,
+			"CoordY": 221.1
+		},
+		{
+			"Name": "Glee Anselm",
+			"CoordX": -180.2,
+			"CoordY": 239.2
+		},
+		{
+			"Name": "Ord Varee",
+			"CoordX": -193.3,
+			"CoordY": 263.4
+		},
+		{
+			"Name": "Kalaan",
+			"CoordX": -197.6,
+			"CoordY": 272.6
+		},
+		{
+			"Name": "Ansion",
+			"CoordX": -206.7,
+			"CoordY": 300
+		},
+		{
+			"Name": "Namadii",
+			"CoordX": -207.6,
+			"CoordY": 314.2
 		}
 	]
 }

@@ -1,0 +1,90 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Dorin",
+			"CoordX": -141.7,
+			"CoordY": 192.7
+		},
+		{
+			"Name": "Myomar",
+			"CoordX": -126.3,
+			"CoordY": 205.7
+		},
+		{
+			"Name": "Vicondor",
+			"CoordX": -124.3,
+			"CoordY": 207.8
+		},
+		{
+			"Name": "Station 88",
+			"CoordX": -119.8,
+			"CoordY": 209.5
+		},
+		{
+			"Name": "Vortex",
+			"CoordX": -91.5,
+			"CoordY": 221.2
+		},
+		{
+			"Name": "Nentan",
+			"CoordX": -69.7,
+			"CoordY": 232.2
+		},
+		{
+			"Name": "Dohu VII",
+			"CoordX": -24.6,
+			"CoordY": 243.9
+		},
+		{
+			"Name": "Ord Mantell",
+			"CoordX": 4.7,
+			"CoordY": 255
+		},
+		{
+			"Name": "Korvaii",
+			"CoordX": 42.9,
+			"CoordY": 271.4
+		},
+		{
+			"Name": "Ithor",
+			"CoordX": 110.9,
+			"CoordY": 321.7
+		},
+		{
+			"Name": "Noonar",
+			"CoordX": 118.2,
+			"CoordY": 335.3
+		},
+		{
+			"Name": "Cademimu V",
+			"CoordX": 133.3,
+			"CoordY": 371.7
+		},
+		{
+			"Name": "Agamar",
+			"CoordX": 145.7,
+			"CoordY": 419.7
+		},
+		{
+			"Name": "Shaum Hii",
+			"CoordX": 217.7,
+			"CoordY": 455.5
+		},
+		{
+			"Name": "Vinsoth",
+			"CoordX": 278.2,
+			"CoordY": 410
+		},
+		{
+			"Name": "Axxila",
+			"CoordX": 313,
+			"CoordY": 415.3
+		},
+		{
+			"Name": "Celanon",
+			"CoordX": 369,
+			"CoordY": 389
+		}
+	]
+}

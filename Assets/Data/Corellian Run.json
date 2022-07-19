@@ -85,6 +85,146 @@
 			"Name": "Pencael IV",
 			"CoordX": 198.7,
 			"CoordY": -275.2
+		},
+		{
+			"Name": "Havricus",
+			"CoordX": 209.9,
+			"CoordY": -291.4
+		},
+		{
+			"Name": "Iseno",
+			"CoordX": 220.3,
+			"CoordY": -307.7
+		},
+		{
+			"Name": "Denon",
+			"CoordX": 227.9,
+			"CoordY": -316.6
+		},
+		{
+			"Name": "Perithal VI",
+			"CoordX": 243.5,
+			"CoordY": -330.1
+		},
+		{
+			"Name": "Spirana",
+			"CoordX": 257.1,
+			"CoordY": -343.6
+		},
+		{
+			"Name": "Rhommamool",
+			"CoordX": 279.5,
+			"CoordY": -362.8
+		},
+		{
+			"Name": "Tlactehon",
+			"CoordX": 305.4,
+			"CoordY": -395.4
+		},
+		{
+			"Name": "Allanteen VI",
+			"CoordX": 319.1,
+			"CoordY": -409.4
+		},
+		{
+			"Name": "Gamor",
+			"CoordX": 350.3,
+			"CoordY": -441.4
+		},
+		{
+			"Name": "Milagro",
+			"CoordX": 360.1,
+			"CoordY": -450.9
+		},
+		{
+			"Name": "Thaere",
+			"CoordX": 383.7,
+			"CoordY": -476.3
+		},
+		{
+			"Name": "New Cov",
+			"CoordX": 404.328,
+			"CoordY": -496
+		},
+		{
+			"Name": "Doldur",
+			"CoordX": 430.5,
+			"CoordY": -525
+		},
+		{
+			"Name": "Druckenwell",
+			"CoordX": 437.2,
+			"CoordY": -534
+		},
+		{
+			"Name": "Kabray",
+			"CoordX": 469.3,
+			"CoordY": -567.3
+		},
+		{
+			"Name": "Algara",
+			"CoordX": 482.2,
+			"CoordY": -579.7
+		},
+		{
+			"Name": "Andosha II",
+			"CoordX": 495,
+			"CoordY": -595.6
+		},
+		{
+			"Name": "Mon Gazza",
+			"CoordX": 516.2,
+			"CoordY": -614.5
+		},
+		{
+			"Name": "Herdessa",
+			"CoordX": 539.8,
+			"CoordY": -638
+		},
+		{
+			"Name": "Radnor",
+			"CoordX": 554.4,
+			"CoordY": -654
+		},
+		{
+			"Name": "Christophsis",
+			"CoordX": 576.8,
+			"CoordY": -676
+		},
+		{
+			"Name": "Savareen",
+			"CoordX": 591.9,
+			"CoordY": -688.3
+		},
+		{
+			"Name": "Arkanis",
+			"CoordX": 614,
+			"CoordY": -708.9
+		},
+		{
+			"Name": "Sirpar",
+			"CoordX": 622.8,
+			"CoordY": -716.7
+		},
+		{
+			"Name": "Gorno",
+			"CoordX": 627,
+			"CoordY": -720.7
+		},
+		{
+			"Name": "Dalchon",
+			"CoordX": 645.4,
+			"CoordY": -742.7
+		},
+		{
+			"Name": "Ryloth",
+			"CoordX": 671.3,
+			"CoordY": -762
+		},
+		{
+			"Name": "Wrea",
+			"CoordX": 710.2,
+			"CoordY": -793.2
 		}
 	]
 }
