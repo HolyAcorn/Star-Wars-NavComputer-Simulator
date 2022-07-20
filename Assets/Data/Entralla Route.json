@@ -1,0 +1,95 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Ord Mantell",
+			"CoordX": 4.7,
+			"CoordY": 255
+		},
+		{
+			"Name": "Qiilura",
+			"CoordX": 1.6,
+			"CoordY": 264.3
+		},
+		{
+			"Name": "Yout",
+			"CoordX": 0.8,
+			"CoordY": 277.6
+		},
+		{
+			"Name": "Tyan",
+			"CoordX": -4.6,
+			"CoordY": 296.2
+		},
+		{
+			"Name": "Ord Tessebok",
+			"CoordX": -9.2,
+			"CoordY": 308.2
+		},
+		{
+			"Name": "Obredaan",
+			"CoordX": -13,
+			"CoordY": 321
+		},
+		{
+			"Name": "Lonnaw",
+			"CoordX": -20,
+			"CoordY": 335.7
+		},
+		{
+			"Name": "Orinda",
+			"CoordX": -26.2,
+			"CoordY": 349.3
+		},
+		{
+			"Name": "Wistril",
+			"CoordX": -48.3,
+			"CoordY": 382.4
+		},
+		{
+			"Name": "JanFathal",
+			"CoordX": -54.2,
+			"CoordY": 389.219
+		},
+		{
+			"Name": "Borosk",
+			"CoordX": -94.3,
+			"CoordY": 456.5
+		},
+		{
+			"Name": "Ompersan",
+			"CoordX": -96.7,
+			"CoordY": 475
+		},
+		{
+			"Name": "Yaga Minor",
+			"CoordX": -96,
+			"CoordY": 479.6
+		},
+		{
+			"Name": "Capza",
+			"CoordX": -93.3,
+			"CoordY": 514
+		},
+		{
+			"Name": "Entralla",
+			"CoordX": -92,
+			"CoordY": 520.9
+		},
+		{
+			"Name": "Endoraan",
+			"CoordX": -89.3,
+			"CoordY": 535.9
+		},
+		{
+			"Name": "Bisellia",
+			"CoordX": -86.8,
+			"CoordY": 543.9
+		},
+		{
+			"Name": "Muunilinst",
+			"CoordX": -80.5,
+			"CoordY": 550.3
+		}
+	]
+}

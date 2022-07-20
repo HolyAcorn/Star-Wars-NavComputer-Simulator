@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094e7b0e40ff844428779e9016f7513d, type: 3}
+  m_Name: Shwuy Exchange
+  m_EditorClassIdentifier: 
+  Points:
+  - {fileID: 11400000, guid: 9622fa38c137f954d8ae9d1863c8b61b, type: 2}
+  - {fileID: 11400000, guid: 64b2e2994c8df7344969c3dc815f3e38, type: 2}
+  - {fileID: 11400000, guid: b2f7bb2b0bde3504aa156e44e232e7de, type: 2}
+  - {fileID: 11400000, guid: 37f063bbfc86f99478a82e8cb0dee072, type: 2}
+  - {fileID: 11400000, guid: 48061dc54f51c044f8ebc7c2198b2154, type: 2}
+  - {fileID: 11400000, guid: 2f72c422ded28254c9add948270b12c3, type: 2}
+  Type: 0

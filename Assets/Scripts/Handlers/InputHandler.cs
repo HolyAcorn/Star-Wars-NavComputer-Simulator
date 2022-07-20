@@ -20,7 +20,8 @@ public class InputHandler : MonoBehaviour
     public Vector2Reference mousePositionRef;
     [Header("Camera Movement")]
     [SerializeField] float moveAmount = 20f;
-    [SerializeField] float edgeSize = 30f;
+    [SerializeField] float edgeSize = 15f;
+    private float moveSizeMultiplier;
     [Header("Camera Zoom")]
     [SerializeField] float zoomStep = 1f;
     [SerializeField] float maxZoom = 5.0f;
@@ -35,6 +36,9 @@ public class InputHandler : MonoBehaviour
         cameraFollow = GetComponent<CameraFollow>();
         myCamera = GetComponent<Camera>();
         cameraFollow.Setup(() => cameraFollowPosition);
+        currentCameraZoom.Variable.Value = myCamera.orthographicSize;
+        CheckCameraSize.Raise();
+
     }
     void Update()
     {
@@ -43,7 +47,7 @@ public class InputHandler : MonoBehaviour
         {
             if (EventSystem.current.IsPointerOverGameObject()) return;
 
-            mousePosition *= 10;
+            mousePosition *= 5;
             mousePosition = new Vector2((int)mousePosition.x, (int)mousePosition.y) / sizeDifference.Value;
             mousePositionRef.Variable.Value = mousePosition;
             if (!clickedOnPlanet)
@@ -80,19 +84,19 @@ public class InputHandler : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            cameraFollowPosition.y += moveAmount * Time.deltaTime;
+            cameraFollowPosition.y += moveAmount * Time.deltaTime * moveSizeMultiplier;
         }
         if (Input.GetKey(KeyCode.S))
         {
-            cameraFollowPosition.y -= moveAmount * Time.deltaTime;
+            cameraFollowPosition.y -= moveAmount * Time.deltaTime * moveSizeMultiplier;
         }
         if (Input.GetKey(KeyCode.D))
         {
-            cameraFollowPosition.x += moveAmount * Time.deltaTime;
+            cameraFollowPosition.x += moveAmount * Time.deltaTime * moveSizeMultiplier;
         }
         if (Input.GetKey(KeyCode.A))
         {
-            cameraFollowPosition.x -= moveAmount * Time.deltaTime;
+            cameraFollowPosition.x -= moveAmount * Time.deltaTime * moveSizeMultiplier;
         }
         EdgeScrolling();
 
@@ -101,19 +105,19 @@ public class InputHandler : MonoBehaviour
         {
             if (Input.mousePosition.x > Screen.width - edgeSize)
             {
-                cameraFollowPosition.x += moveAmount * Time.deltaTime;
+                cameraFollowPosition.x += moveAmount * Time.deltaTime * moveSizeMultiplier;
             }
             if (Input.mousePosition.x < edgeSize)
             {
-                cameraFollowPosition.x -= moveAmount * Time.deltaTime;
+                cameraFollowPosition.x -= moveAmount * Time.deltaTime * moveSizeMultiplier;
             }
             if (Input.mousePosition.y > Screen.height - edgeSize)
             {
-                cameraFollowPosition.y += moveAmount * Time.deltaTime;
+                cameraFollowPosition.y += moveAmount * Time.deltaTime * moveSizeMultiplier;
             }
             if (Input.mousePosition.y < edgeSize)
             {
-                cameraFollowPosition.y -= moveAmount * Time.deltaTime;
+                cameraFollowPosition.y -= moveAmount * Time.deltaTime * moveSizeMultiplier;
             }
         }
     }
@@ -133,6 +137,7 @@ public class InputHandler : MonoBehaviour
             currentCameraZoom.Variable.Value = myCamera.orthographicSize;
 
         }
+        moveSizeMultiplier = myCamera.orthographicSize / 20;
         CheckCameraSize.Raise();
     }
 }

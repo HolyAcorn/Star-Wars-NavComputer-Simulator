@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094e7b0e40ff844428779e9016f7513d, type: 3}
+  m_Name: Shapani Bypass
+  m_EditorClassIdentifier: 
+  Points:
+  - {fileID: 11400000, guid: 15c98ceff68eaa9468653df458f3299b, type: 2}
+  - {fileID: 11400000, guid: 0d3291f93aa1e4047869d4a09b636174, type: 2}
+  - {fileID: 11400000, guid: 86600266ffd089144921fb45274ad2d8, type: 2}
+  - {fileID: 11400000, guid: 8c18c1a0e8a608440aa706a88fd88105, type: 2}
+  - {fileID: 11400000, guid: b9b2b38705b745a46a7371675fdf1405, type: 2}
+  - {fileID: 11400000, guid: 56d5441bc3e965449851add11f211a01, type: 2}
+  Type: 0

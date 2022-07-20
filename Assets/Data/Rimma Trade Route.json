@@ -1,0 +1,140 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Abregado-rae",
+			"CoordX": -4.3,
+			"CoordY": -316.7
+		},
+		{
+			"Name": "Dentaal",
+			"CoordX": -4.3,
+			"CoordY": -325.8
+		},
+		{
+			"Name": "Giju",
+			"CoordX": 3,
+			"CoordY": -354.8
+		},
+		{
+			"Name": "Ghorman",
+			"CoordX": 28,
+			"CoordY": -397.7
+		},
+		{
+			"Name": "Thyferra",
+			"CoordX": 66,
+			"CoordY": -442.2
+		},
+		{
+			"Name": "Tauber",
+			"CoordX": 74.3,
+			"CoordY": -456.9
+		},
+		{
+			"Name": "Yag'Dhul",
+			"CoordX": 86.5,
+			"CoordY": -489.9
+		},
+		{
+			"Name": "Sukkult",
+			"CoordX": 90.5,
+			"CoordY": -497.6
+		},
+		{
+			"Name": "Wroona",
+			"CoordX": 97.3,
+			"CoordY": -517.5
+		},
+		{
+			"Name": "Tregillis",
+			"CoordX": 107,
+			"CoordY": -548.4
+		},
+		{
+			"Name": "Vandelhelm",
+			"CoordX": 120.3,
+			"CoordY": -584.9
+		},
+		{
+			"Name": "Woostri",
+			"CoordX": 129.7,
+			"CoordY": -615.4
+		},
+		{
+			"Name": "Daemen",
+			"CoordX": 134,
+			"CoordY": -635.4
+		},
+		{
+			"Name": "Alakatha",
+			"CoordX": 139.4,
+			"CoordY": -659.3
+		},
+		{
+			"Name": "Lanthe",
+			"CoordX": 142.9,
+			"CoordY": -675.6
+		},
+		{
+			"Name": "Vondarc",
+			"CoordX": 149.7,
+			"CoordY": -692.9
+		},
+		{
+			"Name": "Medth",
+			"CoordX": 149.9,
+			"CoordY": -728
+		},
+		{
+			"Name": "Tshindral III",
+			"CoordX": 152.1,
+			"CoordY": -745.2
+		},
+		{
+			"Name": "Sullust",
+			"CoordX": 156,
+			"CoordY": -781.3
+		},
+		{
+			"Name": "Eriadu",
+			"CoordX": 155.5,
+			"CoordY": -829.3
+		},
+		{
+			"Name": "Bith",
+			"CoordX": 156.9,
+			"CoordY": -876.8
+		},
+		{
+			"Name": "Triton",
+			"CoordX": 160.2,
+			"CoordY": -885.5
+		},
+		{
+			"Name": "Sluis Van",
+			"CoordX": 160.7,
+			"CoordY": -917.5
+		},
+		{
+			"Name": "Denab",
+			"CoordX": 158.8,
+			"CoordY": -934.4
+		},
+		{
+			"Name": "Tarabba",
+			"CoordX": 162.1,
+			"CoordY": -980.8
+		},
+		{
+			"Name": "Adarlon",
+			"CoordX": 162.6,
+			"CoordY": -1055.9
+		},
+		{
+			"Name": "Karideph",
+			"CoordX": 162.4,
+			"CoordY": -1069.9
+		}
+	]
+}

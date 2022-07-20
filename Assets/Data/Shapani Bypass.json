@@ -1,0 +1,35 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Thyferra",
+			"CoordX": 66,
+			"CoordY": -442.2
+		},
+		{
+			"Name": "Mrlsst",
+			"CoordX": 29,
+			"CoordY": -376.9
+		},
+		{
+			"Name": "Fondor",
+			"CoordX": 25,
+			"CoordY": -369.6
+		},
+		{
+			"Name": "Vindalia",
+			"CoordX": 14.4,
+			"CoordY": -348.6
+		},
+		{
+			"Name": "Diamal",
+			"CoordX": 10.1,
+			"CoordY": -342.5
+		},
+		{
+			"Name": "Abregado-rae",
+			"CoordX": -4.3,
+			"CoordY": -316.7
+		}
+	]
+}

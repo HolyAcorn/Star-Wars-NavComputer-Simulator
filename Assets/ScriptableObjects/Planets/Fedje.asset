@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Fedje
   m_EditorClassIdentifier: 
   Name: Fedje
-  CoordX: 74
-  CoordY: 426
+  CoordX: 47
+  CoordY: 425
   HyperlaneRoutes:
-  - Braxant Run
+  - Relgim Run

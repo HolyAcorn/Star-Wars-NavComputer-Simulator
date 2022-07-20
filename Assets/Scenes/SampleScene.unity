@@ -887,7 +887,7 @@ MonoBehaviour:
     UseConstant: 0
     ConstantValue: {x: 0, y: 0}
     Variable: {fileID: 11400000, guid: 839d2f1f7f7d0e64c8512b523c7593e6, type: 2}
-  moveAmount: 20
+  moveAmount: 40
   edgeSize: 30
   zoomStep: 1
   maxZoom: 2.5

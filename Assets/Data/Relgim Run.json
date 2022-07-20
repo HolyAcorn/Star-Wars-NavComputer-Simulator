@@ -1,0 +1,90 @@
+{
+	"Type": 1,
+	"JsonPlanets": [
+		{
+			"Name": "Ord Thoden",
+			"CoordX": -142.9,
+			"CoordY": 585.9
+		},
+		{
+			"Name": "Delephr",
+			"CoordX": -132.5,
+			"CoordY": 567
+		},
+		{
+			"Name": "Gelda",
+			"CoordX": -123,
+			"CoordY": 555.5
+		},
+		{
+			"Name": "Endoraan",
+			"CoordX": -89.3,
+			"CoordY": 535.9
+		},
+		{
+			"Name": "Cezith",
+			"CoordX": -75.6,
+			"CoordY": 530.7
+		},
+		{
+			"Name": "Marmoth",
+			"CoordX": -62.9,
+			"CoordY": 516.2
+		},
+		{
+			"Name": "Aris",
+			"CoordX": -31.2,
+			"CoordY": 497.6
+		},
+		{
+			"Name": "Maelstrom Nebula",
+			"CoordX": -11.3,
+			"CoordY": 488.9
+		},
+		{
+			"Name": "Vykos",
+			"CoordX": 5.3,
+			"CoordY": 486.8
+		},
+		{
+			"Name": "Mantooine",
+			"CoordX": 55.8,
+			"CoordY": 472.7
+		},
+		{
+			"Name": "Horuz",
+			"CoordX": 71.2,
+			"CoordY": 469.9
+		},
+		{
+			"Name": "Nam'ta",
+			"CoordX": 87.4,
+			"CoordY": 467
+		},
+		{
+			"Name": "Markbee's Star",
+			"CoordX": 83.5,
+			"CoordY": 457.8
+		},
+		{
+			"Name": "Generis",
+			"CoordX": 86.2,
+			"CoordY": 451.3
+		},
+		{
+			"Name": "Devon 4",
+			"CoordX": 83.9,
+			"CoordY": 445.1
+		},
+		{
+			"Name": "Fest",
+			"CoordX": 80.5,
+			"CoordY": 439.8
+		},
+		{
+			"Name": "Fedje",
+			"CoordX": 47.1,
+			"CoordY": 425.9
+		}
+	]
+}
