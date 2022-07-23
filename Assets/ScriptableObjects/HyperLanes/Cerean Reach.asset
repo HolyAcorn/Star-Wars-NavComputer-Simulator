@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094e7b0e40ff844428779e9016f7513d, type: 3}
+  m_Name: Cerean Reach
+  m_EditorClassIdentifier: 
+  Points:
+  - {fileID: 11400000, guid: 06793f1e1c0743648990b08b1b5644fd, type: 2}
+  - {fileID: 11400000, guid: 9c9ea36d92ca51b4ead1464a9efaf2b3, type: 2}
+  - {fileID: 11400000, guid: ac9de27bf77a8894fa1a678055028cb7, type: 2}
+  - {fileID: 11400000, guid: 25c58382814090e44bd76de60ece1bc1, type: 2}
+  - {fileID: 11400000, guid: 2d0cec3b5119230458a8242e573d31a2, type: 2}
+  - {fileID: 11400000, guid: 8035d4e1171c66d4ab7d420eaa15fa62, type: 2}
+  - {fileID: 11400000, guid: 0ac458baea256dd44814a32ae85f04f7, type: 2}
+  - {fileID: 11400000, guid: 37e8758d4a6666e4386f3daa13832849, type: 2}
+  - {fileID: 11400000, guid: 63ed360d9fb7ba845af1263c9e3c37e0, type: 2}
+  - {fileID: 11400000, guid: b750d063810c83b4caf964a9e66134ad, type: 2}
+  Type: 0
