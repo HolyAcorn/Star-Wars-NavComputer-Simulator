@@ -1,0 +1,35 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Mev",
+			"CoordX": -66.9,
+			"CoordY": -883
+		},
+		{
+			"Name": "Tinoon",
+			"CoordX": -66,
+			"CoordY": -874.3
+		},
+		{
+			"Name": "Delphon",
+			"CoordX": -67.5,
+			"CoordY": -868.3
+		},
+		{
+			"Name": "Polmanar",
+			"CoordX": -66.9,
+			"CoordY": -863.2
+		},
+		{
+			"Name": "Zephry",
+			"CoordX": -69.7,
+			"CoordY": -853.4
+		},
+		{
+			"Name": "Nothoiin",
+			"CoordX": -75.2,
+			"CoordY": -843
+		}
+	]
+}

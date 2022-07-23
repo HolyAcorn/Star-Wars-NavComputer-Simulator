@@ -1,0 +1,50 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Farstine",
+			"CoordX": 408.5,
+			"CoordY": -708.2
+		},
+		{
+			"Name": "Trigalis",
+			"CoordX": 409.2,
+			"CoordY": -746
+		},
+		{
+			"Name": "Stend",
+			"CoordX": 408.2,
+			"CoordY": -752.3
+		},
+		{
+			"Name": "Vergesso",
+			"CoordX": 436.8,
+			"CoordY": -800.8
+		},
+		{
+			"Name": "Bajic",
+			"CoordX": 430,
+			"CoordY": -811.5
+		},
+		{
+			"Name": "Vohai",
+			"CoordX": 376.6,
+			"CoordY": -851
+		},
+		{
+			"Name": "Elshandruu Pica",
+			"CoordX": 388,
+			"CoordY": -876.3
+		},
+		{
+			"Name": "Suarbi",
+			"CoordX": 386.6,
+			"CoordY": -915.2
+		},
+		{
+			"Name": "Svivren",
+			"CoordX": 360.9,
+			"CoordY": -945.3
+		}
+	]
+}

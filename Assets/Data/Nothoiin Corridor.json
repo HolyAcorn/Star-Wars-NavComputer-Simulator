@@ -1,0 +1,40 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Gerrenthum",
+			"CoordX": -90.2,
+			"CoordY": -840.7
+		},
+		{
+			"Name": "Council",
+			"CoordX": -82.4,
+			"CoordY": -840.7
+		},
+		{
+			"Name": "Nothoiin",
+			"CoordX": -75.2,
+			"CoordY": -843
+		},
+		{
+			"Name": "Saila Na",
+			"CoordX": -70.3,
+			"CoordY": -842.3
+		},
+		{
+			"Name": "Bavva",
+			"CoordX": -65.7,
+			"CoordY": -841.3
+		},
+		{
+			"Name": "Dolla",
+			"CoordX": 25,
+			"CoordY": -843.6
+		},
+		{
+			"Name": "Eriadu",
+			"CoordX": 155.5,
+			"CoordY": -829.3
+		}
+	]
+}

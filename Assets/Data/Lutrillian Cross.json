@@ -1,0 +1,15 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Lutrillia",
+			"CoordX": -109.4,
+			"CoordY": -843.9
+		},
+		{
+			"Name": "Mijos",
+			"CoordX": -96.6,
+			"CoordY": -834.9
+		}
+	]
+}

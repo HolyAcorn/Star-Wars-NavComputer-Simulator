@@ -1,0 +1,50 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Sanrafsix",
+			"CoordX": 223,
+			"CoordY": -742.9
+		},
+		{
+			"Name": "Syned",
+			"CoordX": 218,
+			"CoordY": -764
+		},
+		{
+			"Name": "Omwat",
+			"CoordX": 227.7,
+			"CoordY": -803.4
+		},
+		{
+			"Name": "Kabal",
+			"CoordX": 233.8,
+			"CoordY": -851.8
+		},
+		{
+			"Name": "Dravian Station",
+			"CoordX": 251.5,
+			"CoordY": -890.7
+		},
+		{
+			"Name": "Sevarcos II",
+			"CoordX": 229.4,
+			"CoordY": -917.7
+		},
+		{
+			"Name": "Kirdo III",
+			"CoordX": 265.9,
+			"CoordY": -940.3
+		},
+		{
+			"Name": "Ma'ar Shaddam",
+			"CoordX": 274,
+			"CoordY": -1019.2
+		},
+		{
+			"Name": "Cotellier",
+			"CoordX": 273.8,
+			"CoordY": -1039.9
+		}
+	]
+}
