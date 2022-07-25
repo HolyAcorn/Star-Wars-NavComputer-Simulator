@@ -11,11 +11,14 @@ public class FontChanger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        textObjects = Object.FindObjectsOfType<Text>();
+        
     }
+
+    
 
     public void ChangeFont()
     {
+        textObjects = Object.FindObjectsOfType<Text>();
         foreach (Text text in textObjects)
         {
             if (text.font != activeFont.Font)
