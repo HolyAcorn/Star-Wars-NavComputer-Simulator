@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BezierCurve
 {
+
+    // NOT CURRENTLY IN USE
     public Vector3[] Points;
 
     public BezierCurve()

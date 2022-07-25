@@ -20,7 +20,7 @@ More features will be added in the future.
 swNavSim is built in the Unity Game Engine and written in C#.
 
 ## Contributing
-You are more than welcome to contribute! If you wish to do so, please read the Contribution Guidelines.
+You are more than welcome to contribute! If you wish to do so, please contact me and we can discuss it further!
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 

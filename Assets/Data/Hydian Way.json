@@ -1,0 +1,430 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Imynusoph",
+			"CoordX": -105.4,
+			"CoordY": -1124.2
+		},
+		{
+			"Name": "Terminus",
+			"CoordX": -72.5,
+			"CoordY": -1093.7
+		},
+		{
+			"Name": "Fwatna",
+			"CoordX": -27.5,
+			"CoordY": -1051.5
+		},
+		{
+			"Name": "Rutan",
+			"CoordX": 10.9,
+			"CoordY": -1015.9
+		},
+		{
+			"Name": "Tosste",
+			"CoordX": 33.7,
+			"CoordY": -989.3
+		},
+		{
+			"Name": "Atravis",
+			"CoordX": 71.4,
+			"CoordY": -945.7
+		},
+		{
+			"Name": "Shumavar",
+			"CoordX": 89.803,
+			"CoordY": -923.2
+		},
+		{
+			"Name": "Averam",
+			"CoordX": 145.4,
+			"CoordY": -846.4
+		},
+		{
+			"Name": "Eriadu",
+			"CoordX": 155.5,
+			"CoordY": -829.3
+		},
+		{
+			"Name": "Cmaoli Di",
+			"CoordX": 183.3,
+			"CoordY": -772.4
+		},
+		{
+			"Name": "Darkknell",
+			"CoordX": 188.7,
+			"CoordY": -754.6
+		},
+		{
+			"Name": "Chryya",
+			"CoordX": 197.2,
+			"CoordY": -729.9
+		},
+		{
+			"Name": "Malastare",
+			"CoordX": 208.3,
+			"CoordY": -683.6
+		},
+		{
+			"Name": "ZeHeth",
+			"CoordX": 212.3,
+			"CoordY": -668.2
+		},
+		{
+			"Name": "Pax",
+			"CoordX": 220.4,
+			"CoordY": -621
+		},
+		{
+			"Name": "Arrgaw",
+			"CoordX": 222,
+			"CoordY": -605.7
+		},
+		{
+			"Name": "Ramordia",
+			"CoordX": 228.7,
+			"CoordY": -556.5
+		},
+		{
+			"Name": "Majoor",
+			"CoordX": 230,
+			"CoordY": -542.5
+		},
+		{
+			"Name": "Ragith III",
+			"CoordX": 230.9,
+			"CoordY": -525.8
+		},
+		{
+			"Name": "Gacerian",
+			"CoordX": 232.6,
+			"CoordY": -512.8
+		},
+		{
+			"Name": "Baroli",
+			"CoordX": 233.4,
+			"CoordY": -478.7
+		},
+		{
+			"Name": "Shibric",
+			"CoordX": 235.2,
+			"CoordY": -437.3
+		},
+		{
+			"Name": "Babbadod",
+			"CoordX": 234,
+			"CoordY": -406
+		},
+		{
+			"Name": "Chardaan",
+			"CoordX": 233.9,
+			"CoordY": -399.1
+		},
+		{
+			"Name": "Ronyards",
+			"CoordX": 230.9,
+			"CoordY": -350.7
+		},
+		{
+			"Name": "Sagar",
+			"CoordX": 230.1,
+			"CoordY": -335.6
+		},
+		{
+			"Name": "Denon",
+			"CoordX": 227.9,
+			"CoordY": -316.6
+		},
+		{
+			"Name": "Aquilae",
+			"CoordX": 215.2,
+			"CoordY": -261.3
+		},
+		{
+			"Name": "Koensayr",
+			"CoordX": 210.3,
+			"CoordY": -241.3
+		},
+		{
+			"Name": "Besnia",
+			"CoordX": 207.4,
+			"CoordY": -231.2
+		},
+		{
+			"Name": "Herzob",
+			"CoordX": 203.2,
+			"CoordY": -219.7
+		},
+		{
+			"Name": "Exodeen",
+			"CoordX": 198.7,
+			"CoordY": -207.8
+		},
+		{
+			"Name": "Voktunma",
+			"CoordX": 188.7,
+			"CoordY": -172.4
+		},
+		{
+			"Name": "Jaciprus",
+			"CoordX": 186.9,
+			"CoordY": -166.2
+		},
+		{
+			"Name": "Bellassa",
+			"CoordX": 183,
+			"CoordY": -152.7
+		},
+		{
+			"Name": "Baraboo",
+			"CoordX": 181.1,
+			"CoordY": -146.9
+		},
+		{
+			"Name": "Loretto",
+			"CoordX": 176.8,
+			"CoordY": -132.6
+		},
+		{
+			"Name": "Mawan",
+			"CoordX": 168.8,
+			"CoordY": -111.1
+		},
+		{
+			"Name": "Trellen",
+			"CoordX": 164.3,
+			"CoordY": -100.5
+		},
+		{
+			"Name": "Sarapin",
+			"CoordX": 160,
+			"CoordY": -90.5
+		},
+		{
+			"Name": "Talravin",
+			"CoordX": 152,
+			"CoordY": -74.5
+		},
+		{
+			"Name": "Trantor",
+			"CoordX": 146.1,
+			"CoordY": -64.4
+		},
+		{
+			"Name": "Fedalle",
+			"CoordX": 139.8,
+			"CoordY": -54.5
+		},
+		{
+			"Name": "Glithnos",
+			"CoordX": 126.5,
+			"CoordY": -41.6
+		},
+		{
+			"Name": "Demophon",
+			"CoordX": 119.3,
+			"CoordY": -33.2
+		},
+		{
+			"Name": "Aldraig",
+			"CoordX": 104.8,
+			"CoordY": -19.9
+		},
+		{
+			"Name": "Skako Minor",
+			"CoordX": 76.2,
+			"CoordY": 10.3
+		},
+		{
+			"Name": "Brentaal IV",
+			"CoordX": 60.5,
+			"CoordY": 35.9
+		},
+		{
+			"Name": "Wakeelmui",
+			"CoordX": 53.6,
+			"CoordY": 70.4
+		},
+		{
+			"Name": "Uviuy Exen",
+			"CoordX": 55.3,
+			"CoordY": 89.2
+		},
+		{
+			"Name": "Nierport VII",
+			"CoordX": 64.5,
+			"CoordY": 115.6
+		},
+		{
+			"Name": "Champala",
+			"CoordX": 71.4,
+			"CoordY": 129.3
+		},
+		{
+			"Name": "Drearia",
+			"CoordX": 79.4,
+			"CoordY": 142.5
+		},
+		{
+			"Name": "Per Lupelo",
+			"CoordX": 87.7,
+			"CoordY": 154.3
+		},
+		{
+			"Name": "Paqualis III",
+			"CoordX": 96,
+			"CoordY": 165.8
+		},
+		{
+			"Name": "Bogden",
+			"CoordX": 105.4,
+			"CoordY": 175.9
+		},
+		{
+			"Name": "Nessem",
+			"CoordX": 112.8,
+			"CoordY": 186.2
+		},
+		{
+			"Name": "Kidriff 5",
+			"CoordX": 120.7,
+			"CoordY": 192.5
+		},
+		{
+			"Name": "Draria",
+			"CoordX": 148,
+			"CoordY": 211.4
+		},
+		{
+			"Name": "Corsin",
+			"CoordX": 189.9,
+			"CoordY": 233.4
+		},
+		{
+			"Name": "Skorrupon",
+			"CoordX": 225.8,
+			"CoordY": 252.3
+		},
+		{
+			"Name": "Bandomeer",
+			"CoordX": 319,
+			"CoordY": 322.3
+		},
+		{
+			"Name": "Harloen",
+			"CoordX": 328.4,
+			"CoordY": 330.8
+		},
+		{
+			"Name": "Botajef",
+			"CoordX": 344.8,
+			"CoordY": 351.5
+		},
+		{
+			"Name": "Hijado",
+			"CoordX": 357.6,
+			"CoordY": 369.8
+		},
+		{
+			"Name": "Celanon",
+			"CoordX": 369.1,
+			"CoordY": 389
+		},
+		{
+			"Name": "Junction",
+			"CoordX": 383.5,
+			"CoordY": 406.4
+		},
+		{
+			"Name": "Sorrus",
+			"CoordX": 391.6,
+			"CoordY": 418.8
+		},
+		{
+			"Name": "Hynah",
+			"CoordX": 396.8,
+			"CoordY": 425.9
+		},
+		{
+			"Name": "Simpla-12",
+			"CoordX": 401.9,
+			"CoordY": 432.5
+		},
+		{
+			"Name": "Toprawa",
+			"CoordX": 409.2,
+			"CoordY": 443.3
+		},
+		{
+			"Name": "Pho Ph'eah",
+			"CoordX": 430.8,
+			"CoordY": 475.3
+		},
+		{
+			"Name": "Praadost II",
+			"CoordX": 460.5,
+			"CoordY": 516.5
+		},
+		{
+			"Name": "Telos IV",
+			"CoordX": 508,
+			"CoordY": 571
+		},
+		{
+			"Name": "Doniphon",
+			"CoordX": 515.4,
+			"CoordY": 579.7
+		},
+		{
+			"Name": "Tantive IV",
+			"CoordX": 522,
+			"CoordY": 585.5
+		},
+		{
+			"Name": "Listehol",
+			"CoordX": 535.3,
+			"CoordY": 591.3
+		},
+		{
+			"Name": "Ruuria",
+			"CoordX": 579.9,
+			"CoordY": 607.7
+		},
+		{
+			"Name": "Oshetti IV",
+			"CoordX": 635.5,
+			"CoordY": 614.2
+		},
+		{
+			"Name": "Cadomai Prime",
+			"CoordX": 668.2,
+			"CoordY": 612.9
+		},
+		{
+			"Name": "Reltooine",
+			"CoordX": 680.8,
+			"CoordY": 612.4
+		},
+		{
+			"Name": "Mall'ordian",
+			"CoordX": 693.7,
+			"CoordY": 611
+		},
+		{
+			"Name": "Lythos Nine",
+			"CoordX": 713.2,
+			"CoordY": 607.8
+		},
+		{
+			"Name": "D'ian",
+			"CoordX": 733,
+			"CoordY": 603.9
+		},
+		{
+			"Name": "Bonadan",
+			"CoordX": 739.8,
+			"CoordY": 601.8
+		}
+	]
+}

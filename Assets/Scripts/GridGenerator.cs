@@ -30,7 +30,7 @@ public class GridGenerator : MonoBehaviour
 
     public void GenerateGrid()
     {
-        transform.position = new Vector2(width / -2, height / -2);
+        transform.position = new Vector2(width * -40, height * -20);
         for (int x = 0; x < width; x++)
         {
             for (int y = 0; y < height; y++)
