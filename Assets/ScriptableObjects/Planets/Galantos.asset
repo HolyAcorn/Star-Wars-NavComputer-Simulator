@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: -94
   CoordY: -55
   HyperlaneRoutes:
-  - Metellos Trade Route
+  - Default/Metellos Trade Route

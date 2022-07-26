@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: -235
   CoordY: -795
   HyperlaneRoutes:
-  - Koda Spur
+  - Default/Koda Spur

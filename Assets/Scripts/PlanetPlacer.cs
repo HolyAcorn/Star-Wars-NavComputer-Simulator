@@ -45,18 +45,12 @@ public class PlanetPlacer : MonoBehaviour
         {
             ChangeSize(1);
         }
-        if (currentCameraSize.Value > 29.0f && currentCameraSize.Value < 49.0f)
+        if (currentCameraSize.Value > 29.0f)
         {
             ChangeSize(2);
         }
-        if (currentCameraSize.Value > 49.0f && currentCameraSize.Value < 69.0f)
-        {
-            ChangeSize(3);
-        }
-        if (currentCameraSize.Value > 69.0f)
-        {
-            ChangeSize(4);
-        }
+
+
     }
 
     public void ChangeSize(float amount)

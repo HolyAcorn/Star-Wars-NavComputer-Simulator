@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094e7b0e40ff844428779e9016f7513d, type: 3}
+  m_Name: Namadii Corridor
+  m_EditorClassIdentifier: 
+  Points:
+  - {fileID: 11400000, guid: 71377fdb410f94b48bcfb4204ba912ef, type: 2}
+  - {fileID: 11400000, guid: 0c8be8eda8c9a0640b4b4031c09cb16c, type: 2}
+  - {fileID: 11400000, guid: a5dd1f83a116eed4d9044d747c75c882, type: 2}
+  - {fileID: 11400000, guid: c417cdbd69fe912429f78d33f3143e70, type: 2}
+  - {fileID: 11400000, guid: 94989f86bde382247beb31f4f6f50159, type: 2}
+  - {fileID: 11400000, guid: c7eb51d808e00b04ab601c0d6fa68d8e, type: 2}
+  - {fileID: 11400000, guid: fb57f728b8334894487c055eb953f5e7, type: 2}
+  - {fileID: 11400000, guid: cab96365b3ec51e4285cf7f5d2afae1f, type: 2}
+  - {fileID: 11400000, guid: 9b2bea71223a2d443a2a6fbe03584704, type: 2}
+  - {fileID: 11400000, guid: b3c69288be212d943b9fd8bb999c400d, type: 2}
+  - {fileID: 11400000, guid: 937e9e158fea6014ba52d039c49cf24f, type: 2}
+  - {fileID: 11400000, guid: 34ae87e0d746024469ab28bb4967fc3e, type: 2}
+  - {fileID: 11400000, guid: 4b08e11b3ce68394a937872a05006f77, type: 2}
+  - {fileID: 11400000, guid: 41ccde430d794f94597caa53fd2788bd, type: 2}
+  - {fileID: 11400000, guid: 1db5b026d7695c34c933c20c91f0917c, type: 2}
+  - {fileID: 11400000, guid: 086f1fb95e130f3428aabe586ec1a16c, type: 2}
+  - {fileID: 11400000, guid: 577b73fc992fbff478606a5c54b838ab, type: 2}
+  - {fileID: 11400000, guid: 17cf7d99a6c787f43b0569600d013a91, type: 2}
+  - {fileID: 11400000, guid: c7f425f604f2d8647a33af57d982f362, type: 2}
+  - {fileID: 11400000, guid: ea934039cba89f74ab0ba2d60bafb0c1, type: 2}
+  Type: 0

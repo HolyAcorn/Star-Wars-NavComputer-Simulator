@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: -39
   CoordY: 446
   HyperlaneRoutes:
-  - Monhudle Corridor
+  - Default/Monhudle Corridor

@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: 71
   CoordY: 469
   HyperlaneRoutes:
-  - Relgim Run
+  - Default/Relgim Run

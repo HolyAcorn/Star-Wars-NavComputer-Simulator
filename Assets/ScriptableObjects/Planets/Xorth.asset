@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: 82
   CoordY: -28
   HyperlaneRoutes:
-  - Ruan Shortcut
+  - Default/Ruan Shortcut

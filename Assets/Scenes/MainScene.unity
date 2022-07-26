@@ -1952,6 +1952,10 @@ MonoBehaviour:
     UseConstant: 0
     ConstantValue: 0
     Variable: {fileID: 11400000, guid: cfe2c6d8390301e489e804ebc8953e32, type: 2}
+  currentCameraSize:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: d56081ada352ea741aeeb5a0a8ea9193, type: 2}
 --- !u!4 &1371045454
 Transform:
   m_ObjectHideFlags: 0

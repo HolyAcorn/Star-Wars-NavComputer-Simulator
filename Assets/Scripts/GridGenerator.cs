@@ -63,9 +63,13 @@ public class GridGenerator : MonoBehaviour
         {
             ChangeSize(1);
         }
-        if (currentCameraSize.Value > 49.0f)
+        if (currentCameraSize.Value > 49.0f && currentCameraSize.Value < 69.0f)
         {
             ChangeSize(2);
+        }
+        if (currentCameraSize.Value > 69.0f)
+        {
+            ChangeSize(3);
         }
 
     }

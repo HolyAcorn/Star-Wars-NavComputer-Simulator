@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: 2
   CoordY: -52
   HyperlaneRoutes:
-  - Byss Run
+  - Default/Byss Run

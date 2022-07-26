@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: -74
   CoordY: -888
   HyperlaneRoutes:
-  - Lipsec Run
+  - Default/Lipsec Run

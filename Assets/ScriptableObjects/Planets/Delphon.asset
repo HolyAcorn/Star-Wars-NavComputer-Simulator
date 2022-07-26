@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: -67
   CoordY: -868
   HyperlaneRoutes:
-  - Nothoiin Route
+  - Default/Nothoiin Route

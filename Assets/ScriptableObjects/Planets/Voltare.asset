@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: -93
   CoordY: 135
   HyperlaneRoutes:
-  - Namadii Corridor
+  - Default/Namadii Corridor

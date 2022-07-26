@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: -242
   CoordY: -664
   HyperlaneRoutes:
-  - Cerean Reach
+  - Default/Cerean Reach

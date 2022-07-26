@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: 157
   CoordY: -186
   HyperlaneRoutes:
-  - Corellian Run
+  - Default/Corellian Run
