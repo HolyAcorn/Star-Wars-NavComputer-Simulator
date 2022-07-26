@@ -1,0 +1,60 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Cerea",
+			"CoordX": -242.4,
+			"CoordY": -664.3
+		},
+		{
+			"Name": "Cheelit",
+			"CoordX": -228.45,
+			"CoordY": -678.9
+		},
+		{
+			"Name": "Koba",
+			"CoordX": -195.6,
+			"CoordY": -690.2
+		},
+		{
+			"Name": "Riflor",
+			"CoordX": -183.2,
+			"CoordY": -698.3
+		},
+		{
+			"Name": "Hirsi",
+			"CoordX": -127.2,
+			"CoordY": -727.4
+		},
+		{
+			"Name": "Elbara Nine",
+			"CoordX": -120.1,
+			"CoordY": -732.8
+		},
+		{
+			"Name": "Quaensan Prime",
+			"CoordX": -103.3,
+			"CoordY": -760.4
+		},
+		{
+			"Name": "Lorta",
+			"CoordX": -106.2,
+			"CoordY": -777.9
+		},
+		{
+			"Name": "Shuldene",
+			"CoordX": -114.7,
+			"CoordY": -831
+		},
+		{
+			"Name": "Mijos",
+			"CoordX": -96.6,
+			"CoordY": -834.9
+		},
+		{
+			"Name": "Gerrenthum",
+			"CoordX": -90.2,
+			"CoordY": -840.7
+		}
+	]
+}

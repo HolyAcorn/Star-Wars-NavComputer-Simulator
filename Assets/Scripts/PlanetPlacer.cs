@@ -11,7 +11,15 @@ public class PlanetPlacer : MonoBehaviour
     public List<Sprite> sprites;
     public FloatReference sizeDifference;
 
+    [SerializeField] FloatReference currentCameraSize;
     public InputHandler inputHandler;
+
+    private List<GameObject> instances = new List<GameObject>();
+
+    private void Start()
+    {
+        PlacePlanets();
+    }
 
     public void PlacePlanets()
     {
@@ -27,6 +35,29 @@ public class PlanetPlacer : MonoBehaviour
             instance.transform.position = new Vector2(planet.CoordX, planet.CoordY) / sizeDifference.Value;
             instance.transform.parent = transform;
             instance.name = planet.Name;
+            instances.Add(instance);
+        }
+    }
+
+    public void CheckCameraSize()
+    {
+        if (currentCameraSize.Value < 29.0f)
+        {
+            ChangeSize(1);
+        }
+        if (currentCameraSize.Value > 29.0f)
+        {
+            ChangeSize(2);
+        }
+
+
+    }
+
+    public void ChangeSize(float amount)
+    {
+        foreach (GameObject instance in instances)
+        {
+            instance.transform.localScale = new Vector3(amount,amount,amount);
         }
     }
 

@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: 118
   CoordY: 335
   HyperlaneRoutes:
-  - Celanon Spur
+  - Default/Celanon Spur

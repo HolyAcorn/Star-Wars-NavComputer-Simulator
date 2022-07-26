@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: 287
   CoordY: -405
   HyperlaneRoutes:
-  - Shipwright's Trace
+  - Default/Shipwright's Trace

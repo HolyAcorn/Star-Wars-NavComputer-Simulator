@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094e7b0e40ff844428779e9016f7513d, type: 3}
+  m_Name: Shipwright's Trace
+  m_EditorClassIdentifier: 
+  Points:
+  - {fileID: 11400000, guid: 68017ec0db6ff9b48950d2958867f13c, type: 2}
+  - {fileID: 11400000, guid: b0ecd6178235ee44c9cb371114fb0419, type: 2}
+  - {fileID: 11400000, guid: 13ccf411e36b5ed44a25f853bbb5d00a, type: 2}
+  - {fileID: 11400000, guid: b0a2b2e12ad6e594d8128bc063aa39fa, type: 2}
+  - {fileID: 11400000, guid: 63a4ebf6f58eb1d4b84baa8df993588e, type: 2}
+  - {fileID: 11400000, guid: 3973510c62b46284c89f5cd7eea6afca, type: 2}
+  - {fileID: 11400000, guid: ce563ca8069d8e04d92aefa958014a39, type: 2}
+  - {fileID: 11400000, guid: 354c1f6f9d06c034dadf99798fd03b75, type: 2}
+  - {fileID: 11400000, guid: cde39f0a07822a14598c9f9c5795cc29, type: 2}
+  Type: 0

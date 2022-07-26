@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: 53
   CoordY: 70
   HyperlaneRoutes:
-  - Shawken Spur
+  - Default/Shawken Spur

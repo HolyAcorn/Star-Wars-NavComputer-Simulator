@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: 436
   CoordY: -800
   HyperlaneRoutes:
-  - Five Veils Route
+  - Default/Five Veils Route

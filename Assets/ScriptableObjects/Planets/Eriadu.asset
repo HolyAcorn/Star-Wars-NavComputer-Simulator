@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: 155
   CoordY: -829
   HyperlaneRoutes:
-  - Rimma Trade Route
+  - Default/Rimma Trade Route

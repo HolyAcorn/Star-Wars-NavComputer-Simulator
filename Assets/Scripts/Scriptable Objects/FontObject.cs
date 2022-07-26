@@ -7,4 +7,5 @@ using UnityEngine.UI;
 public class FontObject : ScriptableObject
 {
     public Font Font;
+    public int Index;
 }

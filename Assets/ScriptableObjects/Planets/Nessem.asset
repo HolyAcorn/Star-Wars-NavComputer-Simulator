@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: 112
   CoordY: 186
   HyperlaneRoutes:
-  - Hydian Way
+  - Default/Hydian Way

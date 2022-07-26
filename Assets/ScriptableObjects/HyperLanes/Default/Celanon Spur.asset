@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 094e7b0e40ff844428779e9016f7513d, type: 3}
+  m_Name: Celanon Spur
+  m_EditorClassIdentifier: 
+  Points:
+  - {fileID: 11400000, guid: 26d0f09955212b244ac1090c2c51436d, type: 2}
+  - {fileID: 11400000, guid: 2f4e071dada891246b00373ce816a02e, type: 2}
+  - {fileID: 11400000, guid: ebaef882423cf3c4eba2762ea8fe10dd, type: 2}
+  - {fileID: 11400000, guid: d5720aa7410c0bb4ab64d81b002cafbc, type: 2}
+  - {fileID: 11400000, guid: 8bb44144db692474b83e35270e9bd203, type: 2}
+  - {fileID: 11400000, guid: 0b7518229fb12144599c1e162d27cee3, type: 2}
+  - {fileID: 11400000, guid: 9c9c55451cdf9de4a8efcba9a4334651, type: 2}
+  - {fileID: 11400000, guid: 6866a1606d3a0ba48957171ce3c14327, type: 2}
+  - {fileID: 11400000, guid: 2fe87289a94355a40b8e90fae9c0c5f7, type: 2}
+  - {fileID: 11400000, guid: 144a3290d96ea33489072f06790eac9e, type: 2}
+  - {fileID: 11400000, guid: 5f20f93ddcd2d014a8f64c42c9b81d73, type: 2}
+  - {fileID: 11400000, guid: 53133b79e8acca147b2ca8da5fe86851, type: 2}
+  - {fileID: 11400000, guid: dabace002aed83a4b968a73cdf61fa1c, type: 2}
+  - {fileID: 11400000, guid: 60d9d66cd4d7c1546bc659618249109f, type: 2}
+  - {fileID: 11400000, guid: b8ce43c97eaab4f46b21a4a601690f11, type: 2}
+  - {fileID: 11400000, guid: 03a1f9111fb621a45baa8baa2dbf9926, type: 2}
+  - {fileID: 11400000, guid: 673ac95e4da4d504fbb38bca04fb6f3d, type: 2}
+  Type: 0

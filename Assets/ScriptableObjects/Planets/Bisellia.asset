@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: -86
   CoordY: 543
   HyperlaneRoutes:
-  - Entralla Route
+  - Default/Entralla Route

@@ -1,0 +1,60 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Lipsec",
+			"CoordX": -275.8,
+			"CoordY": -866
+		},
+		{
+			"Name": "Virgillia 7",
+			"CoordX": -247.3,
+			"CoordY": -872.6
+		},
+		{
+			"Name": "Sump",
+			"CoordX": -208,
+			"CoordY": -891.3
+		},
+		{
+			"Name": "Keskin",
+			"CoordX": -163.8,
+			"CoordY": -893
+		},
+		{
+			"Name": "Unnamed",
+			"CoordX": -97.1,
+			"CoordY": -894.2
+		},
+		{
+			"Name": "Isde Naha",
+			"CoordX": -82.4,
+			"CoordY": -890.8
+		},
+		{
+			"Name": "Bettel",
+			"CoordX": -74.4,
+			"CoordY": -888.6
+		},
+		{
+			"Name": "Mev",
+			"CoordX": -66.9,
+			"CoordY": -883
+		},
+		{
+			"Name": "Kelrodo-Ai",
+			"CoordX": 62.4,
+			"CoordY": -894.2
+		},
+		{
+			"Name": "Dorvalla",
+			"CoordX": 139.4,
+			"CoordY": -839.6
+		},
+		{
+			"Name": "Eriadu",
+			"CoordX": 155.5,
+			"CoordY": -829.3
+		}
+	]
+}

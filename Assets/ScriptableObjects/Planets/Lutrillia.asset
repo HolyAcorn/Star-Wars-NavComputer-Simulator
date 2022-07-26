@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: -109
   CoordY: -843
   HyperlaneRoutes:
-  - Lutrillian Cross
+  - Default/Lutrillian Cross

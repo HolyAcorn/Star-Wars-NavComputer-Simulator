@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: -9
   CoordY: 58
   HyperlaneRoutes:
-  - Mamendin Path
+  - Default/Mamendin Path

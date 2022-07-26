@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: -56
   CoordY: 542
   HyperlaneRoutes:
-  - Braxant Run
+  - Default/Braxant Run

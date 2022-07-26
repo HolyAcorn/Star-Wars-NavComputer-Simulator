@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: -37
   CoordY: 36
   HyperlaneRoutes:
-  - Hyabb-Twith Corridor
+  - Default/Hyabb-Twith Corridor

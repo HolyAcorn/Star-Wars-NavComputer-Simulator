@@ -16,4 +16,4 @@ MonoBehaviour:
   CoordX: 233
   CoordY: -851
   HyperlaneRoutes:
-  - Sharlissian Trade Corridor
+  - Default/Sharlissian Trade Corridor
