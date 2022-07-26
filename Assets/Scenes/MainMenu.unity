@@ -5016,6 +5016,9 @@ MonoBehaviour:
   settingsPanel: {fileID: 776955870}
   loadingPanel: {fileID: 1628282717}
   dataPanel: {fileID: 1563708393}
+  mainMenuDelayTime: 0.3
+  mainMenuInType: 27
+  mainMenuStartY: -300
   fontList:
   - {fileID: 11400000, guid: fe73cccf2ed337d449abeec7e9a86bfb, type: 2}
   - {fileID: 11400000, guid: 5779ba796e8aa8144bc4fe0d8f6ad311, type: 2}

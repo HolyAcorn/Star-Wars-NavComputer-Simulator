@@ -14,6 +14,11 @@ public class MainMenu : MonoBehaviour
     [SerializeField] GameObject loadingPanel;
     [SerializeField] GameObject dataPanel;
 
+    [Header("Tweening")]
+    [SerializeField] float mainMenuDelayTime;
+    [SerializeField] LeanTweenType mainMenuInType;
+    [SerializeField] float mainMenuStartY = 570;
+    [Space(10)]
 
     [Header("Settings")]
     [SerializeField] List<FontObject> fontList;
@@ -36,6 +41,10 @@ public class MainMenu : MonoBehaviour
         PopulateFontDropDown();
         mainMenuPanel.SetActive(true);
         settingsPanel.SetActive(false);
+        mainMenuPanel.transform.localScale = new Vector3(0,0,0);
+        mainMenuPanel.transform.localPosition = new Vector3(0, mainMenuStartY, 0);
+        LeanTween.scale(mainMenuPanel, new Vector3(1, 1, 1), mainMenuDelayTime).setDelay(0.1f).setEase(mainMenuInType);
+        LeanTween.moveLocalY(mainMenuPanel, 0.0f, mainMenuDelayTime).setDelay(0.1f).setEase(mainMenuInType);
     }
 
 

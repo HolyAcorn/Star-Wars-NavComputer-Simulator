@@ -71,7 +71,7 @@ public class JsonReader : MonoBehaviour
         for (int i = 0; i < planetList.Count; i++)
         {
             progress.Value = Mathf.Lerp(0, planetList.Count, i);
-            AssetDatabase.CreateAsset(planetList[i], "Assets/ScriptableObjects/Planets/" + planetList[i].name + ".asset");
+            //AssetDatabase.CreateAsset(planetList[i], "Assets/ScriptableObjects/Planets/" + planetList[i].name + ".asset");
 
         }
 
