@@ -11,17 +11,23 @@ public class JsonReader : MonoBehaviour
 {
     public PlanetList PlanetList;
     public HyperLaneList HyperLaneList;
+    public StringVariable progressDescription;
+    public FloatVariable progress;
+    public GameEvent jsonReadDone;
 
     private string dirPath = "Assets/Data/";
+    public StringReference dataLocation;
     private string[] Files;
     private string fileName;
 
 
     public void CreatePlanetsAndHyperLanes()
     {
-        
-        foreach (HyperLane hyperLane1 in HyperLaneList.Hyperlanes)
+        progressDescription.Value = "Clearing Data";
+        for (int h = 0; h < HyperLaneList.Hyperlanes.Count; h++)
         {
+            HyperLane hyperLane1 = HyperLaneList.Hyperlanes[h];
+            progress.Value = Mathf.Lerp(0, HyperLaneList.Hyperlanes.Count, h);
             if (hyperLane1.Points.Count > 0)
             {
                 hyperLane1.Points.Clear();
@@ -31,8 +37,11 @@ public class JsonReader : MonoBehaviour
         PlanetList.ClearList();
         List<Planet> planetList = new List<Planet>();
         Files = GetFiles();
-        foreach (string file in Files)
+        for (int f = 0; f < Files.Length; f++)
         {
+            progressDescription.Value = "Creating hyperlane: " + Files[f];
+            progress.Value = Mathf.Lerp(0, Files.Length, f);
+            string file = Files[f];
             fileName = file;
             string json = File.ReadAllText(file);
             List<Planet> tempList = LoadJson(json, file, planetList);
@@ -43,15 +52,10 @@ public class JsonReader : MonoBehaviour
             List<string> hyperNames = new List<string>();
             for (int i = 0; i < planetList.Count; i++)
             {
-
                 //if (!PlanetList.Contains(planetList[i]))
                 //{
-                    PlanetList.AddPlanet(planetList[i]);
+                PlanetList.AddPlanet(planetList[i]);
                 //}
-
-
-
-
             }
             JsonFile jsonFile = JsonUtility.FromJson<JsonFile>(json);
             string regex = @"\/Data\/(.+).json";
@@ -61,19 +65,20 @@ public class JsonReader : MonoBehaviour
             hyperLane.SetupNeighbours();
             string dirPath = "Assets/ScriptableObjects/HyperLanes/";
             AssetDatabase.CreateAsset(hyperLane, dirPath + hyperLane.name + ".asset");
-
-
-
-
         }
+
+        progressDescription.Value = "Creating Assets...";
         for (int i = 0; i < planetList.Count; i++)
         {
+            progress.Value = Mathf.Lerp(0, planetList.Count, i);
             AssetDatabase.CreateAsset(planetList[i], "Assets/ScriptableObjects/Planets/" + planetList[i].name + ".asset");
 
         }
 
+        progressDescription.Value = "Removing duplicates...";
         for (int i = PlanetList.Planets.Count-1; i >= 0; i--)
         {
+            progress.Value = Mathf.Lerp(PlanetList.Planets.Count, 0, i);
             Planet planet1 = PlanetList.Planets[i];
             for (int p = PlanetList.Planets.Count-1; p >= 0; p--)
             {
@@ -85,10 +90,12 @@ public class JsonReader : MonoBehaviour
 
             }
         }
+        jsonReadDone.Raise();
     }
 
     private string[] GetFiles()
     {
+        string dirPath = this.dirPath + dataLocation.Value + "/";
         List<string> FileNames = new List<string>();
         Files = Directory.GetFiles(dirPath);
         foreach (string file in Files)

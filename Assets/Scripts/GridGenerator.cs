@@ -17,6 +17,11 @@ public class GridGenerator : MonoBehaviour
     [SerializeField] FloatReference currentCameraSize;
     [SerializeField] Sprite[] sprites;
 
+    [SerializeField] GameEvent ReadJson;
+    [SerializeField] GameEvent LoadHyperLanes;
+    
+    [SerializeField] StyleSettings styleSettings;
+ 
     private void Start()
     {
         spriteRenderer = prefab.GetComponent<SpriteRenderer>();
@@ -26,6 +31,9 @@ public class GridGenerator : MonoBehaviour
             step = new Vector2(sprite.texture.width, sprite.texture.height) / sprite.pixelsPerUnit;
         }
         gameEvent.Raise();
+        ReadJson.Raise();
+        LoadHyperLanes.Raise();
+        
     }
 
     public void GenerateGrid()
@@ -36,6 +44,7 @@ public class GridGenerator : MonoBehaviour
             for (int y = 0; y < height; y++)
             {
                 GameObject cell = Instantiate(prefab);
+                cell.GetComponent<SpriteRenderer>().color = styleSettings.GridColor;
                 cell.name = "grid_" + x + y;
                 cell.transform.parent = transform;
                 cell.transform.localPosition = new Vector2(step.x * x, step.y * y);
@@ -54,14 +63,11 @@ public class GridGenerator : MonoBehaviour
         {
             ChangeSize(1);
         }
-        if (currentCameraSize.Value > 49.0f && currentCameraSize.Value < 69.0f)
+        if (currentCameraSize.Value > 49.0f)
         {
             ChangeSize(2);
         }
-        if (currentCameraSize.Value > 69.0f)
-        {
-            ChangeSize(3);
-        }
+
     }
 
     private void ChangeSize(int index)
