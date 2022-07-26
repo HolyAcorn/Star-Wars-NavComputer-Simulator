@@ -50,6 +50,11 @@
 			"Name": "Mijos",
 			"CoordX": -96.6,
 			"CoordY": -834.9
+		},
+		{
+			"Name": "Gerrenthum",
+			"CoordX": -90.2,
+			"CoordY": -840.7
 		}
 	]
 }
