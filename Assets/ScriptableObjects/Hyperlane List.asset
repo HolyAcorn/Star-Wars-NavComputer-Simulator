@@ -13,6 +13,30 @@ MonoBehaviour:
   m_Name: Hyperlane List
   m_EditorClassIdentifier: 
   Hyperlanes:
-  - {fileID: 11400000, guid: 936c3d96d0cc025428fbabd8a36633d0, type: 2}
-  - {fileID: 11400000, guid: 4bd444af67b450149ab315b3a918d3f1, type: 2}
-  - {fileID: 11400000, guid: ce09973c1cb0cfb46803bac40a107505, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

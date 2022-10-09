@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 using System.IO;
 using System.Text.RegularExpressions;
-using UnityEditor;
+//using UnityEditor;
 
 
 public class JsonReader : MonoBehaviour
@@ -15,7 +15,7 @@ public class JsonReader : MonoBehaviour
     public FloatVariable progress;
     public GameEvent jsonReadDone;
 
-    private string dirPath = "Assets/Data/";
+    private string dirPath;
     public StringReference dataLocation;
     private string[] Files;
     private string fileName;
@@ -23,6 +23,8 @@ public class JsonReader : MonoBehaviour
 
     public void CreatePlanetsAndHyperLanes()
     {
+        HyperLaneList.Hyperlanes.Clear();
+        dirPath = Application.dataPath + "/StreamingAssets/Data/";
         progressDescription.Value = "Clearing Data";
         for (int h = 0; h < HyperLaneList.Hyperlanes.Count; h++)
         {
@@ -36,6 +38,7 @@ public class JsonReader : MonoBehaviour
         HyperLaneList.Hyperlanes.Clear();
         PlanetList.ClearList();
         List<Planet> planetList = new List<Planet>();
+        //Files = Resources.LoadAll<string>("Data");
         Files = GetFiles();
         for (int f = 0; f < Files.Length; f++)
         {
@@ -64,7 +67,7 @@ public class JsonReader : MonoBehaviour
             hyperLane.SetType(jsonFile.Type);
             hyperLane.SetupNeighbours();
             string dirPath = "Assets/ScriptableObjects/HyperLanes/";
-            AssetDatabase.CreateAsset(hyperLane, dirPath + hyperLane.name + ".asset");
+            //AssetDatabase.CreateAsset(hyperLane, dirPath + hyperLane.name + ".asset");
         }
 
         progressDescription.Value = "Creating Assets...";

@@ -42,7 +42,7 @@ public class HyperLane : ScriptableObject
         {
             Directory.CreateDirectory(dirPath);
         }
-        AssetDatabase.CreateAsset(hyperLanePoint, dirPath + hyperLanePoint.name + ".asset");
+        //AssetDatabase.CreateAsset(hyperLanePoint, dirPath + hyperLanePoint.name + ".asset");
         Points.Add(hyperLanePoint);
     }
 

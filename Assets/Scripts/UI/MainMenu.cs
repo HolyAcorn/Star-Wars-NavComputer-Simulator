@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -76,36 +77,44 @@ public class MainMenu : MonoBehaviour
 
     public void LoadMap()
     {
-        isLoading = true;
-        dataPanel.SetActive(false);
-        loadingPanel.SetActive(true);
-        StartCoroutine(LoadAsynchronously());
-        
-        
+        LoadAsynchronously();
+
     }
 
     public void LoadJson()
     {
-        readFromJson.Raise();
+        if (!isLoading)
+        {
+            isLoading = true;
+            dataPanel.SetActive(false);
+            loadingPanel.SetActive(true);
+
+            readFromJson.Raise();
+        }
     }
     public void SetLoadingFalse()
     {
         isLoading = false;
     }
 
-    IEnumerator LoadAsynchronously()
+    async void LoadAsynchronously()
     {
         AsyncOperation operation = SceneManager.LoadSceneAsync(1);
+        operation.allowSceneActivation = false;
 
 
-        while (!operation.isDone)
+        do
         {
             float progress = Mathf.Clamp01(operation.progress / .9f);
             loadingText.text = progressDescription.Value;
             //loadingSlider.value = progress.Value;
             loadingSlider.value = progress;
-            yield return null;
-        }
+
+        } while (operation.progress < 0.9f);
+
+
+        operation.allowSceneActivation = true;
+
     }
 
     #region SETTINGS
