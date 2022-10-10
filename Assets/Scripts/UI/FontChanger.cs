@@ -27,6 +27,7 @@ public class FontChanger : MonoBehaviour
             }
         }
     }
+
     // Update is called once per frame
     void Update()
     {
