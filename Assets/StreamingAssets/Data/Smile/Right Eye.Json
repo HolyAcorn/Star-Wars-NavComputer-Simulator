@@ -1,0 +1,15 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "L",
+			"CoordX": 30,
+			"CoordY": 50
+		},
+		{
+			"Name": "gfdD",
+			"CoordX": 30,
+			"CoordY": 20
+		}
+	]
+}

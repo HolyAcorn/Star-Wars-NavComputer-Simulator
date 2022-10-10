@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -25,6 +26,8 @@ public class MainMenu : MonoBehaviour
     [SerializeField] List<FontObject> fontList;
     [SerializeField] Dropdown fontDropDown;
     [SerializeField] FontObject activeFont;
+    [SerializeField] StringVariable hyperLaneData;
+    [SerializeField] TMP_InputField hyperLaneDataInputField;
 
     [Header("Loading")]
     [SerializeField] GameEvent readFromJson;
@@ -46,13 +49,6 @@ public class MainMenu : MonoBehaviour
         mainMenuPanel.transform.localPosition = new Vector3(0, mainMenuStartY, 0);
         LeanTween.scale(mainMenuPanel, new Vector3(1, 1, 1), mainMenuDelayTime).setDelay(0.1f).setEase(mainMenuInType);
         LeanTween.moveLocalY(mainMenuPanel, 0.0f, mainMenuDelayTime).setDelay(0.1f).setEase(mainMenuInType);
-    }
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
     
 
@@ -124,6 +120,7 @@ public class MainMenu : MonoBehaviour
         dataPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
         fontChanger.ChangeFont();
+        hyperLaneData.Value = hyperLaneDataInputField.text;
 
     }
 

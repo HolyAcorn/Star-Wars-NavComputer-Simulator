@@ -19,6 +19,7 @@ public class HyperLaneLine : MonoBehaviour
     private Vector2[] points;
 
     private LineRenderer Line;
+    private List<LineRenderer> Lines = new List<LineRenderer>();
     public GameObject hyperLanePrefab;
 
     public Vector3[] InitialState;
@@ -61,6 +62,7 @@ public class HyperLaneLine : MonoBehaviour
                 Line.SetPosition(i, points[i]);
             }
             instance.transform.parent = transform;
+            Lines.Add(Line);
         }
 
     }
@@ -118,5 +120,7 @@ public class HyperLaneLine : MonoBehaviour
 
         return result;
     }
+
+
 
 }

@@ -1,0 +1,50 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "sdfa",
+			"CoordX": -90,
+			"CoordY": 30
+		},
+		{
+			"Name": "ahfgd",
+			"CoordX": -80,
+			"CoordY": 25
+		},
+		{
+			"Name": "asfdafgh",
+			"CoordX": -60,
+			"CoordY": 15
+		},
+		{
+			"Name": "ahfagfghfgd",
+			"CoordX": -30,
+			"CoordY": 5
+		},
+		{
+			"Name": "ahfgdhgkj",
+			"CoordX": 0,
+			"CoordY": 0
+		},
+		{
+			"Name": "adfdfasdfa",
+			"CoordX": 30,
+			"CoordY": 5
+		},
+		{
+			"Name": "aghfdajdjrthfgd",
+			"CoordX": 60,
+			"CoordY": 15
+		},
+		{
+			"Name": "asfdafghkyurukry",
+			"CoordX": 80,
+			"CoordY": 25
+		},
+		{
+			"Name": "afghjkljnhfagfghfgd",
+			"CoordX": 90,
+			"CoordY": 30
+		}
+	]
+}

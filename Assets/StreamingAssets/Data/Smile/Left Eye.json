@@ -1,0 +1,15 @@
+{
+	"Type": 0,
+	"JsonPlanets": [
+		{
+			"Name": "Xerton Nine",
+			"CoordX": -30,
+			"CoordY": 50
+		},
+		{
+			"Name": "Qonto",
+			"CoordX": -30,
+			"CoordY": 20
+		}
+	]
+}

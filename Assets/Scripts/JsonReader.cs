@@ -81,6 +81,7 @@ public class JsonReader : MonoBehaviour
         progressDescription.Value = "Removing duplicates...";
         for (int i = PlanetList.Planets.Count-1; i >= 0; i--)
         {
+            //if (i >= PlanetList.Planets.Count) i = PlanetList.Planets.Count - 1;
             progress.Value = Mathf.Lerp(PlanetList.Planets.Count, 0, i);
             Planet planet1 = PlanetList.Planets[i];
             for (int p = PlanetList.Planets.Count-1; p >= 0; p--)
