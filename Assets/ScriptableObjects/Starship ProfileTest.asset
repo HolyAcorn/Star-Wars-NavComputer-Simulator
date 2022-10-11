@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 329362c7a4ae3d6409d279503b549a9b, type: 3}
+  m_Name: Starship ProfileTest
+  m_EditorClassIdentifier: 
+  Name: Jinga
+  Model: Tie Biter
+  Type: Starfighter
+  Description: dsfa
+  Crew: 3 pilots, 1 dancer
+  Passengers: 345
+  HyperDriveType: Godzilla Drive
+  HyperdriveRating: 76
+  Silhouette: 10
+  Speed: 2
+  Handling: 10
+  Armor: 10
+  HullTraumaThreshold: 23
+  HullTrauma: 0
+  SystemStrainThreshold: 23
+  SystemStrain: 0
