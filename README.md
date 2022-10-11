@@ -12,6 +12,9 @@ The Star Wars NavComputer Simulator (swNavSIM) is a free and open source softwar
 - Inputs (such as inputting Hyperdrive class or exterior modifiers) `Not implemented`
 - Calculation Simulator `Not implemented`
 - Customization `Not implemented`
+- Fuel & Consumables tracker `Not implemented`
+- Ship details `Not implemented`
+- Export list of stops/jumps `Not implemented`
 
 More features will be added in the future.
 
