@@ -26,16 +26,6 @@ public class JsonReader : MonoBehaviour
         HyperLaneList.Hyperlanes.Clear();
         dirPath = Application.dataPath + "/StreamingAssets/Data/";
         progressDescription.Value = "Clearing Data";
-        for (int h = 0; h < HyperLaneList.Hyperlanes.Count; h++)
-        {
-            HyperLane hyperLane1 = HyperLaneList.Hyperlanes[h];
-            progress.Value = Mathf.Lerp(0, HyperLaneList.Hyperlanes.Count, h);
-            if (hyperLane1.Points.Count > 0)
-            {
-                hyperLane1.Points.Clear();
-            }
-        }
-        HyperLaneList.Hyperlanes.Clear();
         PlanetList.ClearList();
         List<Planet> planetList = new List<Planet>();
         //Files = Resources.LoadAll<string>("Data");
@@ -127,7 +117,15 @@ public class JsonReader : MonoBehaviour
         {
             JsonPlanets jsonPlanet = planets.JsonPlanets[i];
             bool shouldCreateNew = true;
-
+            foreach (Planet planet1 in planetList)
+            {
+                if (planet1.name == jsonPlanet.Name)
+                {
+                    planet1.HyperlaneRoutes.Add(result);
+                    planet1.HyperLaneIndex.Add(i);
+                    shouldCreateNew = false;
+                }
+            }
             if (shouldCreateNew)
             {
                 Planet planet = ScriptableObject.CreateInstance<Planet>();
@@ -137,16 +135,10 @@ public class JsonReader : MonoBehaviour
                 planet.CoordY = jsonPlanet.CoordY;
                 planet.HyperlaneRoutes = new List<string>();
                 planet.HyperlaneRoutes.Add(result);
+                planet.HyperLaneIndex.Add(i);
                 planetList.Add(planet);
             }
-            /*foreach (Planet planet1 in planetList)
-            {
-                if (planet1.name == jsonPlanet.Name)
-                {
-                    planet1.HyperlaneRoutes.Add(result);
-                    shouldCreateNew = false;
-                }
-            }*/
+            
 
         }
         return planetListNew;
@@ -169,9 +161,33 @@ public class JsonReader : MonoBehaviour
                     hyperLane.AddPoint(planet, new Vector2(planet.CoordX, planet.CoordY));
                 }
             }
-
         }
-            HyperLaneList.Hyperlanes.Add(hyperLane);
+
+
+        for (int a = 0; a < hyperLane.Points.Count; a++)
+        {
+            int TRLi0 = hyperLane.Points[a].Planet.HyperlaneRoutes.IndexOf(HyperLaneName);
+            int aIndex = hyperLane.Points[a].Planet.HyperLaneIndex[TRLi0];
+            for (int b = 0; b < hyperLane.Points.Count; b++)
+            {
+                int TRLi1 = hyperLane.Points[b].Planet.HyperlaneRoutes.IndexOf(HyperLaneName);
+                int bIndex = hyperLane.Points[b].Planet.HyperLaneIndex[TRLi1];
+                if (hyperLane.Points[a] != hyperLane.Points[b])
+                {
+                    if(aIndex > bIndex)
+                    {
+                        HyperLanePoint tempPoint = hyperLane.Points[a];
+                        hyperLane.Points[a] = hyperLane.Points[b];
+                        hyperLane.Points[b] = tempPoint;
+                    }
+                }
+
+            }
+        }
+
+
+
+        HyperLaneList.Hyperlanes.Add(hyperLane);
         
         return hyperLane;
     }

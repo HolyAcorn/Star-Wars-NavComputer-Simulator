@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -40,8 +41,39 @@ public class StarshipProfile : ScriptableObject
     public int SystemStrainThreshold;
     public int SystemStrain;
 
+    public int FuelThreshold;
+    public int Fuel;
+
+    public int ConsumablesThreshold;
+    public int Consumables;
 
 
+    #region UpdateSettings
+    public void UpdateName(string value) { Name = value; }
+    public void UpdateModel(string value) { Model = value; }
+    public void UpdateType(string value) { Type = value; }
+    public void UpdateDescription(string value) { Description = value; }
+    public void UpdateCrew(string value) { Crew = value; }
+    public void UpdatePassengers(string value) { Passengers = Int32.Parse(value); }
+    public void UpdateHyperDriveType(string value) { HyperDriveType = value; }
+    public void UpdateHyperdriveRating(string value) { HyperdriveRating = Int32.Parse(value); }
+    public void UpdateSilhouette(string value) { Silhouette= Int32.Parse(value); }
+    public void UpdateSpeed(string value) { Speed = Int32.Parse(value); }
+    public void UpdateHandling(string value) { Handling = Int32.Parse(value); }
+    public void UpdateDefenseFore(string value) { Defense.Fore = Int32.Parse(value); }
+    public void UpdateDefenseStarboard(string value) { Defense.Starboard = Int32.Parse(value); }
+    public void UpdateDefenseAft(string value) { Defense.Aft = Int32.Parse(value); }
+    public void UpdateDefensePort(string value) { Defense.Port = Int32.Parse(value); }
+
+    public void UpdateHullTraumaThreshold(string value) { HullTraumaThreshold = Int32.Parse(value); }
+
+    public void UpdateFuelThreshold(string value) { FuelThreshold = Int32.Parse(value); }
+    public void UpdateFuel(string value) { Fuel = Int32.Parse(value); }
+
+    public void UpdateConsumablesThreshold(string value) { ConsumablesThreshold = Int32.Parse(value); }
+    public void UpdateConsumables(string value) { Consumables = Int32.Parse(value); }
+
+    #endregion
 
     #region SAVE TO JSON
 
@@ -80,6 +112,7 @@ public class StarshipProfile : ScriptableObject
 
 
         if (!Directory.Exists(SAVEPATH)) Directory.CreateDirectory(SAVEPATH);
+        if (File.Exists(SAVEPATH + "/" + Name + ".json")) Debug.Log("Overwritten file");
 
         File.WriteAllText(SAVEPATH + "/" + Name + ".json", json);
 

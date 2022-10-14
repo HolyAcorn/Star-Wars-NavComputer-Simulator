@@ -30,6 +30,7 @@ public class HyperLane : ScriptableObject
         }
     }
 
+
     public void AddPoint(Planet planet, Vector2 position)
     {
         HyperLanePoint hyperLanePoint = ScriptableObject.CreateInstance<HyperLanePoint>();

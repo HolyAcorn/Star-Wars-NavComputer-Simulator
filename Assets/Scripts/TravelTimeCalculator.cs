@@ -26,18 +26,28 @@ namespace TravelTime
         public FloatReference sizeDifference;
 
         public FloatReference modifier;
-        public FloatReference hyperDriveClass;
+        public StarshipProfile starshipProfile;
         public float parsecsPerHour = 93.75f;
         public FloatReference finalDistance;
         public FloatReference timeRequired;
 
         private Path shortestPath = new Path();
+        [SerializeField] HyperPointRuntimeSet calculatedPath;
+        [SerializeField] GameEvent calculateFuel;
 
 
         public void CalculateTimeRequired()
         {
-            timeRequired.Variable.Value = ((finalDistance.Value / parsecsPerHour) * hyperDriveClass.Value) + modifier.Value;
-            
+            timeRequired.Variable.Value = ((finalDistance.Value / parsecsPerHour) * starshipProfile.HyperdriveRating) + modifier.Value;
+        }
+
+        private void Awake()
+        {
+            calculatedPath.Clear();
+        }
+        private void OnApplicationQuit()
+        {
+            calculatedPath.Clear();
         }
 
         public void CreatePath()
@@ -60,7 +70,13 @@ namespace TravelTime
             }
             ConnectPoints();
             List<HyperLanePoint> point = Astar();
+            calculatedPath.items = point;
             GeneratePath(point);
+            calculateFuel.Raise();
+            for (int i = 0; i < point[0].Planet.HyperlaneRoutes.Count; i++)
+            {
+                Debug.Log(point[0].Planet.HyperlaneRoutes[i]);
+            }
         }
 
         private void GeneratePath(List<HyperLanePoint> points)

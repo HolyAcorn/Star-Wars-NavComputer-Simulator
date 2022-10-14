@@ -19,7 +19,7 @@ MonoBehaviour:
   Crew: 3 pilots, 1 dancer
   Passengers: 345
   HyperDriveType: Godzilla Drive
-  HyperdriveRating: 76
+  HyperdriveRating: 1
   Silhouette: 10
   Speed: 2
   Handling: 10
@@ -28,3 +28,7 @@ MonoBehaviour:
   HullTrauma: 0
   SystemStrainThreshold: 23
   SystemStrain: 0
+  FuelThreshold: 0
+  Fuel: 0
+  ConsumablesThreshold: 0
+  Consumables: 0
