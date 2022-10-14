@@ -33,6 +33,7 @@ namespace TravelTime
 
         private Path shortestPath = new Path();
         [SerializeField] HyperPointRuntimeSet calculatedPath;
+        [SerializeField] StringRuntimeSet TradeRoutes;
         [SerializeField] GameEvent calculateFuel;
 
 
@@ -48,6 +49,7 @@ namespace TravelTime
         private void OnApplicationQuit()
         {
             calculatedPath.Clear();
+            TradeRoutes.Clear();
         }
 
         public void CreatePath()
@@ -73,10 +75,8 @@ namespace TravelTime
             calculatedPath.items = point;
             GeneratePath(point);
             calculateFuel.Raise();
-            for (int i = 0; i < point[0].Planet.HyperlaneRoutes.Count; i++)
-            {
-                Debug.Log(point[0].Planet.HyperlaneRoutes[i]);
-            }
+            TradeRoutes.items = CalculateNumberOfHyperLanes();
+
         }
 
         private void GeneratePath(List<HyperLanePoint> points)
@@ -320,8 +320,38 @@ namespace TravelTime
             
             return path;
         }
+
+
+        private List<string> CalculateNumberOfHyperLanes()
+        {
+            List<string> hyperLanes = new List<string>();
+            for (int a = 0; a < calculatedPath.Count() -1; a++)
+            {
+                HyperLanePoint hyperPointA = calculatedPath.GetItemFromIndex(a);
+                HyperLanePoint hyperPointB = calculatedPath.GetItemFromIndex(a + 1);
+                for (int i = 0; i < hyperPointA.Planet.HyperlaneRoutes.Count; i++)
+                {
+                    string hyperLaneX = hyperPointA.Planet.HyperlaneRoutes[i];
+                    for (int y = 0; y < hyperPointB.Planet.HyperlaneRoutes.Count; y++)
+                    {
+                        string hyperLaneY = hyperPointB.Planet.HyperlaneRoutes[y];
+
+                        if (hyperLaneX == hyperLaneY)
+                        {
+                            if (!hyperLanes.Contains(hyperLaneX)) hyperLanes.Add(hyperLaneX);
+                            break;
+                        }
+                    }
+                }
+
+
+            }
+            return hyperLanes;
+
+        }
     }
 
+    
 
 
     public class Path

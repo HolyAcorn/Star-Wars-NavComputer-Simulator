@@ -9,6 +9,8 @@ public class FuelAndConsumablesHandler : MonoBehaviour
     // Start is called before the first frame update
     public FloatVariable timeRequired;
 
+
+
     public int requiredFuelCells = 0;
 
 
