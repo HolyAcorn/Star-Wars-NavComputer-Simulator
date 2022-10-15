@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.SocialPlatforms;
 
 public struct Defense
 {
@@ -47,6 +48,12 @@ public class StarshipProfile : ScriptableObject
     public int ConsumablesThreshold;
     public int Consumables;
 
+    // 0 is undamaged,
+    // 1 is lightly damaged
+    // 2 is heavily damaged
+    [Range(0, 2)]
+    public int damageLevel;
+
 
     #region UpdateSettings
     public void UpdateName(string value) { Name = value; }
@@ -64,7 +71,13 @@ public class StarshipProfile : ScriptableObject
     public void UpdateDefenseStarboard(string value) { Defense.Starboard = Int32.Parse(value); }
     public void UpdateDefenseAft(string value) { Defense.Aft = Int32.Parse(value); }
     public void UpdateDefensePort(string value) { Defense.Port = Int32.Parse(value); }
-
+    public void UpdateHullTrauma(string value) 
+    { 
+        HullTrauma = Int32.Parse(value);
+        if (HullTrauma / HullTraumaThreshold > 0.75f) damageLevel = 0;
+        else if (HullTrauma / HullTraumaThreshold > 0.5f) damageLevel = 1;
+        else damageLevel = 2;
+    }
     public void UpdateHullTraumaThreshold(string value) { HullTraumaThreshold = Int32.Parse(value); }
 
     public void UpdateFuelThreshold(string value) { FuelThreshold = Int32.Parse(value); }

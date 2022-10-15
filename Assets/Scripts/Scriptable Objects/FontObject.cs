@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,5 +8,6 @@ using UnityEngine.UI;
 public class FontObject : ScriptableObject
 {
     public Font Font;
+    public TMP_FontAsset fontAsset;
     public int Index;
 }

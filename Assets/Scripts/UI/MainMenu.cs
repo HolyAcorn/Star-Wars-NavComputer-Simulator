@@ -139,6 +139,7 @@ public class MainMenu : MonoBehaviour
     {
         activeFont.Font = fontList[index].Font;
         activeFont.Index = index;
+        activeFont.fontAsset = fontList[index].fontAsset;
         fontChanger.ChangeFont();
     }
 

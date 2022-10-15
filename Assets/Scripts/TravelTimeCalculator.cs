@@ -74,8 +74,9 @@ namespace TravelTime
             List<HyperLanePoint> point = Astar();
             calculatedPath.items = point;
             GeneratePath(point);
-            calculateFuel.Raise();
+            CalculateTimeRequired();
             TradeRoutes.items = CalculateNumberOfHyperLanes();
+            calculateFuel.Raise();
 
         }
 

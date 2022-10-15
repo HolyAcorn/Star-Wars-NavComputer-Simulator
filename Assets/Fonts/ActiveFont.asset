@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a6ae0fd1a77ba43b0438435e1e595e, type: 3}
   m_Name: ActiveFont
   m_EditorClassIdentifier: 
-  Font: {fileID: 12800000, guid: 5e77c6dd168ff344881b18fa81ce9e88, type: 3}
+  Font: {fileID: 12800000, guid: 7daf7ad6ca584a547b77942c005edfd9, type: 3}
+  fontAsset: {fileID: 11400000, guid: 523fe50ece63b9046809faea0e512af2, type: 2}
+  Index: 1

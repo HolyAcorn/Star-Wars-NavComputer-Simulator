@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: Bungee
   m_EditorClassIdentifier: 
   Font: {fileID: 12800000, guid: 5e77c6dd168ff344881b18fa81ce9e88, type: 3}
+  fontAsset: {fileID: 11400000, guid: fe487590988617d46aec2fafb8be7c28, type: 2}
+  Index: 0

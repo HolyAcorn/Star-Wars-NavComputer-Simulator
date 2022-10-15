@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,14 +12,14 @@ public class FontChanger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        ChangeFont();
     }
 
     
 
     public void ChangeFont()
     {
-        textObjects = Object.FindObjectsOfType<Text>();
+        textObjects = Resources.FindObjectsOfTypeAll<Text>();
         foreach (Text text in textObjects)
         {
             if (text.font != activeFont.Font)
@@ -26,11 +27,11 @@ public class FontChanger : MonoBehaviour
                 text.font = activeFont.Font;
             }
         }
+        TextMeshProUGUI[] textMeshPros = Resources.FindObjectsOfTypeAll<TextMeshProUGUI>();
+        foreach (TextMeshProUGUI text in textMeshPros)
+        {
+            if (text.font != activeFont.Font) text.font = activeFont.fontAsset;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        ChangeFont();
-    }
 }
