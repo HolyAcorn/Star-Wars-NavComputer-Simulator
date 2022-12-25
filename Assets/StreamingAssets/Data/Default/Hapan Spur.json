@@ -1,0 +1,20 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Taanab",
+      "CoordX": 353.4,
+      "CoordY": 110.2
+    },
+    {
+      "Name": "Roqoo Depot",
+      "CoordX": 362.2,
+      "CoordY": 62.4
+    },
+    {
+      "Name": "Terephon",
+      "CoordX": 355.9,
+      "CoordY": 60.8
+    }
+  ]
+}

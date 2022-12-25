@@ -1,0 +1,31 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Kashyyk",
+      "CoordX": 472.5,
+      "CoordY": 11.2
+    },
+    {
+      "Name": "Tholatin",
+      "CoordX": 475.2,
+      "CoordY": -10.6
+    },
+    {
+      "Name": "Mytaranor",
+      "CoordX": 477.9,
+      "CoordY": -10.1
+    },
+    {
+      "Name": "Pizilis",
+      "CoordX": 479,
+      "CoordY": -20
+    },
+    {
+      "Name": "Terr'skiar",
+      "CoordX": 479.5,
+      "CoordY": -32.3
+    }
+    
+  ]
+}

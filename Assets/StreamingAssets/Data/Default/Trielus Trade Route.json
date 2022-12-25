@@ -1,0 +1,250 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Centares",
+      "CoordX": 638.7,
+      "CoordY": 265.4
+    },
+    {
+      "Name": "Sy Myrth",
+      "CoordX": 700,
+      "CoordY": 250.9
+    },
+    {
+      "Name": "Handooine",
+      "CoordX": 736.4,
+      "CoordY": 248.9
+    },
+    {
+      "Name": "Jabiim",
+      "CoordX": 755.2,
+      "CoordY": 227.6
+    },
+    {
+      "Name": "Taskeed",
+      "CoordX": 758.8,
+      "CoordY": 208.3
+    },
+    {
+      "Name": "Dennogra",
+      "CoordX": 776.2,
+      "CoordY": 190.5
+    },
+    {
+      "Name": "Junkfort Station",
+      "CoordX": 806,
+      "CoordY": 163.2
+    },
+    {
+      "Name": "Nimat",
+      "CoordX": 805.7,
+      "CoordY": 153.6
+    },
+    {
+      "Name": "Tammar",
+      "CoordX": 805.4,
+      "CoordY": 119
+    },
+    {
+      "Name": "Kegan",
+      "CoordX": 861.7,
+      "CoordY": 89.6
+    },
+    {
+      "Name": "Gestrex III",
+      "CoordX": 862.6,
+      "CoordY": 52.3
+    },
+    {
+      "Name": "Norval II",
+      "CoordX": 863.1,
+      "CoordY": 44.1
+    },
+    {
+      "Name": "Kubindi",
+      "CoordX": 869.1,
+      "CoordY": 27.4
+    },
+    {
+      "Name": "Drulakiin",
+      "CoordX": 892.9,
+      "CoordY": -2.4
+    },
+    {
+      "Name": "Formos",
+      "CoordX": 893.7,
+      "CoordY": -25.3
+    },
+    {
+      "Name": "Eadu",
+      "CoordX": 909.4,
+      "CoordY": -44.3
+    },
+    {
+      "Name": "Bheriz",
+      "CoordX": 915.2,
+      "CoordY": -49.7
+    },
+    {
+      "Name": "Abuda",
+      "CoordX": 933.9,
+      "CoordY": -114.9
+    },
+    {
+      "Name": "Glottal",
+      "CoordX": 926.9,
+      "CoordY": -152
+    },
+    {
+      "Name": "Teth",
+      "CoordX": 911.9,
+      "CoordY": -210.2
+    },
+    {
+      "Name": "Rampa Minor",
+      "CoordX": 912.7,
+      "CoordY": -228.9
+    },
+    {
+      "Name": "Dilbana",
+      "CoordX": 912,
+      "CoordY": -265.4
+    },
+    {
+      "Name": "Clantaano III",
+      "CoordX": 912,
+      "CoordY": -272.1
+    },
+    {
+      "Name": "Barab I",
+      "CoordX": 904.8,
+      "CoordY": -295.9
+    },
+    {
+      "Name": "Dubrava",
+      "CoordX": 891.2,
+      "CoordY": -321.7
+    },
+    {
+      "Name": "Syvris",
+      "CoordX": 848.7,
+      "CoordY": -344.8
+    },
+    {
+      "Name": "Arami",
+      "CoordX": 836.7,
+      "CoordY": -383.3
+    },
+    {
+      "Name": "Gamorr",
+      "CoordX": 845.5,
+      "CoordY": -431.6
+    },
+    {
+      "Name": "Lyran",
+      "CoordX": 791,
+      "CoordY": -513.6
+    },
+    {
+      "Name": "Molavar",
+      "CoordX": 732.3,
+      "CoordY": -558.3
+    },
+    {
+      "Name": "Tieos",
+      "CoordX": 708.7,
+      "CoordY": -566.3
+    },
+    {
+      "Name": "Koiogra",
+      "CoordX": 670.8,
+      "CoordY": -617
+    },
+    {
+      "Name": "Piroket",
+      "CoordX": 660.9,
+      "CoordY": -642.3
+    },
+    {
+      "Name": "A-Foroon",
+      "CoordX": 660,
+      "CoordY": -648.9
+    },
+    {
+      "Name": "B-Foroon",
+      "CoordX": 659.5,
+      "CoordY": -651.2
+    },
+    {
+      "Name": "C-Foroon",
+      "CoordX": 658.9,
+      "CoordY": -653.5
+    },
+    {
+      "Name": "Tatooine",
+      "CoordX": 644.4,
+      "CoordY": -673.3
+    },
+    {
+      "Name": "Andooweel",
+      "CoordX": 637.2,
+      "CoordY": -678.6
+    },
+    {
+      "Name": "Kermal Station",
+      "CoordX": 629.2,
+      "CoordY": -684.2
+    },
+    {
+      "Name": "New Ator",
+      "CoordX": 624.4,
+      "CoordY": -692.4
+    },
+    {
+      "Name": "Issor",
+      "CoordX": 622.6,
+      "CoordY": -701
+    },
+    {
+      "Name": "Arkanis",
+      "CoordX": 614.1,
+      "CoordY": -708.9
+    },
+    {
+      "Name": "Tythe",
+      "CoordX": 597.6,
+      "CoordY": -699.9
+    },
+    {
+      "Name": "Llanic",
+      "CoordX": 527.4,
+      "CoordY": -695.7
+    },
+    {
+      "Name": "Zhar",
+      "CoordX": 493.9,
+      "CoordY": -718.8
+    },
+    {
+      "Name": "Acilaris",
+      "CoordX": 434,
+      "CoordY": -711.9
+    },
+    {
+      "Name": "Farstine",
+      "CoordX": 408.5,
+      "CoordY": -708.2
+    },
+    {
+      "Name": "Ryndellia",
+      "CoordX": 377,
+      "CoordY": -706.1
+    },
+    {
+      "Name": "Enarc",
+      "CoordX": 340.8,
+      "CoordY": -716.1
+    }
+  ]
+}

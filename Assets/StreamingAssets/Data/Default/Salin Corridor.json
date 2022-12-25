@@ -1,0 +1,85 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Salin",
+      "CoordX": 275.8,
+      "CoordY": 422.2
+    },
+    {
+      "Name": "Vinsoth",
+      "CoordX": 278.2,
+      "CoordY": 410
+    },
+    {
+      "Name": "Drackmar",
+      "CoordX": 334.3,
+      "CoordY": 372.9
+    },
+    {
+      "Name": "Botajef",
+      "CoordX": 344.8,
+      "CoordY": 351.5
+    },
+    {
+      "Name": "Alba-16",
+      "CoordX": 388.4,
+      "CoordY": 310.3
+    },
+    {
+      "Name": "Phindar",
+      "CoordX": 422.3,
+      "CoordY": 301.8
+    },
+    {
+      "Name": "Gala",
+      "CoordX": 542.9,
+      "CoordY": 299.9
+    },
+    {
+      "Name": "Vjun",
+      "CoordX": 546.3,
+      "CoordY": 313.9
+    },
+    {
+      "Name": "Lucazec",
+      "CoordX": 563.9,
+      "CoordY": 328.8
+    },
+    {
+      "Name": "Columex",
+      "CoordX": 675.5,
+      "CoordY": 327.8
+    },
+    {
+      "Name": "Belderone",
+      "CoordX": 677.8,
+      "CoordY": 312.5
+    },
+    {
+      "Name": "Trogan",
+      "CoordX": 674.6,
+      "CoordY": 284.2
+    },
+    {
+      "Name": "Sy Myrth",
+      "CoordX": 700,
+      "CoordY": 250.9
+    },
+    {
+      "Name": "Kile",
+      "CoordX": 709.1,
+      "CoordY": 234.4
+    },
+    {
+      "Name": "Komnor",
+      "CoordX": 743.7,
+      "CoordY": 198.1
+    },
+    {
+      "Name": "Boonta",
+      "CoordX": 745.7,
+      "CoordY": 149.3
+    }
+  ]
+}
