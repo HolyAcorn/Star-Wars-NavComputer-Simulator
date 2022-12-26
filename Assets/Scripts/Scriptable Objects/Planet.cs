@@ -3,28 +3,63 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-[CreateAssetMenu(fileName ="Planet", menuName = "Scriptable Objects/Planet")]
-public class Planet : ScriptableObject, IComparable<Planet>
+namespace SwNavComp
 {
-    public string Name;
-    public int CoordX;
-    public int CoordY;
-
-    public List<string> HyperlaneRoutes;
-    public List<int> HyperLaneIndex = new List<int>();
-
-
-    public int CompareTo(Planet other, int whichHyperlane)
+    [CreateAssetMenu(fileName = "Planet", menuName = "Scriptable Objects/Planet")]
+    public class Planet : ScriptableObject, IComparable<Planet>
     {
-        if (HyperLaneIndex[whichHyperlane] > other.HyperLaneIndex[whichHyperlane]) return 1;
-        else if (HyperLaneIndex[whichHyperlane] < other.HyperLaneIndex[whichHyperlane]) return -1;
-        else return 0;
-    }
-    
+        
+        public int CoordX { get; private set; }
+        public int CoordY { get; private set; }
 
-    public int CompareTo(Planet other)
-    {
-        throw new NotImplementedException();
+        public string displayName { get; private set; }
+        public List<string> HyperlaneRoutes = new List<string>();
+        public List<int> IndexInHyperLane = new List<int>();
+        public List<Path> shortestPath;
+        public List<Neighbour> neighbours = new List<Neighbour>();
+
+        public void Initialize(string name, int coordX, int coordY)
+        {
+            this.name = name;
+            displayName = name;
+            CoordX = coordX;
+            CoordY = coordY;
+        }
+
+        public int CompareTo(Planet other, int whichHyperlane)
+        {
+            if (IndexInHyperLane[whichHyperlane] > other.IndexInHyperLane[whichHyperlane]) return 1;
+            else if (IndexInHyperLane[whichHyperlane] < other.IndexInHyperLane[whichHyperlane]) return -1;
+            else return 0;
+        }
+
+
+        public int CompareTo(Planet other)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SetHyperLaneRoute(string hyperName, int Index)
+        {
+            HyperlaneRoutes.Add(hyperName);
+            IndexInHyperLane.Add(Index);
+        }
+
+        public class Neighbour
+        {
+            public Planet Planet;
+            public float Distance;
+            
+            public Neighbour(Planet previousPlanet, Planet planet)
+            {
+                Planet = previousPlanet;
+                Vector2 pPlanetCoords = new Vector2(previousPlanet.CoordX, previousPlanet.CoordY);
+                Vector2 planetCoords = new Vector2(planet.CoordX, planet.CoordY);
+                Distance = Vector2.Distance(pPlanetCoords, planetCoords);
+                
+            }
+        }
+
+        
     }
 }

@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5739863458602008520}
   - component: {fileID: 5739863458602008567}
-  - component: {fileID: 7881238582426801362}
   - component: {fileID: 5914624216960403076}
+  - component: {fileID: 8214296726373152146}
   m_Layer: 0
   m_Name: PlanetTemplate
   m_TagString: Untagged
@@ -84,20 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7881238582426801362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5739863458602008566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6130eebc23367cb458f0c96b0741f441, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  planet: {fileID: 0}
-  inputHandler: {fileID: 0}
 --- !u!58 &5914624216960403076
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -108,9 +94,24 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &8214296726373152146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5739863458602008566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d15192a80149b634da4a5719e883dec0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planet: {fileID: 0}
+  selectedPlanet: {fileID: 11400000, guid: 06f969d4689d3994585f21c6f7a9fe07, type: 2}
+  newSelectedPlanetEvent: {fileID: 11400000, guid: 2b71616442873974893b8b3c12cc47d1, type: 2}

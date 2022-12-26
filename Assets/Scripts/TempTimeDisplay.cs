@@ -10,7 +10,7 @@ public class TempTimeDisplay : MonoBehaviour
 
     string[] splitText;
 
-    public PlanetList targetPlanet;
+   /* public PlanetList targetPlanet;
     public PlanetList startPlanet;
     public FloatReference timeRequired;
     public FloatReference finalDistance;
@@ -31,5 +31,5 @@ public class TempTimeDisplay : MonoBehaviour
         text.gameObject.SetActive(true);
 
 
-    }
+    }*/
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlanetPlacer : MonoBehaviour
 {
-    public PlanetList planetList;
+   /* public PlanetList planetList;
     public GameObject planetTemplatePrefab;
 
     public StyleSettings styleSetting;
@@ -55,5 +55,5 @@ public class PlanetPlacer : MonoBehaviour
             instance.transform.localScale = new Vector3(amount,amount,amount);
         }
     }
-
+   */
 }

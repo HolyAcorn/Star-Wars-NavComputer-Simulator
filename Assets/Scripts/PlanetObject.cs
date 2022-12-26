@@ -2,17 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlanetObject : MonoBehaviour
-{
-    public Planet planet;
 
-    [HideInInspector]
-    public InputHandler inputHandler;
-    private void OnMouseDown()
+namespace SwNavComp
+{
+    public class PlanetObject : MonoBehaviour
     {
-        if (inputHandler != null)
+        public Planet planet;
+
+        [HideInInspector]
+        public InputHandler inputHandler;
+        private void OnMouseDown()
         {
-            inputHandler.OnPlanetClick(planet);
+            if (inputHandler != null)
+            {
+                inputHandler.OnPlanetClick(planet);
+            }
         }
     }
 }

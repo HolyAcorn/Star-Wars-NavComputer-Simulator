@@ -5,7 +5,7 @@ using UnityEngine;
 public class FuelAndConsumablesHandler : MonoBehaviour
 {
 
-    public StarshipProfile starshipProfile;
+ /*   public StarshipProfile starshipProfile;
     // Start is called before the first frame update
     public FloatVariable timeRequired;
 
@@ -24,5 +24,5 @@ public class FuelAndConsumablesHandler : MonoBehaviour
     private void CalculateWeeks()
     {
         float weeks = (timeRequired.Value / 24) / 5;
-    }
+    }*/
 }

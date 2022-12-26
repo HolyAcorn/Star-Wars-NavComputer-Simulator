@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace TravelTime
+namespace SwNavComp
 {
-    public class TravelTimeCalculator : MonoBehaviour
+    /*public class TravelTimeCalculator : MonoBehaviour
     {
 
         [HideInInspector]
@@ -350,15 +350,15 @@ namespace TravelTime
             return hyperLanes;
 
         }
-    }
+    }´*/
 
     
 
 
     public class Path
     {
-        public HyperLanePoint HyperLanePoint;
+       // public HyperLanePoint HyperLanePoint;
         public float Distance;
-        public List<HyperLanePoint> Stops = new List<HyperLanePoint>();
+        //public List<HyperLanePoint> Stops = new List<HyperLanePoint>();
     }
 }

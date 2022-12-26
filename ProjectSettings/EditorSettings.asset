@@ -16,7 +16,7 @@ EditorSettings:
   m_EtcTextureNormalCompressor: 2
   m_EtcTextureBestCompressor: 4
   m_ProjectGenerationIncludedExtensions: txt;xml;fnt;cd;asmdef;asmref;rsp
-  m_ProjectGenerationRootNamespace: 
+  m_ProjectGenerationRootNamespace: SwNavComp
   m_EnableTextureStreamingInEditMode: 1
   m_EnableTextureStreamingInPlayMode: 1
   m_AsyncShaderCompilation: 1
@@ -38,3 +38,4 @@ EditorSettings:
   m_CacheServerEnableUpload: 1
   m_CacheServerEnableAuth: 0
   m_CacheServerEnableTls: 0
+  m_CacheServerValidationMode: 2

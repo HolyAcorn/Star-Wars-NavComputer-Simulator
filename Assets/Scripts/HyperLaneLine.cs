@@ -6,7 +6,7 @@ using UnityEngine;
 
 
 public class HyperLaneLine : MonoBehaviour
-{
+{/*
     public StyleSettings styleSetting;
     public static List<string> hyperList;
 
@@ -120,7 +120,7 @@ public class HyperLaneLine : MonoBehaviour
 
         return result;
     }
-
+*/
 
 
 }
