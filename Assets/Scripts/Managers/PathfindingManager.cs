@@ -20,6 +20,12 @@ namespace SwNavComp
         [SerializeField] PlanetRuntimeSet calculatedPath;
         [SerializeField] StringRuntimeSet tradeRoutesInPath;
 
+        [SerializeField] StringVariable timeTakenDisplay;
+        [SerializeField] GameEvent presentPath;
+
+        [SerializeField] float parsecsPerHour = 93.75f;
+
+
         private void Awake()
         {
             calculatedPath.Clear();
@@ -35,6 +41,7 @@ namespace SwNavComp
 
         public void CreatePath()
         {
+            if (targetPlanet.Count() == 0 || startingPlanet.Count() == 0) return;
             pointMasterList = hyperLaneList.CreateHyperLanePath();
 
             foreach (Planet planet in pointMasterList.Planets.items)
@@ -51,6 +58,9 @@ namespace SwNavComp
             {
                 calculatedPath.Add(planet);
             }
+            float hoursTaken = TravelTimeHelper.CalculateTimeRequiredInHours(finalDistance.Value, parsecsPerHour, 1, 0);
+            timeTakenDisplay.Value = TravelTimeHelper.DecimalToTime(hoursTaken);
+            presentPath.Raise();
         }
 
         List<Planet> Astar()

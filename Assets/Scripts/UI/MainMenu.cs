@@ -14,7 +14,6 @@ public class MainMenu : MonoBehaviour
     [SerializeField] GameObject mainMenuPanel;
     [SerializeField] GameObject settingsPanel;
     [SerializeField] GameObject loadingPanel;
-    [SerializeField] GameObject dataPanel;
 
     [Header("Tweening")]
     [SerializeField] float mainMenuDelayTime;
@@ -30,7 +29,6 @@ public class MainMenu : MonoBehaviour
     [SerializeField] TMP_InputField hyperLaneDataInputField;
 
     [Header("Loading")]
-    [SerializeField] GameEvent readFromJson;
     [SerializeField] Slider loadingSlider;
     [SerializeField] Text loadingText;
     [SerializeField] FloatReference progress;
@@ -65,51 +63,15 @@ public class MainMenu : MonoBehaviour
 
     }
 
-    public void OpenDataPanel()
-    {
-        mainMenuPanel.SetActive(false);
-        dataPanel.SetActive(true);
-    }
 
-    public void LoadMap()
-    {
-        LoadAsynchronously();
-
-    }
-
-    public void LoadJson()
-    {
-        if (!isLoading)
-        {
-            isLoading = true;
-            dataPanel.SetActive(false);
-            loadingPanel.SetActive(true);
-
-            readFromJson.Raise();
-        }
-    }
     public void SetLoadingFalse()
     {
         isLoading = false;
     }
 
-    async void LoadAsynchronously()
+    public void Load()
     {
-        AsyncOperation operation = SceneManager.LoadSceneAsync(1);
-        operation.allowSceneActivation = false;
-
-
-        do
-        {
-            float progress = Mathf.Clamp01(operation.progress / .9f);
-            loadingText.text = progressDescription.Value;
-            //loadingSlider.value = progress.Value;
-            loadingSlider.value = progress;
-
-        } while (operation.progress < 0.9f);
-
-
-        operation.allowSceneActivation = true;
+        SceneManager.LoadScene(1);
 
     }
 
@@ -117,7 +79,6 @@ public class MainMenu : MonoBehaviour
     public void BackToMainMenu() 
     { 
         settingsPanel.SetActive(false);
-        dataPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
         fontChanger.ChangeFont();
         hyperLaneData.Value = hyperLaneDataInputField.text;

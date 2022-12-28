@@ -15,6 +15,7 @@ namespace SwNavComp
 
 
         [SerializeField] IntVariable zoomDirection;
+        [SerializeField] FloatVariable currentZoom;
         [SerializeField] float minCameraSize = 10f;
         [SerializeField] float maxCameraSize = 90f;
         [SerializeField] float zoomAmount = 1f;
@@ -44,6 +45,7 @@ namespace SwNavComp
             if (_camera.orthographicSize > slowDownMovementThreshold) moveSpeed = originalMoveSpeed;
             if(_camera.orthographicSize < minCameraSize) _camera.orthographicSize = minCameraSize;
             if(_camera.orthographicSize > maxCameraSize) _camera.orthographicSize = maxCameraSize;
+            currentZoom.Value = _camera.orthographicSize;
         }
     }
 }

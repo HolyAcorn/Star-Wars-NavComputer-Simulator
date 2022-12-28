@@ -4,9 +4,16 @@ using UnityEngine;
 
 namespace SwNavComp
 {
+
+
     public class GameManager : MonoBehaviour
     {
-       
+        [SerializeField] GameEvent loadHyperLanes;
+
+        private void Start()
+        {
+            loadHyperLanes.Raise();
+        }
 
     }
 }

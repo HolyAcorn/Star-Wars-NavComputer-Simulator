@@ -31,14 +31,12 @@ namespace SwNavComp
         {
             startingPlanet.Clear();
             startingPlanet.Add(selectedPlanet.Get(0));
-            if (targetPlanet.Count() > 0) createPathEvent.Raise();
         }
 
         public void SetTargetPlanet()
         {
             targetPlanet.Clear();
             targetPlanet.Add(selectedPlanet.Get(0));
-            if (startingPlanet.Count() > 0) createPathEvent.Raise();
         }
 
     }

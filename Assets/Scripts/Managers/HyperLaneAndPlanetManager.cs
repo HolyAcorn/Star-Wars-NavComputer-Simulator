@@ -14,6 +14,7 @@ namespace SwNavComp
 
         public HyperLaneRuntimeSet hyperLaneList;
         public PlanetRuntimeSet planetList;
+        [SerializeField] GameEvent presentHyperLanes;
 
         public void CreateHyperlanes()
         {
@@ -60,6 +61,7 @@ namespace SwNavComp
 
             }
             Debug.Log("Done");
+            presentHyperLanes.Raise();
         }
 
 

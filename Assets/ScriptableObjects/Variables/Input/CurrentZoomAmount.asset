@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6af1040112215684589745d532cc140a, type: 3}
-  m_Name: CalculatedPath
+  m_Script: {fileID: 11500000, guid: 708b8fdcefd3b8f4883e723bd88b9dde, type: 3}
+  m_Name: CurrentZoomAmount
   m_EditorClassIdentifier: 
-  items: []
+  Value: 0

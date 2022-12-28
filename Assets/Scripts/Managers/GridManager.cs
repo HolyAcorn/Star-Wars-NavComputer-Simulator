@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GridGenerator : MonoBehaviour
+public class GridManager : MonoBehaviour
 {
     public int height;
     public int width;
@@ -38,7 +38,7 @@ public class GridGenerator : MonoBehaviour
 
     public void GenerateGrid()
     {
-        transform.position = new Vector2(width * -40, height * -20);
+        transform.position = new Vector2(width * -80, height * -40);
         for (int x = 0; x < width; x++)
         {
             for (int y = 0; y < height; y++)
