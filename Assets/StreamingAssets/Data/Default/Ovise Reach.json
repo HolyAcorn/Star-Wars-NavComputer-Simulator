@@ -1,6 +1,11 @@
 {
-	"Type": 0,
+	"Type": 1,
 	"JsonPlanets": [
+		{
+			"Name": "Ovise III",
+			"CoordX": -327.6,
+			"CoordY": -694.3
+		},
 		{
 			"Name": "Trindello",
 			"CoordX": -335.1,
