@@ -1,0 +1,20 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Vasha",
+      "CoordX": -324.5,
+      "CoordY": -676
+    },
+    {
+      "Name": "Vex Major",
+      "CoordX": -329.5,
+      "CoordY": -677.5
+    },
+    {
+      "Name": "Firrerre",
+      "CoordX": -361.4,
+      "CoordY": -655
+    }
+  ]
+}

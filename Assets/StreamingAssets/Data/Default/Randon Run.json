@@ -1,0 +1,45 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Lantilles",
+      "CoordX": 431,
+      "CoordY": 122
+    },
+    {
+      "Name": "Phaseera",
+      "CoordX": 453.5,
+      "CoordY": 106.2
+    },
+    {
+      "Name": "Uyter",
+      "CoordX": 452.9,
+      "CoordY": 71.9
+    },
+    {
+      "Name": "Kashyyk",
+      "CoordX": 472.5,
+      "CoordY": 11.2
+    },
+    {
+      "Name": "Rakhuun",
+      "CoordX": 489.8,
+      "CoordY": 4
+    },
+    {
+      "Name": "Chamble",
+      "CoordX": 504,
+      "CoordY": -13
+    },
+    {
+      "Name": "Messert",
+      "CoordX": 516,
+      "CoordY": -24.1
+    },
+    {
+      "Name": "Randon",
+      "CoordX": 526.5,
+      "CoordY": -34.9
+    }
+  ]
+}

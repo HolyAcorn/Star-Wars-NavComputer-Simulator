@@ -1,33 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public abstract class RuntimeSet<T>: ScriptableObject
+namespace SwNavComp
 {
-    public List<T> items = new List<T>();
 
-    public void Clear()
+    public abstract class RuntimeSet<T> : ScriptableObject
     {
-        items.Clear();
-    }
+        public List<T> items = new List<T>();
 
-    public T GetItemFromIndex(int index)
-    {
-        return items[index];
-    }
+        public void Clear()
+        {
+            items.Clear();
+        }
 
-    public void Add(T thingToAdd)
-    {
-        if (!items.Contains(thingToAdd)) items.Add(thingToAdd);
-    }
+        public T Get(int index)
+        {
+            return items[index];
+        }
 
-    public void Remove(T thingToRemove)
-    {
-        if(items.Contains(thingToRemove)) items.Remove(thingToRemove);
-    }
+        public void Add(T thingToAdd)
+        {
+            if (!items.Contains(thingToAdd)) items.Add(thingToAdd);
+        }
 
-    public int Count()
-    {
-        return items.Count;
+        public void Remove(T thingToRemove)
+        {
+            if (items.Contains(thingToRemove)) items.Remove(thingToRemove);
+        }
+
+        public int Count()
+        {
+            return items.Count;
+        }
     }
 }

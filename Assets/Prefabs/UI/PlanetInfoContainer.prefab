@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5738370806985928217}
   - component: {fileID: 5738370806985928222}
   m_Layer: 5
-  m_Name: Button
+  m_Name: SetStartLocationButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122,9 +122,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5738370807251457315}
-        m_TargetAssemblyTypeName: PlanetInfo, Assembly-CSharp
-        m_MethodName: SetStartingLocation
+      - m_Target: {fileID: 6399842297927318880}
+        m_TargetAssemblyTypeName: SwNavComp.PlanetInfoPresenter, Assembly-CSharp
+        m_MethodName: SetStartingPlanet
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 5738370807251457324}
   - component: {fileID: 5738370807251457325}
   - component: {fileID: 5738370807251457314}
-  - component: {fileID: 5738370807251457315}
+  - component: {fileID: 6399842297927318880}
   m_Layer: 5
   m_Name: PlanetInfo
   m_TagString: Untagged
@@ -356,7 +356,7 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &5738370807251457315
+--- !u!114 &6399842297927318880
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -365,13 +365,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 5738370807251457313}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 991629cc56c06034aa96d17251f28588, type: 3}
+  m_Script: {fileID: 11500000, guid: 6654a1dafc6dcbd4ba57f6cac4f4316d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activePlanet: {fileID: 11400000, guid: 6b4b1fca029b77441a04ff52a29f784f, type: 2}
-  targetPlanet: {fileID: 11400000, guid: ca613a216e9d6df44bd4c2c957598948, type: 2}
-  startingPlanet: {fileID: 11400000, guid: b99d58ab6706b1542ad0a537db66b239, type: 2}
-  calculatePath: {fileID: 0}
+  selectedPlanet: {fileID: 11400000, guid: 06f969d4689d3994585f21c6f7a9fe07, type: 2}
+  planetNameTextObject: {fileID: 5738370807387026709}
+  startingPlanet: {fileID: 11400000, guid: b4226f1afc441694db79b32cdec60f5e, type: 2}
+  targetPlanet: {fileID: 11400000, guid: c012494193fc2f64986f4c2959dc621b, type: 2}
+  createPathEvent: {fileID: 11400000, guid: 73aecc8066c46c74e81086c70b7c3325, type: 2}
 --- !u!1 &5738370807387026709
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,7 +503,7 @@ GameObject:
   - component: {fileID: 5738370807433690294}
   - component: {fileID: 5738370807433690295}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: SetTargetLocationButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -610,9 +611,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5738370807251457315}
-        m_TargetAssemblyTypeName: PlanetInfo, Assembly-CSharp
-        m_MethodName: SetTargetLocation
+      - m_Target: {fileID: 6399842297927318880}
+        m_TargetAssemblyTypeName: SwNavComp.PlanetInfoPresenter, Assembly-CSharp
+        m_MethodName: SetTargetPlanet
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1379,7 +1380,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8858424563031985619}
-  - component: {fileID: 865133166262368101}
   - component: {fileID: 8922667599885682341}
   - component: {fileID: 3462261641776688694}
   m_Layer: 5
@@ -1410,22 +1410,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &865133166262368101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8582049918403205172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 991629cc56c06034aa96d17251f28588, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activePlanet: {fileID: 11400000, guid: 6b4b1fca029b77441a04ff52a29f784f, type: 2}
-  targetPlanet: {fileID: 11400000, guid: ca613a216e9d6df44bd4c2c957598948, type: 2}
-  startingPlanet: {fileID: 11400000, guid: b99d58ab6706b1542ad0a537db66b239, type: 2}
-  calculatePath: {fileID: 11400000, guid: eb283d4a8d5a0794eab07305dde7f22c, type: 2}
 --- !u!114 &8922667599885682341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1438,14 +1422,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6de3263a29792c247aead7ffa646f65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: {fileID: 11400000, guid: cf3a50f92e3c7ee458e14502d0c2269d, type: 2}
+  Event: {fileID: 11400000, guid: 2b71616442873974893b8b3c12cc47d1, type: 2}
   Response:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 865133166262368101}
-        m_TargetAssemblyTypeName: PlanetInfo, Assembly-CSharp
-        m_MethodName: SetVisibility
+      - m_Target: {fileID: 5738370807251457313}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 6399842297927318880}
+        m_TargetAssemblyTypeName: SwNavComp.PlanetInfoPresenter, Assembly-CSharp
+        m_MethodName: DisplayPlanet
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1466,13 +1462,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6de3263a29792c247aead7ffa646f65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: {fileID: 11400000, guid: 5f87904d380f0b34fbfacde0e871a8bd, type: 2}
+  Event: {fileID: 11400000, guid: 7dc6e70a38f20d64e93fa935740a15b4, type: 2}
   Response:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 865133166262368101}
-        m_TargetAssemblyTypeName: PlanetInfo, Assembly-CSharp
-        m_MethodName: SetVisibility
+      - m_Target: {fileID: 5738370807251457313}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

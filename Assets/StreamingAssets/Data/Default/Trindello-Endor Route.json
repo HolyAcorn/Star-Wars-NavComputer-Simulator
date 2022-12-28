@@ -1,0 +1,17 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+
+    
+    {
+      "Name": "Trindello",
+      "CoordX": -335.1,
+      "CoordY": -682.2
+    },
+    {
+      "Name": "Endor",
+      "CoordX": -343.2,
+      "CoordY": -683
+    }
+  ]
+}

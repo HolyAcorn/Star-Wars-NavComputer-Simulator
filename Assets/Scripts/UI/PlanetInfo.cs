@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 public class PlanetInfo : MonoBehaviour
-{
+{/*
     public PlanetList activePlanet;
 
     public PlanetList targetPlanet;
@@ -74,6 +74,5 @@ public class PlanetInfo : MonoBehaviour
     {
         transform.GetChild(0).gameObject.SetActive(visible);
         child.gameObject.SetActive(visible);
-    }
-
+    }*/
 }

@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: Aurebesh
   m_EditorClassIdentifier: 
   Font: {fileID: 12800000, guid: 7daf7ad6ca584a547b77942c005edfd9, type: 3}
+  fontAsset: {fileID: 11400000, guid: 523fe50ece63b9046809faea0e512af2, type: 2}
+  Index: 0

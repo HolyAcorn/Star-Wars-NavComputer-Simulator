@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace TravelTime
+namespace SwNavComp
 {
-    public class TravelTimeCalculator : MonoBehaviour
+    /*public class TravelTimeCalculator : MonoBehaviour
     {
 
         [HideInInspector]
@@ -26,18 +26,30 @@ namespace TravelTime
         public FloatReference sizeDifference;
 
         public FloatReference modifier;
-        public FloatReference hyperDriveClass;
+        public StarshipProfile starshipProfile;
         public float parsecsPerHour = 93.75f;
         public FloatReference finalDistance;
         public FloatReference timeRequired;
 
         private Path shortestPath = new Path();
+        [SerializeField] HyperPointRuntimeSet calculatedPath;
+        [SerializeField] StringRuntimeSet TradeRoutes;
+        [SerializeField] GameEvent calculateFuel;
 
 
         public void CalculateTimeRequired()
         {
-            timeRequired.Variable.Value = ((finalDistance.Value / parsecsPerHour) * hyperDriveClass.Value) + modifier.Value;
-            
+            timeRequired.Variable.Value = ((finalDistance.Value / parsecsPerHour) * starshipProfile.HyperdriveRating) + modifier.Value;
+        }
+
+        private void Awake()
+        {
+            calculatedPath.Clear();
+        }
+        private void OnApplicationQuit()
+        {
+            calculatedPath.Clear();
+            TradeRoutes.Clear();
         }
 
         public void CreatePath()
@@ -60,7 +72,12 @@ namespace TravelTime
             }
             ConnectPoints();
             List<HyperLanePoint> point = Astar();
+            calculatedPath.items = point;
             GeneratePath(point);
+            CalculateTimeRequired();
+            TradeRoutes.items = CalculateNumberOfHyperLanes();
+            calculateFuel.Raise();
+
         }
 
         private void GeneratePath(List<HyperLanePoint> points)
@@ -304,14 +321,44 @@ namespace TravelTime
             
             return path;
         }
-    }
 
+
+        private List<string> CalculateNumberOfHyperLanes()
+        {
+            List<string> hyperLanes = new List<string>();
+            for (int a = 0; a < calculatedPath.Count() -1; a++)
+            {
+                HyperLanePoint hyperPointA = calculatedPath.GetItemFromIndex(a);
+                HyperLanePoint hyperPointB = calculatedPath.GetItemFromIndex(a + 1);
+                for (int i = 0; i < hyperPointA.Planet.HyperlaneRoutes.Count; i++)
+                {
+                    string hyperLaneX = hyperPointA.Planet.HyperlaneRoutes[i];
+                    for (int y = 0; y < hyperPointB.Planet.HyperlaneRoutes.Count; y++)
+                    {
+                        string hyperLaneY = hyperPointB.Planet.HyperlaneRoutes[y];
+
+                        if (hyperLaneX == hyperLaneY)
+                        {
+                            if (!hyperLanes.Contains(hyperLaneX)) hyperLanes.Add(hyperLaneX);
+                            break;
+                        }
+                    }
+                }
+
+
+            }
+            return hyperLanes;
+
+        }
+    }´*/
+
+    
 
 
     public class Path
     {
-        public HyperLanePoint HyperLanePoint;
+       // public HyperLanePoint HyperLanePoint;
         public float Distance;
-        public List<HyperLanePoint> Stops = new List<HyperLanePoint>();
+        //public List<HyperLanePoint> Stops = new List<HyperLanePoint>();
     }
 }

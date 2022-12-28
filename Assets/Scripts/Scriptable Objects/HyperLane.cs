@@ -4,63 +4,52 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Hyperlane", menuName = "Scriptable Objects/Hyperlane/Hyperlane")]
-public class HyperLane : ScriptableObject
+namespace SwNavComp
 {
-    public List<HyperLanePoint> Points;
 
-
-    public TypeEnum Type = new TypeEnum();
-    public enum TypeEnum
+    [CreateAssetMenu(fileName = "Hyperlane", menuName = "Scriptable Objects/Hyperlane/Hyperlane")]
+    public class HyperLane : ScriptableObject
     {
-        Major,
-        Minor
-    }
 
-    public void SetType(int index)
-    {
-        if (index == 0)
+        public PlanetRuntimeSet Planets { get; private set; }
+
+        public TypeEnum Type = new TypeEnum();
+
+
+        public void SetType(int index)
         {
-            Type = TypeEnum.Major;
+            if (index == 0)
+            {
+                Type = TypeEnum.Major;
 
+            }
+            else
+            {
+                Type = TypeEnum.Minor;
+            }
         }
-        else
+
+
+
+
+        public void Initialize(string hyperLaneName, PlanetRuntimeSet planetList)
         {
-            Type = TypeEnum.Minor;
+            name = hyperLaneName;
+            Planets = ScriptableObject.CreateInstance<PlanetRuntimeSet>();
+            for (int p = 0; p < planetList.Count(); p++)
+            {
+                Planet planet = planetList.Get(p);
+                for (int h = 0; h < planet.HyperlaneRoutes.Count; h++)
+                {
+                    if ((planet.HyperlaneRoutes[h] != "" && name.ToLower() == planet.HyperlaneRoutes[h].ToLower()) || name == "HyperLaneMasterList") 
+                    { 
+                        Planets.Add(planet);
+                        //planet.SetHyperLaneRoute(name, Planets.items.IndexOf(planet));
+                    }
+                    
+                }
+            }
         }
+
     }
-
-    public void AddPoint(Planet planet, Vector2 position)
-    {
-        HyperLanePoint hyperLanePoint = ScriptableObject.CreateInstance<HyperLanePoint>();
-        hyperLanePoint.name = planet.name;
-        hyperLanePoint.Planet = planet;
-        hyperLanePoint.Position = position;
-
-        string dirPath = "Assets/ScriptableObjects/HyperLanes/" + name + "/";
-        if (!Directory.Exists(dirPath))
-        {
-            Directory.CreateDirectory(dirPath);
-        }
-        //AssetDatabase.CreateAsset(hyperLanePoint, dirPath + hyperLanePoint.name + ".asset");
-        Points.Add(hyperLanePoint);
-    }
-
-    public void SetupNeighbours()
-    {
-        for (int p = 1; p < Points.Count; p++)
-        {
-            HyperLanePoint point1 = Points[p - 1];
-            HyperLanePoint point2 = Points[p];
-            float distance = Vector2.Distance(point1.Position, point2.Position);
-            HyperLanePoint.Neighbour neighbour = new HyperLanePoint.Neighbour();
-            neighbour.Point = point2;
-            neighbour.Distance = distance;
-            point1.Neighbours.Add(neighbour);
-        }
-    }
-
-
-
 }
-        
