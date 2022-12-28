@@ -14,6 +14,7 @@ public class MainMenu : MonoBehaviour
     [SerializeField] GameObject mainMenuPanel;
     [SerializeField] GameObject settingsPanel;
     [SerializeField] GameObject loadingPanel;
+    [SerializeField] GameObject creditsPanel;
 
     [Header("Tweening")]
     [SerializeField] float mainMenuDelayTime;
@@ -27,6 +28,8 @@ public class MainMenu : MonoBehaviour
     [SerializeField] FontObject activeFont;
     [SerializeField] StringVariable hyperLaneData;
     [SerializeField] TMP_InputField hyperLaneDataInputField;
+
+
 
     [Header("Loading")]
     [SerializeField] Slider loadingSlider;
@@ -75,9 +78,16 @@ public class MainMenu : MonoBehaviour
 
     }
 
+    public void OpenCredits()
+    {
+        mainMenuPanel.SetActive(false);
+        creditsPanel.SetActive(true);
+    }
+
     #region SETTINGS
     public void BackToMainMenu() 
-    { 
+    {
+        creditsPanel.SetActive(false);
         settingsPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
         fontChanger.ChangeFont();
