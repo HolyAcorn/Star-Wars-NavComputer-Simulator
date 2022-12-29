@@ -14,6 +14,8 @@ namespace SwNavComp
         [SerializeField] PlanetRuntimeSet selectedPlanet;
         [SerializeField] GameEvent newSelectedPlanetEvent;
 
+        [SerializeField] GameObject outline;
+
         public void OnPointerDown(PointerEventData eventData)
         {
             selectedPlanet.Clear();
@@ -21,10 +23,16 @@ namespace SwNavComp
             newSelectedPlanetEvent.Raise();
         }
 
+        public void FlipOutline()
+        {
+            if (selectedPlanet.Get(0) == planet) outline.SetActive(true);
+            else outline.SetActive(false);
+        }
+
         // Start is called before the first frame update
         void Start()
         {
-        
+
         }
 
         // Update is called once per frame

@@ -800,6 +800,7 @@ MonoBehaviour:
     ConstantValue: 
     Variable: {fileID: 11400000, guid: 1982cb8535f4a66478d76823068cb020, type: 2}
   hyperLaneList: {fileID: 11400000, guid: cfcb0eb985b9b8d4685c18a6153555a8, type: 2}
+  noHyperlanePlanets: {fileID: 11400000, guid: cb3dc5e59bb38904a81cfeebce1f0abd, type: 2}
   planetList: {fileID: 11400000, guid: 66a871d597a84f94fac83d50fa27b7dd, type: 2}
   presentHyperLanes: {fileID: 11400000, guid: 7a72bf7b477cfdb4398654d2e3e7aeb9, type: 2}
 --- !u!1 &247861535
@@ -1651,10 +1652,10 @@ RectTransform:
   m_Father: {fileID: 1966114665}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 518.75, y: -100}
-  m_SizeDelta: {x: 1037.5, y: 200}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &463448964
 MonoBehaviour:
@@ -5080,6 +5081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hyperLaneList: {fileID: 11400000, guid: cfcb0eb985b9b8d4685c18a6153555a8, type: 2}
+  noHyperlanePlanets: {fileID: 11400000, guid: cb3dc5e59bb38904a81cfeebce1f0abd, type: 2}
   startingPlanet: {fileID: 11400000, guid: b4226f1afc441694db79b32cdec60f5e, type: 2}
   targetPlanet: {fileID: 11400000, guid: c012494193fc2f64986f4c2959dc621b, type: 2}
   finalDistance: {fileID: 11400000, guid: 40cac26aaff8f224ba5da1009f2070f6, type: 2}

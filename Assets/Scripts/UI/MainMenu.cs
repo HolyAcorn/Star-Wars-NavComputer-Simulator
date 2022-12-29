@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static UnityEngine.Rendering.DebugUI;
 
 public class MainMenu : MonoBehaviour
 {
@@ -13,7 +14,6 @@ public class MainMenu : MonoBehaviour
     [Header("Panels")]
     [SerializeField] GameObject mainMenuPanel;
     [SerializeField] GameObject settingsPanel;
-    [SerializeField] GameObject loadingPanel;
     [SerializeField] GameObject creditsPanel;
 
     [Header("Tweening")]
@@ -46,6 +46,7 @@ public class MainMenu : MonoBehaviour
         PopulateFontDropDown();
         mainMenuPanel.SetActive(true);
         settingsPanel.SetActive(false);
+        creditsPanel.SetActive(false);
         mainMenuPanel.transform.localScale = new Vector3(0,0,0);
         mainMenuPanel.transform.localPosition = new Vector3(0, mainMenuStartY, 0);
         LeanTween.scale(mainMenuPanel, new Vector3(1, 1, 1), mainMenuDelayTime).setDelay(0.1f).setEase(mainMenuInType);
@@ -58,11 +59,16 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
-    public void OpenSettings()
+    public void FlipSettings(bool value)
     {
-        mainMenuPanel.SetActive(false);
-        settingsPanel.SetActive(true);
-        fontChanger.ChangeFont();
+        mainMenuPanel.SetActive(!value);
+        settingsPanel.SetActive(value);
+        if (value)
+        {
+            fontChanger.ChangeFont();
+            hyperLaneData.Value = hyperLaneDataInputField.text;
+        }
+
 
     }
 
@@ -78,22 +84,20 @@ public class MainMenu : MonoBehaviour
 
     }
 
-    public void OpenCredits()
+    public void FlipCredits(bool value)
     {
-        mainMenuPanel.SetActive(false);
-        creditsPanel.SetActive(true);
+        mainMenuPanel.SetActive(!value);
+        creditsPanel.SetActive(value);
     }
+
+    public void OpenLink(string link)
+    {
+        Application.OpenURL(link);
+    }
+
+
 
     #region SETTINGS
-    public void BackToMainMenu() 
-    {
-        creditsPanel.SetActive(false);
-        settingsPanel.SetActive(false);
-        mainMenuPanel.SetActive(true);
-        fontChanger.ChangeFont();
-        hyperLaneData.Value = hyperLaneDataInputField.text;
-
-    }
 
     private void PopulateFontDropDown()
     {

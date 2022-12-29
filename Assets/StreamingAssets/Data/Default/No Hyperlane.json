@@ -1,0 +1,15 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Tython",
+      "CoordX": 1.3,
+      "CoordY": -78.3
+    },
+    {
+      "Name": "Had Abbadon",
+      "CoordX": 74.4,
+      "CoordY": -78.8
+    }
+  ]
+}

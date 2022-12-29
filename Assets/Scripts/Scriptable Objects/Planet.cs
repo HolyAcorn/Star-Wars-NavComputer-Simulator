@@ -49,6 +49,7 @@ namespace SwNavComp
         {
             public Planet Planet;
             public float Distance;
+            public bool subLightNeighbour { get; private set; }
             
             public Neighbour(Planet previousPlanet, Planet planet)
             {
@@ -56,7 +57,16 @@ namespace SwNavComp
                 Vector2 pPlanetCoords = new Vector2(previousPlanet.CoordX, previousPlanet.CoordY);
                 Vector2 planetCoords = new Vector2(planet.CoordX, planet.CoordY);
                 Distance = Vector2.Distance(pPlanetCoords, planetCoords);
-                
+                subLightNeighbour = false;
+            }
+
+            public Neighbour(Planet previousPlanet, Planet planet, float subLightMultiplier)
+            {
+                Planet = previousPlanet;
+                Vector2 pPlanetCoords = new Vector2(previousPlanet.CoordX, previousPlanet.CoordY);
+                Vector2 planetCoords = new Vector2(planet.CoordX, planet.CoordY);
+                Distance = Vector2.Distance(pPlanetCoords, planetCoords) * subLightMultiplier;
+                subLightNeighbour = true;
             }
         }
 

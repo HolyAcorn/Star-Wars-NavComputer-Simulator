@@ -57,6 +57,7 @@ namespace SwNavComp
                     planet.HyperlaneRoutes.Add(result);
                     planet.IndexInHyperLane.Add(i);
                     planetList.Add(planet);
+                    newPlanetList.Add(planet);
                 }
             }
             return newPlanetList;

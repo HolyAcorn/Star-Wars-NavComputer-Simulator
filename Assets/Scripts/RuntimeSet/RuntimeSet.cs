@@ -32,5 +32,12 @@ namespace SwNavComp
         {
             return items.Count;
         }
+
+        public bool Contains(T t)
+        {
+            bool value = false;
+            if(items.Contains(t)) value = true;
+            return value;
+        }
     }
 }

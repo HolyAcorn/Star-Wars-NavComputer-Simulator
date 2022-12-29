@@ -26,7 +26,7 @@ namespace SwNavComp
 
             string output = "";
 
-            if(days > 0)
+            if (days > 0)
             {
                 if (days > 1) output += days + " days";
                 else output += days + " day";
@@ -36,15 +36,15 @@ namespace SwNavComp
                 else if (hours > 0) output += ", ";
             }
 
-            if(hours > 0)
+            if (hours > 0)
             {
                 if (hours > 1) output += hours + " hours ";
                 else output += hours + " hour";
             }
-            
-            if(minutes > 0)
+
+            if (minutes > 0)
             {
-                output += " and ";
+                if (days > 0 || hours > 0) output += " and ";
                 if (minutes > 1) output += minutes + " minutes";
                 else if (minutes > 0) output += +minutes + " minute";
             }
