@@ -34,7 +34,7 @@ namespace SwNavComp
 
             PlanetObjectManager planetObjectManager = instance.GetComponent<PlanetObjectManager>();
             planetObjectManager.planet = planet;
-
+            planet.gameObject = instance;
             instance.transform.position = new Vector3(planet.CoordX, planet.CoordY) / sizeDifference.Value;
             spriteRenderer.sprite = sprites[random];
             spriteRenderer.color = styleSetting.PlanetColor;
