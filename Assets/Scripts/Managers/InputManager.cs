@@ -43,6 +43,7 @@ namespace SwNavComp
             }
         }
 
+
         public void GetZoomInput(CallbackContext context)
         {
             float direction = context.ReadValue<float>();

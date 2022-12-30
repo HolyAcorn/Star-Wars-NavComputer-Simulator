@@ -17,6 +17,7 @@ namespace SwNavComp
         public List<int> IndexInHyperLane = new List<int>();
         public List<Path> shortestPath;
         public List<Neighbour> neighbours = new List<Neighbour>();
+        public GameObject gameObject;
 
         public void Initialize(string name, int coordX, int coordY)
         {
