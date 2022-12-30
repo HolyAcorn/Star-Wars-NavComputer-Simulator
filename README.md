@@ -7,13 +7,14 @@ The Star Wars NavComputer Simulator (swNavSIM) is a free and open source softwar
 
 - Calculate travel time between planets. `Implemented`
 - Star Wars FFG (Edge of the Empire/Force and Destiny/Age of Rebellion) integration `Not implemented`
-- Search planets `Not implemented`
+- Search planets `implemented`
 - Load different hyperlanes `Implemented`
 - Inputs (such as inputting Hyperdrive class or exterior modifiers) `Not implemented`
 - Calculation Simulator `Not implemented`
 - Customization `Not implemented`
 - Fuel & Consumables tracker `Not implemented`
 - Ship details `Not implemented`
+- Edit Mode `Not implemented`
 - Export list of stops/jumps `Not implemented`
 
 More features will be added in the future.
