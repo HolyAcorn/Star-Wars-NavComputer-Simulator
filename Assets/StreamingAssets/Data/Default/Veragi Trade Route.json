@@ -1,0 +1,85 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Ord Trasi",
+      "CoordX": 15,
+      "CoordY": 511.3
+    },
+    {
+      "Name": "Anx Minor",
+      "CoordX": 28.7,
+      "CoordY": 541.2
+    },
+    {
+      "Name": "Sinsang",
+      "CoordX": 19.1,
+      "CoordY": 547
+    },
+    {
+      "Name": "Dantooine",
+      "CoordX": 1,
+      "CoordY": 558.6
+    },
+    {
+      "Name": "Ahakista",
+      "CoordX": -30.6,
+      "CoordY": 615
+    },
+    {
+      "Name": "Dubrillion",
+      "CoordX": -33.2,
+      "CoordY": 624.4
+    },
+    {
+      "Name": "Trassitan",
+      "CoordX": 23,
+      "CoordY": 662.1
+    },
+    {
+      "Name": "Veragi",
+      "CoordX": 39.3,
+      "CoordY": 673.3
+    },
+    {
+      "Name": "Sernpidal",
+      "CoordX": 70.4,
+      "CoordY": 693.1
+    },
+    {
+      "Name": "Seline",
+      "CoordX": 115,
+      "CoordY": 674.8
+    },
+    {
+      "Name": "Birigs",
+      "CoordX": 182.5,
+      "CoordY": 650
+    },
+    {
+      "Name": "Bimmiel",
+      "CoordX": 232,
+      "CoordY": 561.6
+    },
+    {
+      "Name": "Argazda",
+      "CoordX": 250.3,
+      "CoordY": 524.9
+    },
+    {
+      "Name": "Corvis Minor",
+      "CoordX": 251.9,
+      "CoordY": 493.2
+    },
+    {
+      "Name": "Ciutric",
+      "CoordX": 251.7,
+      "CoordY": 475.2
+    },
+    {
+      "Name": "Salin",
+      "CoordX": 275.8,
+      "CoordY": 422.2
+    }
+  ]
+}

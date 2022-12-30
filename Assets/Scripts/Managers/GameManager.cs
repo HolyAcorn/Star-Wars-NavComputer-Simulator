@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace SwNavComp
 {
@@ -15,5 +16,11 @@ namespace SwNavComp
             loadHyperLanes.Raise();
         }
 
+        public void ReloadMap()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
     }
+
 }

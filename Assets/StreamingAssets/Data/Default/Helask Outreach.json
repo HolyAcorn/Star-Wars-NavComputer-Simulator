@@ -1,0 +1,20 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Helska",
+      "CoordX": 50.2,
+      "CoordY": 731.2
+    },
+    {
+      "Name": "Plesstil",
+      "CoordX": 38.9,
+      "CoordY": 684.9
+    },
+    {
+      "Name": "Veragi",
+      "CoordX": 39.3,
+      "CoordY": 673.3
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Parshoone",
+      "CoordX": -180.1,
+      "CoordY": 530.9
+    },
+    {
+      "Name": "Brodo Asogi",
+      "CoordX": -174.2,
+      "CoordY": 526.5
+    },
+    {
+      "Name": "Valc VII",
+      "CoordX": -159.1,
+      "CoordY": 516.9
+    },
+    {
+      "Name": "Cantras Gola",
+      "CoordX": -153.8,
+      "CoordY": 505.9
+    },
+    {
+      "Name": "Bextar",
+      "CoordX": -113.6,
+      "CoordY": 514.8
+    },
+    {
+      "Name": "Entralla",
+      "CoordX": -92,
+      "CoordY": 520.9
+    }
+  ]
+}

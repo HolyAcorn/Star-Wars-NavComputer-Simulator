@@ -1,0 +1,15 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Bescane",
+      "CoordX": -88.2,
+      "CoordY": 608.8
+    },
+    {
+      "Name": "Dubrillion",
+      "CoordX": -33.2,
+      "CoordY": 624.4
+    }
+  ]
+}

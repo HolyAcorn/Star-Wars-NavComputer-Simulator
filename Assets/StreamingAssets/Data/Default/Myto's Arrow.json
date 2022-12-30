@@ -1,0 +1,25 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Dantooine",
+      "CoordX": 1,
+      "CoordY": 558.6
+    },
+    {
+      "Name": "Angor",
+      "CoordX": -19,
+      "CoordY": 562.5
+    },
+    {
+      "Name": "Gabredor III",
+      "CoordX": -44.6,
+      "CoordY": 569.2
+    },
+    {
+      "Name": "Jaemus",
+      "CoordX": -86,
+      "CoordY": 587.8
+    }
+  ]
+}

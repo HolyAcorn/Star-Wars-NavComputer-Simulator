@@ -1,0 +1,30 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Listehol",
+      "CoordX": 535.3,
+      "CoordY": 591.3
+    },
+    {
+      "Name": "Mirial",
+      "CoordX": 544.3,
+      "CoordY": 565
+    },
+    {
+      "Name": "Sikurd",
+      "CoordX": 561.2,
+      "CoordY": 545.4
+    },
+    {
+      "Name": "Gigor",
+      "CoordX": 629.1,
+      "CoordY": 558.1
+    },
+    {
+      "Name": "Zygerria",
+      "CoordX": 703.3,
+      "CoordY": 547.6
+    }
+  ]
+}

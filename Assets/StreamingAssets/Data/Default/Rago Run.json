@@ -1,0 +1,30 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Rago",
+      "CoordX": -256.7,
+      "CoordY": 254.2
+    },
+    {
+      "Name": "Sinton",
+      "CoordX": -235.4,
+      "CoordY": 275.6
+    },
+    {
+      "Name": "Gilatter VIII",
+      "CoordX": -219.7,
+      "CoordY": 288.7
+    },
+    {
+      "Name": "Ansion",
+      "CoordX": -206.7,
+      "CoordY": 300.5
+    },
+    {
+      "Name": "Keitum",
+      "CoordX": -163.6,
+      "CoordY": 319.3
+    }
+  ]
+}

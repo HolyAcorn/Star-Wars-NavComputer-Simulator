@@ -1,0 +1,15 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Anx Minor",
+      "CoordX": 28.7,
+      "CoordY": 541.2
+    },
+    {
+      "Name": "Gravlex Med",
+      "CoordX": 68.1,
+      "CoordY": 561.2
+    }
+  ]
+}
