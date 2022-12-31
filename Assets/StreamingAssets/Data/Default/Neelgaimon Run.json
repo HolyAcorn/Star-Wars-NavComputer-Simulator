@@ -1,0 +1,25 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Lythos Nine",
+      "CoordX": 713.2,
+      "CoordY": 607.8
+    },
+    {
+      "Name": "Ninn",
+      "CoordX": 698.63,
+      "CoordY": 619.1
+    },
+    {
+      "Name": "Lo'Uran",
+      "CoordX": 683.6,
+      "CoordY": 622.2
+    },
+    {
+      "Name": "Neelgaimon",
+      "CoordX": 566.6,
+      "CoordY": 624.2
+    }
+  ]
+}

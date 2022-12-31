@@ -1,0 +1,30 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Ammuud",
+      "CoordX": 731.8,
+      "CoordY": 577.2
+    },
+    {
+      "Name": "Urdur",
+      "CoordX": 735.3,
+      "CoordY": 580.1
+    },
+    {
+      "Name": "Oslumpex V",
+      "CoordX": 739,
+      "CoordY": 581.1
+    },
+    {
+      "Name": "Matra VI",
+      "CoordX": 745,
+      "CoordY": 579.1
+    },
+    {
+      "Name": "Orron III",
+      "CoordX": 747.5,
+      "CoordY": 576.3
+    }
+  ]
+}

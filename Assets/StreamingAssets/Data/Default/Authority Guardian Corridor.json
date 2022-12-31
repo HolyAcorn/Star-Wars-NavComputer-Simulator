@@ -1,0 +1,55 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Kir",
+      "CoordX": 748.6,
+      "CoordY": 603.1
+    },
+    {
+      "Name": "Tothis",
+      "CoordX": 741.6,
+      "CoordY": 606.9
+    },
+    {
+      "Name": "Atchorb",
+      "CoordX": 734.1,
+      "CoordY": 611.4
+    },
+    {
+      "Name": "Hiit",
+      "CoordX": 712.5,
+      "CoordY": 625.6
+    },
+    {
+      "Name": "Ninn",
+      "CoordX": 698.63,
+      "CoordY": 619.1
+    },
+    {
+      "Name": "Mall'ordian",
+      "CoordX": 693.7,
+      "CoordY": 611
+    },
+    {
+      "Name": "Drog",
+      "CoordX": 693.3,
+      "CoordY": 599.4
+    },
+    {
+      "Name": "Craci",
+      "CoordX": 695.2,
+      "CoordY": 588
+    },
+    {
+      "Name": "Dra III",
+      "CoordX": 691.9,
+      "CoordY": 584.8
+    },
+    {
+      "Name": "Lafra",
+      "CoordX": 680.2,
+      "CoordY": 575.9
+    }
+  ]
+}

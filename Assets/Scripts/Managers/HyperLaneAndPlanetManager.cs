@@ -30,8 +30,8 @@ namespace SwNavComp
             for (int f = 0; f < files.Length; f++)
             {
                 string file = files[f];
-                string json = File.ReadAllText(file);
-                PlanetRuntimeSet tempPlanets = JsonConverter.LoadJsonToList(dataLocation.Value, json, file, planetList);
+                string jsonFile = File.ReadAllText(file);
+                PlanetRuntimeSet tempPlanets = JsonConverter.LoadJsonToPlanetRuntimeSet(dataLocation.Value, jsonFile, file, planetList);
                 foreach (Planet planet in tempPlanets.items)
                 {
                     planetList.Add(planet);
@@ -48,7 +48,7 @@ namespace SwNavComp
                 {
                     HyperLane hyperLane = ScriptableObject.CreateInstance<HyperLane>();
                     hyperLane.Initialize(result, planetList);
-                    hyperLane.SetType(JsonConverter.GetType(json));
+                    hyperLane.SetType(JsonConverter.GetType(jsonFile));
                     hyperLane = SortPlanets(hyperLane);
 
                     for (int p = 1; p < hyperLane.Planets.Count(); p++)

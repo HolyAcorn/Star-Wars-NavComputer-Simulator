@@ -1,0 +1,35 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Bonadan",
+      "CoordX": 739.8,
+      "CoordY": 601.8
+    },
+    {
+      "Name": "Erysthes",
+      "CoordX": 744.6,
+      "CoordY": 599.1
+    },
+    {
+      "Name": "Issagra",
+      "CoordX": 747.6,
+      "CoordY": 595.4
+    },
+    {
+      "Name": "Ban-Satir II",
+      "CoordX": 751.4,
+      "CoordY": 589.5
+    },
+    {
+      "Name": "Gaurick",
+      "CoordX": 754.6,
+      "CoordY": 584.7
+    },
+    {
+      "Name": "Joodrudda",
+      "CoordX": 756.5,
+      "CoordY": 582.6
+    }
+  ]
+}

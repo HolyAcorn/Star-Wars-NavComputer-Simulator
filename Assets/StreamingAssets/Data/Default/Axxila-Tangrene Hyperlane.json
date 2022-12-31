@@ -1,0 +1,30 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Axxila",
+      "CoordX": 313,
+      "CoordY": 415.3
+    },
+    {
+      "Name": "Vandyne",
+      "CoordX": 353.4,
+      "CoordY": 444.9
+    },
+    {
+      "Name": "Camden",
+      "CoordX": 358.4,
+      "CoordY": 465.8
+    },
+    {
+      "Name": "Edusa",
+      "CoordX": 363,
+      "CoordY": 483.2
+    },
+    {
+      "Name": "Tangrene",
+      "CoordX": 351,
+      "CoordY": 506.8
+    }
+  ]
+}

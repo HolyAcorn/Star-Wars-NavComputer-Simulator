@@ -30,9 +30,9 @@ namespace SwNavComp
             return FileNames.ToArray();
         }
 
-        public static PlanetRuntimeSet LoadJsonToList(string dataLocation, string json, string fileName, PlanetRuntimeSet planetList)
+        public static PlanetRuntimeSet LoadJsonToPlanetRuntimeSet(string dataLocation, string jsonFile, string fileName, PlanetRuntimeSet planetList)
         {
-            JsonFile planets = JsonUtility.FromJson<JsonFile>(json);
+            JsonFile planets = JsonUtility.FromJson<JsonFile>(jsonFile);
             string regex = dataLocation + @"/(.+).json";
             string result = Regex.Match(fileName, regex).Groups[1].Value;
             PlanetRuntimeSet newPlanetList = ScriptableObject.CreateInstance<PlanetRuntimeSet>();
@@ -68,6 +68,24 @@ namespace SwNavComp
         {
             JsonFile jsonFile = JsonUtility.FromJson<JsonFile>(json);
             return jsonFile.Type;
+        }
+
+        public static string ConvertToJson(object t)
+        {
+            return JsonUtility.ToJson(t);
+        }
+
+        
+
+
+        public static void SaveFileToJson(string fileName, string json, string savePath, bool shouldOverwrite = true)
+        {
+            string finalSavePath = savePath + fileName + ".json";
+            if(!Directory.Exists(savePath)) Directory.CreateDirectory(savePath);
+            if (File.Exists(finalSavePath) && shouldOverwrite) Debug.Log("Overwritten file");
+            else if (!shouldOverwrite && File.Exists(finalSavePath)) return;
+
+            File.WriteAllText(finalSavePath, json);
         }
     }
 }

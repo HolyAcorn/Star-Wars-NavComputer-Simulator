@@ -18,15 +18,10 @@ namespace SwNavComp
 
         public void SetType(int index)
         {
-            if (index == 0)
-            {
-                Type = TypeEnum.Major;
+            if (index == -1) Type = TypeEnum.Major;
+            else if (index == 0) Type = TypeEnum.Medium;
+            else Type = TypeEnum.Minor;
 
-            }
-            else
-            {
-                Type = TypeEnum.Minor;
-            }
         }
 
 
@@ -41,12 +36,12 @@ namespace SwNavComp
                 Planet planet = planetList.Get(p);
                 for (int h = 0; h < planet.HyperlaneRoutes.Count; h++)
                 {
-                    if ((planet.HyperlaneRoutes[h] != "" && name.ToLower() == planet.HyperlaneRoutes[h].ToLower()) || name == "HyperLaneMasterList") 
-                    { 
+                    if ((planet.HyperlaneRoutes[h] != "" && name.ToLower() == planet.HyperlaneRoutes[h].ToLower()) || name == "HyperLaneMasterList")
+                    {
                         Planets.Add(planet);
                         //planet.SetHyperLaneRoute(name, Planets.items.IndexOf(planet));
                     }
-                    
+
                 }
             }
         }

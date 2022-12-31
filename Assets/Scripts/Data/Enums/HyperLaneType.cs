@@ -7,6 +7,7 @@ namespace SwNavComp
     public enum TypeEnum
     {
         Major,
+        Medium,
         Minor
     }
 }

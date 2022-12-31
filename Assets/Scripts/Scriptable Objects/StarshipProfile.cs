@@ -1,3 +1,4 @@
+using SwNavComp;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -16,6 +17,8 @@ public struct Defense
 [CreateAssetMenu(fileName = "Starship Profile", menuName = "Scriptable Objects/Starship Profile")]
 public class StarshipProfile : ScriptableObject
 {
+
+    string SAVEPATH;
 
 
     public string Name;
@@ -47,6 +50,9 @@ public class StarshipProfile : ScriptableObject
 
     public int ConsumablesThreshold;
     public int Consumables;
+
+    private SaveObject saveObject;
+    private string jsonFile;
 
     // 0 is undamaged,
     // 1 is lightly damaged
@@ -90,13 +96,30 @@ public class StarshipProfile : ScriptableObject
 
     #region SAVE TO JSON
 
-
+    private void OnEnable()
+    {
+         SAVEPATH = Application.dataPath + "/StreamingAssets/Starships/";
+    }
 
     public void SaveStarshipToJson()
     {
-        string SAVEPATH = Application.dataPath + "/StreamingAssets/Starships/";
+        CreateSaveObject();
 
-    SaveObject saveObject = new SaveObject
+        string json = JsonConverter.ConvertToJson(saveObject);
+
+        JsonConverter.SaveFileToJson(Name, json, SAVEPATH);
+
+    }
+
+    public void LoadFromJson()
+    {
+        CreateSaveObject();
+        
+    }
+
+    private void CreateSaveObject()
+    {
+        saveObject = new SaveObject
         {
 
             Name = Name,
@@ -120,16 +143,6 @@ public class StarshipProfile : ScriptableObject
             SystemStrain = SystemStrain,
             SystemStrainThreshold = SystemStrainThreshold,
         };
-
-        string json = JsonUtility.ToJson(saveObject);
-
-
-        if (!Directory.Exists(SAVEPATH)) Directory.CreateDirectory(SAVEPATH);
-        if (File.Exists(SAVEPATH + "/" + Name + ".json")) Debug.Log("Overwritten file");
-
-        File.WriteAllText(SAVEPATH + "/" + Name + ".json", json);
-
-
     }
 
     public class SaveObject

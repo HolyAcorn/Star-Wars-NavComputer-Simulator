@@ -16,6 +16,7 @@ namespace SwNavComp
 
         [SerializeField] FloatReference sizeDifference;
         public FloatReference majorLineWidth;
+        public FloatReference mediumLineWidth;
         public FloatReference minorLineWidth;
         public StyleSettings styleSetting;
 
@@ -35,6 +36,7 @@ namespace SwNavComp
             {
                 CreateHyperLaneLine(hyperLane);
             }
+            parentObject.transform.localScale = new Vector3( sizeDifference.Value, sizeDifference.Value);
         }
 
         private void CreateHyperLaneLine(HyperLane hyperLane)
@@ -51,6 +53,9 @@ namespace SwNavComp
                 case TypeEnum.Major:
                     line.widthMultiplier = majorLineWidth.Value;
                     break;
+                case TypeEnum.Medium:
+                    line.widthMultiplier = mediumLineWidth.Value;
+                    break;
                 case TypeEnum.Minor:
                     line.widthMultiplier = minorLineWidth.Value;
                     break;
@@ -60,7 +65,7 @@ namespace SwNavComp
             for (int i = 0; i < hyperLane.Planets.Count(); i++)
             {
                 Planet planet = hyperLane.Planets.Get(i);
-                Vector3 point = new Vector3(planet.CoordX, planet.CoordY, 0) / sizeDifference.Value;
+                Vector3 point = new Vector3(planet.CoordX, planet.CoordY, 0);
                 line.SetPosition(i, point);
             }
         }

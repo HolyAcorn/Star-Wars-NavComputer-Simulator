@@ -1,0 +1,40 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Kir",
+      "CoordX": 748.6,
+      "CoordY": 603.1
+    },
+    {
+      "Name": "R'alla",
+      "CoordX": 746.3,
+      "CoordY": 601.7
+    },
+    {
+      "Name": "Bonadan",
+      "CoordX": 739.8,
+      "CoordY": 601.8
+    },
+    {
+      "Name": "Etti IV",
+      "CoordX": 730.3,
+      "CoordY": 598.1
+    },
+    {
+      "Name": "Tirsa",
+      "CoordX": 715.7,
+      "CoordY": 594.4
+    },
+    {
+      "Name": "Jerrist VI",
+      "CoordX": 713.4,
+      "CoordY": 584.9
+    },
+    {
+      "Name": "Saclas",
+      "CoordX": 718.7,
+      "CoordY": 579.6
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Mytus VII",
+      "CoordX": 733.4,
+      "CoordY": 668.7
+    },
+    {
+      "Name": "Hull's Star",
+      "CoordX": 748.1,
+      "CoordY": 633.3
+    },
+    {
+      "Name": "Farana",
+      "CoordX": 752.9,
+      "CoordY": 626.1
+    },
+    {
+      "Name": "Ocsin",
+      "CoordX": 757.7,
+      "CoordY": 603.2
+    },
+    {
+      "Name": "Gaurick",
+      "CoordX": 754.6,
+      "CoordY": 584.7
+    }
+  ]
+}
