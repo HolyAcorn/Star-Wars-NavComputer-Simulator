@@ -14,6 +14,7 @@ namespace SwNavComp
         [SerializeField] PlanetRuntimeSet targetPlanet;
         [SerializeField] GameEvent createPathEvent;
 
+
         public void DisplayPlanet()
         {
             Text planetName = planetNameTextObject.GetComponent<Text>();
@@ -37,6 +38,11 @@ namespace SwNavComp
         {
             targetPlanet.Clear();
             targetPlanet.Add(selectedPlanet.Get(0));
+        }
+
+        public void OpenPlanetWikiURL()
+        {
+            selectedPlanet.Get(0).OpenLink();
         }
 
     }
