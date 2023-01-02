@@ -18,6 +18,7 @@ namespace SwNavComp
         public List<Path> shortestPath;
         public List<Neighbour> neighbours = new List<Neighbour>();
         public GameObject gameObject;
+        public string wikiLink { get; private set; }
 
         public void Initialize(string name, int coordX, int coordY)
         {
@@ -25,6 +26,12 @@ namespace SwNavComp
             displayName = name;
             CoordX = coordX;
             CoordY = coordY;
+            wikiLink = "https://starwars.fandom.com/wiki/" + name.Replace(' ', '_');
+        }
+
+        public void OpenLink()
+        {
+            Application.OpenURL(wikiLink);
         }
 
         public int CompareTo(Planet other, int whichHyperlane)
