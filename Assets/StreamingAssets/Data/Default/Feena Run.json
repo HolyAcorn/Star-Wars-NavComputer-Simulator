@@ -1,0 +1,30 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Korphir",
+      "CoordX": 522.6,
+      "CoordY": 367.5
+    },
+    {
+      "Name": "The Cometwatch",
+      "CoordX": 527.7,
+      "CoordY": 377.6
+    },
+    {
+      "Name": "Usta",
+      "CoordX": 531.5,
+      "CoordY": 392.2
+    },
+    {
+      "Name": "Barison",
+      "CoordX": 538.8,
+      "CoordY": 398.8
+    },
+    {
+      "Name": "Feena",
+      "CoordX": 549.8,
+      "CoordY": 407.2
+    }
+  ]
+}

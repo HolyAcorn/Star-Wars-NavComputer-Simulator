@@ -1,0 +1,20 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Krylon",
+      "CoordX": 441.4,
+      "CoordY": 401.6
+    },
+    {
+      "Name": "Yavin",
+      "CoordX": 458.4,
+      "CoordY": 398.7
+    },
+    {
+      "Name": "Vaal",
+      "CoordX": 487.4,
+      "CoordY": 400
+    }
+  ]
+}

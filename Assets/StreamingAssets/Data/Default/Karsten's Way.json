@@ -1,0 +1,15 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Pygorix",
+      "CoordX": 585.9,
+      "CoordY": 385.2
+    },
+    {
+      "Name": "Karsten's World",
+      "CoordX": 588.8,
+      "CoordY": 378.5
+    }
+  ]
+}

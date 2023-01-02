@@ -1,0 +1,20 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Feswe Corridor",
+      "CoordX": 428.4,
+      "CoordY": 412
+    },
+    {
+      "Name": "Feswe Minor",
+      "CoordX": 406.9,
+      "CoordY": 406.8
+    },
+    {
+      "Name": "Junction",
+      "CoordX": 383.5,
+      "CoordY": 406.4
+    }
+  ]
+}

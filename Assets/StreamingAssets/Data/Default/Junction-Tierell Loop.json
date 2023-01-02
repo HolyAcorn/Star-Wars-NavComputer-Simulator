@@ -1,0 +1,85 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Junction",
+      "CoordX": 383.5,
+      "CoordY": 406.4
+    },
+    {
+      "Name": "Tertiary Feswe",
+      "CoordX": 404.9,
+      "CoordY": 393.8
+    },
+    {
+      "Name": "Selitan",
+      "CoordX": 417.1,
+      "CoordY": 388.1
+    },
+    {
+      "Name": "Pinoora",
+      "CoordX": 432.4,
+      "CoordY": 382.6
+    },
+    {
+      "Name": "Torque",
+      "CoordX": 461.4,
+      "CoordY": 381
+    },
+    {
+      "Name": "Jovan III",
+      "CoordX": 481.3,
+      "CoordY": 379.2
+    },
+    {
+      "Name": "Valusk Cluster",
+      "CoordX": 501.4,
+      "CoordY": 383.1
+    },
+    {
+      "Name": "Gulvitch",
+      "CoordX": 505.2,
+      "CoordY": 369.1
+    },
+    {
+      "Name": "Bronsoon",
+      "CoordX": 497.3,
+      "CoordY": 365
+    },
+    {
+      "Name": "Povanaria",
+      "CoordX": 492.6,
+      "CoordY": 354.6
+    },
+    {
+      "Name": "Durgen's Star",
+      "CoordX": 471.8,
+      "CoordY": 358.7
+    },
+    {
+      "Name": "Trinovat",
+      "CoordX": 455.5,
+      "CoordY": 366.2
+    },
+    {
+      "Name": "Near Indosa",
+      "CoordX": 442.4,
+      "CoordY": 368.3
+    },
+    {
+      "Name": "Presbalin",
+      "CoordX": 417.4,
+      "CoordY": 367.4
+    },
+    {
+      "Name": "Tierell",
+      "CoordX": 389.5,
+      "CoordY": 377.4
+    },
+    {
+      "Name": "Celanon",
+      "CoordX": 369.1,
+      "CoordY": 389
+    }
+  ]
+}

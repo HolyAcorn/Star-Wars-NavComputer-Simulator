@@ -1,0 +1,15 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Pinoora",
+      "CoordX": 432.4,
+      "CoordY": 382.6
+    },
+    {
+      "Name": "Denarii Station",
+      "CoordX": 422.6,
+      "CoordY": 377.8
+    }
+  ]
+}

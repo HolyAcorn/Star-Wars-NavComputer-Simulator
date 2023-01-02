@@ -1,0 +1,15 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Chenowei",
+      "CoordX": 544.2,
+      "CoordY": 439.4
+    },
+    {
+      "Name": "Elamposnia",
+      "CoordX": 546.9,
+      "CoordY": 451.1
+    }
+  ]
+}
