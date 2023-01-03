@@ -6545,6 +6545,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2054008112}
     m_Modifications:
+    - target: {fileID: 4185389010199720129, guid: e30da7d08ba6b71498aa0c6c7ef42f71, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4185389010199720129, guid: e30da7d08ba6b71498aa0c6c7ef42f71, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4185389010199720129, guid: e30da7d08ba6b71498aa0c6c7ef42f71, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 188
+      objectReference: {fileID: 0}
+    - target: {fileID: 4185389010199720129, guid: e30da7d08ba6b71498aa0c6c7ef42f71, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 27.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4185389010199720129, guid: e30da7d08ba6b71498aa0c6c7ef42f71, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 4185389010199720129, guid: e30da7d08ba6b71498aa0c6c7ef42f71, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -26.39
+      objectReference: {fileID: 0}
     - target: {fileID: 5738370806985928217, guid: e30da7d08ba6b71498aa0c6c7ef42f71, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -6591,23 +6615,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5738370807387026708, guid: e30da7d08ba6b71498aa0c6c7ef42f71, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5738370807387026708, guid: e30da7d08ba6b71498aa0c6c7ef42f71, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 188
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5738370807387026708, guid: e30da7d08ba6b71498aa0c6c7ef42f71, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5738370807387026708, guid: e30da7d08ba6b71498aa0c6c7ef42f71, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 96
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5738370807387026708, guid: e30da7d08ba6b71498aa0c6c7ef42f71, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -28.470001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5738370807433690292, guid: e30da7d08ba6b71498aa0c6c7ef42f71, type: 3}
       propertyPath: m_AnchorMax.y
@@ -7423,6 +7447,10 @@ PrefabInstance:
     - target: {fileID: 8599782877605348703, guid: 1bda1e461a497ff448325edeb834d36a, type: 3}
       propertyPath: m_Name
       value: Starship Profile Info
+      objectReference: {fileID: 0}
+    - target: {fileID: 8599782877605348703, guid: 1bda1e461a497ff448325edeb834d36a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8599782877654909620, guid: 1bda1e461a497ff448325edeb834d36a, type: 3}
       propertyPath: m_AnchorMax.y
