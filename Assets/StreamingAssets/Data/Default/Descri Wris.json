@@ -1,0 +1,31 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Korriz",
+      "CoordX": 605.4,
+      "CoordY": 523.7
+    },
+    {
+      "Name": "Athiss",
+      "CoordX": 616.7,
+      "CoordY": 526.4
+    },
+    {
+      "Name": "Svolten",
+      "CoordX": 641.7,
+      "CoordY": 527.2
+    },
+    {
+      "Name": "Bhargebba Six",
+      "CoordX": 638.1,
+      "CoordY": 523.5
+    },
+    {
+      "Name": "Nfolgai",
+      "CoordX": 648.9,
+      "CoordY": 517
+    }
+
+  ]
+}
