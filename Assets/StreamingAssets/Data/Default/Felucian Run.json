@@ -1,0 +1,25 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Thanium",
+      "CoordX": 692.2,
+      "CoordY": 386.9
+    },
+    {
+      "Name": "Felucia",
+      "CoordX": 680.2,
+      "CoordY": 379.9
+    },
+    {
+      "Name": "Mossak",
+      "CoordX": 679.4,
+      "CoordY": 369.9
+    },
+    {
+      "Name": "Galidraan",
+      "CoordX": 682.6,
+      "CoordY": 359.1
+    }
+  ]
+}
