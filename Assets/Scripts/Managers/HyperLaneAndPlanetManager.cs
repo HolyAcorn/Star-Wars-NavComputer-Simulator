@@ -48,7 +48,7 @@ namespace SwNavComp
                 {
                     HyperLane hyperLane = ScriptableObject.CreateInstance<HyperLane>();
                     hyperLane.Initialize(result, planetList);
-                    hyperLane.SetType(JsonConverter.GetType(jsonFile));
+                    hyperLane.SetType(JsonConverter.GetTypeJsonFile(jsonFile));
                     hyperLane = SortPlanets(hyperLane);
 
                     for (int p = 1; p < hyperLane.Planets.Count(); p++)

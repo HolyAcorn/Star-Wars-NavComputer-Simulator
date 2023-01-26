@@ -6,7 +6,7 @@ using UnityEngine;
 namespace SwNavComp
 {
     [Serializable]
-    public class JsonFile
+    public class JsonPlanetFile
     {
         public JsonPlanets[] JsonPlanets;
         public int Type;

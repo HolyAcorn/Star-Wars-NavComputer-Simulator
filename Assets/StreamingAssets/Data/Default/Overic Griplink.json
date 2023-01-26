@@ -1,0 +1,55 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Quermia",
+      "CoordX": 761.8,
+      "CoordY": 462
+    },
+    {
+      "Name": "Toola",
+      "CoordX": 779.8,
+      "CoordY": 463.9
+    },
+    {
+      "Name": "Florn",
+      "CoordX": 811.5,
+      "CoordY": 440.2
+    },
+    {
+      "Name": "Pakuuni",
+      "CoordX": 851.9,
+      "CoordY": 386.3
+    },
+    {
+      "Name": "Shaylin",
+      "CoordX": 868.3,
+      "CoordY": 378.9
+    },
+    {
+      "Name": "Turkana",
+      "CoordX": 875.7,
+      "CoordY": 375.9
+    },
+    {
+      "Name": "Munto Codru",
+      "CoordX": 895.2,
+      "CoordY": 364.9
+    },
+    {
+      "Name": "Reginard",
+      "CoordX": 897.1,
+      "CoordY": 357.5
+    },
+    {
+      "Name": "Ruisto",
+      "CoordX": 900.3,
+      "CoordY": 336.1
+    },
+    {
+      "Name": "Mon Calamari",
+      "CoordX": 907.2,
+      "CoordY": 330.1
+    }
+  ]
+}

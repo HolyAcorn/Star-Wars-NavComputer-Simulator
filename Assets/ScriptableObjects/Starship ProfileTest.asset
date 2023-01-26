@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 329362c7a4ae3d6409d279503b549a9b, type: 3}
   m_Name: Starship ProfileTest
   m_EditorClassIdentifier: 
-  Name: Jinga
+  starShipList: {fileID: 11400000, guid: ac2537c3c3e2d9e49beabad8aa78ce83, type: 2}
+  Name: gfd
   Model: Tie Biter
   Type: Starfighter
   Description: dsfa
@@ -28,7 +29,8 @@ MonoBehaviour:
   HullTrauma: 0
   SystemStrainThreshold: 23
   SystemStrain: 0
-  FuelThreshold: 0
+  FuelThreshold: 43
   Fuel: 0
   ConsumablesThreshold: 0
   Consumables: 0
+  damageLevel: 0

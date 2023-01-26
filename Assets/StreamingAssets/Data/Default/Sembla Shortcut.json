@@ -1,0 +1,20 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Syngia",
+      "CoordX": 685.8,
+      "CoordY": 450
+    },
+    {
+      "Name": "Sembla",
+      "CoordX": 716.7,
+      "CoordY": 435.2
+    },
+    {
+      "Name": "Janodral Minor",
+      "CoordX": 735.7,
+      "CoordY": 425.8
+    }
+  ]
+}

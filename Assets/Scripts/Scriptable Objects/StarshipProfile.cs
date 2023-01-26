@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SocialPlatforms;
 
@@ -19,7 +20,7 @@ public class StarshipProfile : ScriptableObject
 {
 
     string SAVEPATH;
-
+    public StarshipProfileRuntimeSet starShipList;
 
     public string Name;
     public string Model;
@@ -51,7 +52,7 @@ public class StarshipProfile : ScriptableObject
     public int ConsumablesThreshold;
     public int Consumables;
 
-    private SaveObject saveObject;
+    private StarshipJsonObject saveObject;
     private string jsonFile;
 
     // 0 is undamaged,
@@ -94,20 +95,24 @@ public class StarshipProfile : ScriptableObject
 
     #endregion
 
-    #region SAVE TO JSON
+
 
     private void OnEnable()
     {
-         SAVEPATH = Application.dataPath + "/StreamingAssets/Starships/";
+        SAVEPATH = Application.dataPath + "/StreamingAssets/Starships/";
     }
+
+    #region SAVE TO JSON
 
     public void SaveStarshipToJson()
     {
+
         CreateSaveObject();
 
         string json = JsonConverter.ConvertToJson(saveObject);
 
         JsonConverter.SaveFileToJson(Name, json, SAVEPATH);
+
 
     }
 
@@ -119,7 +124,7 @@ public class StarshipProfile : ScriptableObject
 
     private void CreateSaveObject()
     {
-        saveObject = new SaveObject
+        saveObject = new StarshipJsonObject
         {
 
             Name = Name,
@@ -142,37 +147,13 @@ public class StarshipProfile : ScriptableObject
             HullTrauma = HullTrauma,
             SystemStrain = SystemStrain,
             SystemStrainThreshold = SystemStrainThreshold,
+            FuelThreshold = FuelThreshold,
+            Fuel = Fuel,
+            ConsumablesThreshold = ConsumablesThreshold,
+            Consumables = Consumables
         };
     }
 
-    public class SaveObject
-    {
-        public string Name;
-        public string Model;
-        public string Type;
-        public string Description;
-
-        public string Crew;
-        public int Passengers;
-
-        public string HyperDriveType;
-        public float HyperdriveRating;
-
-        public int Silhouette;
-        public int Speed;
-        public int Handling;
-
-        public int ForeDefense;
-        public int PortDefense;
-        public int StarboardDefense;
-        public int AftDefense;
-
-        public int Armor;
-        public int HullTraumaThreshold;
-        public int HullTrauma;
-
-        public int SystemStrainThreshold;
-        public int SystemStrain;
-    }
+    
     #endregion
 }
