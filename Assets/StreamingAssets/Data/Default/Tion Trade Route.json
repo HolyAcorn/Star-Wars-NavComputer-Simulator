@@ -1,0 +1,60 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Estaria",
+      "CoordX": 742.6,
+      "CoordY": 437
+    },
+    {
+      "Name": "Endregaad",
+      "CoordX": 757.5,
+      "CoordY": 413.8
+    },
+    {
+      "Name": "Raxus Prime",
+      "CoordX": 770,
+      "CoordY": 411
+    },
+    {
+      "Name": "Tion",
+      "CoordX": 773.1,
+      "CoordY": 408
+    },
+    {
+      "Name": "Argoon",
+      "CoordX": 782.1,
+      "CoordY": 398.8
+    },
+    {
+      "Name": "Rudrig",
+      "CoordX": 791,
+      "CoordY": 389.6
+    },
+    {
+      "Name": "Clariv",
+      "CoordX": 796.4,
+      "CoordY": 375.7
+    },
+    {
+      "Name": "Eredeen",
+      "CoordX": 801.7,
+      "CoordY": 361.7
+    },
+    {
+      "Name": "Stalimur",
+      "CoordX": 798.8,
+      "CoordY": 353.7
+    },
+    {
+      "Name": "Birgia",
+      "CoordX": 811,
+      "CoordY": 342.9
+    },
+    {
+      "Name": "Caluula",
+      "CoordX": 814,
+      "CoordY": 331.4
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "OHS4140-02",
+      "CoordX": 816,
+      "CoordY": 285.1
+    },
+    {
+      "Name": "Dellalt",
+      "CoordX": 827.6,
+      "CoordY": 320.2
+    }
+  ]
+}

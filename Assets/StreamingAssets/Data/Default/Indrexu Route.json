@@ -1,0 +1,30 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Dravine",
+      "CoordX": 768.9,
+      "CoordY": 379.7
+    },
+    {
+      "Name": "Argai",
+      "CoordX": 778.1,
+      "CoordY": 369.5
+    },
+    {
+      "Name": "Corlass",
+      "CoordX": 776,
+      "CoordY": 358.9
+    },
+    {
+      "Name": "Panna",
+      "CoordX": 766,
+      "CoordY": 352.9
+    },
+    {
+      "Name": "Derellium",
+      "CoordX": 766.4,
+      "CoordY": 343.9
+    }
+  ]
+}

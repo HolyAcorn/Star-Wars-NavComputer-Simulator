@@ -1,0 +1,35 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Mon Calamari",
+      "CoordX": 907.2,
+      "CoordY": 330.1
+    },
+    {
+      "Name": "Pinperu",
+      "CoordX": 924.9,
+      "CoordY": 332.9
+    },
+    {
+      "Name": "Damendine",
+      "CoordX": 924.4,
+      "CoordY": 348.4
+    },
+    {
+      "Name": "Krinemonen",
+      "CoordX": 940.7,
+      "CoordY": 321.2
+    },
+    {
+      "Name": "Hinakuu",
+      "CoordX": 945.8,
+      "CoordY": 304.9
+    },
+    {
+      "Name": "Sanctuary",
+      "CoordX": 920.1,
+      "CoordY": 295.5
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "OHS3842-03",
+      "CoordX": 807.1,
+      "CoordY": 269.4
+    },
+    {
+      "Name": "Agon Nine",
+      "CoordX": 814.5,
+      "CoordY": 246
+    },
+    {
+      "Name": "OHS1782-03",
+      "CoordX": 815.5,
+      "CoordY": 229.4
+    }
+  ]
+}

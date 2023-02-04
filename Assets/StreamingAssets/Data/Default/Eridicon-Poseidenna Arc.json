@@ -1,0 +1,20 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Eridicon IV",
+      "CoordX": 877.7,
+      "CoordY": 336.1
+    },
+    {
+      "Name": "Minntooine",
+      "CoordX": 897.8,
+      "CoordY": 322.1
+    },
+    {
+      "Name": "Poseidenna",
+      "CoordX": 901.5,
+      "CoordY": 294.7
+    }
+  ]
+}

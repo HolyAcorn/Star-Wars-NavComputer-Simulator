@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace SwNavComp
 {
@@ -13,13 +14,20 @@ namespace SwNavComp
         [SerializeField] PlanetRuntimeSet startingPlanet;
         [SerializeField] PlanetRuntimeSet targetPlanet;
         [SerializeField] GameEvent createPathEvent;
-
+        [SerializeField] GameObject hyperLanesTextObject;
 
         public void DisplayPlanet()
         {
             Text planetName = planetNameTextObject.GetComponent<Text>();
-
+            
             planetName.text = selectedPlanet.Get(0).displayName;
+
+            TMP_Text hyperLaneNames = hyperLanesTextObject.GetComponent<TMP_Text>();
+            hyperLaneNames.text = "";
+            foreach (string hyperLane in selectedPlanet.Get(0).HyperlaneRoutes)
+            {
+                hyperLaneNames.text = hyperLaneNames.text + ", " + hyperLane;
+            }
         }
 
         private void OnApplicationQuit()

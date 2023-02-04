@@ -1,0 +1,45 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Handooine",
+      "CoordX": 736.4,
+      "CoordY": 248.9
+    },
+    {
+      "Name": "Altratonne",
+      "CoordX": 771.6,
+      "CoordY": 263.6
+    },
+    {
+      "Name": "OHS3842-03",
+      "CoordX": 807.1,
+      "CoordY": 269.4
+    },
+    {
+      "Name": "OHS4140-02",
+      "CoordX": 816,
+      "CoordY": 285.1
+    },
+    {
+      "Name": "OHS2132-04",
+      "CoordX": 874.7,
+      "CoordY": 299.7
+    },
+    {
+      "Name": "Chiron",
+      "CoordX": 894.4,
+      "CoordY": 262.8
+    },
+    {
+      "Name": "OHS1782-03",
+      "CoordX": 815.5,
+      "CoordY": 229.4
+    },
+    {
+      "Name": "Jabiim",
+      "CoordX": 755.2,
+      "CoordY": 227.6
+    }
+  ]
+}

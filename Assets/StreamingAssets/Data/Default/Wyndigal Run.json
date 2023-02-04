@@ -1,0 +1,25 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Pasmin",
+      "CoordX": 729.4,
+      "CoordY": 336.9
+    },
+    {
+      "Name": "Murkhana",
+      "CoordX": 732.6,
+      "CoordY": 326.7
+    },
+    {
+      "Name": "Wyndigal 2",
+      "CoordX": 752.6,
+      "CoordY": 290.8
+    },
+    {
+      "Name": "Altratonne",
+      "CoordX": 771.6,
+      "CoordY": 263.6
+    }
+  ]
+}

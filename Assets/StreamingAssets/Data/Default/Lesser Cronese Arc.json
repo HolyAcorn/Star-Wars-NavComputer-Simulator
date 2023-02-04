@@ -1,0 +1,30 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Caluula",
+      "CoordX": 814,
+      "CoordY": 331.4
+    },
+    {
+      "Name": "Saheelindeel",
+      "CoordX": 800,
+      "CoordY": 326
+    },
+    {
+      "Name": "Algor",
+      "CoordX": 791.7,
+      "CoordY": 330.7
+    },
+    {
+      "Name": "Eibon",
+      "CoordX": 779.7,
+      "CoordY": 337.4
+    },
+    {
+      "Name": "Derellium",
+      "CoordX": 766.4,
+      "CoordY": 343.9
+    }
+  ]
+}
