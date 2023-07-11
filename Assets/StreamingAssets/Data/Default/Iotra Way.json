@@ -1,0 +1,25 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Sriluur",
+      "CoordX": 775.7,
+      "CoordY": 113
+    },
+    {
+      "Name": "Solacton",
+      "CoordX": 767.7,
+      "CoordY": 112.4
+    },
+    {
+      "Name": "Talir",
+      "CoordX": 760.9,
+      "CoordY": 112.3
+    },
+    {
+      "Name": "Iotra",
+      "CoordX": 747.4,
+      "CoordY": 110.6
+    }
+  ]
+}

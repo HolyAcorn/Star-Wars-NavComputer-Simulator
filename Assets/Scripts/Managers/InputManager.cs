@@ -21,6 +21,7 @@ namespace SwNavComp
         [SerializeField] PlanetRuntimeSet selectedPlanet;
         [SerializeField] GameEvent clickedBlankEvent;
 
+
         float edgeSize = 10f;
 
         private void Awake()
@@ -58,6 +59,13 @@ namespace SwNavComp
             //if (EventSystem.current.IsPointerOverGameObject()) return;
             selectedPlanet.Clear();
             clickedBlankEvent.Raise();
+        }
+
+
+        public void GetCursorCoordinatesDEBUG(CallbackContext context)
+        {
+            Camera camera = Camera.main;
+            if(context.performed) Debug.Log(camera.ScreenToWorldPoint(Mouse.current.position.ReadValue()));
         }
     }
 }

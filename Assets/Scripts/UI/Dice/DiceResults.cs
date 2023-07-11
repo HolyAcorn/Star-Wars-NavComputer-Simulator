@@ -5,6 +5,8 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.UI;
 using System;
+using static UnityEngine.UI.Button;
+using UnityEngine.Events;
 
 namespace SwNavComp
 {
@@ -18,6 +20,7 @@ namespace SwNavComp
         private void Start()
         {
             ClearList();
+            gameObject.SetActive(false);
         }
 
         DiceValue GetDiceValue(int index)

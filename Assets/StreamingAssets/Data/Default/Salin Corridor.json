@@ -80,6 +80,16 @@
       "Name": "Boonta",
       "CoordX": 745.7,
       "CoordY": 149.3
+    },
+    {
+      "Name": "Novor",
+      "CoordX": 755.5,
+      "CoordY": 140.1
+    },
+    {
+      "Name": "Nwarcol Point",
+      "CoordX": 779.4,
+      "CoordY": 131.7
     }
   ]
 }

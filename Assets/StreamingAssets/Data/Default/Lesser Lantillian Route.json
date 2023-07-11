@@ -1,0 +1,85 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Junkfort Station",
+      "CoordX": 806,
+      "CoordY": 163.2
+    },
+    {
+      "Name": "Boonta",
+      "CoordX": 745.7,
+      "CoordY": 149.3
+    },
+    {
+      "Name": "Pusat Station",
+      "CoordX": 697.1,
+      "CoordY": 121.9
+    },
+    {
+      "Name": "Peg Shar",
+      "CoordX": 697.2,
+      "CoordY": 111
+    },
+    {
+      "Name": "Bimmisaari",
+      "CoordX": 678.6,
+      "CoordY": 85.3
+    },
+    {
+      "Name": "Charros IV",
+      "CoordX": 613.5,
+      "CoordY": 71.5
+    },
+    {
+      "Name": "Togoria",
+      "CoordX": 473.5,
+      "CoordY": 73
+    },
+    {
+      "Name": "Uyter",
+      "CoordX": 452.9,
+      "CoordY": 71.9
+    },
+    {
+      "Name": "Avenelle",
+      "CoordX": 437.5,
+      "CoordY": 70.8
+    },
+    {
+      "Name": "Nazzri",
+      "CoordX": 427.9,
+      "CoordY": 70.1
+    },
+    {
+      "Name": "Vena",
+      "CoordX": 401.3,
+      "CoordY": 58.3
+    },
+    {
+      "Name": "Onderon & Dxun",
+      "CoordX": 370.6,
+      "CoordY": 17.4
+    },
+    {
+      "Name": "Ambria",
+      "CoordX": 370.7,
+      "CoordY": -14.2
+    },
+    {
+      "Name": "Taboon",
+      "CoordX": 369,
+      "CoordY": -23.1
+    },
+    {
+      "Name": "Merson",
+      "CoordX": 367.4,
+      "CoordY": -36.5
+    },
+    {
+      "Name": "Zeltros",
+      "CoordX": 353,
+      "CoordY": -69.6
+    }
+  ]
+}

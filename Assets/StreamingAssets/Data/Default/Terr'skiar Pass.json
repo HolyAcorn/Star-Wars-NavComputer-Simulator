@@ -1,0 +1,20 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Terr'skiar",
+      "CoordX": 479.5,
+      "CoordY": -32.3
+    },
+	{
+      "Name": "Bissillirus",
+      "CoordX": 502.7,
+      "CoordY": -51.6
+    },
+    {
+      "Name": "Deysum III",
+      "CoordX": 530.2,
+      "CoordY": -58.3
+    }
+  ]
+}
