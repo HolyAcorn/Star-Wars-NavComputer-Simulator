@@ -25,7 +25,7 @@ namespace SwNavComp
         [SerializeField] GameEvent presentPath;
 
         [SerializeField] float parsecsPerHour = 93.75f;
-
+        [SerializeField] StarshipProfile starshipProfile;
 
         private void Awake()
         {
@@ -65,7 +65,7 @@ namespace SwNavComp
             {
                 calculatedPath.Add(planet);
             }
-            float hoursTaken = TravelTimeHelper.CalculateTimeRequiredInHours(finalDistance.Value, parsecsPerHour, 1, 0);
+            float hoursTaken = TravelTimeHelper.CalculateTimeRequiredInHours(finalDistance.Value, parsecsPerHour, starshipProfile.HyperdriveRating, 0);
             timeTakenDisplay.Value = TravelTimeHelper.DecimalToTime(hoursTaken);
             presentPath.Raise();
         }

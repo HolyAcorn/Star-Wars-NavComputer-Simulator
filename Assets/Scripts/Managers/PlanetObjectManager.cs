@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 
 namespace SwNavComp
 {
-    public class PlanetObjectManager : MonoBehaviour, IPointerDownHandler
+    public class PlanetObjectManager : MonoBehaviour, IPointerClickHandler
     {
 
         [HideInInspector] public Planet planet;
@@ -16,8 +16,9 @@ namespace SwNavComp
 
         [SerializeField] GameObject outline;
 
-        public void OnPointerDown(PointerEventData eventData)
+        public void OnPointerClick(PointerEventData eventData)
         {
+            //if (!EventSystem.current.IsPointerOverGameObject()) return;
             selectedPlanet.Clear();
             selectedPlanet.Add(planet);
             newSelectedPlanetEvent.Raise();

@@ -18,9 +18,14 @@ namespace SwNavComp
             return items[index];
         }
 
-        public void Add(T thingToAdd)
+        public void Add(T thingToAdd, bool allowDuplicates = false)
         {
-            if (!items.Contains(thingToAdd)) items.Add(thingToAdd);
+            if(!allowDuplicates)
+            {
+                if(!items.Contains(thingToAdd)) items.Add(thingToAdd);
+                return;
+            }
+            items.Add(thingToAdd);
         }
 
         public void Remove(T thingToRemove)

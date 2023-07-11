@@ -8,7 +8,7 @@ using static UnityEngine.InputSystem.InputAction;
 
 namespace SwNavComp
 {
-    
+
     public class InputManager : MonoBehaviour
     {
         PlayerInput playerInput;
@@ -55,7 +55,7 @@ namespace SwNavComp
 
         public void GetLeftClickInput(CallbackContext context)
         {
-            if (EventSystem.current.IsPointerOverGameObject()) return;
+            //if (EventSystem.current.IsPointerOverGameObject()) return;
             selectedPlanet.Clear();
             clickedBlankEvent.Raise();
         }
