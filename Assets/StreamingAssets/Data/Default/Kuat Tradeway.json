@@ -1,0 +1,25 @@
+{
+  "Type": -1,
+  "JsonPlanets": [
+    {
+      "Name": "Fedalle",
+      "CoordX": 139.8,
+      "CoordY": -54.5
+    },
+    {
+      "Name": "Raxxa",
+      "CoordX": 166.9,
+      "CoordY": -55.5
+    },
+    {
+      "Name": "Kuat",
+      "CoordX": 186,
+      "CoordY": -59.8
+    },
+    {
+      "Name": "Commenor",
+      "CoordX": 231.1,
+      "CoordY": -98.3
+    }
+  ]
+}

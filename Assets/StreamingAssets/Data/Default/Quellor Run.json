@@ -1,0 +1,50 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Quellor",
+      "CoordX": 234.8,
+      "CoordY": -209.4
+    },
+    {
+      "Name": "Lankashiir",
+      "CoordX": 234.7,
+      "CoordY": -192.6
+    },
+    {
+      "Name": "Talasea",
+      "CoordX": 224.3,
+      "CoordY": -155.9
+    },
+    {
+      "Name": "Hensara III",
+      "CoordX": 218.3,
+      "CoordY": -141
+    },
+    {
+      "Name": "Cato Nemoidia",
+      "CoordX": 216.3,
+      "CoordY": -135.2
+    },
+    {
+      "Name": "Vladet",
+      "CoordX": 214.5,
+      "CoordY": -129.6
+    },
+    {
+      "Name": "Chorax",
+      "CoordX": 215.1,
+      "CoordY": -116.5
+    },
+    {
+      "Name": "Damoria",
+      "CoordX": 222,
+      "CoordY": -107.9
+    },
+    {
+      "Name": "Commenor",
+      "CoordX": 231.1,
+      "CoordY": -98.3
+    }
+  ]
+}

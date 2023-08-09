@@ -1,0 +1,30 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Trellen",
+      "CoordX": 164.3,
+      "CoordY": -100.5
+    },
+    {
+      "Name": "Humbarine",
+      "CoordX": 188.2,
+      "CoordY": -99.9
+    },
+    {
+      "Name": "Commenor",
+      "CoordX": 231.1,
+      "CoordY": -98.3
+    },
+    {
+      "Name": "Rasterous",
+      "CoordX": 306.7,
+      "CoordY": -90.8
+    },
+    {
+      "Name": "Zeltros",
+      "CoordX": 353,
+      "CoordY": -69.6
+    }
+  ]
+}
