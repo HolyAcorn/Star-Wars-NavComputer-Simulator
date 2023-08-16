@@ -1,0 +1,50 @@
+{
+  "Type": -1,
+  "JsonPlanets": [
+    {
+      "Name": "Exodeen",
+      "CoordX": 198.7,
+      "CoordY": -207.8
+    },
+    {
+      "Name": "Quellor",
+      "CoordX": 234.8,
+      "CoordY": -209.4
+    },
+    {
+      "Name": "Antar",
+      "CoordX": 282.8,
+      "CoordY": -210.4
+    },
+    {
+      "Name": "Gyndine",
+      "CoordX": 313,
+      "CoordY": -223.5
+    },
+    {
+      "Name": "Fabrin",
+      "CoordX": 371.2,
+      "CoordY": -235.8
+    },
+    {
+      "Name": "Mimban",
+      "CoordX": 372.4,
+      "CoordY": -202.9
+    },
+    {
+      "Name": "Zaloriis",
+      "CoordX": 406,
+      "CoordY": -223
+    },
+    {
+      "Name": "Attahox",
+      "CoordX": 474.7,
+      "CoordY": -216.9
+    },
+    {
+      "Name": "Nanth'ri",
+      "CoordX": 529.3,
+      "CoordY": -207.3
+    }
+  ]
+}

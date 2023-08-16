@@ -1,0 +1,35 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Ilos Minor",
+      "CoordX": 691.5,
+      "CoordY": -30.6
+    },
+    {
+      "Name": "Tal Nami",
+      "CoordX": 692.5,
+      "CoordY": 3.8
+    },
+    {
+      "Name": "Alee",
+      "CoordX": 684.4,
+      "CoordY": 27.9
+    },
+    {
+      "Name": "Boz Pity",
+      "CoordX": 704.3,
+      "CoordY": 59.8
+    },
+    {
+      "Name": "Xoman Three",
+      "CoordX": 701.9,
+      "CoordY": 63.5
+    },
+    {
+      "Name": "Bimmisaari",
+      "CoordX": 678.6,
+      "CoordY": 85.3
+    }
+  ]
+}

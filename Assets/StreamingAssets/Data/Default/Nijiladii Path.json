@@ -1,0 +1,15 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Kor Hestilic",
+      "CoordX": 747,
+      "CoordY": -80.8
+    },
+    {
+      "Name": "Kor Nijiladii",
+      "CoordX": 755.3,
+      "CoordY": -74
+    }
+  ]
+}

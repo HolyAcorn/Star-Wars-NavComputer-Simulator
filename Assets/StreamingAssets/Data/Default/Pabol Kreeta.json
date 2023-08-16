@@ -1,0 +1,15 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Nar Kreeta",
+      "CoordX": 709.3,
+      "CoordY": -35.6
+    },
+    {
+      "Name": "Nar Bo Sholla",
+      "CoordX": 685.9,
+      "CoordY": -93.7
+    }
+  ]
+}

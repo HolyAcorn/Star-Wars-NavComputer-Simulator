@@ -1,0 +1,50 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Oeson VII",
+      "CoordX": 860.6,
+      "CoordY": 150.9
+    },
+    {
+      "Name": "Arleen",
+      "CoordX": 870.8,
+      "CoordY": 153.7
+    },
+    {
+      "Name": "Ringneldia II",
+      "CoordX": 893.7,
+      "CoordY": 155.5
+    },
+    {
+      "Name": "Dilonexa XXIII",
+      "CoordX": 913.3,
+      "CoordY": 155.4
+    },
+    {
+      "Name": "Uaua",
+      "CoordX": 924.5,
+      "CoordY": 151.6
+    },
+    {
+      "Name": "Falko",
+      "CoordX": 933.3,
+      "CoordY": 149.8
+    },
+    {
+      "Name": "Antipose",
+      "CoordX": 937.1,
+      "CoordY": 148.2
+    },
+    {
+      "Name": "Paulking",
+      "CoordX": 943.6,
+      "CoordY": 140.9
+    },
+    {
+      "Name": "Douglas III",
+      "CoordX": 947.8,
+      "CoordY": 134.1
+    }
+  ]
+}

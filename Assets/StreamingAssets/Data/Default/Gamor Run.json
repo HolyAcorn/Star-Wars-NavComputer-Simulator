@@ -1,0 +1,75 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Gamor",
+      "CoordX": 350.3,
+      "CoordY": -441.4
+    },
+    {
+      "Name": "Merren",
+      "CoordX": 359.6,
+      "CoordY": -436.3
+    },
+    {
+      "Name": "Aridus",
+      "CoordX": 366.1,
+      "CoordY": -420.8
+    },
+    {
+      "Name": "Charra",
+      "CoordX": 407.4,
+      "CoordY": -409
+    },
+    {
+      "Name": "Aikhibba",
+      "CoordX": 471.4,
+      "CoordY": -394.3
+    },
+    {
+      "Name": "Hoylin",
+      "CoordX": 492,
+      "CoordY": -371.8
+    },
+    {
+      "Name": "Beris",
+      "CoordX": 501.4,
+      "CoordY": -363.5
+    },
+    {
+      "Name": "Deneba",
+      "CoordX": 516.2,
+      "CoordY": -344.1
+    },
+    {
+      "Name": "Chokan",
+      "CoordX": 521.2,
+      "CoordY": -330.2
+    },
+    {
+      "Name": "Shador",
+      "CoordX": 537.1,
+      "CoordY": -314.8
+    },
+    {
+      "Name": "Thokosia",
+      "CoordX": 545.9,
+      "CoordY": -305.1
+    },
+    {
+      "Name": "Daalang",
+      "CoordX": 567,
+      "CoordY": -272
+    },
+    {
+      "Name": "Circumtore",
+      "CoordX": 708.7,
+      "CoordY": -244.5
+    },
+    {
+      "Name": "Rorak",
+      "CoordX": 738,
+      "CoordY": -228.4
+    }
+  ]
+}
