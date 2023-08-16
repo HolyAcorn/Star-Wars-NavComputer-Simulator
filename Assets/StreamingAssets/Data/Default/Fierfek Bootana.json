@@ -1,0 +1,50 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Elgit",
+      "CoordX": 805.5,
+      "CoordY": -77.4
+    },
+    {
+      "Name": "Bootana Shagplan",
+      "CoordX": 787.3,
+      "CoordY": -96.8
+    },
+    {
+      "Name": "Langoona",
+      "CoordX": 780.3,
+      "CoordY": -96.8
+    },
+    {
+      "Name": "Kor Anjiliac",
+      "CoordX": 776.7,
+      "CoordY": -101.9
+    },
+    {
+      "Name": "Huloon",
+      "CoordX": 770.4,
+      "CoordY": -105.3
+    },
+    {
+      "Name": "Kor Desilijic",
+      "CoordX": 765.5,
+      "CoordY": -109.7
+    },
+    {
+      "Name": "Gos Hutta",
+      "CoordX": 758.5,
+      "CoordY": -117.4
+    },
+    {
+      "Name": "Kor Oktanivii",
+      "CoordX": 752.5,
+      "CoordY": -125.3
+    },
+    {
+      "Name": "Pybus",
+      "CoordX": 749.5,
+      "CoordY": -137.9
+    }
+  ]
+}

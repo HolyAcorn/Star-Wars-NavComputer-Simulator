@@ -1,0 +1,15 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Kuna's Fist",
+      "CoordX": -338.9,
+      "CoordY": -690.6
+    },
+    {
+      "Name": "Kuna's Horn",
+      "CoordX": -338,
+      "CoordY": -688.9
+    }
+  ]
+}

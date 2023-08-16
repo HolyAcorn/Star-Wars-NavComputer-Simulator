@@ -1,0 +1,20 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Thonner",
+      "CoordX": -325.2,
+      "CoordY": -689.1
+    },
+    {
+      "Name": "Qina",
+      "CoordX": -329.4,
+      "CoordY": -685.1
+    },
+    {
+      "Name": "Trindello",
+      "CoordX": -335.1,
+      "CoordY": -682.2
+    }
+  ]
+}

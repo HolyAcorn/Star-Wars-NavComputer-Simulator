@@ -1,0 +1,40 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Nal Hutta",
+      "CoordX": 704,
+      "CoordY": -205.8
+    },
+    {
+      "Name": "Hosko",
+      "CoordX": 743.6,
+      "CoordY": -181.7
+    },
+    {
+      "Name": "Varl",
+      "CoordX": 770.1,
+      "CoordY": -155.7
+    },
+    {
+      "Name": "Gos Hutta",
+      "CoordX": 758.5,
+      "CoordY": -117.4
+    },
+    {
+      "Name": "Mulatan",
+      "CoordX": 759.1,
+      "CoordY": -84.1
+    },
+    {
+      "Name": "Sleheyron",
+      "CoordX": 769.8,
+      "CoordY": -22.6
+    },
+    {
+      "Name": "Topa",
+      "CoordX": 768,
+      "CoordY": 100.5
+    }
+  ]
+}
