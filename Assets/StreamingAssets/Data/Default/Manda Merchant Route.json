@@ -1,0 +1,65 @@
+{
+  "Type": 0,
+  "JsonPlanets": [
+    {
+      "Name": "Bothawui",
+      "CoordX": 622.2,
+      "CoordY": -434
+    },
+    {
+      "Name": "Kothlis",
+      "CoordX": 624.3,
+      "CoordY": -458.7
+    },
+    {
+      "Name": "Thoran",
+      "CoordX": 627.9,
+      "CoordY": -463.6
+    },
+    {
+      "Name": "Zygia",
+      "CoordX": 650.2,
+      "CoordY": -473.3
+    },
+    {
+      "Name": "Manda",
+      "CoordX": 666.2,
+      "CoordY": -485.2
+    },
+    {
+      "Name": "Boranda",
+      "CoordX": 670.5,
+      "CoordY": -491.2
+    },
+    {
+      "Name": "Manda",
+      "CoordX": 682.1,
+      "CoordY": -504.2
+    },
+    {
+      "Name": "Dennaskar",
+      "CoordX": 699.6,
+      "CoordY": -507.4
+    },
+    {
+      "Name": "Hishyim",
+      "CoordX": 707.5,
+      "CoordY": -509.9
+    },
+    {
+      "Name": "Rishi",
+      "CoordX": 717.7,
+      "CoordY": -520.8
+    },
+    {
+      "Name": "Ukio",
+      "CoordX": 732.9,
+      "CoordY": -533.5
+    },
+    {
+      "Name": "Molavar",
+      "CoordX": 732.3,
+      "CoordY": -558.3
+    }
+  ]
+}
