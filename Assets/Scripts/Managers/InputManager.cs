@@ -21,6 +21,8 @@ namespace SwNavComp
         [SerializeField] PlanetRuntimeSet selectedPlanet;
         [SerializeField] GameEvent clickedBlankEvent;
 
+        [SerializeField] GameEvent DEV_OpenDEVMenuEvent;
+
         float edgeSize = 10f;
 
         private void Awake()
@@ -58,6 +60,12 @@ namespace SwNavComp
             if (EventSystem.current.IsPointerOverGameObject()) return;
             selectedPlanet.Clear();
             clickedBlankEvent.Raise();
+        }
+
+        public void GetDEVOpenInput(CallbackContext context)
+        {
+            DEV_OpenDEVMenuEvent.Raise();
+
         }
     }
 }

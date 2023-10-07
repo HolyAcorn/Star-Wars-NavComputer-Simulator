@@ -11,7 +11,7 @@ namespace SwNavComp
     public class HyperLane : ScriptableObject
     {
 
-        public PlanetRuntimeSet Planets { get; private set; }
+        public NodeRuntimeSet Nodes { get; private set; }
 
         public TypeEnum Type = new TypeEnum();
 
@@ -27,19 +27,19 @@ namespace SwNavComp
 
 
 
-        public void Initialize(string hyperLaneName, PlanetRuntimeSet planetList)
+        public void Initialize(string hyperLaneName, NodeRuntimeSet planetList)
         {
             name = hyperLaneName;
-            Planets = ScriptableObject.CreateInstance<PlanetRuntimeSet>();
+            Nodes = ScriptableObject.CreateInstance<NodeRuntimeSet>();
             for (int p = 0; p < planetList.Count(); p++)
             {
-                Planet planet = planetList.Get(p);
+                Node planet = planetList.Get(p);
                 for (int h = 0; h < planet.HyperlaneRoutes.Count; h++)
                 {
                     if ((planet.HyperlaneRoutes[h] != "" && name.ToLower() == planet.HyperlaneRoutes[h].ToLower()) || name == "HyperLaneMasterList")
                     {
-                        Planets.Add(planet);
-                        //planet.SetHyperLaneRoute(name, Planets.items.IndexOf(planet));
+                        Nodes.Add(planet);
+                        //planet.SetHyperLaneRoute(name, Nodes.items.IndexOf(planet));
                     }
 
                 }

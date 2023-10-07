@@ -9,16 +9,16 @@ namespace SwNavComp
     {
         HyperLane pointMasterList;
         [SerializeField] HyperLaneRuntimeSet hyperLaneList;
-        [SerializeField] PlanetRuntimeSet noHyperlanePlanets;
+        [SerializeField] NodeRuntimeSet noHyperlaneNodes;
 
-        [SerializeField] PlanetRuntimeSet startingPlanet;
-        [SerializeField] PlanetRuntimeSet targetPlanet;
+        [SerializeField] NodeRuntimeSet startingNode;
+        [SerializeField] NodeRuntimeSet targetNode;
 
-        private Planet startingPoint;
-        private Planet targetPoint;
+        private Node startingPoint;
+        private Node targetPoint;
 
         [SerializeField] FloatVariable finalDistance;
-        [SerializeField] PlanetRuntimeSet calculatedPath;
+        [SerializeField] NodeRuntimeSet calculatedPath;
         [SerializeField] StringRuntimeSet tradeRoutesInPath;
 
         [SerializeField] StringVariable timeTakenDisplay;
@@ -42,26 +42,26 @@ namespace SwNavComp
 
         public void CreatePath()
         {
-            if (targetPlanet.Count() == 0 || startingPlanet.Count() == 0) return;
+            if (targetNode.Count() == 0 || startingNode.Count() == 0) return;
             pointMasterList = hyperLaneList.CreateHyperLanePath();
-            foreach (Planet planet in noHyperlanePlanets.items)
+            foreach (Node planet in noHyperlaneNodes.items)
             {
-                if (!pointMasterList.Planets.Contains(planet)) pointMasterList.Planets.Add(planet);
+                if (!pointMasterList.Nodes.Contains(planet)) pointMasterList.Nodes.Add(planet);
             }
 
 
-            foreach (Planet planet in pointMasterList.Planets.items)
+            foreach (Node planet in pointMasterList.Nodes.items)
             {
                 if(planet.name == "Tython")
                 {
 
                 }
-                if (planet.name == startingPlanet.Get(0).displayName) startingPoint = planet;
-                if (planet.name == targetPlanet.Get(0).displayName) targetPoint = planet;
+                if (planet.name == startingNode.Get(0).displayName) startingPoint = planet;
+                if (planet.name == targetNode.Get(0).displayName) targetPoint = planet;
             }
-            //List<Planet> travelPath = Astar();
-            List<Planet> travelPath = Dijkstra();
-            foreach (Planet planet in travelPath)
+            //List<Node> travelPath = Astar();
+            List<Node> travelPath = Dijkstra();
+            foreach (Node planet in travelPath)
             {
                 calculatedPath.Add(planet);
             }
@@ -70,25 +70,25 @@ namespace SwNavComp
             presentPath.Raise();
         }
 
-        List<Planet> Astar()
+        List<Node> Astar()
         {
             calculatedPath.Clear();
-            Dictionary<Planet, Planet> nextPointToTarget = new Dictionary<Planet, Planet>();
-            PriorityQueue<Planet> frontier = new PriorityQueue<Planet>();
-            Dictionary<Planet, float> distancetoReachPoint = new Dictionary<Planet, float>();
+            Dictionary<Node, Node> nextPointToTarget = new Dictionary<Node, Node>();
+            PriorityQueue<Node> frontier = new PriorityQueue<Node>();
+            Dictionary<Node, float> distancetoReachPoint = new Dictionary<Node, float>();
 
             frontier.Enqueue(targetPoint, 0);
             distancetoReachPoint[targetPoint] = 0;
 
             while (frontier.Count > 0)
             {
-                Planet currentPoint = frontier.Dequeue();
+                Node currentPoint = frontier.Dequeue();
 
                 if (currentPoint == startingPoint) break;
-                foreach (Planet.Neighbour neighbour in currentPoint.neighbours)
+                foreach (Node.Neighbour neighbour in currentPoint.neighbours)
                 {
                     float newDistance = distancetoReachPoint[currentPoint] + neighbour.Distance;
-                    Planet nPoint = neighbour.Planet;
+                    Node nPoint = neighbour.Node;
                     if (!distancetoReachPoint.ContainsKey(nPoint) || newDistance < distancetoReachPoint[nPoint])
                     {
                         distancetoReachPoint[nPoint] = newDistance;
@@ -101,8 +101,8 @@ namespace SwNavComp
 
             if (!nextPointToTarget.ContainsKey(startingPoint)) return null;
 
-            Queue<Planet> path = new Queue<Planet>();
-            Planet currentPathPoint = startingPoint;
+            Queue<Node> path = new Queue<Node>();
+            Node currentPathPoint = startingPoint;
             while (currentPathPoint != targetPoint)
             {
                 currentPathPoint = nextPointToTarget[currentPathPoint];
@@ -110,39 +110,39 @@ namespace SwNavComp
             }
             finalDistance.Value = distancetoReachPoint[startingPoint] * 10;
             Debug.Log("Distance to " + targetPoint.name + "is: " + finalDistance.Value.ToString("0.00") + "parsecs");
-            List<Planet> listPath = path.ToList();
+            List<Node> listPath = path.ToList();
             listPath.Insert(0, startingPoint);
             return listPath;
 
 
-            float Distance(Planet p1, Planet p2)
+            float Distance(Node p1, Node p2)
             {
                 return ((p1.CoordX - p2.CoordX) + (p1.CoordY - p2.CoordY));
             }
         }
 
-        List<Planet> Dijkstra()
+        List<Node> Dijkstra()
         {
             calculatedPath.Clear();
-            Dictionary<Planet, Planet> nextPointToTarget = new Dictionary<Planet, Planet>();
-            PriorityQueue<Planet> frontier = new PriorityQueue<Planet>();
-            Dictionary<Planet, float> distancetoReachPoint = new Dictionary<Planet, float>();
+            Dictionary<Node, Node> nextPointToTarget = new Dictionary<Node, Node>();
+            PriorityQueue<Node> frontier = new PriorityQueue<Node>();
+            Dictionary<Node, float> distancetoReachPoint = new Dictionary<Node, float>();
 
             frontier.Enqueue(targetPoint, 0);
             distancetoReachPoint[targetPoint] = 0;
 
             while (frontier.Count > 0)
             {
-                Planet currentPoint = frontier.Dequeue();
-                if (currentPoint.displayName == "Qiilura" || currentPoint.displayName == "Ota")
+                Node currentPoint = frontier.Dequeue();
+                if (currentPoint.name == "Qiilura" || currentPoint.name== "Ota")
                 {
                     Debug.Log("ds");
                 }
                 if (currentPoint == startingPoint) break;
-                foreach (Planet.Neighbour neighbour in currentPoint.neighbours)
+                foreach (Node.Neighbour neighbour in currentPoint.neighbours)
                 {
                     float newDistance = distancetoReachPoint[currentPoint] + neighbour.Distance;
-                    Planet nPoint = neighbour.Planet;
+                    Node nPoint = neighbour.Node;
                     if (!distancetoReachPoint.ContainsKey(nPoint) || newDistance < distancetoReachPoint[nPoint])
                     {
                         distancetoReachPoint[nPoint] = newDistance;
@@ -155,8 +155,8 @@ namespace SwNavComp
 
             if (!nextPointToTarget.ContainsKey(startingPoint)) return null;
 
-            Queue<Planet> path = new Queue<Planet>();
-            Planet currentPathPoint = startingPoint;
+            Queue<Node> path = new Queue<Node>();
+            Node currentPathPoint = startingPoint;
             while (currentPathPoint != targetPoint)
             {
                 currentPathPoint = nextPointToTarget[currentPathPoint];
@@ -164,12 +164,12 @@ namespace SwNavComp
             }
             finalDistance.Value = distancetoReachPoint[startingPoint] * 10;
             Debug.Log("Distance to " + targetPoint.name + "is: " + finalDistance.Value.ToString("0.00") + "parsecs");
-            List<Planet> listPath = path.ToList();
+            List<Node> listPath = path.ToList();
             listPath.Insert(0, startingPoint);
             return listPath;
 
 
-            float Distance(Planet p1, Planet p2)
+            float Distance(Node p1, Node p2)
             {
                 return ((p1.CoordX - p2.CoordX) + (p1.CoordY - p2.CoordY));
             }

@@ -10,13 +10,13 @@ namespace SwNavComp
         public HyperLane CreateHyperLanePath()
         {
             HyperLane masterHyperLane = ScriptableObject.CreateInstance<HyperLane>();
-            PlanetRuntimeSet planetRuntimeSet = ScriptableObject.CreateInstance<PlanetRuntimeSet>();
+            NodeRuntimeSet planetRuntimeSet = ScriptableObject.CreateInstance<NodeRuntimeSet>();
 
             foreach (HyperLane hyperLane in items)
             {
-                foreach (Planet planet in hyperLane.Planets.items)
+                foreach (Node planet in hyperLane.Nodes.items)
                 {
-                    planetRuntimeSet.AddPlanet(planet);
+                    planetRuntimeSet.AddNode(planet);
                 }
             }
             masterHyperLane.Initialize("HyperLaneMasterList", planetRuntimeSet);

@@ -91,7 +91,7 @@ namespace SwNavComp
                     bool areAllreadyNeighbours = false;
                     foreach (Planet.Neighbour neighbour in planet.neighbours)
                     {
-                        if (otherPlanet.displayName == neighbour.Planet.displayName) areAllreadyNeighbours = true;
+                        if (otherPlanet.name == neighbour.Node.name) areAllreadyNeighbours = true;
                     }
                     if (!areAllreadyNeighbours)
                     {
