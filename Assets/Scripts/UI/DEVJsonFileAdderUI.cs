@@ -16,6 +16,10 @@ namespace SwNavComp
         string defaultValue = "";
         string regexPattern;
 
+        bool createID = false;
+
+        Dictionary<string, int> planetIDs = new Dictionary<string, int>();
+
         public void ChangeJsonFile(bool add)
         {
             string finalDirPath = Application.dataPath + dirPath;
@@ -36,10 +40,21 @@ namespace SwNavComp
                 }
                 JsonConverter.SaveFileToJson(file, jsonFile);
             }
+            void CreateIDs(string jsonFile)
+            {
+                string regPattern = "\"Name\": \"(.*)\",";
+                Regex regex = new Regex(regPattern);
+                MatchCollection matches = regex.Matches(jsonFile);
+                Debug.Log(matches[0].Groups[0].Value);
 
+            }
         }
 
 
+        public void SetIDBool(bool value)
+        {
+            createID = value;
+        }
 
         public void UpdateParameter(string value)
         {

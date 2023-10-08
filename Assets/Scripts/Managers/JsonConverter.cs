@@ -75,19 +75,23 @@ namespace SwNavComp
             return JsonUtility.ToJson(t);
         }
 
-        
-
-
         public static void SaveFileToJson(string fileName, string json, string savePath, bool shouldOverwrite = true)
         {
             string finalSavePath = savePath + fileName + ".json";
-            if(!Directory.Exists(savePath)) Directory.CreateDirectory(savePath);
-            if (File.Exists(finalSavePath) && shouldOverwrite) Debug.Log("Overwritten file");
+            if (!Directory.Exists(savePath)) Directory.CreateDirectory(savePath);
+            if (File.Exists(finalSavePath) && shouldOverwrite) Debug.Log("Overwritten file" + finalSavePath);
             else if (!shouldOverwrite && File.Exists(finalSavePath)) return;
 
             File.WriteAllText(finalSavePath, json);
         }
 
+        public static void SaveFileToJson(string path, string json, bool shouldOverwrite = true)
+        {
+            if (File.Exists(path) && shouldOverwrite) Debug.Log("Overwritten file: " + path);
+            else if (!shouldOverwrite && File.Exists(path)) return;
+
+            File.WriteAllText(path, json);
+        }
 
         public static StarshipProfile LoadFromJsonStarShip(string jsonFile)
         {
