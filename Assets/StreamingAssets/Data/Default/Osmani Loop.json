@@ -1,0 +1,45 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Tekurr'k",
+      "CoordX": 34.9,
+      "CoordY": -811.5
+    },
+    {
+      "Name": "Antiquity",
+      "CoordX": 33,
+      "CoordY": -810.8
+    },
+    {
+      "Name": "Shoon",
+      "CoordX": 29.5,
+      "CoordY": -810.2
+    },
+    {
+      "Name": "Osmani",
+      "CoordX": 28.1,
+      "CoordY": -810.2
+    },
+    {
+      "Name": "Tranthellix",
+      "CoordX": 26.1,
+      "CoordY": -809.2
+    },
+    {
+      "Name": "Usnia",
+      "CoordX": 24.7,
+      "CoordY": -807.5
+    },
+    {
+      "Name": "Doreen",
+      "CoordX": 24.4,
+      "CoordY": -805.5
+    },
+    {
+      "Name": "Kalgo 13",
+      "CoordX": 25.3,
+      "CoordY": -802.3
+    }
+  ]
+}

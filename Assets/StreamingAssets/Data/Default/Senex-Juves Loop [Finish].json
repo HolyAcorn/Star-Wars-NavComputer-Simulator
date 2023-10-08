@@ -1,0 +1,15 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Kalgo 13",
+      "CoordX": 25.3,
+      "CoordY": -802.3
+    },
+    {
+      "Name": "Juvex",
+      "CoordX": 23,
+      "CoordY": -802.4
+    }
+  ]
+}

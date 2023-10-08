@@ -1,0 +1,40 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Kassido",
+      "CoordX": 11.7,
+      "CoordY": -787.8
+    },
+    {
+      "Name": "Selenius VII",
+      "CoordX": 11.2,
+      "CoordY": -777.4
+    },
+    {
+      "Name": "Ogem",
+      "CoordX": 8.3,
+      "CoordY": -772.4
+    },
+    {
+      "Name": "Cyphar",
+      "CoordX": 9.1,
+      "CoordY": -744.7
+    },
+    {
+      "Name": "Feenix",
+      "CoordX": -3,
+      "CoordY": -738.8
+    },
+    {
+      "Name": "Miztoc",
+      "CoordX": -14.6,
+      "CoordY": -729.6
+    },
+    {
+      "Name": "Kriselist",
+      "CoordX": -62.3,
+      "CoordY": -697.9
+    }
+  ]
+}

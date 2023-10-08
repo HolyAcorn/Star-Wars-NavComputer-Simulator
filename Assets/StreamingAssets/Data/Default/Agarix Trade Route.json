@@ -1,0 +1,40 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Pieldi",
+      "CoordX": 6.7,
+      "CoordY": -811.4
+    },
+    {
+      "Name": "Dramassia",
+      "CoordX": 4.3,
+      "CoordY": -813.6
+    },
+    {
+      "Name": "Umthyg",
+      "CoordX": -1.4,
+      "CoordY": -813.9
+    },
+    {
+      "Name": "Dasoor",
+      "CoordX": -6,
+      "CoordY": -814.1
+    },
+    {
+      "Name": "Doaskin",
+      "CoordX": -45,
+      "CoordY": -810.8
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": -74.9,
+      "CoordY": -813.8
+    },
+    {
+      "Name": "Javin",
+      "CoordX": -82.3,
+      "CoordY": -811.5
+    }
+  ]
+}

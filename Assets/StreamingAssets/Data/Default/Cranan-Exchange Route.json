@@ -1,0 +1,35 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Vor Deo",
+      "CoordX": 650.1,
+      "CoordY": -702.3
+    },
+    {
+      "Name": "Gedi IV",
+      "CoordX": 657,
+      "CoordY": -692.2
+    },
+    {
+      "Name": "Cranan 12",
+      "CoordX": 663,
+      "CoordY": -684.1
+    },
+    {
+      "Name": "Melnea's World",
+      "CoordX": 671.9,
+      "CoordY": -682.4
+    },
+    {
+      "Name": "Dagu",
+      "CoordX": 783.1,
+      "CoordY": -671.9
+    },
+    {
+      "Name": "Excarga",
+      "CoordX": 833,
+      "CoordY": -658.3
+    }
+  ]
+}

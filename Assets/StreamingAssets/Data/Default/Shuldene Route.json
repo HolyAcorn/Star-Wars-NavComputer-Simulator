@@ -1,0 +1,35 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Unnamed",
+      "CoordX": -97.1,
+      "CoordY": -894.2
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": -99.5,
+      "CoordY": -871.4
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": -104.8,
+      "CoordY": -857.7
+    },
+    {
+      "Name": "Lutrillia",
+      "CoordX": -109.4,
+      "CoordY": -843.9
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": -115.1,
+      "CoordY": -837.5
+    },
+    {
+      "Name": "Shuldene",
+      "CoordX": -114.78,
+      "CoordY": -831
+    }
+  ]
+}

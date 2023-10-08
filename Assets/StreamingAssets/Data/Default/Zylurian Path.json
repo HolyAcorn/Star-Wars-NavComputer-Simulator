@@ -1,0 +1,15 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Carsanza",
+      "CoordX": 6,
+      "CoordY": -798.6
+    },
+    {
+      "Name": "Zyluria",
+      "CoordX": 4.2,
+      "CoordY": -800.5
+    }
+  ]
+}

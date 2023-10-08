@@ -1,0 +1,20 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Veron",
+      "CoordX": 31.4,
+      "CoordY": -782.3
+    },
+    {
+      "Name": "New Cylimba",
+      "CoordX": 32.0,
+      "CoordY": -776.9
+    },
+    {
+      "Name": "Eiattu 6",
+      "CoordX": 88.7,
+      "CoordY": -753.9
+    }
+  ]
+}

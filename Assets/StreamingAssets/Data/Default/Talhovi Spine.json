@@ -1,0 +1,25 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Arporatal-Lanin",
+      "CoordX": -1.8,
+      "CoordY": -811.1
+    },
+    {
+      "Name": "Thull's Vault",
+      "CoordX": -1,
+      "CoordY": -808.1
+    },
+    {
+      "Name": "Talhovi",
+      "CoordX": -0.7,
+      "CoordY": -806
+    },
+    {
+      "Name": "Little Talhovi",
+      "CoordX": -0.8,
+      "CoordY": -802
+    }
+  ]
+}

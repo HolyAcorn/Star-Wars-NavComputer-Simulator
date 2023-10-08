@@ -1,0 +1,55 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Mon Gazza",
+      "CoordX": 516.2,
+      "CoordY": -614.5
+    },
+    {
+      "Name": "Milarian",
+      "CoordX": 618.9,
+      "CoordY": -646.9
+    },
+    {
+      "Name": "Pii II",
+      "CoordX": 620,
+      "CoordY": -649.8
+    },
+    {
+      "Name": "Austan",
+      "CoordX": 621.9,
+      "CoordY": -658.1
+    },
+    {
+      "Name": "Utaruun",
+      "CoordX": 629.4,
+      "CoordY": -666.8
+    },
+    {
+      "Name": "Tatooine",
+      "CoordX": 644.4,
+      "CoordY": -673.3
+    },
+    {
+      "Name": "Obana",
+      "CoordX": 648.2,
+      "CoordY": -687.7
+    },
+    {
+      "Name": "Vor Deo",
+      "CoordX": 650.1,
+      "CoordY": -702.3
+    },
+    {
+      "Name": "Khubeaie",
+      "CoordX": 656.7,
+      "CoordY": -715.5
+    },
+    {
+      "Name": "Ryloth",
+      "CoordX": 671.3,
+      "CoordY": -762
+    }
+  ]
+}

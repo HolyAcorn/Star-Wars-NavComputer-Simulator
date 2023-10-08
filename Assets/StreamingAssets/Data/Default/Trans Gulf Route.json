@@ -1,0 +1,20 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Pii II",
+      "CoordX": 620,
+      "CoordY": -649.8
+    },
+    {
+      "Name": "Vuzsa",
+      "CoordX": 642.4,
+      "CoordY": -657.5
+    },
+    {
+      "Name": "Piroket",
+      "CoordX": 660.9,
+      "CoordY": -642.3
+    }
+  ]
+}

@@ -43,7 +43,7 @@ namespace SwNavComp
                 bool shouldCreateNew = true;
                 foreach (Planet planet1 in planetList.items)
                 {
-                    if (planet1.name == jsonPlanet.Name)
+                    if (planet1.name == jsonPlanet.Name && planet1.name != "Unnamed")
                     {
                         planet1.HyperlaneRoutes.Add(result);
                         planet1.IndexInHyperLane.Add(i);

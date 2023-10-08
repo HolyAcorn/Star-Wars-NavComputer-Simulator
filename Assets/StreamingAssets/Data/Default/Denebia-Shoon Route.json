@@ -1,0 +1,20 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Denebia",
+      "CoordX": 30.6,
+      "CoordY": -803.3
+    },
+    {
+      "Name": "Suliana",
+      "CoordX": 30.5,
+      "CoordY": -807.2
+    },
+    {
+      "Name": "Shoon",
+      "CoordX": 29.5,
+      "CoordY": -810.2
+    }
+  ]
+}

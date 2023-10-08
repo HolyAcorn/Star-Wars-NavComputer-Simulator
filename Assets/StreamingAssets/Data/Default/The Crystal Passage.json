@@ -1,0 +1,40 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Tatooine",
+      "CoordX": 644.4,
+      "CoordY": -673.3
+    },
+    {
+      "Name": "Geonosis",
+      "CoordX": 645,
+      "CoordY": -673.3
+    },
+    {
+      "Name": "Cranan 12",
+      "CoordX": 663,
+      "CoordY": -684.1
+    },
+    {
+      "Name": "Vactooine",
+      "CoordX": 666.3,
+      "CoordY": -698.5
+    },
+    {
+      "Name": "Tarnooga",
+      "CoordX": 671.5,
+      "CoordY": -704.3
+    },
+    {
+      "Name": "Cirus II",
+      "CoordX": 674,
+      "CoordY": -712.9
+    },
+    {
+      "Name": "Shinbone",
+      "CoordX": 836.2,
+      "CoordY": -735.9
+    }
+  ]
+}

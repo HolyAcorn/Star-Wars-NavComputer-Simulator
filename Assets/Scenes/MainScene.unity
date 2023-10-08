@@ -3521,26 +3521,7 @@ MonoBehaviour:
     Variable: {fileID: 0}
   styleSetting: {fileID: 11400000, guid: 0c9e0d05d836b334c9a1350aef87e624, type: 2}
   sprites:
-  - {fileID: 21300000, guid: 6300b10c3c66b1c419bacc5e5e38f9e9, type: 3}
-  - {fileID: 21300000, guid: 8e397b90e64ff7d418cf9c3aae874d62, type: 3}
-  - {fileID: 21300000, guid: e88e732baa01b804b9ff242cd2930d3f, type: 3}
-  - {fileID: 21300000, guid: 600f0f74de7363445ba6f4af9ca50aa1, type: 3}
-  - {fileID: 21300000, guid: 6863f0a86c4b2334baed79e87e3e8357, type: 3}
-  - {fileID: 21300000, guid: f417e8f3fd4c88e4c9433b5c3814afc9, type: 3}
-  - {fileID: 21300000, guid: 15ccbf52f7add6b4584e504100e2818f, type: 3}
-  - {fileID: 21300000, guid: 6e9955363404f7f41ab702026f5d1927, type: 3}
-  - {fileID: 21300000, guid: b39742cc13dd42d4bbfb92114a0a1239, type: 3}
-  - {fileID: 21300000, guid: dfc6907b00201634eb8f84e4a9b52d65, type: 3}
-  - {fileID: 21300000, guid: 0ef5b1bacd651fe45aa5b97c60404e75, type: 3}
-  - {fileID: 21300000, guid: 3d078fcfac2bde644924305c004a8615, type: 3}
-  - {fileID: 21300000, guid: d4a546ded816499439226c8469d22ec1, type: 3}
-  - {fileID: 21300000, guid: af13665fe73cd634ebe2563c5a771d05, type: 3}
-  - {fileID: 21300000, guid: b1d6eef4e585d28429b35019f41218be, type: 3}
-  - {fileID: 21300000, guid: 26366fb7f3222734187c3d59faf12e92, type: 3}
-  - {fileID: 21300000, guid: 3d2c7b84be07ccb4a8f6707446d12170, type: 3}
-  - {fileID: 21300000, guid: c74508dda6b4c884b96c9a8f3d7943a1, type: 3}
-  - {fileID: 21300000, guid: bb86367788fe45d479aa6d91f95121db, type: 3}
-  - {fileID: 21300000, guid: 56256ecce3a53a24a966f580b04f989c, type: 3}
+  - {fileID: 21300000, guid: b55501c5de4e8f64893259612db21ee9, type: 3}
   planetList: {fileID: 11400000, guid: 66a871d597a84f94fac83d50fa27b7dd, type: 2}
 --- !u!114 &1052105646
 MonoBehaviour:

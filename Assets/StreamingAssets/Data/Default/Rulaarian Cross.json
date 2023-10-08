@@ -1,0 +1,20 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Paramatan",
+      "CoordX": 26.2,
+      "CoordY": -788.4
+    },
+    {
+      "Name": "Rulaar",
+      "CoordX": 28.1,
+      "CoordY": -791
+    },
+    {
+      "Name": "Aquella",
+      "CoordX": 29.7,
+      "CoordY": -794
+    }
+  ]
+}

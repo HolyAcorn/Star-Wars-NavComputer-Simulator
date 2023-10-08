@@ -1,0 +1,20 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Pirralor",
+      "CoordX": 5.9,
+      "CoordY": -807.1
+    },
+    {
+      "Name": "K'ath",
+      "CoordX": 1.6,
+      "CoordY": -808.7
+    },
+    {
+      "Name": "Talhovi",
+      "CoordX": -0.7,
+      "CoordY": -806
+    }
+  ]
+}

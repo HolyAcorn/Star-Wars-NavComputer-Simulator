@@ -1,0 +1,20 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Ione",
+      "CoordX": -87.5,
+      "CoordY": -858.1
+    },
+    {
+      "Name": "Burnin Konn",
+      "CoordX": -81.7,
+      "CoordY": -858.9
+    },
+    {
+      "Name": "Tokima",
+      "CoordX": -78.4,
+      "CoordY": -862
+    }
+  ]
+}

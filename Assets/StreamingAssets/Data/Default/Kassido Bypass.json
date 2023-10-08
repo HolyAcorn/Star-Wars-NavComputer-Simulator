@@ -1,0 +1,35 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Kassido",
+      "CoordX": 11.7,
+      "CoordY": -787.8
+    },
+    {
+      "Name": "Yhifar",
+      "CoordX": 7.3,
+      "CoordY": -788.8
+    },
+    {
+      "Name": "Kardura",
+      "CoordX": 4.9,
+      "CoordY": -790
+    },
+    {
+      "Name": "Dioll",
+      "CoordX": 4.1,
+      "CoordY": -792.5
+    },
+    {
+      "Name": "Thermon",
+      "CoordX": 5.6,
+      "CoordY": -793.3
+    },
+    {
+      "Name": "Malador",
+      "CoordX": 10.2,
+      "CoordY": -798.6
+    }
+  ]
+}
