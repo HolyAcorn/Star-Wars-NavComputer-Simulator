@@ -1,0 +1,35 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Rainboh",
+      "CoordX": 356,
+      "CoordY": 63.5
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 355.4,
+      "CoordY": 63.1
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 354.8,
+      "CoordY": 63
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 353.9,
+      "CoordY": 63.2
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 353.2,
+      "CoordY": 63.9
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 352.4,
+      "CoordY": 64.1
+    }
+  ]
+}
