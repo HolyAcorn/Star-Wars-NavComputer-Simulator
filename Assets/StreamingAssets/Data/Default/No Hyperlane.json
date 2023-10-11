@@ -2,6 +2,747 @@
   "Type": 1,
   "JsonPlanets": [
     {
+      "Name": "Lwhekk",
+      "CoordX": -815.3,
+      "CoordY": -634.7
+    },
+    {
+      "Name": "Zakuul",
+      "CoordX": -744.4,
+      "CoordY": -345.7
+    },
+    {
+      "Name": "Ahch-To",
+      "CoordX": -651.6,
+      "CoordY": -371.2
+    },
+    {
+      "Name": "Exegol",
+      "CoordX": -597.9,
+      "CoordY": 237.3
+    },
+    {
+      "Name": "Klasse Ephemora",
+      "CoordX": -560.5,
+      "CoordY": 62.3
+    },
+    {
+      "Name": "Yashuvhu",
+      "CoordX": -530.7,
+      "CoordY": 66.1
+    },
+    {
+      "Name": "Zonama Sekot",
+      "CoordX": -509.7,
+      "CoordY": -350.6
+    },
+    {
+      "Name": "Illum",
+      "CoordX": -413,
+      "CoordY": 245.6
+    },
+    {
+      "Name": "Carrivar",
+      "CoordX": -471,
+      "CoordY": 21.2
+    },
+    {
+      "Name": "Crakull",
+      "CoordX": -478.4,
+      "CoordY": -66
+    },
+    {
+      "Name": "Rakata Prime",
+      "CoordX": -460.1,
+      "CoordY": -185.7
+    },
+    {
+      "Name": "Odessen",
+      "CoordX": -428.8,
+      "CoordY": -492.2
+    },
+    {
+      "Name": "Mokivj",
+      "CoordX": -404.6,
+      "CoordY": -626.6
+    },
+    {
+      "Name": "Kammia",
+      "CoordX": -474.5,
+      "CoordY": -660.3
+    },
+    {
+      "Name": "Cattamascar",
+      "CoordX": -411,
+      "CoordY": -667.1
+    },
+    {
+      "Name": "B'Knos",
+      "CoordX": -421.1,
+      "CoordY": -696.9
+    },
+    {
+      "Name": "Red Nebula",
+      "CoordX": -410.1,
+      "CoordY": -1134.9
+    },
+    {
+      "Name": "CZ-198",
+      "CoordX": -332.7,
+      "CoordY": 585.2
+    },
+    {
+      "Name": "Parnassos",
+      "CoordX": -366.1,
+      "CoordY": 342.9
+    },
+    {
+      "Name": "Qoribu",
+      "CoordX": -334.9,
+      "CoordY": 279.3
+    },
+    {
+      "Name": "Yoggoy",
+      "CoordX": -326.2,
+      "CoordY": 237.2
+    },
+    {
+      "Name": "Thrago",
+      "CoordX": -383.6,
+      "CoordY": -159.2
+    },
+    {
+      "Name": "Vagar Praxut",
+      "CoordX": -376.7,
+      "CoordY": 160.6
+    },
+    {
+      "Name": "Crustai",
+      "CoordX": -387.1,
+      "CoordY": 125.9
+    },
+    {
+      "Name": "Jedha",
+      "CoordX": -335.9,
+      "CoordY": -6.9
+    },
+    {
+      "Name": "O'reen",
+      "CoordX": -394,
+      "CoordY": -354
+    },
+    {
+      "Name": "Bormter",
+      "CoordX": -392.6,
+      "CoordY": -472.6
+    },
+    {
+      "Name": "Iskadrell",
+      "CoordX": -384.3,
+      "CoordY": -493.3
+    },
+    {
+      "Name": "Zaddja",
+      "CoordX": -377.1,
+      "CoordY": -514.9
+    },
+    {
+      "Name": "Codia",
+      "CoordX": -341,
+      "CoordY": -520.6
+    },
+    {
+      "Name": "Gannaria",
+      "CoordX": -375.8,
+      "CoordY": -544.7
+    },
+    {
+      "Name": "Batuu",
+      "CoordX": -387.8,
+      "CoordY": -555.6
+    },
+    {
+      "Name": "Pam'ba",
+      "CoordX": -311.8,
+      "CoordY": -553.6
+    },
+    {
+      "Name": "Beixander",
+      "CoordX": -340,
+      "CoordY": -581.3
+    },
+    {
+      "Name": "Rattatak",
+      "CoordX": -370.1,
+      "CoordY": -608.8
+    },
+    {
+      "Name": "Panatha",
+      "CoordX": -388.5,
+      "CoordY": -626
+    },
+    {
+      "Name": "Bunduki",
+      "CoordX": -375,
+      "CoordY": -630.3
+    },
+    {
+      "Name": "Ravaath",
+      "CoordX": -393.7,
+      "CoordY": -637.9
+    },
+    {
+      "Name": "Rodis",
+      "CoordX": -369.9,
+      "CoordY": -646.7
+    },
+    {
+      "Name": "Ponemah",
+      "CoordX": -307.1,
+      "CoordY": -670.4
+    },
+    {
+      "Name": "UR-2650",
+      "CoordX": -335.6,
+      "CoordY": -673.3
+    },
+    {
+      "Name": "UR-9353",
+      "CoordX": -332.8,
+      "CoordY": -673.5
+    },
+    {
+      "Name": "UR-1060",
+      "CoordX": -338.6,
+      "CoordY": -675.1
+    },
+    {
+      "Name": "UR-8827",
+      "CoordX": -334.4,
+      "CoordY": -676.3
+    },
+    {
+      "Name": "UR-3741",
+      "CoordX": -343.3,
+      "CoordY": -678.6
+    },
+    {
+      "Name": "Endor Gate",
+      "CoordX": -343.8,
+      "CoordY": -683.3
+    },
+    {
+      "Name": "Din Pulsar",
+      "CoordX": -339.8,
+      "CoordY": -683
+    },
+    {
+      "Name": "Murk",
+      "CoordX": -340.3,
+      "CoordY": -684.5
+    },
+    {
+      "Name": "Shalm",
+      "CoordX": -359.8,
+      "CoordY": -683.8
+    },
+    {
+      "Name": "Cermau",
+      "CoordX": -392.7,
+      "CoordY": -697
+    },
+    {
+      "Name": "Xala",
+      "CoordX": -383.5,
+      "CoordY": -695.5
+    },
+    {
+      "Name": "Fusai",
+      "CoordX": -358.4,
+      "CoordY": -693.3
+    },
+    {
+      "Name": "Xal 3",
+      "CoordX": -348.8,
+      "CoordY": -691.3
+    },
+    {
+      "Name": "Caaraz",
+      "CoordX": -304.9,
+      "CoordY": -707
+    },
+    {
+      "Name": "Vengler",
+      "CoordX": -351,
+      "CoordY": -722.9
+    },
+    {
+      "Name": "Verkuyl",
+      "CoordX": -321.1,
+      "CoordY": -723.2
+    },
+    {
+      "Name": "Dakuyl",
+      "CoordX": -306.1,
+      "CoordY": -724.2
+    },
+    {
+      "Name": "Bursoll II",
+      "CoordX": -378.2,
+      "CoordY": -762.3
+    },
+    {
+      "Name": "Tholon",
+      "CoordX": -318.7,
+      "CoordY": -774.5
+    },
+    {
+      "Name": "Skye",
+      "CoordX": -322.4,
+      "CoordY": -992.1
+    },
+    {
+      "Name": "Dosuun",
+      "CoordX": -368.2,
+      "CoordY": -1019.9
+    },
+    {
+      "Name": "Baralou",
+      "CoordX": -310.7,
+      "CoordY": -1017.5
+    },
+    {
+      "Name": "Mephout",
+      "CoordX": -368.6,
+      "CoordY": -1061.2
+    },
+    {
+      "Name": "Seoul 5",
+      "CoordX": -391.2,
+      "CoordY": -1076.4
+    },
+    {
+      "Name": "Crystal Nest",
+      "CoordX": -309.6,
+      "CoordY": -1084.5
+    },
+    {
+      "Name": "Nirauan",
+      "CoordX": -219.7,
+      "CoordY": 403.9
+    },
+    {
+      "Name": "Esfandia",
+      "CoordX": -280.1,
+      "CoordY": 351.4
+    },
+    {
+      "Name": "Kariek",
+      "CoordX": -236.4,
+      "CoordY": 362.1
+    },
+    {
+      "Name": "The Red Twins",
+      "CoordX": -250.3,
+      "CoordY": 293.8
+    },
+    {
+      "Name": "Acherin",
+      "CoordX": -286.5,
+      "CoordY": 287
+    },
+    {
+      "Name": "Ankus",
+      "CoordX": -261.6,
+      "CoordY": 280.6
+    },
+    {
+      "Name": "Regel Eight",
+      "CoordX": -290,
+      "CoordY": 266.4
+    },
+    {
+      "Name": "Burska",
+      "CoordX": -257.8,
+      "CoordY": 263.8
+    },
+    {
+      "Name": "Kril'Dor",
+      "CoordX": -239.5,
+      "CoordY": 250.5
+    },
+    {
+      "Name": "Voniss",
+      "CoordX": -272.6,
+      "CoordY": 225.2
+    },
+    {
+      "Name": "Geroon",
+      "CoordX": -298.6,
+      "CoordY": 172.2
+    },
+    {
+      "Name": "Celdaru",
+      "CoordX": -242.7,
+      "CoordY": 180.3
+    },
+    {
+      "Name": "Mendicat",
+      "CoordX": -238.4,
+      "CoordY": 166.7
+    },
+    {
+      "Name": "Roxuli",
+      "CoordX": -227.4,
+      "CoordY": 160.1
+    },
+    {
+      "Name": "Pesitiin",
+      "CoordX": -215.4,
+      "CoordY": 163.7
+    },
+    {
+      "Name": "Soun IV",
+      "CoordX": -202.6,
+      "CoordY": 146
+    },
+    {
+      "Name": "Selvaris",
+      "CoordX": -209.4,
+      "CoordY": 65.6
+    },
+    {
+      "Name": "Jakku",
+      "CoordX": -275.5,
+      "CoordY": -316.8
+    },
+    {
+      "Name": "Frewwil",
+      "CoordX": -244,
+      "CoordY": -481.9
+    },
+    {
+      "Name": "Aruza",
+      "CoordX": -223.9,
+      "CoordY": -479
+    },
+    {
+      "Name": "Lequabis",
+      "CoordX": -213.1,
+      "CoordY": -471.4
+    },
+    {
+      "Name": "Taloraan",
+      "CoordX": -242.3,
+      "CoordY": -509.2
+    },
+    {
+      "Name": "Kayri III",
+      "CoordX": -207.8,
+      "CoordY": -514.4
+    },
+    {
+      "Name": "Aesolian",
+      "CoordX": -268.3,
+      "CoordY": -528.5
+    },
+    {
+      "Name": "Marzoon",
+      "CoordX": -268.8,
+      "CoordY": -634.1
+    },
+    {
+      "Name": "Xoemefel",
+      "CoordX": -241.2,
+      "CoordY": -637.2
+    },
+    {
+      "Name": "Castillon",
+      "CoordX": -221.4,
+      "CoordY": -622.6
+    },
+    {
+      "Name": "Trenwyth",
+      "CoordX": -285.2,
+      "CoordY": -696.6
+    },
+    {
+      "Name": "Sareet",
+      "CoordX": -279.3,
+      "CoordY": -709
+    },
+    {
+      "Name": "Corbett Cluster",
+      "CoordX": -238.5,
+      "CoordY": -711.3
+    },
+    {
+      "Name": "Kaellin III",
+      "CoordX": -233.3,
+      "CoordY": -720.7
+    },
+    {
+      "Name": "Bastooine",
+      "CoordX": -224.6,
+      "CoordY": -737.2
+    },
+    {
+      "Name": "Lanteeb",
+      "CoordX": -254.7,
+      "CoordY": -749.6
+    },
+    {
+      "Name": "Kalzeron",
+      "CoordX": -225.5,
+      "CoordY": -765.9
+    },
+    {
+      "Name": "Bri'ahl",
+      "CoordX": -244.1,
+      "CoordY": -773.8
+    },
+    {
+      "Name": "Vassek",
+      "CoordX": -207.7,
+      "CoordY": -776.3
+    },
+    {
+      "Name": "Lotho Minor",
+      "CoordX": -211,
+      "CoordY": -792.9
+    },
+    {
+      "Name": "Coveway",
+      "CoordX": -226.3,
+      "CoordY": -818.5
+    },
+    {
+      "Name": "Usean II",
+      "CoordX": -265.1,
+      "CoordY": -892.8
+    },
+    {
+      "Name": "Thakwaa",
+      "CoordX": -243.9,
+      "CoordY": -918.9
+    },
+    {
+      "Name": "Veccacopia",
+      "CoordX": -209.2,
+      "CoordY": -923.7
+    },
+    {
+      "Name": "Delantine",
+      "CoordX": -274.4,
+      "CoordY": -933.9
+    },
+    {
+      "Name": "Varada V",
+      "CoordX": -294.9,
+      "CoordY": -961
+    },
+    {
+      "Name": "Rhamalai",
+      "CoordX": -261.3,
+      "CoordY": -956.2
+    },
+    {
+      "Name": "Bestal Three",
+      "CoordX": -289.8,
+      "CoordY": -985.5
+    },
+    {
+      "Name": "Needan",
+      "CoordX": -230.8,
+      "CoordY": -1081.9
+    },
+    {
+      "Name": "Yalara",
+      "CoordX": -273.1,
+      "CoordY": -1174.9
+    },
+    {
+      "Name": "Rimcee Station",
+      "CoordX": -116.9,
+      "CoordY": 641
+    },
+    {
+      "Name": "Taspir III",
+      "CoordX": -137.2,
+      "CoordY": 598.9
+    },
+    {
+      "Name": "Guiteica",
+      "CoordX": -176.4,
+      "CoordY": 584.2
+    },
+    {
+      "Name": "Vexta",
+      "CoordX": -141.8,
+      "CoordY": 576.4
+    },
+    {
+      "Name": "Huk",
+      "CoordX": -185.6,
+      "CoordY": 560.4
+    },
+    {
+      "Name": "Kalee",
+      "CoordX": -164,
+      "CoordY": 566.4
+    },
+    {
+      "Name": "Tovarskl",
+      "CoordX": -165.5,
+      "CoordY": 552.4
+    },
+    {
+      "Name": "Baramorra",
+      "CoordX": -142,
+      "CoordY": 556.1
+    },
+    {
+      "Name": "Abbaji",
+      "CoordX": -190.3,
+      "CoordY": 516.4
+    },
+    {
+      "Name": "Dactruria",
+      "CoordX": -125.5,
+      "CoordY": 534.6
+    },
+    {
+      "Name": "Bettok",
+      "CoordX": -119.1,
+      "CoordY": 523.8
+    },
+    {
+      "Name": "Endex",
+      "CoordX": -111.6,
+      "CoordY": 498.4
+    },
+    {
+      "Name": "Ryloon",
+      "CoordX": -132.1,
+      "CoordY": 492.2
+    },
+    {
+      "Name": "Churruma",
+      "CoordX": -122.1,
+      "CoordY": 489.1
+    },
+    {
+      "Name": "Betal",
+      "CoordX": -190.1,
+      "CoordY": 471.8
+    },
+    {
+      "Name": "Poln System",
+      "CoordX": -114.4,
+      "CoordY": 446.4
+    },
+    {
+      "Name": "Alashan",
+      "CoordX": -144.2,
+      "CoordY": 422.1
+    },
+    {
+      "Name": "Comra",
+      "CoordX": -129.7,
+      "CoordY": 408.6
+    },
+    {
+      "Name": "Bid'jerma",
+      "CoordX": -110.3,
+      "CoordY": 413.4
+    },
+    {
+      "Name": "Diab",
+      "CoordX": -189-3,
+      "CoordY": 384.4
+    },
+    {
+      "Name": "Aeten",
+      "CoordX": -169.2,
+      "CoordY": 387
+    },
+    {
+      "Name": "Bakarr",
+      "CoordX": -162.3,
+      "CoordY": 382.8
+    },
+    {
+      "Name": "Katorr",
+      "CoordX": -179.9,
+      "CoordY": 370.9
+    },
+    {
+      "Name": "Troska",
+      "CoordX": -147.7,
+      "CoordY": 372.3
+    },
+    {
+      "Name": "Adumar",
+      "CoordX": -194,
+      "CoordY": 352.5
+    },
+    {
+      "Name": "Imdaar",
+      "CoordX": -132.5,
+      "CoordY": 359.7
+    },
+    {
+      "Name": "Cirrus",
+      "CoordX": -124.6,
+      "CoordY": 349.1
+    },
+    {
+      "Name": "Quadrant Seven",
+      "CoordX": -104.6,
+      "CoordY": 345.7
+    },
+    {
+      "Name": "Uba IV",
+      "CoordX": -108.8,
+      "CoordY": 337.8
+    },
+    {
+      "Name": "Dalron 5",
+      "CoordX": -154.7,
+      "CoordY": 331.8
+    },
+    {
+      "Name": "Bars Barka",
+      "CoordX": -128.2,
+      "CoordY": 327.9
+    },
+    {
+      "Name": "Ubertica",
+      "CoordX": -115.7,
+      "CoordY": 329.1
+    },
+    {
+      "Name": "Varvva",
+      "CoordX": -116.6,
+      "CoordY": 318.2
+    },
+    {
+      "Name": "Rustibar",
+      "CoordX": -183.1,
+      "CoordY": 288.5
+    },
+    {
+      "Name": "Iridonia",
+      "CoordX": -115.5,
+      "CoordY": 293.6
+    },
+    {
+      "Name": "Iridonia",
+      "CoordX": -115.5,
+      "CoordY": 293.6
+    },
+    
+    {
       "Name": "Tython",
       "CoordX": 1.3,
       "CoordY": -78.3
