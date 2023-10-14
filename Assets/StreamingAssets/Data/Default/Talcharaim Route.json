@@ -1,0 +1,30 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Gallinore",
+      "CoordX": 346.1,
+      "CoordY": 55.3
+    },
+    {
+      "Name": "Novi",
+      "CoordX": 345.8,
+      "CoordY": 54.5
+    },
+    {
+      "Name": "Farnica",
+      "CoordX": 345.6,
+      "CoordY": 53.6
+    },
+    {
+      "Name": "Sivoria",
+      "CoordX": 345.6,
+      "CoordY": 52.7
+    },
+    {
+      "Name": "Talcharaim",
+      "CoordX": 345.8,
+      "CoordY": 51.7
+    }
+  ]
+}

@@ -2,12 +2,14 @@
 	"Type": 0,
 	"JsonPlanets": [
 		{
-			"Name": "L",
+			"Name": "L",	"ID": "|||",
+
 			"CoordX": 30,
 			"CoordY": 50
 		},
 		{
-			"Name": "gfdD",
+			"Name": "gfdD",	"ID": "|||",
+
 			"CoordX": 30,
 			"CoordY": 20
 		}

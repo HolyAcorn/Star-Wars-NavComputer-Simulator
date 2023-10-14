@@ -1,0 +1,70 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Rynmar",
+      "CoordX": 353.6,
+      "CoordY": 62.461
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 352.2,
+      "CoordY": 63
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 349.7,
+      "CoordY": 60.3
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 349.5,
+      "CoordY": 60.2
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 348.7,
+      "CoordY": 59.9
+    },
+    {
+      "Name": "Febrini",
+      "CoordX": 347.7,
+      "CoordY": 59.9
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 346.1,
+      "CoordY": 59.7
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 345.2,
+      "CoordY": 59.8
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 344.2,
+      "CoordY": 59.8
+    },
+    {
+      "Name": "Sargon",
+      "CoordX": 342.9,
+      "CoordY": 60.6
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 341.4,
+      "CoordY": 59.8
+    },
+    {
+      "Name": "Modus",
+      "CoordX": 340,
+      "CoordY": 58.9
+    },
+    {
+      "Name": "Vergill",
+      "CoordX": 338.5,
+      "CoordY": 58.2
+    }
+  ]
+}

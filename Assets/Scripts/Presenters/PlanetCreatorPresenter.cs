@@ -15,6 +15,13 @@ namespace SwNavComp
         [SerializeField] List<Sprite> sprites;
         [SerializeField] PlanetRuntimeSet planetList;
 
+        [Header("Sizes")]
+        [SerializeField] float sizeDecrease = 1f;
+        [SerializeField] int thresholdDecrease = 20;
+        [SerializeField] float sizeIncrease = 3.0f;
+        [SerializeField] int thresholdIncrease = 70;
+        private float defaultSize;
+
         List<GameObject> instances = new List<GameObject>();
 
 

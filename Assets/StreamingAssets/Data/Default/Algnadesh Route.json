@@ -1,0 +1,30 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Algnadesh",
+      "CoordX": 343.3,
+      "CoordY": 54.3
+    },
+    {
+      "Name": "Wodan",
+      "CoordX": 343.6,
+      "CoordY": 55.1
+    },
+    {
+      "Name": "Relephon",
+      "CoordX": 344.3,
+      "CoordY": 56
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 345.1,
+      "CoordY": 56.7
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 346,
+      "CoordY": 57.2
+    }
+  ]
+}

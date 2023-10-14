@@ -1,0 +1,60 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Selab",
+      "CoordX": 349.3,
+      "CoordY": 51.6
+    },
+    {
+      "Name": "Harterra",
+      "CoordX": 349.9,
+      "CoordY": 52.1
+    },
+    {
+      "Name": "Ut",
+      "CoordX": 350.4,
+      "CoordY": 52.6
+    },
+    {
+      "Name": "Hapes",
+      "CoordX": 350.6,
+      "CoordY": 53.4
+    },
+    {
+      "Name": "Arabanth",
+      "CoordX": 350.3,
+      "CoordY": 54.2
+    },
+    {
+      "Name": "Carlania",
+      "CoordX": 350.1,
+      "CoordY": 55.2
+    },
+    {
+      "Name": "Ediorung",
+      "CoordX": 349.4,
+      "CoordY": 56.2
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 349,
+      "CoordY": 56.8
+    },
+    {
+      "Name": "Phelope",
+      "CoordX": 348.4,
+      "CoordY": 57.9
+    },
+    {
+      "Name": "Zadaria",
+      "CoordX": 348.5,
+      "CoordY": 58.9
+    },
+    {
+      "Name": "Febrini",
+      "CoordX": 347.7,
+      "CoordY": 59.9
+    }
+  ]
+}

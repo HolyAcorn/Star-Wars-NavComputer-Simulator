@@ -16,13 +16,22 @@ namespace SwNavComp
 
         [SerializeField] IntVariable zoomDirection;
         [SerializeField] FloatVariable currentZoom;
-        [SerializeField] float minCameraSize = 10f;
-        [SerializeField] float maxCameraSize = 90f;
+        [SerializeField] FloatVariable minCameraSize;
+        [SerializeField] FloatVariable maxCameraSize;
         [SerializeField] float zoomAmount = 1f;
         [SerializeField] float slowDownMovementThreshold = 10f;
+        [Header("Size Changing")]
+        [SerializeField] FloatRuntimeSet sizeStepsUI;
+        [SerializeField] AnimationCurve sizeStepCurve;
+        [SerializeField] FloatRuntimeSet sizeStepsValueUI;
+
+
 
         [SerializeField] PlanetRuntimeSet selectedPlanet;
         [SerializeField] GameEvent enableInput;
+
+        
+
         private bool shouldMoveToSelectedPlanet = false;
         private Vector3 selectedPlanetPosition;
         private Vector3 startPosition;
@@ -35,6 +44,23 @@ namespace SwNavComp
         {
             _camera = GetComponent<Camera>();
             originalMoveSpeed = moveSpeed;
+            SetupCameraUISizeThresholds();
+        }
+
+        private void SetupCameraUISizeThresholds()
+        {
+            
+            /*sizeStepsUI.Clear();
+            sizeStepsValueUI.Clear();
+            float range = maxCameraSize - minCameraSize;
+            int sizeStepsCount = sizeStepCurve.length - 1;
+            float step = range / sizeStepsCount;
+            for (int i = 1; i < sizeStepsCount; i++)
+            {
+                sizeStepsUI.Add(i * step);
+                sizeStepsValueUI.Add(sizeStepCurve.keys[i].value);
+            }*/
+
         }
 
         private void FixedUpdate()
@@ -55,9 +81,10 @@ namespace SwNavComp
             _camera.orthographicSize += zoomAmount * zoomDirection.Value;
             if (_camera.orthographicSize == slowDownMovementThreshold) moveSpeed = slowedDownSpeed;
             if (_camera.orthographicSize > slowDownMovementThreshold) moveSpeed = originalMoveSpeed;
-            if (_camera.orthographicSize < minCameraSize) _camera.orthographicSize = minCameraSize;
-            if (_camera.orthographicSize > maxCameraSize) _camera.orthographicSize = maxCameraSize;
+            if (_camera.orthographicSize < minCameraSize.Value) _camera.orthographicSize = minCameraSize.Value;
+            if (_camera.orthographicSize > maxCameraSize.Value) _camera.orthographicSize = maxCameraSize.Value;
             currentZoom.Value = _camera.orthographicSize;
+            
         }
 
         private void MoveToSelectedPlanet()

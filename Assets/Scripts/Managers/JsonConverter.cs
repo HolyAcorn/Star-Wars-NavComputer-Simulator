@@ -37,14 +37,20 @@ namespace SwNavComp
             string result = Regex.Match(fileName, regex).Groups[1].Value;
             PlanetRuntimeSet newPlanetList = ScriptableObject.CreateInstance<PlanetRuntimeSet>();
 
+            if (fileName.Contains("Rainboh"))
+            {
+                Debug.Log("test");
+            }
+
             for (int i = 0; i < planets.JsonPlanets.Length; i++)
             {
                 JsonPlanets jsonPlanet = planets.JsonPlanets[i];
                 bool shouldCreateNew = true;
                 foreach (Planet planet1 in planetList.items)
                 {
-                    if (planet1.name == jsonPlanet.Name && planet1.name != "Unnamed")
+                    if (planet1.name == jsonPlanet.Name)
                     {
+                        if (planet1.name == "Unnamed" && (planet1.CoordX != jsonPlanet.CoordX || planet1.CoordY != jsonPlanet.CoordY)) continue;
                         planet1.HyperlaneRoutes.Add(result);
                         planet1.IndexInHyperLane.Add(i);
                         shouldCreateNew = false;

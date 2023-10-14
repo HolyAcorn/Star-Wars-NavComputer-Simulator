@@ -1,0 +1,30 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Gallinore",
+      "CoordX": 346.1,
+      "CoordY": 55.3
+    },
+    {
+      "Name": "Relephon",
+      "CoordX": 344.3,
+      "CoordY": 56
+    },
+    {
+      "Name": "Cheruba",
+      "CoordX": 342.8,
+      "CoordY": 57
+    },
+    {
+      "Name": "Charubah",
+      "CoordX": 339.9,
+      "CoordY": 57.3
+    },
+    {
+      "Name": "Vergill",
+      "CoordX": 338.5,
+      "CoordY": 58.2
+    }
+  ]
+}

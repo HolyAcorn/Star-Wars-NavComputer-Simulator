@@ -9,8 +9,8 @@ namespace SwNavComp
     public class Planet : ScriptableObject, IComparable<Planet>
     {
         
-        public int CoordX { get; private set; }
-        public int CoordY { get; private set; }
+        public float CoordX { get; private set; }
+        public float CoordY { get; private set; }
 
         public string displayName { get; private set; }
         public List<string> HyperlaneRoutes = new List<string>();
@@ -20,7 +20,7 @@ namespace SwNavComp
         public GameObject gameObject;
         public string wikiLink { get; private set; }
 
-        public void Initialize(string name, int coordX, int coordY)
+        public void Initialize(string name, float coordX, float coordY)
         {
             this.name = name;
             displayName = name;

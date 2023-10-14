@@ -16,6 +16,13 @@ namespace SwNavComp
 
         [SerializeField] GameObject outline;
 
+        [SerializeField] FloatReference size;
+
+        private void Start()
+        {
+            
+        }
+
         public void OnPointerDown(PointerEventData eventData)
         {
             selectedPlanet.Clear();
@@ -29,16 +36,11 @@ namespace SwNavComp
             else outline.SetActive(false);
         }
 
-        // Start is called before the first frame update
-        void Start()
+        public void UpdateSize()
         {
-
+            transform.localScale = new Vector3(size.Value, size.Value, size.Value);
         }
 
-        // Update is called once per frame
-        void Update()
-        {
-        
-        }
+
     }
 }
