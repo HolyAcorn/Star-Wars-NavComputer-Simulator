@@ -1,0 +1,60 @@
+{
+  "Type": 2,
+  "JsonPlanets": [
+    {
+      "Name": "Andalia",
+      "CoordX": 334.6,
+      "CoordY": 46.1
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 335.6,
+      "CoordY": 45.4
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 336.5,
+      "CoordY": 44.7
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 337.2,
+      "CoordY": 43.6
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 337.7,
+      "CoordY": 42.7
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 338.6,
+      "CoordY": 42.1
+    },
+    {
+      "Name": "Chosper",
+      "CoordX": 339.5,
+      "CoordY": 41.1
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 338.5,
+      "CoordY": 41.2
+    },
+    {
+      "Name": "Telkur Station",
+      "CoordX": 336.3,
+      "CoordY": 41.9
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 335.1,
+      "CoordY": 42.5
+    },
+    {
+      "Name": "Unnamed",
+      "CoordX": 334.2,
+      "CoordY": 43.1
+    }
+  ]
+}

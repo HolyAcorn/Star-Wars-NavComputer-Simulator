@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 708b8fdcefd3b8f4883e723bd88b9dde, type: 3}
-  m_Name: MediumLaneWidth 1
+  m_Name: CurrentMajorLineWidth
   m_EditorClassIdentifier: 
-  Value: 0.5
+  Value: 0.75

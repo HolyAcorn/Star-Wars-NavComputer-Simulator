@@ -754,6 +754,7 @@ GameObject:
   - component: {fileID: 137491612}
   - component: {fileID: 137491611}
   - component: {fileID: 137491613}
+  - component: {fileID: 137491614}
   m_Layer: 0
   m_Name: HyperLanePresenter
   m_TagString: Untagged
@@ -777,23 +778,56 @@ MonoBehaviour:
   hyperLaneList: {fileID: 11400000, guid: cfcb0eb985b9b8d4685c18a6153555a8, type: 2}
   smoothingLength: 0
   smoothingSections: 0
+  cameraMinSize: {fileID: 11400000, guid: eb7649f2f24f54942ab2aebfef5a4433, type: 2}
+  cameraMaxSize: {fileID: 11400000, guid: 6a5053bdf7baebc4fa4c5166e8421741, type: 2}
+  currentZoom: {fileID: 11400000, guid: 5e22c37b119bbfe4a9c3c7a70a07be12, type: 2}
+  currentMinorLaneSize:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 59d7f989c898666479f6ce43396ae62e, type: 2}
+  currentMediumLaneSize:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 466edc22c2b85214fb40207d6ccbc547, type: 2}
+  currentMajorLaneSize:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: aa838a06a5a8656449e408bf17d3f5ee, type: 2}
+  sizeStepCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   sizeDifference:
     UseConstant: 0
     ConstantValue: 1
     Variable: {fileID: 11400000, guid: cfe2c6d8390301e489e804ebc8953e32, type: 2}
-  majorLineWidth:
-    UseConstant: 0
-    ConstantValue: 0
-    Variable: {fileID: 11400000, guid: aa838a06a5a8656449e408bf17d3f5ee, type: 2}
-  mediumLineWidth:
-    UseConstant: 0
-    ConstantValue: 0
-    Variable: {fileID: 11400000, guid: 466edc22c2b85214fb40207d6ccbc547, type: 2}
-  minorLineWidth:
-    UseConstant: 0
-    ConstantValue: 0
-    Variable: {fileID: 11400000, guid: 59d7f989c898666479f6ce43396ae62e, type: 2}
-  styleSetting: {fileID: 11400000, guid: 0c9e0d05d836b334c9a1350aef87e624, type: 2}
+  minMajorLineWidth: 0.75
+  minMediumLineWidth: 0.5
+  minMinorLineWidth: 0.25
+  maxMajorLineWidth: 2.25
+  maxMediumLineWidth: 1.5
+  maxMinorLineWidth: 0.75
+  UpdateHyperLaneSize: {fileID: 11400000, guid: 95b20fd3049d05a4cb602c3f9b718b69, type: 2}
 --- !u!4 &137491612
 Transform:
   m_ObjectHideFlags: 0
@@ -828,6 +862,34 @@ MonoBehaviour:
       - m_Target: {fileID: 137491611}
         m_TargetAssemblyTypeName: SwNavComp.HyperLanePresenter, Assembly-CSharp
         m_MethodName: CreateAndDisplayHyperLaneLines
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &137491614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137491610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6de3263a29792c247aead7ffa646f65f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: bb62bbe3adb1b5f4e8f6909ad285a4c8, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 137491611}
+        m_TargetAssemblyTypeName: SwNavComp.HyperLanePresenter, Assembly-CSharp
+        m_MethodName: CheckSize
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4986,7 +5048,7 @@ GameObject:
   - component: {fileID: 913674168}
   - component: {fileID: 913674169}
   m_Layer: 0
-  m_Name: PlanetsManager
+  m_Name: ScaleManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
