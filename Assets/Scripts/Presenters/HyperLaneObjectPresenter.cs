@@ -28,18 +28,36 @@ namespace SwNavComp
             SetSize();
         }
 
-        public void SetSize()
+        public void InitializePath(PlanetRuntimeSet pointList)
+        {
+            name = "Generated Path";
+            line = GetComponent<LineRenderer>();
+            line.positionCount = pointList.Count();
+            line.startColor = styleSetting.PathColor;
+            line.endColor = styleSetting.PathColor;
+            line.sortingOrder++;
+            type = TypeEnum.Major;
+
+            for (int i = 0; i < pointList.Count(); i++)
+            {
+                Vector2 pointPosition = new Vector2(pointList.Get(i).CoordX, pointList.Get(i).CoordY);
+                line.SetPosition(i, pointPosition);
+            }
+            SetSize(0.1f);
+        }
+
+        public void SetSize(float modifier = 0)
         {
             switch (type)
             {
                 case TypeEnum.Major:
-                    line.widthMultiplier = currentMajorLaneSize.Value;
+                    line.widthMultiplier = currentMajorLaneSize.Value + modifier;
                     break;
                 case TypeEnum.Medium:
-                    line.widthMultiplier = currentMediumLaneSize.Value;
+                    line.widthMultiplier = currentMediumLaneSize.Value + modifier;
                     break;
                 case TypeEnum.Minor:
-                    line.widthMultiplier = currentMinorLaneSize.Value;
+                    line.widthMultiplier = currentMinorLaneSize.Value + modifier;
                     break;
                 default:
                     break;

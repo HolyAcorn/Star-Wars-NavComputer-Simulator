@@ -21,19 +21,9 @@ namespace SwNavComp
                 Destroy(transform.GetChild(i).gameObject);
             }
             GameObject instance = Instantiate(hyperLanePrefab);
-            LineRenderer line = instance.GetComponent<LineRenderer>();
-            instance.name = "Generated Path";
-            line.startColor = styleSettings.PathColor;
-            line.endColor = styleSettings.PathColor;
-            line.widthMultiplier = majorLineWidth.Value + 0.1f;
-            line.positionCount = calculatedPath.Count();
-            line.sortingOrder++;
-            for (int i = 0; i < calculatedPath.Count(); i++)
-            {
-                Vector2 pointPosition = new Vector2(calculatedPath.Get(i).CoordX, calculatedPath.Get(i).CoordY); ;
-                line.SetPosition(i, pointPosition);
-            }
             instance.transform.parent = transform;
+            instance.GetComponent<HyperLaneObjectPresenter>().InitializePath(calculatedPath);
+            
         }
     }
 }
