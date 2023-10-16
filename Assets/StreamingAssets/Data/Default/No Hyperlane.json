@@ -836,6 +836,96 @@
       "CoordX": -108,
       "CoordY": 8.5
     },
+    {
+      "Name": "Kokash",
+      "CoordX": -110.3,
+      "CoordY": -65.5
+    },
+    {
+      "Name": "Pollillus",
+      "CoordX": -101.3,
+      "CoordY": -63.9
+    },
+    {
+      "Name": "Ossorck Nebulae",
+      "CoordX": -101.6,
+      "CoordY": -266.9
+    },
+    {
+      "Name": "Questal",
+      "CoordX": -117.7,
+      "CoordY": -273.8
+    },
+    {
+      "Name": "Inysh",
+      "CoordX": -108,
+      "CoordY": -295.8
+    },
+    {
+      "Name": "Hjaff",
+      "CoordX": -127.5,
+      "CoordY": -304.7
+    },
+    {
+      "Name": "Zardossa Stix",
+      "CoordX": -146,
+      "CoordY": -314.6
+    },
+    {
+      "Name": "Candoria",
+      "CoordX": -127.8,
+      "CoordY": -335.4
+    },
+    {
+      "Name": "Bardotta",
+      "CoordX": -118.9,
+      "CoordY": -345.6
+    },
+    {
+      "Name": "Absit",
+      "CoordX": -179.5,
+      "CoordY": -358.6
+    },
+    {
+      "Name": "Mindabaal",
+      "CoordX": -160,
+      "CoordY": -374
+    },
+    {
+      "Name": "Donadus",
+      "CoordX": -157.8,
+      "CoordY": -382.7
+    },
+    {
+      "Name": "Walalla",
+      "CoordX": -154.8,
+      "CoordY": -395.9
+    },
+    {
+      "Name": "Trunska",
+      "CoordX": -115.6,
+      "CoordY": -358
+    },
+    {
+      "Name": "Phu",
+      "CoordX": -107.1,
+      "CoordY": -374.1
+    },
+    {
+      "Name": "Korbin",
+      "CoordX": -108.7,
+      "CoordY": -408.2
+    },
+    {
+      "Name": "Tasariq",
+      "CoordX": -160.9,
+      "CoordY": -417.3
+    },
+    {
+      "Name": "Guagenia",
+      "CoordX": -110.5,
+      "CoordY": -429.8
+    },
     
     {
       "Name": "Tython",
