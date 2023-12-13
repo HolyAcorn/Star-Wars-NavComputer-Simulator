@@ -1,0 +1,15 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Colonial Station Chaf",
+      "CoordX": -580.1,
+      "CoordY": 67
+    },
+    {
+      "Name": "Rhigar",
+      "CoordX": -603.3,
+      "CoordY": 84.6
+    }
+  ]
+}

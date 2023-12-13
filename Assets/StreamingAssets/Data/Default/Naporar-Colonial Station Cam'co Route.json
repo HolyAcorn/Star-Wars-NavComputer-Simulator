@@ -1,0 +1,15 @@
+{
+  "Type": 1,
+  "JsonPlanets": [
+    {
+      "Name": "Naporar",
+      "CoordX": -581.8,
+      "CoordY": 150.5
+    },
+    {
+      "Name": "Colonial Station Cam'co",
+      "CoordX": -591.3,
+      "CoordY": 174.4
+    }
+  ]
+}
