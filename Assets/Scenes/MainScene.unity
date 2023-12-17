@@ -627,6 +627,7 @@ MonoBehaviour:
     UseConstant: 1
     ConstantValue: 
     Variable: {fileID: 0}
+  DEVtoggleSubLight: 1
 --- !u!1 &233548411
 GameObject:
   m_ObjectHideFlags: 0
@@ -1397,14 +1398,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shouldMove: {fileID: 11400000, guid: 4560f203d879d8843abec5887a987ddf, type: 2}
   moveDirection: {fileID: 11400000, guid: 03916b2be7c2b31469ac76ef671c2886, type: 2}
+  CurrentMoveSpeed:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 9fe33b9f1aa5c144293fbdf4d569c18e, type: 2}
   moveSpeed: 10
   slowedDownSpeed: 0.5
+  moveSpeedMultiplier: 0.1
   zoomDirection: {fileID: 11400000, guid: 99fb964a12501b346a1fa82f35bffd6c, type: 2}
   currentZoom: {fileID: 11400000, guid: 5e22c37b119bbfe4a9c3c7a70a07be12, type: 2}
   minCameraSize: {fileID: 11400000, guid: eb7649f2f24f54942ab2aebfef5a4433, type: 2}
   maxCameraSize: {fileID: 11400000, guid: 6a5053bdf7baebc4fa4c5166e8421741, type: 2}
   zoomAmount: 5
-  slowDownMovementThreshold: 10
+  slowDownMovementThreshold: 40
   sizeStepsUI: {fileID: 11400000, guid: e0783df85a9a46f49a9402be84047a30, type: 2}
   sizeStepCurve:
     serializedVersion: 2

@@ -9,8 +9,10 @@ namespace SwNavComp
 
         [SerializeField] BoolVariable shouldMove;
         [SerializeField] Vector2Variable moveDirection;
+        [SerializeField] FloatReference CurrentMoveSpeed;
         [SerializeField] float moveSpeed = 1f;
         [SerializeField] float slowedDownSpeed = 0.5f;
+        [SerializeField] float moveSpeedMultiplier = 5f;
         float originalMoveSpeed;
 
 
@@ -19,7 +21,7 @@ namespace SwNavComp
         [SerializeField] FloatVariable minCameraSize;
         [SerializeField] FloatVariable maxCameraSize;
         [SerializeField] float zoomAmount = 1f;
-        [SerializeField] float slowDownMovementThreshold = 10f;
+        [SerializeField] float slowDownMovementThreshold = 30f;
         [Header("Size Changing")]
         [SerializeField] FloatRuntimeSet sizeStepsUI;
         [SerializeField] AnimationCurve sizeStepCurve;
@@ -79,10 +81,13 @@ namespace SwNavComp
         public void Zoom()
         {
             _camera.orthographicSize += zoomAmount * zoomDirection.Value;
-            if (_camera.orthographicSize == slowDownMovementThreshold) moveSpeed = slowedDownSpeed;
-            if (_camera.orthographicSize > slowDownMovementThreshold) moveSpeed = originalMoveSpeed;
             if (_camera.orthographicSize < minCameraSize.Value) _camera.orthographicSize = minCameraSize.Value;
             if (_camera.orthographicSize > maxCameraSize.Value) _camera.orthographicSize = maxCameraSize.Value;
+
+            moveSpeed = _camera.orthographicSize * moveSpeedMultiplier;
+            /*if (_camera.orthographicSize <= slowDownMovementThreshold) moveSpeed = slowedDownSpeed;
+            if (_camera.orthographicSize > slowDownMovementThreshold) moveSpeed = originalMoveSpeed;*/
+            CurrentMoveSpeed.Variable.Value = moveSpeed;
             currentZoom.Value = _camera.orthographicSize;
             
         }

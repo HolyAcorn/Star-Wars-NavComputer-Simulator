@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39a6ae0fd1a77ba43b0438435e1e595e, type: 3}
-  m_Name: ActiveFont
+  m_Script: {fileID: 11500000, guid: 708b8fdcefd3b8f4883e723bd88b9dde, type: 3}
+  m_Name: CurrentMoveSpeed
   m_EditorClassIdentifier: 
-  Font: {fileID: 12800000, guid: 5e77c6dd168ff344881b18fa81ce9e88, type: 3}
-  fontAsset: {fileID: 11400000, guid: fe487590988617d46aec2fafb8be7c28, type: 2}
-  Index: 0
+  Value: 0

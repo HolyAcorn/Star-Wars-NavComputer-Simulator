@@ -27,6 +27,9 @@ namespace SwNavComp
         PlanetRuntimeSet tempPlanetList;
 
 
+        [Header("Dev Tools")]
+        [SerializeField] bool DEVtoggleSubLight = true;
+
         private void Start()
         {
             dirPath = Application.dataPath + "/StreamingAssets/Data/";
@@ -91,7 +94,7 @@ namespace SwNavComp
             }
 
 
-            await Task.Run(() => ConnectAllPlanetsSublight());
+            if(DEVtoggleSubLight) await Task.Run(() => ConnectAllPlanetsSublight());
 
             Debug.Log("Done");
             //presentHyperLanes.Raise();
