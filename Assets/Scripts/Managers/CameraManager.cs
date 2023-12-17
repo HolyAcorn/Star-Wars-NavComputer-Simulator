@@ -46,6 +46,7 @@ namespace SwNavComp
         {
             _camera = GetComponent<Camera>();
             originalMoveSpeed = moveSpeed;
+            moveSpeed = _camera.orthographicSize * moveSpeedMultiplier;
             SetupCameraUISizeThresholds();
         }
 

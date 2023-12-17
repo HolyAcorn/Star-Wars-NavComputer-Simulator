@@ -1175,7 +1175,7 @@ MonoBehaviour:
     UseConstant: 0
     ConstantValue: 
     Variable: {fileID: 11400000, guid: a230249667af8ec4f80fe5af3617067f, type: 2}
-  DEVtoggleSubLight: 0
+  DEVtoggleSubLight: 1
 --- !u!4 &201335115
 Transform:
   m_ObjectHideFlags: 0

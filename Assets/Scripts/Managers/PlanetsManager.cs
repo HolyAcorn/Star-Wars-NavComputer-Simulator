@@ -27,6 +27,7 @@ namespace SwNavComp
         void Start()
         {
             size = minSize;
+            currentPlanetSize.Variable.Value = size;
         }
 
 
