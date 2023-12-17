@@ -5,9 +5,10 @@ using UnityEngine;
 
 namespace SwNavComp
 {
-    [CreateAssetMenu(fileName = "Planet", menuName = "Scriptable Objects/Planet")]
-    public class Planet : ScriptableObject, IComparable<Planet>
+    
+    public class Planet :  IComparable<Planet>
     {
+
         
         public float CoordX { get; private set; }
         public float CoordY { get; private set; }
@@ -22,7 +23,7 @@ namespace SwNavComp
 
         public void Initialize(string name, float coordX, float coordY)
         {
-            this.name = name;
+            
             displayName = name;
             CoordX = coordX;
             CoordY = coordY;

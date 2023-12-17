@@ -50,14 +50,14 @@ namespace SwNavComp
             }
 
 
-            foreach (Planet planet in pointMasterList.Planets.items)
+            foreach (Planet planet in pointMasterList.Planets)
             {
-                if(planet.name == "Tython")
+                if(planet.displayName == "Tython")
                 {
 
                 }
-                if (planet.name == startingPlanet.Get(0).displayName) startingPoint = planet;
-                if (planet.name == targetPlanet.Get(0).displayName) targetPoint = planet;
+                if (planet.displayName == startingPlanet.Get(0).displayName) startingPoint = planet;
+                if (planet.displayName == targetPlanet.Get(0).displayName) targetPoint = planet;
             }
             //List<Planet> travelPath = Astar();
             List<Planet> travelPath = Dijkstra();
@@ -109,7 +109,7 @@ namespace SwNavComp
                 path.Enqueue(currentPathPoint);
             }
             finalDistance.Value = distancetoReachPoint[startingPoint] * 10;
-            Debug.Log("Distance to " + targetPoint.name + "is: " + finalDistance.Value.ToString("0.00") + "parsecs");
+            Debug.Log("Distance to " + targetPoint.displayName + "is: " + finalDistance.Value.ToString("0.00") + "parsecs");
             List<Planet> listPath = path.ToList();
             listPath.Insert(0, startingPoint);
             return listPath;
@@ -163,7 +163,7 @@ namespace SwNavComp
                 path.Enqueue(currentPathPoint);
             }
             finalDistance.Value = distancetoReachPoint[startingPoint] * 10;
-            Debug.Log("Distance to " + targetPoint.name + "is: " + finalDistance.Value.ToString("0.00") + "parsecs");
+            Debug.Log("Distance to " + targetPoint.displayName + "is: " + finalDistance.Value.ToString("0.00") + "parsecs");
             List<Planet> listPath = path.ToList();
             listPath.Insert(0, startingPoint);
             return listPath;

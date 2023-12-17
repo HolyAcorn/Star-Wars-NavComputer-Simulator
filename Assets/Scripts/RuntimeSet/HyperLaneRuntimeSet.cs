@@ -9,17 +9,17 @@ namespace SwNavComp
     {
         public HyperLane CreateHyperLanePath()
         {
-            HyperLane masterHyperLane = ScriptableObject.CreateInstance<HyperLane>();
+            
             PlanetRuntimeSet planetRuntimeSet = ScriptableObject.CreateInstance<PlanetRuntimeSet>();
 
             foreach (HyperLane hyperLane in items)
             {
-                foreach (Planet planet in hyperLane.Planets.items)
+                foreach (Planet planet in hyperLane.Planets)
                 {
                     planetRuntimeSet.AddPlanet(planet);
                 }
             }
-            masterHyperLane.Initialize("HyperLaneMasterList", planetRuntimeSet);
+            HyperLane masterHyperLane = new HyperLane("HyperLaneMasterList", planetRuntimeSet);
             return masterHyperLane;
         }
     }

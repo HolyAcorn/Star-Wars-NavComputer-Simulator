@@ -30,12 +30,12 @@ namespace SwNavComp
             return FileNames.ToArray();
         }
 
-        public static PlanetRuntimeSet LoadJsonToPlanetRuntimeSet(string dataLocation, string jsonFile, string fileName, PlanetRuntimeSet planetList)
+        public static List<Planet> LoadJsonToPlanetList(string dataLocation, string jsonFile, string fileName, PlanetRuntimeSet planetList)
         {
             JsonPlanetFile planets = JsonUtility.FromJson<JsonPlanetFile>(jsonFile);
             string regex = dataLocation + @"/(.+).json";
             string result = Regex.Match(fileName, regex).Groups[1].Value;
-            PlanetRuntimeSet newPlanetList = ScriptableObject.CreateInstance<PlanetRuntimeSet>();
+            List<Planet> newPlanetList = new List<Planet>();
 
             if (fileName.Contains("Rainboh"))
             {
@@ -48,9 +48,9 @@ namespace SwNavComp
                 bool shouldCreateNew = true;
                 foreach (Planet planet1 in planetList.items)
                 {
-                    if (planet1.name == jsonPlanet.Name)
+                    if (planet1.displayName == jsonPlanet.Name)
                     {
-                        if (planet1.name == "Unnamed" && (planet1.CoordX != jsonPlanet.CoordX || planet1.CoordY != jsonPlanet.CoordY)) continue;
+                        if (planet1.displayName == "Unnamed" && (planet1.CoordX != jsonPlanet.CoordX || planet1.CoordY != jsonPlanet.CoordY)) continue;
                         planet1.HyperlaneRoutes.Add(result);
                         planet1.IndexInHyperLane.Add(i);
                         shouldCreateNew = false;
@@ -58,7 +58,7 @@ namespace SwNavComp
                 }
                 if (shouldCreateNew)
                 {
-                    Planet planet = ScriptableObject.CreateInstance<Planet>();
+                    Planet planet = new Planet();
                     planet.Initialize(jsonPlanet.Name, jsonPlanet.CoordX, jsonPlanet.CoordY);
                     planet.HyperlaneRoutes.Add(result);
                     planet.IndexInHyperLane.Add(i);
@@ -114,7 +114,7 @@ namespace SwNavComp
 
             profile.HyperDriveType = starshipJson.StarshipJsonObject.HyperDriveType;
             profile.HyperdriveRating = starshipJson.StarshipJsonObject.HyperdriveRating;
-            
+
             profile.Silhouette = starshipJson.StarshipJsonObject.Silhouette;
             profile.Speed = starshipJson.StarshipJsonObject.Speed;
             profile.Handling = starshipJson.StarshipJsonObject.Handling;

@@ -9,11 +9,11 @@ namespace SwNavComp
 
     public class GameManager : MonoBehaviour
     {
-        [SerializeField] GameEvent loadHyperLanes;
+        [SerializeField] GameEvent presentHyperlanes;
 
         private void Start()
         {
-            loadHyperLanes.Raise();
+            presentHyperlanes.Raise();
         }
 
         public void ReloadMap()
