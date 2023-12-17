@@ -7,14 +7,14 @@ using UnityEngine;
 namespace SwNavComp
 {
 
-    [CreateAssetMenu(fileName = "Hyperlane", menuName = "Scriptable Objects/Hyperlane/Hyperlane")]
-    public class HyperLane : ScriptableObject
+    
+    public class HyperLane
     {
 
-        public PlanetRuntimeSet Planets { get; private set; }
+        public List<Planet> Planets { get; private set; }
 
         public TypeEnum Type = new TypeEnum();
-
+        public string name { get; private set; }
 
         public void SetType(int index)
         {
@@ -27,10 +27,10 @@ namespace SwNavComp
 
 
 
-        public void Initialize(string hyperLaneName, PlanetRuntimeSet planetList)
+        public HyperLane(string hyperLaneName, PlanetRuntimeSet planetList)
         {
             name = hyperLaneName;
-            Planets = ScriptableObject.CreateInstance<PlanetRuntimeSet>();
+            Planets = new List<Planet>();
             for (int p = 0; p < planetList.Count(); p++)
             {
                 Planet planet = planetList.Get(p);

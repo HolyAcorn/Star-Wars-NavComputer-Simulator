@@ -555,7 +555,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &216186439
 Transform:
   m_ObjectHideFlags: 0
@@ -619,6 +619,14 @@ MonoBehaviour:
   noHyperlanePlanets: {fileID: 11400000, guid: cb3dc5e59bb38904a81cfeebce1f0abd, type: 2}
   planetList: {fileID: 11400000, guid: 66a871d597a84f94fac83d50fa27b7dd, type: 2}
   presentHyperLanes: {fileID: 11400000, guid: 7a72bf7b477cfdb4398654d2e3e7aeb9, type: 2}
+  currentProgress:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  progressText:
+    UseConstant: 1
+    ConstantValue: 
+    Variable: {fileID: 0}
 --- !u!1 &233548411
 GameObject:
   m_ObjectHideFlags: 0
@@ -6244,7 +6252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f93f2f1b1359be4bb4da5e4413db185, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadHyperLanes: {fileID: 11400000, guid: a0d1f3fca7617a44f805b677ef77beac, type: 2}
+  presentHyperlanes: {fileID: 11400000, guid: 7a72bf7b477cfdb4398654d2e3e7aeb9, type: 2}
 --- !u!114 &2079767100
 MonoBehaviour:
   m_ObjectHideFlags: 0

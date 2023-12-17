@@ -15,13 +15,13 @@ namespace SwNavComp
         {
             name = hyperLane.name;
             line = GetComponent<LineRenderer>();
-            line.positionCount = hyperLane.Planets.Count();
+            line.positionCount = hyperLane.Planets.Count;
             line.startColor = styleSetting.HyperLaneColor;
             line.endColor = styleSetting.HyperLaneColor;
             type = hyperLane.Type;
-            for (int i = 0; i < hyperLane.Planets.Count(); i++)
+            for (int i = 0; i < hyperLane.Planets.Count; i++)
             {
-                Planet planet = hyperLane.Planets.Get(i);
+                Planet planet = hyperLane.Planets[i];
                 Vector3 point = new Vector3(planet.CoordX, planet.CoordY, 0);
                 line.SetPosition(i, point);
             }

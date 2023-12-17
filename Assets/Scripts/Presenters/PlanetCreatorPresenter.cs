@@ -46,7 +46,7 @@ namespace SwNavComp
             spriteRenderer.sprite = sprites[random];
             spriteRenderer.color = styleSetting.PlanetColor;
 
-            instance.name = planet.name;
+            instance.name = planet.displayName;
             instances.Add(instance);
            instance.transform.parent = transform;
         }
