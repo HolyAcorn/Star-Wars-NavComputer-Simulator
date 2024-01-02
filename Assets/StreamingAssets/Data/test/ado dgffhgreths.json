@@ -3,27 +3,38 @@
   "JsonPlanets": [
     {
       "Name": "Medth",
-      "CoordX": 149.9,
+      "ID": 0,
+			"CoordX": 149.9,
       "CoordY": -728
     },
     {
       "Name": "Burnin Konn",
-      "CoordX": -81.7,
+      "ID": 1,
+			"CoordX": -81.7,
       "CoordY": -858.9
     },
     {
       "Name": "Ec Pand",
-      "CoordX": 124.2,
+      "ID": 2,
+			"CoordX": 124.2,
       "CoordY": -733.3
     },
     {
       "Name": "StarForge Nebula",
-      "CoordX": 106.2,
+      "ID": 3,
+			"CoordX": 106.2,
       "CoordY": -745.7
     },
     {
+      "Name": "Unnamed",
+      "ID": 4,
+			"CoordX": 356.4,
+      "CoordY": 58.3
+    },
+    {
       "Name": "Eiattu 6",
-      "CoordX": 88.7,
+      "ID": 5,
+			"CoordX": 88.7,
       "CoordY": -753.9
     }
   ]
