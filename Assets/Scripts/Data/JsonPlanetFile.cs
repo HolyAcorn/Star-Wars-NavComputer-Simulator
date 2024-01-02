@@ -15,6 +15,7 @@ namespace SwNavComp
     public class JsonPlanets
     {
         public string Name;
+        public int ID;
         public float CoordX;
         public float CoordY;
     }

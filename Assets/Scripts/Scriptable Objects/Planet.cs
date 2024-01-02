@@ -12,6 +12,7 @@ namespace SwNavComp
         
         public float CoordX { get; private set; }
         public float CoordY { get; private set; }
+        public int ID { get; private set; }
 
         public string displayName { get; private set; }
         public List<string> HyperlaneRoutes = new List<string>();
@@ -21,10 +22,11 @@ namespace SwNavComp
         public GameObject gameObject;
         public string wikiLink { get; private set; }
 
-        public void Initialize(string name, float coordX, float coordY)
+        public void Initialize(string name,int id, float coordX, float coordY)
         {
             
             displayName = name;
+            this.ID = id;
             CoordX = coordX;
             CoordY = coordY;
             wikiLink = "https://starwars.fandom.com/wiki/" + name.Replace(' ', '_');

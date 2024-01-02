@@ -59,7 +59,7 @@ namespace SwNavComp
                 if (shouldCreateNew)
                 {
                     Planet planet = new Planet();
-                    planet.Initialize(jsonPlanet.Name, jsonPlanet.CoordX, jsonPlanet.CoordY);
+                    planet.Initialize(jsonPlanet.Name, jsonPlanet.ID, jsonPlanet.CoordX, jsonPlanet.CoordY);
                     planet.HyperlaneRoutes.Add(result);
                     planet.IndexInHyperLane.Add(i);
                     planetList.Add(planet);

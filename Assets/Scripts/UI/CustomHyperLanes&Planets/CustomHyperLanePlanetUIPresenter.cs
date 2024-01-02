@@ -49,12 +49,10 @@ namespace SwNavComp
 
         public void PopulatePlanetView()
         {
-            /*for (int i = 0; i < planetScrollViewContentRef.transform.childCount; i++)
-            {
-                GameObject item = planetScrollViewContentRef.transform.GetChild(i).gameObject;
-                Destroy(item);
-                i--;
-            }*/
+            List<GameObject> children = new List<GameObject>();
+            foreach (Transform child in planetScrollViewContentRef.transform) children.Add(child.gameObject);
+            children.ForEach(child => Destroy(child));
+
             for (int i = 0; i < selectedHyperLane.Planets.Count; i++)
             {
                 Planet planet = selectedHyperLane.Planets[i];

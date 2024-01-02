@@ -8,6 +8,7 @@ namespace SwNavComp
     public class PlanetScrollviewItemPresenter : MonoBehaviour
     {
         [SerializeField] TMP_Text orderText;
+        [SerializeField] TMP_Text IDText;
         [SerializeField] TMP_InputField planetNameInputField;
         [SerializeField] TMP_InputField xCoordInputField;
         [SerializeField] TMP_InputField yCoordInputField;
@@ -22,6 +23,7 @@ namespace SwNavComp
 
 
             orderText.SetText(i.ToString());
+            IDText.SetText(planet.ID.ToString());
             planetNameInputField.SetTextWithoutNotify(name);
             xCoordInputField.SetTextWithoutNotify(coords.x.ToString());
             yCoordInputField.SetTextWithoutNotify(coords.y.ToString());
