@@ -3,46 +3,55 @@
 	"JsonPlanets": [
 		{
 			"Name": "Farstine",
+			"ID": 420,
 			"CoordX": 408.5,
 			"CoordY": -708.2
 		},
 		{
 			"Name": "Trigalis",
+			"ID": 421,
 			"CoordX": 409.2,
 			"CoordY": -746
 		},
 		{
 			"Name": "Stend",
+			"ID": 422,
 			"CoordX": 408.2,
 			"CoordY": -752.3
 		},
 		{
 			"Name": "Vergesso",
+			"ID": 423,
 			"CoordX": 436.8,
 			"CoordY": -800.8
 		},
 		{
 			"Name": "Bajic",
+			"ID": 424,
 			"CoordX": 430,
 			"CoordY": -811.5
 		},
 		{
 			"Name": "Vohai",
+			"ID": 425,
 			"CoordX": 376.6,
 			"CoordY": -851
 		},
 		{
 			"Name": "Elshandruu Pica",
+			"ID": 426,
 			"CoordX": 388,
 			"CoordY": -876.3
 		},
 		{
 			"Name": "Suarbi",
+			"ID": 427,
 			"CoordX": 386.6,
 			"CoordY": -915.2
 		},
 		{
 			"Name": "Svivren",
+			"ID": 428,
 			"CoordX": 360.9,
 			"CoordY": -945.3
 		}

@@ -3,17 +3,20 @@
   "JsonPlanets": [
     {
       "Name": "OHS3842-03",
-      "CoordX": 807.1,
+      "ID": 15,
+			"CoordX": 807.1,
       "CoordY": 269.4
     },
     {
       "Name": "Agon Nine",
-      "CoordX": 814.5,
+      "ID": 16,
+			"CoordX": 814.5,
       "CoordY": 246
     },
     {
       "Name": "OHS1782-03",
-      "CoordX": 815.5,
+      "ID": 17,
+			"CoordX": 815.5,
       "CoordY": 229.4
     }
   ]

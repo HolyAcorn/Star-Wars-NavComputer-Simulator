@@ -3,37 +3,44 @@
   "JsonPlanets": [
     {
       "Name": "Indellian",
-      "CoordX": -91,
+      "ID": 288,
+			"CoordX": -91,
       "CoordY": -845.8
     },
     {
       "Name": "Varonat",
-      "CoordX": -94.1,
+      "ID": 664,
+			"CoordX": -94.1,
       "CoordY": -847.9
     },
     {
       "Name": "Bespin",
-      "CoordX": -95.3,
+      "ID": 665,
+			"CoordX": -95.3,
       "CoordY": -849.9
     },
     {
       "Name": "Anoat",
-      "CoordX": -95.2,
+      "ID": 666,
+			"CoordX": -95.2,
       "CoordY": -854.1
     },
     {
       "Name": "Hoth",
-      "CoordX": -94.8,
+      "ID": 667,
+			"CoordX": -94.8,
       "CoordY": -858.7
     },
     {
       "Name": "Ison",
-      "CoordX": -91.2,
+      "ID": 668,
+			"CoordX": -91.2,
       "CoordY": -861.2
     },
     {
       "Name": "Mataou",
-      "CoordX": -88.7,
+      "ID": 292,
+			"CoordX": -88.7,
       "CoordY": -861.7
     }
   ]

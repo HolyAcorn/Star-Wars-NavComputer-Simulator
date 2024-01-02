@@ -3,22 +3,26 @@
   "JsonPlanets": [
     {
       "Name": "Lythos Nine",
-      "CoordX": 713.2,
+      "ID": 645,
+			"CoordX": 713.2,
       "CoordY": 607.8
     },
     {
       "Name": "Ninn",
-      "CoordX": 698.63,
+      "ID": 72,
+			"CoordX": 698.63,
       "CoordY": 619.1
     },
     {
       "Name": "Lo'Uran",
-      "CoordX": 683.6,
+      "ID": 856,
+			"CoordX": 683.6,
       "CoordY": 622.2
     },
     {
       "Name": "Neelgaimon",
-      "CoordX": 566.6,
+      "ID": 857,
+			"CoordX": 566.6,
       "CoordY": 624.2
     }
   ]

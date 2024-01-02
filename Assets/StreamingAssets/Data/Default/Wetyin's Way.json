@@ -3,22 +3,26 @@
   "JsonPlanets": [
     {
       "Name": "Jovan III",
-      "CoordX": 481.3,
+      "ID": 675,
+			"CoordX": 481.3,
       "CoordY": 379.2
     },
     {
       "Name": "Vaal",
-      "CoordX": 487.4,
+      "ID": 1559,
+			"CoordX": 487.4,
       "CoordY": 400
     },
     {
       "Name": "Glade",
-      "CoordX": 491.6,
+      "ID": 1560,
+			"CoordX": 491.6,
       "CoordY": 413.4
     },
     {
       "Name": "Wetyin's Colony",
-      "CoordX": 513.9,
+      "ID": 1561,
+			"CoordX": 513.9,
       "CoordY": 429.9
     }
   ]

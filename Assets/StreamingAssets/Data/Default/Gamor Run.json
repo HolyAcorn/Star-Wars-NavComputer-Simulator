@@ -3,72 +3,86 @@
   "JsonPlanets": [
     {
       "Name": "Gamor",
-      "CoordX": 350.3,
+      "ID": 231,
+			"CoordX": 350.3,
       "CoordY": -441.4
     },
     {
       "Name": "Merren",
-      "CoordX": 359.6,
+      "ID": 433,
+			"CoordX": 359.6,
       "CoordY": -436.3
     },
     {
       "Name": "Aridus",
-      "CoordX": 366.1,
+      "ID": 434,
+			"CoordX": 366.1,
       "CoordY": -420.8
     },
     {
       "Name": "Charra",
-      "CoordX": 407.4,
+      "ID": 435,
+			"CoordX": 407.4,
       "CoordY": -409
     },
     {
       "Name": "Aikhibba",
-      "CoordX": 471.4,
+      "ID": 436,
+			"CoordX": 471.4,
       "CoordY": -394.3
     },
     {
       "Name": "Hoylin",
-      "CoordX": 492,
+      "ID": 437,
+			"CoordX": 492,
       "CoordY": -371.8
     },
     {
       "Name": "Beris",
-      "CoordX": 501.4,
+      "ID": 438,
+			"CoordX": 501.4,
       "CoordY": -363.5
     },
     {
       "Name": "Deneba",
-      "CoordX": 516.2,
+      "ID": 439,
+			"CoordX": 516.2,
       "CoordY": -344.1
     },
     {
       "Name": "Chokan",
-      "CoordX": 521.2,
+      "ID": 440,
+			"CoordX": 521.2,
       "CoordY": -330.2
     },
     {
       "Name": "Shador",
-      "CoordX": 537.1,
+      "ID": 441,
+			"CoordX": 537.1,
       "CoordY": -314.8
     },
     {
       "Name": "Thokosia",
-      "CoordX": 545.9,
+      "ID": 442,
+			"CoordX": 545.9,
       "CoordY": -305.1
     },
     {
       "Name": "Daalang",
-      "CoordX": 567,
+      "ID": 97,
+			"CoordX": 567,
       "CoordY": -272
     },
     {
       "Name": "Circumtore",
-      "CoordX": 708.7,
+      "ID": 443,
+			"CoordX": 708.7,
       "CoordY": -244.5
     },
     {
       "Name": "Rorak",
-      "CoordX": 738,
+      "ID": 444,
+			"CoordX": 738,
       "CoordY": -228.4
     }
   ]

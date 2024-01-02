@@ -3,426 +3,511 @@
 	"JsonPlanets": [
 		{
 			"Name": "Imynusoph",
+			"ID": 572,
 			"CoordX": -105.4,
 			"CoordY": -1124.2
 		},
 		{
 			"Name": "Terminus",
+			"ID": 304,
 			"CoordX": -72.5,
 			"CoordY": -1093.7
 		},
 		{
 			"Name": "Fwatna",
+			"ID": 573,
 			"CoordX": -27.5,
 			"CoordY": -1051.5
 		},
 		{
 			"Name": "Rutan",
+			"ID": 574,
 			"CoordX": 10.9,
 			"CoordY": -1015.9
 		},
 		{
 			"Name": "Tosste",
+			"ID": 575,
 			"CoordX": 33.7,
 			"CoordY": -989.3
 		},
 		{
 			"Name": "Atravis",
+			"ID": 576,
 			"CoordX": 71.4,
 			"CoordY": -945.7
 		},
 		{
 			"Name": "Shumavar",
+			"ID": 577,
 			"CoordX": 89.803,
 			"CoordY": -923.2
 		},
 		{
 			"Name": "Averam",
+			"ID": 578,
 			"CoordX": 145.4,
 			"CoordY": -846.4
 		},
 		{
 			"Name": "Eriadu",
+			"ID": 579,
 			"CoordX": 155.5,
 			"CoordY": -829.3
 		},
 		{
 			"Name": "Cmaoli Di",
+			"ID": 580,
 			"CoordX": 183.3,
 			"CoordY": -772.4
 		},
 		{
 			"Name": "Darkknell",
+			"ID": 355,
 			"CoordX": 188.7,
 			"CoordY": -754.6
 		},
 		{
 			"Name": "Chryya",
+			"ID": 581,
 			"CoordX": 197.2,
 			"CoordY": -729.9
 		},
 		{
 			"Name": "Malastare",
+			"ID": 582,
 			"CoordX": 208.3,
 			"CoordY": -683.6
 		},
 		{
 			"Name": "ZeHeth",
+			"ID": 583,
 			"CoordX": 212.3,
 			"CoordY": -668.2
 		},
 		{
 			"Name": "Pax",
+			"ID": 584,
 			"CoordX": 220.4,
 			"CoordY": -621
 		},
 		{
 			"Name": "Arrgaw",
+			"ID": 550,
 			"CoordX": 222,
 			"CoordY": -605.7
 		},
 		{
 			"Name": "Ramordia",
+			"ID": 585,
 			"CoordX": 228.7,
 			"CoordY": -556.5
 		},
 		{
 			"Name": "Majoor",
+			"ID": 586,
 			"CoordX": 230,
 			"CoordY": -542.5
 		},
 		{
 			"Name": "Ragith III",
+			"ID": 587,
 			"CoordX": 230.9,
 			"CoordY": -525.8
 		},
 		{
 			"Name": "Gacerian",
+			"ID": 588,
 			"CoordX": 232.6,
 			"CoordY": -512.8
 		},
 		{
 			"Name": "Baroli",
+			"ID": 589,
 			"CoordX": 233.4,
 			"CoordY": -478.7
 		},
 		{
 			"Name": "Shibric",
+			"ID": 590,
 			"CoordX": 235.2,
 			"CoordY": -437.3
 		},
 		{
 			"Name": "Babbadod",
+			"ID": 591,
 			"CoordX": 234,
 			"CoordY": -406
 		},
 		{
 			"Name": "Chardaan",
+			"ID": 592,
 			"CoordX": 233.9,
 			"CoordY": -399.1
 		},
 		{
 			"Name": "Ronyards",
+			"ID": 593,
 			"CoordX": 230.9,
 			"CoordY": -350.7
 		},
 		{
 			"Name": "Sagar",
+			"ID": 594,
 			"CoordX": 230.1,
 			"CoordY": -335.6
 		},
 		{
 			"Name": "Denon",
+			"ID": 225,
 			"CoordX": 227.9,
 			"CoordY": -316.6
 		},
 		{
 			"Name": "Aquilae",
+			"ID": 595,
 			"CoordX": 215.2,
 			"CoordY": -261.3
 		},
 		{
 			"Name": "Koensayr",
+			"ID": 596,
 			"CoordX": 210.3,
 			"CoordY": -241.3
 		},
 		{
 			"Name": "Besnia",
+			"ID": 597,
 			"CoordX": 207.4,
 			"CoordY": -231.2
 		},
 		{
 			"Name": "Herzob",
+			"ID": 598,
 			"CoordX": 203.2,
 			"CoordY": -219.7
 		},
 		{
 			"Name": "Exodeen",
+			"ID": 599,
 			"CoordX": 198.7,
 			"CoordY": -207.8
 		},
 		{
 			"Name": "Voktunma",
+			"ID": 600,
 			"CoordX": 188.7,
 			"CoordY": -172.4
 		},
 		{
 			"Name": "Jaciprus",
+			"ID": 601,
 			"CoordX": 186.9,
 			"CoordY": -166.2
 		},
 		{
 			"Name": "Bellassa",
+			"ID": 602,
 			"CoordX": 183,
 			"CoordY": -152.7
 		},
 		{
 			"Name": "Baraboo",
+			"ID": 603,
 			"CoordX": 181.1,
 			"CoordY": -146.9
 		},
 		{
 			"Name": "Loretto",
+			"ID": 604,
 			"CoordX": 176.8,
 			"CoordY": -132.6
 		},
 		{
 			"Name": "Mawan",
+			"ID": 605,
 			"CoordX": 168.8,
 			"CoordY": -111.1
 		},
 		{
 			"Name": "Trellen",
+			"ID": 606,
 			"CoordX": 164.3,
 			"CoordY": -100.5
 		},
 		{
 			"Name": "Sarapin",
+			"ID": 607,
 			"CoordX": 160,
 			"CoordY": -90.5
 		},
 		{
 			"Name": "Talravin",
+			"ID": 608,
 			"CoordX": 152,
 			"CoordY": -74.5
 		},
 		{
 			"Name": "Trantor",
+			"ID": 609,
 			"CoordX": 146.1,
 			"CoordY": -64.4
 		},
 		{
 			"Name": "Fedalle",
+			"ID": 610,
 			"CoordX": 139.8,
 			"CoordY": -54.5
 		},
 		{
 			"Name": "Glithnos",
+			"ID": 611,
 			"CoordX": 126.5,
 			"CoordY": -41.6
 		},
 		{
 			"Name": "Demophon",
+			"ID": 612,
 			"CoordX": 119.3,
 			"CoordY": -33.2
 		},
 		{
 			"Name": "Aldraig",
+			"ID": 613,
 			"CoordX": 104.8,
 			"CoordY": -19.9
 		},
 		{
 			"Name": "Skako Minor",
+			"ID": 614,
 			"CoordX": 76.2,
 			"CoordY": 10.3
 		},
 		{
 			"Name": "Brentaal IV",
+			"ID": 197,
 			"CoordX": 60.5,
 			"CoordY": 35.9
 		},
 		{
 			"Name": "Wakeelmui",
+			"ID": 615,
 			"CoordX": 53.6,
 			"CoordY": 70.4
 		},
 		{
 			"Name": "Uviuy Exen",
+			"ID": 616,
 			"CoordX": 55.3,
 			"CoordY": 89.2
 		},
 		{
 			"Name": "Nierport VII",
+			"ID": 617,
 			"CoordX": 64.5,
 			"CoordY": 115.6
 		},
 		{
 			"Name": "Champala",
+			"ID": 618,
 			"CoordX": 71.4,
 			"CoordY": 129.3
 		},
 		{
 			"Name": "Drearia",
+			"ID": 619,
 			"CoordX": 79.4,
 			"CoordY": 142.5
 		},
 		{
 			"Name": "Per Lupelo",
+			"ID": 620,
 			"CoordX": 87.7,
 			"CoordY": 154.3
 		},
 		{
 			"Name": "Paqualis III",
+			"ID": 621,
 			"CoordX": 96,
 			"CoordY": 165.8
 		},
 		{
 			"Name": "Bogden",
+			"ID": 622,
 			"CoordX": 105.4,
 			"CoordY": 175.9
 		},
 		{
 			"Name": "Nessem",
+			"ID": 623,
 			"CoordX": 112.8,
 			"CoordY": 186.2
 		},
 		{
 			"Name": "Kidriff 5",
+			"ID": 624,
 			"CoordX": 120.7,
 			"CoordY": 192.5
 		},
 		{
 			"Name": "Draria",
+			"ID": 625,
 			"CoordX": 148,
 			"CoordY": 211.4
 		},
 		{
 			"Name": "Corsin",
+			"ID": 626,
 			"CoordX": 189.9,
 			"CoordY": 233.4
 		},
 		{
 			"Name": "Skorrupon",
+			"ID": 627,
 			"CoordX": 225.8,
 			"CoordY": 252.3
 		},
 		{
 			"Name": "Bandomeer",
+			"ID": 127,
 			"CoordX": 319,
 			"CoordY": 322.3
 		},
 		{
 			"Name": "Harloen",
+			"ID": 628,
 			"CoordX": 328.4,
 			"CoordY": 330.8
 		},
 		{
 			"Name": "Botajef",
+			"ID": 629,
 			"CoordX": 344.8,
 			"CoordY": 351.5
 		},
 		{
 			"Name": "Hijado",
+			"ID": 630,
 			"CoordX": 357.6,
 			"CoordY": 369.8
 		},
 		{
 			"Name": "Celanon",
+			"ID": 184,
 			"CoordX": 369.1,
 			"CoordY": 389
 		},
 		{
 			"Name": "Junction",
+			"ID": 406,
 			"CoordX": 383.5,
 			"CoordY": 406.4
 		},
 		{
 			"Name": "Sorrus",
+			"ID": 631,
 			"CoordX": 391.6,
 			"CoordY": 418.8
 		},
 		{
 			"Name": "Hynah",
+			"ID": 632,
 			"CoordX": 396.8,
 			"CoordY": 425.9
 		},
 		{
 			"Name": "Simpla-12",
+			"ID": 633,
 			"CoordX": 401.9,
 			"CoordY": 432.5
 		},
 		{
 			"Name": "Toprawa",
+			"ID": 634,
 			"CoordX": 409.2,
 			"CoordY": 443.3
 		},
 		{
 			"Name": "Pho Ph'eah",
+			"ID": 635,
 			"CoordX": 430.8,
 			"CoordY": 475.3
 		},
 		{
 			"Name": "Praadost II",
+			"ID": 636,
 			"CoordX": 460.5,
 			"CoordY": 516.5
 		},
 		{
 			"Name": "Telos IV",
+			"ID": 637,
 			"CoordX": 508,
 			"CoordY": 571
 		},
 		{
 			"Name": "Doniphon",
+			"ID": 638,
 			"CoordX": 515.4,
 			"CoordY": 579.7
 		},
 		{
 			"Name": "Tantive IV",
+			"ID": 639,
 			"CoordX": 522,
 			"CoordY": 585.5
 		},
 		{
 			"Name": "Listehol",
+			"ID": 640,
 			"CoordX": 535.3,
 			"CoordY": 591.3
 		},
 		{
 			"Name": "Ruuria",
+			"ID": 641,
 			"CoordX": 579.9,
 			"CoordY": 607.7
 		},
 		{
 			"Name": "Oshetti IV",
+			"ID": 642,
 			"CoordX": 635.5,
 			"CoordY": 614.2
 		},
 		{
 			"Name": "Cadomai Prime",
+			"ID": 643,
 			"CoordX": 668.2,
 			"CoordY": 612.9
 		},
 		{
 			"Name": "Reltooine",
+			"ID": 644,
 			"CoordX": 680.8,
 			"CoordY": 612.4
 		},
 		{
 			"Name": "Mall'ordian",
+			"ID": 73,
 			"CoordX": 693.7,
 			"CoordY": 611
 		},
 		{
 			"Name": "Lythos Nine",
+			"ID": 645,
 			"CoordX": 713.2,
 			"CoordY": 607.8
 		},
 		{
 			"Name": "D'ian",
+			"ID": 646,
 			"CoordX": 733,
 			"CoordY": 603.9
 		},
 		{
 			"Name": "Bonadan",
+			"ID": 92,
 			"CoordX": 739.8,
 			"CoordY": 601.8
 		}

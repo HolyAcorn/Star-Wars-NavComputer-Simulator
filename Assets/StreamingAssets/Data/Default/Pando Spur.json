@@ -3,22 +3,26 @@
   "JsonPlanets": [
     {
       "Name": "Hollastin",
-      "CoordX": 759.3,
+      "ID": 562,
+			"CoordX": 759.3,
       "CoordY": -269.8
     },
     {
       "Name": "Xolu",
-      "CoordX": 753.9,
+      "ID": 1142,
+			"CoordX": 753.9,
       "CoordY": -327.4
     },
     {
       "Name": "Far Pando",
-      "CoordX": 764,
+      "ID": 1143,
+			"CoordX": 764,
       "CoordY": -368.4
     },
     {
       "Name": "Near Pando",
-      "CoordX": 779.5,
+      "ID": 1144,
+			"CoordX": 779.5,
       "CoordY": -411.9
     }
   ]

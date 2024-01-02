@@ -3,12 +3,14 @@
   "JsonPlanets": [
     {
       "Name": "Pygorix",
-      "CoordX": 585.9,
+      "ID": 48,
+			"CoordX": 585.9,
       "CoordY": 385.2
     },
     {
       "Name": "Karsten's World",
-      "CoordX": 588.8,
+      "ID": 700,
+			"CoordX": 588.8,
       "CoordY": 378.5
     }
   ]

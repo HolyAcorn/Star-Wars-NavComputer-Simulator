@@ -3,17 +3,20 @@
   "JsonPlanets": [
     {
       "Name": "Unnamed",
-      "CoordX": 338.6,
+      "ID": 1465,
+			"CoordX": 338.6,
       "CoordY": 42.1
     },
     {
       "Name": "Unnamed",
-      "CoordX": 337.4,
+      "ID": 1466,
+			"CoordX": 337.4,
       "CoordY": 41.9
     },
     {
       "Name": "Telkur Station",
-      "CoordX": 336.3,
+      "ID": 1467,
+			"CoordX": 336.3,
       "CoordY": 41.9
     }
   ]

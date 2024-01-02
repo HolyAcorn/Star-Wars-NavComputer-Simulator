@@ -3,22 +3,26 @@
   "JsonPlanets": [
     {
       "Name": "Thanium",
-      "CoordX": 692.2,
+      "ID": 400,
+			"CoordX": 692.2,
       "CoordY": 386.9
     },
     {
       "Name": "Felucia",
-      "CoordX": 680.2,
+      "ID": 401,
+			"CoordX": 680.2,
       "CoordY": 379.9
     },
     {
       "Name": "Mossak",
-      "CoordX": 679.4,
+      "ID": 402,
+			"CoordX": 679.4,
       "CoordY": 369.9
     },
     {
       "Name": "Galidraan",
-      "CoordX": 682.6,
+      "ID": 403,
+			"CoordX": 682.6,
       "CoordY": 359.1
     }
   ]

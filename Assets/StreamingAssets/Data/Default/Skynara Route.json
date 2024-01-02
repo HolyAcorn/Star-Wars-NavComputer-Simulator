@@ -3,12 +3,14 @@
   "JsonPlanets": [
     {
       "Name": "Elshandruu Pica",
-      "CoordX": 388,
+      "ID": 426,
+			"CoordX": 388,
       "CoordY": -876.3
     },
     {
       "Name": "Skynara",
-      "CoordX": 485.1,
+      "ID": 1425,
+			"CoordX": 485.1,
       "CoordY": -930.8
     }
   ]

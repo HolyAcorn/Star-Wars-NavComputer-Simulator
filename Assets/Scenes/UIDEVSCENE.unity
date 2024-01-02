@@ -508,7 +508,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4588347516628847128, guid: b8f798bc027bdad4bb74c3b95b0c1910, type: 3}
       propertyPath: dataLocation
-      value: test
+      value: Default
       objectReference: {fileID: 0}
     - target: {fileID: 4588347516656800908, guid: b8f798bc027bdad4bb74c3b95b0c1910, type: 3}
       propertyPath: m_AnchorMax.y

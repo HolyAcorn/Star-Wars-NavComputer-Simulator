@@ -3,12 +3,14 @@
   "JsonPlanets": [
     {
       "Name": "Florn",
-      "CoordX": 811.5,
+      "ID": 323,
+			"CoordX": 811.5,
       "CoordY": 440.2
     },
     {
       "Name": "Raxus Prime",
-      "CoordX": 770,
+      "ID": 1242,
+			"CoordX": 770,
       "CoordY": 411
     }
   ]

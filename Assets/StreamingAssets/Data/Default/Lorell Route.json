@@ -3,57 +3,68 @@
   "JsonPlanets": [
     {
       "Name": "Zeltros",
-      "CoordX": 353,
+      "ID": 469,
+			"CoordX": 353,
       "CoordY": -69.6
     },
     {
       "Name": "Andalia",
-      "CoordX": 334.6,
+      "ID": 769,
+			"CoordX": 334.6,
       "CoordY": 46.1
     },
     {
       "Name": "Sennex",
-      "CoordX": 335.2,
+      "ID": 770,
+			"CoordX": 335.2,
       "CoordY": 48.4
     },
     {
       "Name": "Unnamed",
-      "CoordX": 336.6,
+      "ID": 771,
+			"CoordX": 336.6,
       "CoordY": 49.6
     },
     {
       "Name": "Daruvvia",
-      "CoordX": 336.3,
+      "ID": 772,
+			"CoordX": 336.3,
       "CoordY": 50.6
     },
     {
       "Name": "Ket",
-      "CoordX": 336.6,
+      "ID": 773,
+			"CoordX": 336.6,
       "CoordY": 52.2
     },
     {
       "Name": "Unnamed",
-      "CoordX": 336.1,
+      "ID": 774,
+			"CoordX": 336.1,
       "CoordY": 53.4
     },
     {
       "Name": "Unnamed",
-      "CoordX": 337,
+      "ID": 775,
+			"CoordX": 337,
       "CoordY": 54.5
     },
     {
       "Name": "Lovola",
-      "CoordX": 337.6,
+      "ID": 776,
+			"CoordX": 337.6,
       "CoordY": 55.5
     },
     {
       "Name": "Maires",
-      "CoordX": 337.9,
+      "ID": 777,
+			"CoordX": 337.9,
       "CoordY": 57.3
     },
     {
       "Name": "Vergill",
-      "CoordX": 338.5,
+      "ID": 432,
+			"CoordX": 338.5,
       "CoordY": 58.2
     }
   ]

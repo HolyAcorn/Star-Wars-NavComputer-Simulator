@@ -3,46 +3,55 @@
 	"JsonPlanets": [
 		{
 			"Name": "Fondor",
+			"ID": 1398,
 			"CoordX": 25.3,
 			"CoordY": -369.6
 		},
 		{
 			"Name": "Bassadro",
+			"ID": 1399,
 			"CoordX": 62.3,
 			"CoordY": -374.2
 		},
 		{
 			"Name": "Teyr",
+			"ID": 1400,
 			"CoordX": 84.6,
 			"CoordY": -381
 		},
 		{
 			"Name": "Las Lagon",
+			"ID": 1401,
 			"CoordX": 144.6,
 			"CoordY": -391.5
 		},
 		{
 			"Name": "Affa",
+			"ID": 1402,
 			"CoordX": 153,
 			"CoordY": -391.9
 		},
 		{
 			"Name": "Atzerri",
+			"ID": 1403,
 			"CoordX": 189.4,
 			"CoordY": -394.4
 		},
 		{
 			"Name": "Chardaan",
+			"ID": 1404,
 			"CoordX": 233.9,
 			"CoordY": -399.2
 		},
 		{
 			"Name": "Tynna",
+			"ID": 1405,
 			"CoordX": 287.1,
 			"CoordY": -405
 		},
 		{
 			"Name": "Allanteen VI",
+			"ID": 230,
 			"CoordX": 319.1,
 			"CoordY": -409.4
 		}

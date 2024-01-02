@@ -3,17 +3,20 @@
   "JsonPlanets": [
     {
       "Name": "Syngia",
-      "CoordX": 685.8,
+      "ID": 1351,
+			"CoordX": 685.8,
       "CoordY": 450
     },
     {
       "Name": "Sembla",
-      "CoordX": 716.7,
+      "ID": 1352,
+			"CoordX": 716.7,
       "CoordY": 435.2
     },
     {
       "Name": "Janodral Minor",
-      "CoordX": 735.7,
+      "ID": 1353,
+			"CoordX": 735.7,
       "CoordY": 425.8
     }
   ]

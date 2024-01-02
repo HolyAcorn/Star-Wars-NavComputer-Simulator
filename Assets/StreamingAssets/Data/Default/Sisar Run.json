@@ -3,52 +3,62 @@
   "JsonPlanets": [
     {
       "Name": "Nimban",
-      "CoordX": 723.2,
+      "ID": 1135,
+			"CoordX": 723.2,
       "CoordY": -33.6
     },
     {
       "Name": "Sionia",
-      "CoordX": 731.6,
+      "ID": 1419,
+			"CoordX": 731.6,
       "CoordY": -17.2
     },
     {
       "Name": "Cyborrea",
-      "CoordX": 736,
+      "ID": 1420,
+			"CoordX": 736,
       "CoordY": 18.6
     },
     {
       "Name": "Dirha",
-      "CoordX": 755.2,
+      "ID": 730,
+			"CoordX": 755.2,
       "CoordY": 76.9
     },
     {
       "Name": "Topa",
-      "CoordX": 768,
+      "ID": 1131,
+			"CoordX": 768,
       "CoordY": 100.5
     },
     {
       "Name": "Sespe",
-      "CoordX": 770,
+      "ID": 1421,
+			"CoordX": 770,
       "CoordY": 103.1
     },
     {
       "Name": "Terman",
-      "CoordX": 771.7,
+      "ID": 1422,
+			"CoordX": 771.7,
       "CoordY": 105.9
     },
     {
       "Name": "Station 3",
-      "CoordX": 772.7,
+      "ID": 1423,
+			"CoordX": 772.7,
       "CoordY": 107.9
     },
     {
       "Name": "Sriluur",
-      "CoordX": 775.7,
+      "ID": 0,
+			"CoordX": 775.7,
       "CoordY": 113
     },
     {
       "Name": "Nwarcol Point",
-      "CoordX": 779.4,
+      "ID": 1330,
+			"CoordX": 779.4,
       "CoordY": 131.7
     }
   ]

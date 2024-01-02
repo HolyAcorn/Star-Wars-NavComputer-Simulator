@@ -3,57 +3,68 @@
   "JsonPlanets": [
     {
       "Name": "Troos",
-      "CoordX": 535.9,
+      "ID": 40,
+			"CoordX": 535.9,
       "CoordY": 460.2
     },
     {
       "Name": "Atorra",
-      "CoordX": 539.9,
+      "ID": 41,
+			"CoordX": 539.9,
       "CoordY": 450.7
     },
     {
       "Name": "Chenowei",
-      "CoordX": 544.2,
+      "ID": 42,
+			"CoordX": 544.2,
       "CoordY": 439.4
     },
     {
       "Name": "B'trilla",
-      "CoordX": 547.3,
+      "ID": 43,
+			"CoordX": 547.3,
       "CoordY": 426.2
     },
     {
       "Name": "Feena",
-      "CoordX": 549.8,
+      "ID": 44,
+			"CoordX": 549.8,
       "CoordY": 407.2
     },
     {
       "Name": "Kalishik",
-      "CoordX": 550,
+      "ID": 45,
+			"CoordX": 550,
       "CoordY": 392.5
     },
     {
       "Name": "Arda",
-      "CoordX": 556.4,
+      "ID": 46,
+			"CoordX": 556.4,
       "CoordY": 382.2
     },
     {
       "Name": "Feldwes",
-      "CoordX": 577.6,
+      "ID": 47,
+			"CoordX": 577.6,
       "CoordY": 383
     },
     {
       "Name": "Pygorix",
-      "CoordX": 585.9,
+      "ID": 48,
+			"CoordX": 585.9,
       "CoordY": 385.2
     },
     {
       "Name": "Spintir",
-      "CoordX": 596.5,
+      "ID": 49,
+			"CoordX": 596.5,
       "CoordY": 388.9
     },
     {
       "Name": "Stenos",
-      "CoordX": 624.6,
+      "ID": 50,
+			"CoordX": 624.6,
       "CoordY": 407.5
     }
   ]

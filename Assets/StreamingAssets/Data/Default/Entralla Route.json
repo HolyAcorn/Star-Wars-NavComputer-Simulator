@@ -3,91 +3,109 @@
 	"JsonPlanets": [
 		{
 			"Name": "Ord Mantell",
+			"ID": 177,
 			"CoordX": 4.7,
 			"CoordY": 255
 		},
 		{
 			"Name": "Qiilura",
+			"ID": 374,
 			"CoordX": 1.6,
 			"CoordY": 264.3
 		},
 		{
 			"Name": "Yout",
+			"ID": 375,
 			"CoordX": 0.8,
 			"CoordY": 277.6
 		},
 		{
 			"Name": "Tyan",
+			"ID": 376,
 			"CoordX": -4.6,
 			"CoordY": 296.2
 		},
 		{
 			"Name": "Ord Tessebok",
+			"ID": 377,
 			"CoordX": -9.2,
 			"CoordY": 308.2
 		},
 		{
 			"Name": "Obredaan",
+			"ID": 378,
 			"CoordX": -13,
 			"CoordY": 321
 		},
 		{
 			"Name": "Lonnaw",
+			"ID": 379,
 			"CoordX": -20,
 			"CoordY": 335.7
 		},
 		{
 			"Name": "Orinda",
+			"ID": 380,
 			"CoordX": -26.2,
 			"CoordY": 349.3
 		},
 		{
 			"Name": "Wistril",
+			"ID": 381,
 			"CoordX": -48.3,
 			"CoordY": 382.4
 		},
 		{
 			"Name": "JanFathal",
+			"ID": 382,
 			"CoordX": -54.2,
 			"CoordY": 389.219
 		},
 		{
 			"Name": "Borosk",
+			"ID": 383,
 			"CoordX": -94.3,
 			"CoordY": 456.5
 		},
 		{
 			"Name": "Ompersan",
+			"ID": 384,
 			"CoordX": -96.7,
 			"CoordY": 475
 		},
 		{
 			"Name": "Yaga Minor",
+			"ID": 385,
 			"CoordX": -96,
 			"CoordY": 479.6
 		},
 		{
 			"Name": "Capza",
+			"ID": 386,
 			"CoordX": -93.3,
 			"CoordY": 514
 		},
 		{
 			"Name": "Entralla",
+			"ID": 387,
 			"CoordX": -92,
 			"CoordY": 520.9
 		},
 		{
 			"Name": "Endoraan",
+			"ID": 388,
 			"CoordX": -89.3,
 			"CoordY": 535.9
 		},
 		{
 			"Name": "Bisellia",
+			"ID": 389,
 			"CoordX": -86.8,
 			"CoordY": 543.9
 		},
 		{
 			"Name": "Muunilinst",
+			"ID": 107,
 			"CoordX": -80.5,
 			"CoordY": 550.3
 		}

@@ -3,22 +3,26 @@
   "JsonPlanets": [
     {
       "Name": "Lucazec",
-      "CoordX": 563.9,
+      "ID": 167,
+			"CoordX": 563.9,
       "CoordY": 328.8
     },
     {
       "Name": "Rhen Var",
-      "CoordX": 665.6,
+      "ID": 781,
+			"CoordX": 665.6,
       "CoordY": 354.5
     },
     {
       "Name": "Galidraan",
-      "CoordX": 682.6,
+      "ID": 403,
+			"CoordX": 682.6,
       "CoordY": 359.1
     },
     {
       "Name": "Arcan IV",
-      "CoordX": 701.1,
+      "ID": 782,
+			"CoordX": 701.1,
       "CoordY": 365.2
     }
   ]

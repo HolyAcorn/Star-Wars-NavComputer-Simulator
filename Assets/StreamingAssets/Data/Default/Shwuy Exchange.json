@@ -3,32 +3,38 @@
 "JsonPlanets": [
 	{
 		"Name": "Vakkar",
-		"CoordX": -94.7,
+		"ID": 1413,
+			"CoordX": -94.7,
 		"CoordY": 97.2
 	},
 	{
 		"Name": "Palanhi",
-		"CoordX": -66.4,
+		"ID": 828,
+			"CoordX": -66.4,
 		"CoordY": 97.7
 	},
 	{
 		"Name": "Noquivzor",
-		"CoordX": -46,
+		"ID": 1414,
+			"CoordX": -46,
 		"CoordY": 99.5
 	},
 	{
 		"Name": "Ord Antalaha",
-		"CoordX": 25,
+		"ID": 1415,
+			"CoordX": 25,
 		"CoordY": 102
 	},
 	{
 		"Name": "Dankayo",
-		"CoordX": 47.8,
+		"ID": 1416,
+			"CoordX": 47.8,
 		"CoordY": 99.7
 	},
 	{
 		"Name": "Uviuy Exen",
-		"CoordX": 55.3,
+		"ID": 616,
+			"CoordX": 55.3,
 		"CoordY": 89.2
 	}
 ]

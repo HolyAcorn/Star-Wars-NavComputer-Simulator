@@ -3,42 +3,50 @@
   "JsonPlanets": [
     {
       "Name": "Nal Hutta",
-      "CoordX": 704,
+      "ID": 1088,
+			"CoordX": 704,
       "CoordY": -205.8
     },
     {
       "Name": "Rorak",
-      "CoordX": 738,
+      "ID": 444,
+			"CoordX": 738,
       "CoordY": -228.4
     },
     {
       "Name": "Diyu",
-      "CoordX": 785.6,
+      "ID": 1382,
+			"CoordX": 785.6,
       "CoordY": -217.7
     },
     {
       "Name": "Ylesia",
-      "CoordX": 845.2,
+      "ID": 1332,
+			"CoordX": 845.2,
       "CoordY": -214
     },
     {
       "Name": "Ziugen",
-      "CoordX": 875.4,
+      "ID": 1334,
+			"CoordX": 875.4,
       "CoordY": -217.3
     },
     {
       "Name": "Outland Transit Station",
-      "CoordX": 896.1,
+      "ID": 1383,
+			"CoordX": 896.1,
       "CoordY": -215.6
     },
     {
       "Name": "Lirra",
-      "CoordX": 905.2,
+      "ID": 1384,
+			"CoordX": 905.2,
       "CoordY": -213.6
     },
     {
       "Name": "Teth",
-      "CoordX": 911.9,
+      "ID": 1385,
+			"CoordX": 911.9,
       "CoordY": -210.2
     }
   ]

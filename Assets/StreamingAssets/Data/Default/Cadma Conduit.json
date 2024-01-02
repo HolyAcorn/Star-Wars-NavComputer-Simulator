@@ -3,42 +3,50 @@
   "JsonPlanets": [
     {
       "Name": "Junkfort Station",
-      "CoordX": 806,
+      "ID": 161,
+			"CoordX": 806,
       "CoordY": 163.2
     },
     {
       "Name": "Dagelin Minor",
-      "CoordX": 834.2,
+      "ID": 162,
+			"CoordX": 834.2,
       "CoordY": 157.9
     },
     {
       "Name": "Oeson VII",
-      "CoordX": 860.6,
+      "ID": 153,
+			"CoordX": 860.6,
       "CoordY": 150.9
     },
     {
       "Name": "Erilnar",
-      "CoordX": 863.5,
+      "ID": 163,
+			"CoordX": 863.5,
       "CoordY": 149
     },
     {
       "Name": "Scillal",
-      "CoordX": 866.6,
+      "ID": 164,
+			"CoordX": 866.6,
       "CoordY": 143.6
     },
     {
       "Name": "Lekua V",
-      "CoordX": 874.4,
+      "ID": 54,
+			"CoordX": 874.4,
       "CoordY": 139.2
     },
     {
       "Name": "Cadma",
-      "CoordX": 881.6,
+      "ID": 165,
+			"CoordX": 881.6,
       "CoordY": 135.5
     },
     {
       "Name": "Zebitrope IV",
-      "CoordX": 886.7,
+      "ID": 166,
+			"CoordX": 886.7,
       "CoordY": 127.3
     }
   ]

@@ -3,27 +3,32 @@
   "JsonPlanets": [
     {
       "Name": "Rago",
-      "CoordX": -256.7,
+      "ID": 1225,
+			"CoordX": -256.7,
       "CoordY": 254.2
     },
     {
       "Name": "Sinton",
-      "CoordX": -235.4,
+      "ID": 1226,
+			"CoordX": -235.4,
       "CoordY": 275.6
     },
     {
       "Name": "Gilatter VIII",
-      "CoordX": -219.7,
+      "ID": 1227,
+			"CoordX": -219.7,
       "CoordY": 288.7
     },
     {
       "Name": "Ansion",
-      "CoordX": -206.7,
+      "ID": 1228,
+			"CoordX": -206.7,
       "CoordY": 300.5
     },
     {
       "Name": "Keitum",
-      "CoordX": -163.6,
+      "ID": 1229,
+			"CoordX": -163.6,
       "CoordY": 319.3
     }
   ]

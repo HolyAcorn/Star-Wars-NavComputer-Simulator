@@ -3,57 +3,68 @@
   "JsonPlanets": [
     {
       "Name": "Andalia",
-      "CoordX": 334.6,
+      "ID": 769,
+			"CoordX": 334.6,
       "CoordY": 46.1
     },
     {
       "Name": "Unnamed",
-      "CoordX": 335.6,
+      "ID": 1459,
+			"CoordX": 335.6,
       "CoordY": 45.4
     },
     {
       "Name": "Unnamed",
-      "CoordX": 336.5,
+      "ID": 1468,
+			"CoordX": 336.5,
       "CoordY": 44.7
     },
     {
       "Name": "Unnamed",
-      "CoordX": 337.2,
+      "ID": 1461,
+			"CoordX": 337.2,
       "CoordY": 43.6
     },
     {
       "Name": "Unnamed",
-      "CoordX": 337.7,
+      "ID": 1463,
+			"CoordX": 337.7,
       "CoordY": 42.7
     },
     {
       "Name": "Unnamed",
-      "CoordX": 338.6,
+      "ID": 1465,
+			"CoordX": 338.6,
       "CoordY": 42.1
     },
     {
       "Name": "Chosper",
-      "CoordX": 339.5,
+      "ID": 1469,
+			"CoordX": 339.5,
       "CoordY": 41.1
     },
     {
       "Name": "Unnamed",
-      "CoordX": 338.5,
+      "ID": 1470,
+			"CoordX": 338.5,
       "CoordY": 41.2
     },
     {
       "Name": "Telkur Station",
-      "CoordX": 336.3,
+      "ID": 1467,
+			"CoordX": 336.3,
       "CoordY": 41.9
     },
     {
       "Name": "Unnamed",
-      "CoordX": 335.1,
+      "ID": 1464,
+			"CoordX": 335.1,
       "CoordY": 42.5
     },
     {
       "Name": "Unnamed",
-      "CoordX": 334.2,
+      "ID": 1460,
+			"CoordX": 334.2,
       "CoordY": 43.1
     }
   ]

@@ -3,52 +3,62 @@
   "JsonPlanets": [
     {
       "Name": "Brentaal IV",
-      "CoordX": 60.5,
+      "ID": 197,
+			"CoordX": 60.5,
       "CoordY": 35.9
     },
     {
       "Name": "Tepasi",
-      "CoordX": 89.5,
+      "ID": 198,
+			"CoordX": 89.5,
       "CoordY": 18.1
     },
     {
       "Name": "Korfo II",
-      "CoordX": 106.7,
+      "ID": 199,
+			"CoordX": 106.7,
       "CoordY": 8.3
     },
     {
       "Name": "Caamas",
-      "CoordX": 113.7,
+      "ID": 200,
+			"CoordX": 113.7,
       "CoordY": 7.1
     },
     {
       "Name": "Alderaan",
-      "CoordX": 129.5,
+      "ID": 201,
+			"CoordX": 129.5,
       "CoordY": -6
     },
     {
       "Name": "Tyed Kant",
-      "CoordX": 145.5,
+      "ID": 202,
+			"CoordX": 145.5,
       "CoordY": -23.6
     },
     {
       "Name": "Parkis",
-      "CoordX": 171.7,
+      "ID": 203,
+			"CoordX": 171.7,
       "CoordY": -24.1
     },
     {
       "Name": "Kattada",
-      "CoordX": 191,
+      "ID": 204,
+			"CoordX": 191,
       "CoordY": -25.1
     },
     {
       "Name": "Uquine",
-      "CoordX": 206.2,
+      "ID": 205,
+			"CoordX": 206.2,
       "CoordY": -33.7
     },
     {
       "Name": "Commenor",
-      "CoordX": 231.1,
+      "ID": 206,
+			"CoordX": 231.1,
       "CoordY": -98.3
     }
   ]

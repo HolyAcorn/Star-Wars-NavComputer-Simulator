@@ -3,92 +3,110 @@
   "JsonPlanets": [
     {
       "Name": "Salin",
-      "CoordX": 275.8,
+      "ID": 1319,
+			"CoordX": 275.8,
       "CoordY": 422.2
     },
     {
       "Name": "Vinsoth",
-      "CoordX": 278.2,
+      "ID": 183,
+			"CoordX": 278.2,
       "CoordY": 410
     },
     {
       "Name": "Drackmar",
-      "CoordX": 334.3,
+      "ID": 1320,
+			"CoordX": 334.3,
       "CoordY": 372.9
     },
     {
       "Name": "Botajef",
-      "CoordX": 344.8,
+      "ID": 629,
+			"CoordX": 344.8,
       "CoordY": 351.5
     },
     {
       "Name": "Alba-16",
-      "CoordX": 388.4,
+      "ID": 1321,
+			"CoordX": 388.4,
       "CoordY": 310.3
     },
     {
       "Name": "Phindar",
-      "CoordX": 422.3,
+      "ID": 1322,
+			"CoordX": 422.3,
       "CoordY": 301.8
     },
     {
       "Name": "Gala",
-      "CoordX": 542.9,
+      "ID": 1323,
+			"CoordX": 542.9,
       "CoordY": 299.9
     },
     {
       "Name": "Vjun",
-      "CoordX": 546.3,
+      "ID": 1324,
+			"CoordX": 546.3,
       "CoordY": 313.9
     },
     {
       "Name": "Lucazec",
-      "CoordX": 563.9,
+      "ID": 167,
+			"CoordX": 563.9,
       "CoordY": 328.8
     },
     {
       "Name": "Columex",
-      "CoordX": 675.5,
+      "ID": 1165,
+			"CoordX": 675.5,
       "CoordY": 327.8
     },
     {
       "Name": "Belderone",
-      "CoordX": 677.8,
+      "ID": 1117,
+			"CoordX": 677.8,
       "CoordY": 312.5
     },
     {
       "Name": "Trogan",
-      "CoordX": 674.6,
+      "ID": 1325,
+			"CoordX": 674.6,
       "CoordY": 284.2
     },
     {
       "Name": "Sy Myrth",
-      "CoordX": 700,
+      "ID": 1326,
+			"CoordX": 700,
       "CoordY": 250.9
     },
     {
       "Name": "Kile",
-      "CoordX": 709.1,
+      "ID": 1327,
+			"CoordX": 709.1,
       "CoordY": 234.4
     },
     {
       "Name": "Komnor",
-      "CoordX": 743.7,
+      "ID": 1328,
+			"CoordX": 743.7,
       "CoordY": 198.1
     },
     {
       "Name": "Boonta",
-      "CoordX": 745.7,
+      "ID": 738,
+			"CoordX": 745.7,
       "CoordY": 149.3
     },
     {
       "Name": "Novor",
-      "CoordX": 755.5,
+      "ID": 1329,
+			"CoordX": 755.5,
       "CoordY": 140.1
     },
     {
       "Name": "Nwarcol Point",
-      "CoordX": 779.4,
+      "ID": 1330,
+			"CoordX": 779.4,
       "CoordY": 131.7
     }
   ]

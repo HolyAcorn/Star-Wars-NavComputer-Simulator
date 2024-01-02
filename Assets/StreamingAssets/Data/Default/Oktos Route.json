@@ -3,27 +3,32 @@
   "JsonPlanets": [
     {
       "Name": "Nanth'ri",
-      "CoordX": 529.3,
+      "ID": 849,
+			"CoordX": 529.3,
       "CoordY": -207.3
     },
     {
       "Name": "Tol Amn",
-      "CoordX": 636.7,
+      "ID": 1085,
+			"CoordX": 636.7,
       "CoordY": -160.5
     },
     {
       "Name": "Toydaria",
-      "CoordX": 671.4,
+      "ID": 1086,
+			"CoordX": 671.4,
       "CoordY": -170.8
     },
     {
       "Name": "Kleeva",
-      "CoordX": 687.3,
+      "ID": 1087,
+			"CoordX": 687.3,
       "CoordY": -187.3
     },
     {
       "Name": "Nal Hutta",
-      "CoordX": 704,
+      "ID": 1088,
+			"CoordX": 704,
       "CoordY": -205.8
     }
   ]

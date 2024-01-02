@@ -3,17 +3,20 @@
   "JsonPlanets": [
     {
       "Name": "Terr'skiar",
-      "CoordX": 479.5,
+      "ID": 861,
+			"CoordX": 479.5,
       "CoordY": -32.3
     },
 	{
       "Name": "Bissillirus",
-      "CoordX": 502.7,
+      "ID": 1439,
+			"CoordX": 502.7,
       "CoordY": -51.6
     },
     {
       "Name": "Deysum III",
-      "CoordX": 530.2,
+      "ID": 1440,
+			"CoordX": 530.2,
       "CoordY": -58.3
     }
   ]

@@ -3,52 +3,62 @@
   "JsonPlanets": [
     {
       "Name": "Arcan IV",
-      "CoordX": 700.1,
+      "ID": 513,
+			"CoordX": 700.1,
       "CoordY": 364.2
     },
     {
       "Name": "Janilis VII",
-      "CoordX": 703,
+      "ID": 514,
+			"CoordX": 703,
       "CoordY": 354
     },
     {
       "Name": "Chandaar",
-      "CoordX": 708.9,
+      "ID": 515,
+			"CoordX": 708.9,
       "CoordY": 348.8
     },
     {
       "Name": "Oor",
-      "CoordX": 714,
+      "ID": 516,
+			"CoordX": 714,
       "CoordY": 340
     },
     {
       "Name": "Barancar",
-      "CoordX": 719.2,
+      "ID": 517,
+			"CoordX": 719.2,
       "CoordY": 338
     },
     {
       "Name": "Soruus",
-      "CoordX": 724.3,
+      "ID": 518,
+			"CoordX": 724.3,
       "CoordY": 337.5
     },
     {
       "Name": "Pasmin",
-      "CoordX": 729.4,
+      "ID": 519,
+			"CoordX": 729.4,
       "CoordY": 336.9
     },
     {
       "Name": "Arramanx",
-      "CoordX": 742.5,
+      "ID": 520,
+			"CoordX": 742.5,
       "CoordY": 339.5
     },
     {
       "Name": "Duinarbulon",
-      "CoordX": 749.5,
+      "ID": 521,
+			"CoordX": 749.5,
       "CoordY": 338.9
     },
     {
       "Name": "Derellium",
-      "CoordX": 766.4,
+      "ID": 522,
+			"CoordX": 766.4,
       "CoordY": 343.9
     }
   ]

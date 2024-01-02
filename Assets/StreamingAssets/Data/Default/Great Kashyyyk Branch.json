@@ -3,42 +3,50 @@
   "JsonPlanets": [
     {
       "Name": "Charros IV",
-      "CoordX": 613.5,
+      "ID": 463,
+			"CoordX": 613.5,
       "CoordY": 71.5
     },
     {
       "Name": "Balamk",
-      "CoordX": 561.6,
+      "ID": 464,
+			"CoordX": 561.6,
       "CoordY": 43.1
     },
     {
       "Name": "Kashyyyk",
-      "CoordX": 472.5,
+      "ID": 343,
+			"CoordX": 472.5,
       "CoordY": 11.2
     },
     {
       "Name": "Torn Station",
-      "CoordX": 457.5,
+      "ID": 465,
+			"CoordX": 457.5,
       "CoordY": -0.5
     },
     {
       "Name": "Quas Killam",
-      "CoordX": 447.4,
+      "ID": 466,
+			"CoordX": 447.4,
       "CoordY": -1.8
     },
     {
       "Name": "Umbara",
-      "CoordX": 407.5,
+      "ID": 467,
+			"CoordX": 407.5,
       "CoordY": -18.5
     },
     {
       "Name": "Virujansi",
-      "CoordX": 369.4,
+      "ID": 468,
+			"CoordX": 369.4,
       "CoordY": -52.5
     },
     {
       "Name": "Zeltros",
-      "CoordX": 353,
+      "ID": 469,
+			"CoordX": 353,
       "CoordY": -69.6
     }
   ]

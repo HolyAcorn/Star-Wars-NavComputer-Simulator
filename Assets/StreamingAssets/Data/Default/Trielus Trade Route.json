@@ -3,247 +3,296 @@
   "JsonPlanets": [
     {
       "Name": "Centares",
-      "CoordX": 638.7,
+      "ID": 1168,
+			"CoordX": 638.7,
       "CoordY": 265.4
     },
     {
       "Name": "Sy Myrth",
-      "CoordX": 700,
+      "ID": 1326,
+			"CoordX": 700,
       "CoordY": 250.9
     },
     {
       "Name": "Handooine",
-      "CoordX": 736.4,
+      "ID": 55,
+			"CoordX": 736.4,
       "CoordY": 248.9
     },
     {
       "Name": "Jabiim",
-      "CoordX": 755.2,
+      "ID": 60,
+			"CoordX": 755.2,
       "CoordY": 227.6
     },
     {
       "Name": "Taskeed",
-      "CoordX": 758.8,
+      "ID": 1502,
+			"CoordX": 758.8,
       "CoordY": 208.3
     },
     {
       "Name": "Dennogra",
-      "CoordX": 776.2,
+      "ID": 1503,
+			"CoordX": 776.2,
       "CoordY": 190.5
     },
     {
       "Name": "Junkfort Station",
-      "CoordX": 806,
+      "ID": 161,
+			"CoordX": 806,
       "CoordY": 163.2
     },
     {
       "Name": "Nimat",
-      "CoordX": 805.7,
+      "ID": 1504,
+			"CoordX": 805.7,
       "CoordY": 153.6
     },
     {
       "Name": "Tammar",
-      "CoordX": 805.4,
+      "ID": 1505,
+			"CoordX": 805.4,
       "CoordY": 119
     },
     {
       "Name": "Kegan",
-      "CoordX": 861.7,
+      "ID": 1506,
+			"CoordX": 861.7,
       "CoordY": 89.6
     },
     {
       "Name": "Gestrex III",
-      "CoordX": 862.6,
+      "ID": 1507,
+			"CoordX": 862.6,
       "CoordY": 52.3
     },
     {
       "Name": "Norval II",
-      "CoordX": 863.1,
+      "ID": 1508,
+			"CoordX": 863.1,
       "CoordY": 44.1
     },
     {
       "Name": "Kubindi",
-      "CoordX": 869.1,
+      "ID": 1509,
+			"CoordX": 869.1,
       "CoordY": 27.4
     },
     {
       "Name": "Drulakiin",
-      "CoordX": 892.9,
+      "ID": 1510,
+			"CoordX": 892.9,
       "CoordY": -2.4
     },
     {
       "Name": "Formos",
-      "CoordX": 893.7,
+      "ID": 707,
+			"CoordX": 893.7,
       "CoordY": -25.3
     },
     {
       "Name": "Eadu",
-      "CoordX": 909.4,
+      "ID": 1511,
+			"CoordX": 909.4,
       "CoordY": -44.3
     },
     {
       "Name": "Bheriz",
-      "CoordX": 915.2,
+      "ID": 1512,
+			"CoordX": 915.2,
       "CoordY": -49.7
     },
     {
       "Name": "Abuda",
-      "CoordX": 933.9,
+      "ID": 1513,
+			"CoordX": 933.9,
       "CoordY": -114.9
     },
     {
       "Name": "Glottal",
-      "CoordX": 926.9,
+      "ID": 1514,
+			"CoordX": 926.9,
       "CoordY": -152
     },
     {
       "Name": "Teth",
-      "CoordX": 911.9,
+      "ID": 1385,
+			"CoordX": 911.9,
       "CoordY": -210.2
     },
     {
       "Name": "Rampa Minor",
-      "CoordX": 912.7,
+      "ID": 1515,
+			"CoordX": 912.7,
       "CoordY": -228.9
     },
     {
       "Name": "Dilbana",
-      "CoordX": 912,
+      "ID": 1516,
+			"CoordX": 912,
       "CoordY": -265.4
     },
     {
       "Name": "Clantaano III",
-      "CoordX": 912,
+      "ID": 1517,
+			"CoordX": 912,
       "CoordY": -272.1
     },
     {
       "Name": "Barab I",
-      "CoordX": 904.8,
+      "ID": 1518,
+			"CoordX": 904.8,
       "CoordY": -295.9
     },
     {
       "Name": "Dubrava",
-      "CoordX": 891.2,
+      "ID": 1519,
+			"CoordX": 891.2,
       "CoordY": -321.7
     },
     {
       "Name": "Syvris",
-      "CoordX": 848.7,
+      "ID": 566,
+			"CoordX": 848.7,
       "CoordY": -344.8
     },
     {
       "Name": "Arami",
-      "CoordX": 836.7,
+      "ID": 1520,
+			"CoordX": 836.7,
       "CoordY": -383.3
     },
     {
       "Name": "Gamorr",
-      "CoordX": 845.5,
+      "ID": 1521,
+			"CoordX": 845.5,
       "CoordY": -431.6
     },
     {
       "Name": "Lyran",
-      "CoordX": 791,
+      "ID": 1522,
+			"CoordX": 791,
       "CoordY": -513.6
     },
     {
       "Name": "Molavar",
-      "CoordX": 732.3,
+      "ID": 797,
+			"CoordX": 732.3,
       "CoordY": -558.3
     },
     {
       "Name": "Tieos",
-      "CoordX": 708.7,
+      "ID": 1523,
+			"CoordX": 708.7,
       "CoordY": -566.3
     },
     {
       "Name": "Koiogra",
-      "CoordX": 670.8,
+      "ID": 1524,
+			"CoordX": 670.8,
       "CoordY": -617
     },
     {
       "Name": "Piroket",
-      "CoordX": 660.9,
+      "ID": 1496,
+			"CoordX": 660.9,
       "CoordY": -642.3
     },
     {
       "Name": "A-Foroon",
-      "CoordX": 660,
+      "ID": 1525,
+			"CoordX": 660,
       "CoordY": -648.9
     },
     {
       "Name": "B-Foroon",
-      "CoordX": 659.5,
+      "ID": 1526,
+			"CoordX": 659.5,
       "CoordY": -651.2
     },
     {
       "Name": "C-Foroon",
-      "CoordX": 658.9,
+      "ID": 1527,
+			"CoordX": 658.9,
       "CoordY": -653.5
     },
     {
       "Name": "Tatooine",
-      "CoordX": 644.4,
+      "ID": 1093,
+			"CoordX": 644.4,
       "CoordY": -673.3
     },
     {
       "Name": "Andooweel",
-      "CoordX": 637.2,
+      "ID": 1528,
+			"CoordX": 637.2,
       "CoordY": -678.6
     },
     {
       "Name": "Kermal Station",
-      "CoordX": 629.2,
+      "ID": 1529,
+			"CoordX": 629.2,
       "CoordY": -684.2
     },
     {
       "Name": "New Ator",
-      "CoordX": 624.4,
+      "ID": 1530,
+			"CoordX": 624.4,
       "CoordY": -692.4
     },
     {
       "Name": "Issor",
-      "CoordX": 622.6,
+      "ID": 821,
+			"CoordX": 622.6,
       "CoordY": -701
     },
     {
       "Name": "Arkanis",
-      "CoordX": 614.1,
+      "ID": 1531,
+			"CoordX": 614.1,
       "CoordY": -708.9
     },
     {
       "Name": "Tythe",
-      "CoordX": 597.6,
+      "ID": 1532,
+			"CoordX": 597.6,
       "CoordY": -699.9
     },
     {
       "Name": "Llanic",
-      "CoordX": 527.4,
+      "ID": 763,
+			"CoordX": 527.4,
       "CoordY": -695.7
     },
     {
       "Name": "Zhar",
-      "CoordX": 493.9,
+      "ID": 1533,
+			"CoordX": 493.9,
       "CoordY": -718.8
     },
     {
       "Name": "Acilaris",
-      "CoordX": 434,
+      "ID": 1534,
+			"CoordX": 434,
       "CoordY": -711.9
     },
     {
       "Name": "Farstine",
-      "CoordX": 408.5,
+      "ID": 420,
+			"CoordX": 408.5,
       "CoordY": -708.2
     },
     {
       "Name": "Ryndellia",
-      "CoordX": 377,
+      "ID": 1535,
+			"CoordX": 377,
       "CoordY": -706.1
     },
     {
       "Name": "Enarc",
-      "CoordX": 340.8,
+      "ID": 352,
+			"CoordX": 340.8,
       "CoordY": -716.1
     }
   ]

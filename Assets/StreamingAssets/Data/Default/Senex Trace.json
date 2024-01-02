@@ -3,37 +3,44 @@
   "JsonPlanets": [
     {
       "Name": "Karfeddion",
-      "CoordX": 38.4,
+      "ID": 34,
+			"CoordX": 38.4,
       "CoordY": -805.8
     },
     {
       "Name": "Fengrine",
-      "CoordX": 42.5,
+      "ID": 1354,
+			"CoordX": 42.5,
       "CoordY": -802.2
     },
     {
       "Name": "Neelanon",
-      "CoordX": 44.7,
+      "ID": 84,
+			"CoordX": 44.7,
       "CoordY": -796.5
     },
     {
       "Name": "Senex",
-      "CoordX": 44.7,
+      "ID": 1355,
+			"CoordX": 44.7,
       "CoordY": -790.9
     },
     {
       "Name": "Rindao",
-      "CoordX": 45.7,
+      "ID": 1356,
+			"CoordX": 45.7,
       "CoordY": -787.1
     },
     {
       "Name": "Parada",
-      "CoordX": 47.4,
+      "ID": 1357,
+			"CoordX": 47.4,
       "CoordY": -782.9
     },
     {
       "Name": "Eiattu 6",
-      "CoordX": 88.7,
+      "ID": 7,
+			"CoordX": 88.7,
       "CoordY": -753.9
     }
   ]

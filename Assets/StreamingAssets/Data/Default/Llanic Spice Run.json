@@ -3,37 +3,44 @@
   "JsonPlanets": [
     {
       "Name": "Mon Gazza",
-      "CoordX": 516.2,
+      "ID": 240,
+			"CoordX": 516.2,
       "CoordY": -614.5
     },
     {
       "Name": "Llanic",
-      "CoordX": 527.4,
+      "ID": 763,
+			"CoordX": 527.4,
       "CoordY": -695.7
     },
     {
       "Name": "Socorro",
-      "CoordX": 515.2,
+      "ID": 764,
+			"CoordX": 515.2,
       "CoordY": -768.9
     },
     {
       "Name": "Bahalian",
-      "CoordX": 475.4,
+      "ID": 765,
+			"CoordX": 475.4,
       "CoordY": -812.6
     },
     {
       "Name": "Andasala",
-      "CoordX": 469.6,
+      "ID": 766,
+			"CoordX": 469.6,
       "CoordY": -830.7
     },
     {
       "Name": "Reuss",
-      "CoordX": 465.3,
+      "ID": 767,
+			"CoordX": 465.3,
       "CoordY": -846.6
     },
     {
       "Name": "Spice Terminus",
-      "CoordX": 437.2,
+      "ID": 768,
+			"CoordX": 437.2,
       "CoordY": -889.7
     }
   ]

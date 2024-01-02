@@ -3,37 +3,44 @@
   "JsonPlanets": [
     {
       "Name": "Korriban",
-      "CoordX": 617,
+      "ID": 699,
+			"CoordX": 617,
       "CoordY": 466.1
     },
     {
       "Name": "Nicht Ka",
-      "CoordX": 607.4,
+      "ID": 818,
+			"CoordX": 607.4,
       "CoordY": 487.1
     },
     {
       "Name": "Ziost",
-      "CoordX": 618,
+      "ID": 61,
+			"CoordX": 618,
       "CoordY": 518.5
     },
     {
       "Name": "Ch'hodos",
-      "CoordX": 630.4,
+      "ID": 819,
+			"CoordX": 630.4,
       "CoordY": 513.4
     },
     {
       "Name": "Krayiss Two",
-      "CoordX": 653.1,
+      "ID": 820,
+			"CoordX": 653.1,
       "CoordY": 506.2
     },
     {
       "Name": "Khar Delba",
-      "CoordX": 660.4,
+      "ID": 692,
+			"CoordX": 660.4,
       "CoordY": 493.4
     },
     {
       "Name": "Rhelg",
-      "CoordX": 655.2,
+      "ID": 817,
+			"CoordX": 655.2,
       "CoordY": 481.1
     }
   ]

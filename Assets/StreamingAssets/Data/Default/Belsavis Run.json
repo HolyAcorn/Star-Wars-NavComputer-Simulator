@@ -3,42 +3,50 @@
   "JsonPlanets": [
     {
       "Name": "Neelanon",
-      "CoordX": 44.7,
+      "ID": 84,
+			"CoordX": 44.7,
       "CoordY": -796.5
     },
     {
       "Name": "Crovna",
-      "CoordX": 47.5,
+      "ID": 23,
+			"CoordX": 47.5,
       "CoordY": -798.1
     },
     {
       "Name": "Asmeru",
-      "CoordX": 48.9,
+      "ID": 85,
+			"CoordX": 48.9,
       "CoordY": -797.7
     },
     {
       "Name": "Tibrin",
-      "CoordX": 71.6,
+      "ID": 86,
+			"CoordX": 71.6,
       "CoordY": -801.5
     },
     {
       "Name": "Garnib",
-      "CoordX": 49.3,
+      "ID": 87,
+			"CoordX": 49.3,
       "CoordY": -815.3
     },
     {
       "Name": "Ossel II",
-      "CoordX": 43.9,
+      "ID": 88,
+			"CoordX": 43.9,
       "CoordY": -817.1
     },
     {
       "Name": "Belsavis",
-      "CoordX": 40.6,
+      "ID": 89,
+			"CoordX": 40.6,
       "CoordY": -816.7
     },
     {
       "Name": "Tekurr'k",
-      "CoordX": 34.9,
+      "ID": 37,
+			"CoordX": 34.9,
       "CoordY": -811.5
     }
   ]

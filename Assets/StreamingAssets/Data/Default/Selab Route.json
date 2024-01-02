@@ -3,47 +3,56 @@
   "JsonPlanets": [
     {
       "Name": "Gallinore",
-      "CoordX": 346.1,
+      "ID": 429,
+			"CoordX": 346.1,
       "CoordY": 55.3
     },
     {
       "Name": "Baldavia",
-      "CoordX": 346.9,
+      "ID": 1344,
+			"CoordX": 346.9,
       "CoordY": 54.8
     },
     {
       "Name": "Theselon",
-      "CoordX": 347.8,
+      "ID": 1345,
+			"CoordX": 347.8,
       "CoordY": 54.6
     },
     {
       "Name": "Millinar",
-      "CoordX": 347.6,
+      "ID": 1346,
+			"CoordX": 347.6,
       "CoordY": 53.6
     },
     {
       "Name": "Lalmy'ash",
-      "CoordX": 347.8,
+      "ID": 1347,
+			"CoordX": 347.8,
       "CoordY": 52.7
     },
     {
       "Name": "Archais",
-      "CoordX": 348.2,
+      "ID": 1348,
+			"CoordX": 348.2,
       "CoordY": 52
     },
     {
       "Name": "Selab",
-      "CoordX": 349.3,
+      "ID": 531,
+			"CoordX": 349.3,
       "CoordY": 51.6
     },
     {
       "Name": "Jovaria",
-      "CoordX": 350.8,
+      "ID": 1349,
+			"CoordX": 350.8,
       "CoordY": 51.4
     },
     {
       "Name": "Lemmi VI",
-      "CoordX": 351.7,
+      "ID": 1350,
+			"CoordX": 351.7,
       "CoordY": 51.8
     }
   ]

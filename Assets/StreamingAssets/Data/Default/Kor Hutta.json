@@ -3,37 +3,44 @@
   "JsonPlanets": [
     {
       "Name": "Kor Usilic",
-      "CoordX": 751.5,
+      "ID": 717,
+			"CoordX": 751.5,
       "CoordY": -112.7
     },
     {
       "Name": "Kor Hunamma",
-      "CoordX": 745.1,
+      "ID": 718,
+			"CoordX": 745.1,
       "CoordY": -125.6
     },
     {
       "Name": "Kor Utoradii",
-      "CoordX": 739.1,
+      "ID": 719,
+			"CoordX": 739.1,
       "CoordY": -111.5
     },
     {
       "Name": "Nar Chunna",
-      "CoordX": 748.5,
+      "ID": 720,
+			"CoordX": 748.5,
       "CoordY": -96.4
     },
     {
       "Name": "Kor Hestilic",
-      "CoordX": 747,
+      "ID": 559,
+			"CoordX": 747,
       "CoordY": -80.8
     },
     {
       "Name": "Kor Vosadii",
-      "CoordX": 738.4,
+      "ID": 721,
+			"CoordX": 738.4,
       "CoordY": -70
     },
     {
       "Name": "Kor Nasirii",
-      "CoordX": 741.4,
+      "ID": 722,
+			"CoordX": 741.4,
       "CoordY": -57.2
     }
   ]

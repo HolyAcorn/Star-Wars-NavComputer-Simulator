@@ -3,257 +3,308 @@
   "JsonPlanets": [
     {
       "Name": "Quermia",
-      "CoordX": 761.8,
+      "ID": 325,
+			"CoordX": 761.8,
       "CoordY": 463
     },
     {
       "Name": "Makem Te",
-      "CoordX": 749.5,
+      "ID": 1158,
+			"CoordX": 749.5,
       "CoordY": 447.8
     },
     {
       "Name": "Estaria",
-      "CoordX": 742.6,
+      "ID": 1159,
+			"CoordX": 742.6,
       "CoordY": 437
     },
     {
       "Name": "Janodral Mizar",
-      "CoordX": 735.7,
+      "ID": 1160,
+			"CoordX": 735.7,
       "CoordY": 425.8
     },
     {
       "Name": "Kanaver",
-      "CoordX": 724,
+      "ID": 1161,
+			"CoordX": 724,
       "CoordY": 406
     },
     {
       "Name": "Livien",
-      "CoordX": 718,
+      "ID": 1162,
+			"CoordX": 718,
       "CoordY": 403
     },
     {
       "Name": "Deservo",
-      "CoordX": 719.4,
+      "ID": 1163,
+			"CoordX": 719.4,
       "CoordY": 398.4
     },
     {
       "Name": "Barseg",
-      "CoordX": 711,
+      "ID": 1164,
+			"CoordX": 711,
       "CoordY": 380.6
     },
     {
       "Name": "Lianna",
-      "CoordX": 704.6,
+      "ID": 147,
+			"CoordX": 704.6,
       "CoordY": 371.1
     },
     {
       "Name": "Arcan IV",
-      "CoordX": 700.1,
+      "ID": 513,
+			"CoordX": 700.1,
       "CoordY": 364.2
     },
     {
       "Name": "Columex",
-      "CoordX": 675.5,
+      "ID": 1165,
+			"CoordX": 675.5,
       "CoordY": 327.8
     },
     {
       "Name": "Budpock",
-      "CoordX": 654,
+      "ID": 1166,
+			"CoordX": 654,
       "CoordY": 293.3
     },
     {
       "Name": "Antermeridias",
-      "CoordX": 644.1,
+      "ID": 1167,
+			"CoordX": 644.1,
       "CoordY": 272.4
     },
     {
       "Name": "Centares",
-      "CoordX": 638.7,
+      "ID": 1168,
+			"CoordX": 638.7,
       "CoordY": 265.4
     },
     {
       "Name": "The Wheel",
-      "CoordX": 628.9,
+      "ID": 1169,
+			"CoordX": 628.9,
       "CoordY": 251.9
     },
     {
       "Name": "Abhean",
-      "CoordX": 619.9,
+      "ID": 1170,
+			"CoordX": 619.9,
       "CoordY": 238.5
     },
     {
       "Name": "Euceron",
-      "CoordX": 594,
+      "ID": 1171,
+			"CoordX": 594,
       "CoordY": 210.4
     },
     {
       "Name": "Salvara",
-      "CoordX": 582.1,
+      "ID": 1172,
+			"CoordX": 582.1,
       "CoordY": 199.1
     },
     {
       "Name": "Talcene",
-      "CoordX": 578.1,
+      "ID": 1173,
+			"CoordX": 578.1,
       "CoordY": 194.1
     },
     {
       "Name": "Orleon",
-      "CoordX": 564.6,
+      "ID": 1174,
+			"CoordX": 564.6,
       "CoordY": 183.4
     },
     {
       "Name": "Roche",
-      "CoordX": 529.2,
+      "ID": 1175,
+			"CoordX": 529.2,
       "CoordY": 155.6
     },
     {
       "Name": "Jeyell",
-      "CoordX": 514.1,
+      "ID": 1176,
+			"CoordX": 514.1,
       "CoordY": 146.6
     },
     {
       "Name": "Rearqu Cluster",
-      "CoordX": 483.3,
+      "ID": 1177,
+			"CoordX": 483.3,
       "CoordY": 134.9
     },
     {
       "Name": "Lantillies",
-      "CoordX": 431,
+      "ID": 1178,
+			"CoordX": 431,
       "CoordY": 122
     },
     {
       "Name": "Gizer",
-      "CoordX": 406.1,
+      "ID": 1179,
+			"CoordX": 406.1,
       "CoordY": 115.2
     },
     {
       "Name": "Pirin",
-      "CoordX": 389.5,
+      "ID": 1180,
+			"CoordX": 389.5,
       "CoordY": 111.6
     },
     {
       "Name": "Carcel",
-      "CoordX": 378.5,
+      "ID": 1181,
+			"CoordX": 378.5,
       "CoordY": 110
     },
     {
       "Name": "Sermeria",
-      "CoordX": 372.8,
+      "ID": 1182,
+			"CoordX": 372.8,
       "CoordY": 109.8
     },
     {
       "Name": "Taanab",
-      "CoordX": 353.4,
+      "ID": 529,
+			"CoordX": 353.4,
       "CoordY": 110.2
     },
     {
       "Name": "Dalcretti",
-      "CoordX": 313.2,
+      "ID": 1183,
+			"CoordX": 313.2,
       "CoordY": 117.4
     },
     {
       "Name": "Tirahnn",
-      "CoordX": 262.5,
+      "ID": 1184,
+			"CoordX": 262.5,
       "CoordY": 119.5
     },
     {
       "Name": "Relatta",
-      "CoordX": 224.3,
+      "ID": 1185,
+			"CoordX": 224.3,
       "CoordY": 113.2
     },
     {
       "Name": "Chazwa",
-      "CoordX": 199.9,
+      "ID": 1186,
+			"CoordX": 199.9,
       "CoordY": 106
     },
     {
       "Name": "Joiol",
-      "CoordX": 185.9,
+      "ID": 1187,
+			"CoordX": 185.9,
       "CoordY": 101
     },
     {
       "Name": "Vurdon Ka",
-      "CoordX": 169,
+      "ID": 1188,
+			"CoordX": 169,
       "CoordY": 94.4
     },
     {
       "Name": "Raithal",
-      "CoordX": 145.5,
+      "ID": 1189,
+			"CoordX": 145.5,
       "CoordY": 84.9
     },
     {
       "Name": "Castell",
-      "CoordX": 139.5,
+      "ID": 1190,
+			"CoordX": 139.5,
       "CoordY": 80.3
     },
     {
       "Name": "Shulstine V",
-      "CoordX": 133.8,
+      "ID": 1191,
+			"CoordX": 133.8,
       "CoordY": 77.8
     },
     {
       "Name": "Ifmix VI",
-      "CoordX": 121,
+      "ID": 1192,
+			"CoordX": 121,
       "CoordY": 71.9
     },
     {
       "Name": "Yabol Opa",
-      "CoordX": 109.3,
+      "ID": 1193,
+			"CoordX": 109.3,
       "CoordY": 64.9
     },
     {
       "Name": "Delle II",
-      "CoordX": 89.1,
+      "ID": 1194,
+			"CoordX": 89.1,
       "CoordY": 53.8
     },
     {
       "Name": "Ralltiir",
-      "CoordX": 74.4,
+      "ID": 1195,
+			"CoordX": 74.4,
       "CoordY": 43.8
     },
     {
       "Name": "Rhinnal",
-      "CoordX": 69.4,
+      "ID": 1196,
+			"CoordX": 69.4,
       "CoordY": 41.1
     },
     {
       "Name": "Esseles",
-      "CoordX": 65,
+      "ID": 1197,
+			"CoordX": 65,
       "CoordY": 38.3
     },
     {
       "Name": "Brentaal IV",
-      "CoordX": 60.5,
+      "ID": 197,
+			"CoordX": 60.5,
       "CoordY": 35.9
     },
     {
       "Name": "Chandrila",
-      "CoordX": 53.3,
+      "ID": 1198,
+			"CoordX": 53.3,
       "CoordY": 32.6
     },
     {
       "Name": "Corulag",
-      "CoordX": 49.7,
+      "ID": 1199,
+			"CoordX": 49.7,
       "CoordY": 29.6
     },
     {
       "Name": "Anaxes",
-      "CoordX": 41.1,
+      "ID": 1200,
+			"CoordX": 41.1,
       "CoordY": 25
     },
     {
       "Name": "Grizmallt",
-      "CoordX": 28.4,
+      "ID": 1201,
+			"CoordX": 28.4,
       "CoordY": 17.7
     },
     {
       "Name": "Alsakan",
-      "CoordX": 17.2,
+      "ID": 1202,
+			"CoordX": 17.2,
       "CoordY": 10.9
     },
     {
       "Name": "Coruscant",
-      "CoordX": 0,
+      "ID": 146,
+			"CoordX": 0,
       "CoordY": 0
     }
 
