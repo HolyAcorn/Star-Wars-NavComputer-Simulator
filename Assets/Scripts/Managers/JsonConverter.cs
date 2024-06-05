@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEditor;
 using UnityEngine;
@@ -98,6 +99,25 @@ namespace SwNavComp
 
             File.WriteAllText(path, json);
         }
+
+        public static int GetHighestPlanetIndex(string dataLocation)
+        {
+            string[] files = GetFilesFromDirectory(Application.dataPath + "/StreamingAssets/Data/", dataLocation);
+            List<int> indicies = new List<int>();
+            foreach (string file in files)
+            {
+                string jsonFile = File.ReadAllText(file);
+                JsonPlanetFile jsonPlanetFile = JsonUtility.FromJson<JsonPlanetFile>(jsonFile);
+                foreach (JsonPlanets planet in jsonPlanetFile.JsonPlanets)
+                {
+                    if (!indicies.Contains(planet.ID)) indicies.Add(planet.ID);
+                }
+            }
+            Debug.Log("Max Index = " + indicies.Max());
+            return indicies.Max();
+        }
+
+
 
         public static StarshipProfile LoadFromJsonStarShip(string jsonFile)
         {

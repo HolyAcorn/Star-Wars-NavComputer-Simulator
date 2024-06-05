@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 namespace SwNavComp
 {
@@ -27,10 +28,22 @@ namespace SwNavComp
 
 
 
-        public HyperLane(string hyperLaneName, PlanetRuntimeSet planetList)
+        public HyperLane(string hyperLaneName, PlanetRuntimeSet planetList, bool noHyperlanes = false)
         {
             name = hyperLaneName;
             Planets = new List<Planet>();
+            if (noHyperlanes)
+            {
+                foreach (Planet planet in planetList.items)
+                {
+                    if (planet.displayName == "test") {
+                        Debug.Log("");
+
+                    }
+                    Planets.Add(planet);
+                }
+                return;
+            }
             for (int p = 0; p < planetList.Count(); p++)
             {
                 Planet planet = planetList.Get(p);
@@ -44,6 +57,24 @@ namespace SwNavComp
 
                 }
             }
+        }
+
+        public JsonPlanetFile CreateJsonObject()
+        {
+            JsonPlanetFile jsonPlanetFile = new JsonPlanetFile
+            {
+                Type = (int)Type,
+            };
+
+            List<JsonPlanets> planets = new List<JsonPlanets>();
+
+            foreach (Planet planet in Planets)
+            {
+                planets.Add(planet.CreateJsonObject());
+            }
+
+            jsonPlanetFile.JsonPlanets = planets.ToArray();
+            return jsonPlanetFile;
         }
 
     }

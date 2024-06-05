@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security;
+using TMPro;
 using UnityEditor;
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -20,6 +23,16 @@ namespace SwNavComp
 
         [SerializeField] PlanetRuntimeSet selectedPlanet;
         [SerializeField] GameEvent clickedBlankEvent;
+
+        [SerializeField] GameObjectRuntimeSet flipThroughObjectList;
+        List<TMP_InputField> flipThroughList = new List<TMP_InputField>();
+
+        [SerializeField] private IntReference flipIndex;
+        [SerializeField] IntVariable flipBackwards;
+        [SerializeField] GameEvent flipEvent;
+
+        [SerializeField] GameEvent toggleDebug;
+        [SerializeField] GameEvent addNewPlanet;
 
         float edgeSize = 10f;
 
@@ -58,6 +71,29 @@ namespace SwNavComp
             if (EventSystem.current.IsPointerOverGameObject()) return;
             selectedPlanet.Clear();
             clickedBlankEvent.Raise();
+        }
+
+
+        public void OnFlipPressed(CallbackContext context)
+        {
+            if (!context.started) return;
+            flipEvent.Raise();
+        }
+
+        public void OnShiftPressed(CallbackContext context)
+        {
+            if (context.canceled) flipBackwards.Value = 1;
+            else if(context.started) flipBackwards.Value = -1;
+        }
+
+        public void ToggleDebugPanel(CallbackContext context)
+        {
+            if (context.started) toggleDebug.Raise();
+        }
+
+        public void OnAddNewPlanet(CallbackContext context)
+        {
+            if (context.started) addNewPlanet.Raise();
         }
     }
 }

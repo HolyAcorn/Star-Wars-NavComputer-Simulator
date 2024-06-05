@@ -8,8 +8,8 @@ namespace SwNavComp
     [Serializable]
     public class JsonPlanetFile
     {
-        public JsonPlanets[] JsonPlanets;
         public int Type;
+        public JsonPlanets[] JsonPlanets;
     }
     [Serializable]
     public class JsonPlanets
