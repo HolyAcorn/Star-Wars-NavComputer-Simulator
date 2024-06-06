@@ -25,6 +25,7 @@ namespace SwNavComp
             [SerializeField] IntReference currentHighestIndex;
             [SerializeField] PlanetRuntimeSet noHyperlanes;
 
+
             private HyperLaneDropdown selectedHyperLane;
 
             private HyperLane noHyperlanesLane;
@@ -81,14 +82,14 @@ namespace SwNavComp
                         }
                     }
                 }
-                flipThroughSet.Clear();
+                
                 currentHyperLaneList.Clear();
-                PopulatePlanetView();
-                updateFlipThroughSet.Raise();
+                PopulatePlanetView();                
             }
 
             public void PopulatePlanetView()
             {
+                flipThroughSet.Clear();
                 RectTransform planetScrollViewRect = planetScrollViewContentRef.GetComponent<RectTransform>();
                 planetScrollViewRect.sizeDelta = new Vector2(0, addNewPlanetRef.GetComponent<RectTransform>().rect.height);
                 
@@ -111,6 +112,9 @@ namespace SwNavComp
                 GameObject newPlanetButtonInstance = Instantiate(addNewPlanetRef, planetScrollViewContentRef.transform);
                 newPlanetButtonInstance.name = newPlanetButtonInstance.name.Replace("(Clone)", "");
                 flipThroughSet.Add(newPlanetButtonInstance);
+
+                
+                updateFlipThroughSet.Raise();
             }
 
 
@@ -158,6 +162,13 @@ namespace SwNavComp
                 planet.Initialize("", currentHighestIndex.Value, 0, 0, false);
                 planet.HyperlaneRoutes.Add(selectedHyperLane.hyperLane.name);
                 selectedHyperLane.hyperLane.Planets.Add(planet);
+                currentHyperLaneList.Clear();
+                PopulatePlanetView();
+            }
+
+            public void RemovePlanet(Planet planet)
+            {
+                selectedHyperLane.hyperLane.Planets.Remove(planet);
                 currentHyperLaneList.Clear();
                 PopulatePlanetView();
             }

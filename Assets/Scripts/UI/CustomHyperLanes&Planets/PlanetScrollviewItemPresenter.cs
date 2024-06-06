@@ -12,8 +12,8 @@ namespace SwNavComp
             [SerializeField] TMP_Text orderText;
             [SerializeField] TMP_Text IDText;
             [SerializeField] TMP_InputField planetNameInputField;
-            [SerializeField] TMP_InputField xCoordInputField;
             [SerializeField] TMP_InputField yCoordInputField;
+            [SerializeField] TMP_InputField xCoordInputField;
 
             [SerializeField] CustomHyperLanePlanetUIPresenter hyperLanePlanetUIPresenter;
 
@@ -44,21 +44,29 @@ namespace SwNavComp
             public void UpdateName(string value)
             {
                 name = value;
+                UpdatePlanet();
             }
 
             public void UpdateCoordX(string value)
             {
-                coords.x = int.Parse(value);
+                coords.x = float.Parse(value);
+                UpdatePlanet();
             }
 
             public void UpdateCoordY(string value)
             {
-                coords.y = int.Parse(value);
+                coords.y = float.Parse(value);
+                UpdatePlanet();
             }
 
             public void OnMovePlanet(bool up)
             {
                 hyperLanePlanetUIPresenter.ChangePlanetOrder(orderID, up);
+            }
+
+            private void UpdatePlanet()
+            {
+                planet.Initialize(name, id, coords.x, coords.y, false);
             }
 
             public Planet SavePlanet()
@@ -67,6 +75,11 @@ namespace SwNavComp
                 newPlanet.HyperlaneRoutes = planet.HyperlaneRoutes;
                 newPlanet.Initialize(name, id, coords.x, coords.y, false);
                 return newPlanet;
+            }
+
+            public void RemovePlanet()
+            {
+                hyperLanePlanetUIPresenter.RemovePlanet(planet);
             }
         }
 

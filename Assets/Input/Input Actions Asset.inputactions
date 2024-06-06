@@ -172,6 +172,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Ctrl",
+                    "type": "Button",
+                    "id": "77a64d43-00f3-44d7-95fb-4c69298d22f7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -199,6 +208,17 @@
                 },
                 {
                     "name": "",
+                    "id": "75642989-abcb-4ffa-86f0-15b47f04940a",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spacebar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "ba004b45-454c-4e77-a4c3-3cca77300a71",
                     "path": "<Keyboard>/backquote",
                     "interactions": "",
@@ -210,12 +230,12 @@
                 },
                 {
                     "name": "",
-                    "id": "75642989-abcb-4ffa-86f0-15b47f04940a",
-                    "path": "<Keyboard>/space",
+                    "id": "b6d124ca-6c10-4041-b347-b823ee502e04",
+                    "path": "<Keyboard>/ctrl",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Spacebar",
+                    "action": "Ctrl",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

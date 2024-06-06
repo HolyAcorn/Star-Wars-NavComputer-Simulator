@@ -7,6 +7,7 @@ using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using SwNavComp.HLEditor;
 using static UnityEngine.InputSystem.InputAction;
 
 namespace SwNavComp
@@ -35,6 +36,8 @@ namespace SwNavComp
         [SerializeField] GameEvent addNewPlanet;
 
         float edgeSize = 10f;
+
+        bool ctrl_down = false;
 
         private void Awake()
         {
@@ -93,7 +96,14 @@ namespace SwNavComp
 
         public void OnAddNewPlanet(CallbackContext context)
         {
+            if (!ctrl_down) return;
             if (context.started) addNewPlanet.Raise();
+        }
+
+        public void OnCtrl(CallbackContext context)
+        {
+            if (context.canceled) ctrl_down = false;
+            else if (context.started) ctrl_down = true;
         }
     }
 }

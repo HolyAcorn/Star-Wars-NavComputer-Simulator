@@ -1,3 +1,4 @@
+using SwNavComp.HLEditor;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -34,11 +35,18 @@ namespace SwNavComp
 
         public void SetFlipIndex()
         {
-
+            SetupFlipThroughList();
+            for (int i = 0; i < flipThroughList.Count; i++)
+            {
+                var item = flipThroughList[i];
+                if (item.GetComponent<SelectableInputField>() == null) return;
+                if (item.GetComponent<SelectableInputField>().isSelected) flipIndex.Variable.Value = i;
+            }
         }
 
         public void FlipThrough()
         {
+
             flipIndex.Variable.Value += flipDirection.Value;
             if (flipIndex.Value > flipThroughList.Count - 1) flipIndex.Variable.Value = 0;
             if (flipIndex.Value < 0) flipIndex.Variable.Value = flipThroughList.Count - 1;
