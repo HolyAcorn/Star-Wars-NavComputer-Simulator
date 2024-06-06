@@ -3,31 +3,37 @@
 	"JsonPlanets": [
 		{
 			"Name": "Thyferra",
+			"ID": 1272,
 			"CoordX": 66,
 			"CoordY": -442.2
 		},
 		{
 			"Name": "Mrlsst",
+			"ID": 1389,
 			"CoordX": 29,
 			"CoordY": -376.9
 		},
 		{
 			"Name": "Fondor",
+			"ID": 1390,
 			"CoordX": 25,
 			"CoordY": -369.6
 		},
 		{
 			"Name": "Vindalia",
+			"ID": 1391,
 			"CoordX": 14.4,
 			"CoordY": -348.6
 		},
 		{
 			"Name": "Diamal",
+			"ID": 1392,
 			"CoordX": 10.1,
 			"CoordY": -342.5
 		},
 		{
 			"Name": "Abregado-rae",
+			"ID": 1268,
 			"CoordX": -4.3,
 			"CoordY": -316.7
 		}

@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security;
+using TMPro;
 using UnityEditor;
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using SwNavComp.HLEditor;
 using static UnityEngine.InputSystem.InputAction;
 
 namespace SwNavComp
@@ -21,7 +25,19 @@ namespace SwNavComp
         [SerializeField] PlanetRuntimeSet selectedPlanet;
         [SerializeField] GameEvent clickedBlankEvent;
 
+        [SerializeField] GameObjectRuntimeSet flipThroughObjectList;
+        List<TMP_InputField> flipThroughList = new List<TMP_InputField>();
+
+        [SerializeField] private IntReference flipIndex;
+        [SerializeField] IntVariable flipBackwards;
+        [SerializeField] GameEvent flipEvent;
+
+        [SerializeField] GameEvent toggleDebug;
+        [SerializeField] GameEvent addNewPlanet;
+
         float edgeSize = 10f;
+
+        bool ctrl_down = false;
 
         private void Awake()
         {
@@ -58,6 +74,36 @@ namespace SwNavComp
             if (EventSystem.current.IsPointerOverGameObject()) return;
             selectedPlanet.Clear();
             clickedBlankEvent.Raise();
+        }
+
+
+        public void OnFlipPressed(CallbackContext context)
+        {
+            if (!context.started) return;
+            flipEvent.Raise();
+        }
+
+        public void OnShiftPressed(CallbackContext context)
+        {
+            if (context.canceled) flipBackwards.Value = 1;
+            else if(context.started) flipBackwards.Value = -1;
+        }
+
+        public void ToggleDebugPanel(CallbackContext context)
+        {
+            if (context.started) toggleDebug.Raise();
+        }
+
+        public void OnAddNewPlanet(CallbackContext context)
+        {
+            if (!ctrl_down) return;
+            if (context.started) addNewPlanet.Raise();
+        }
+
+        public void OnCtrl(CallbackContext context)
+        {
+            if (context.canceled) ctrl_down = false;
+            else if (context.started) ctrl_down = true;
         }
     }
 }

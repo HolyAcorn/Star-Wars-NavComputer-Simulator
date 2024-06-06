@@ -1,1042 +1,1433 @@
 {
-  "Type": 1,
+  "Type": 0,
   "JsonPlanets": [
     {
       "Name": "Lwhekk",
-      "CoordX": -815.3,
-      "CoordY": -634.7
+      "ID": 867,
+      "CoordX": -815.2999877929688,
+      "CoordY": -634.7000122070313
     },
     {
       "Name": "Zakuul",
-      "CoordX": -744.4,
-      "CoordY": -345.7
+      "ID": 868,
+      "CoordX": -744.4000244140625,
+      "CoordY": -345.70001220703127
     },
     {
       "Name": "Ahch-To",
-      "CoordX": -651.6,
-      "CoordY": -371.2
+      "ID": 869,
+      "CoordX": -651.5999755859375,
+      "CoordY": -371.20001220703127
     },
     {
       "Name": "Exegol",
-      "CoordX": -597.9,
-      "CoordY": 237.3
+      "ID": 870,
+      "CoordX": -597.9000244140625,
+      "CoordY": 237.3000030517578
     },
     {
       "Name": "Klasse Ephemora",
+      "ID": 871,
       "CoordX": -560.5,
-      "CoordY": 62.3
+      "CoordY": 62.29999923706055
     },
     {
       "Name": "Yashuvhu",
-      "CoordX": -530.7,
-      "CoordY": 66.1
+      "ID": 872,
+      "CoordX": -530.7000122070313,
+      "CoordY": 66.0999984741211
     },
     {
       "Name": "Zonama Sekot",
-      "CoordX": -509.7,
-      "CoordY": -350.6
+      "ID": 873,
+      "CoordX": -509.70001220703127,
+      "CoordY": -350.6000061035156
     },
     {
       "Name": "Illum",
-      "CoordX": -413,
-      "CoordY": 245.6
+      "ID": 874,
+      "CoordX": -413.0,
+      "CoordY": 245.60000610351563
     },
     {
       "Name": "Carrivar",
-      "CoordX": -471,
-      "CoordY": 21.2
+      "ID": 875,
+      "CoordX": -471.0,
+      "CoordY": 21.200000762939454
     },
     {
       "Name": "Crakull",
-      "CoordX": -478.4,
-      "CoordY": -66
+      "ID": 876,
+      "CoordX": -478.3999938964844,
+      "CoordY": -66.0
     },
     {
       "Name": "Rakata Prime",
-      "CoordX": -460.1,
-      "CoordY": -185.7
+      "ID": 877,
+      "CoordX": -460.1000061035156,
+      "CoordY": -185.6999969482422
     },
     {
       "Name": "Odessen",
-      "CoordX": -428.8,
-      "CoordY": -492.2
+      "ID": 878,
+      "CoordX": -428.79998779296877,
+      "CoordY": -492.20001220703127
     },
     {
       "Name": "Mokivj",
-      "CoordX": -404.6,
-      "CoordY": -626.6
+      "ID": 879,
+      "CoordX": -404.6000061035156,
+      "CoordY": -626.5999755859375
     },
     {
       "Name": "Kammia",
+      "ID": 880,
       "CoordX": -474.5,
-      "CoordY": -660.3
+      "CoordY": -660.2999877929688
     },
     {
       "Name": "Cattamascar",
-      "CoordX": -411,
-      "CoordY": -667.1
+      "ID": 881,
+      "CoordX": -411.0,
+      "CoordY": -667.0999755859375
     },
     {
       "Name": "B'Knos",
-      "CoordX": -421.1,
-      "CoordY": -696.9
+      "ID": 882,
+      "CoordX": -421.1000061035156,
+      "CoordY": -696.9000244140625
     },
     {
       "Name": "Red Nebula",
-      "CoordX": -410.1,
-      "CoordY": -1134.9
+      "ID": 883,
+      "CoordX": -410.1000061035156,
+      "CoordY": -1134.9000244140625
     },
     {
       "Name": "CZ-198",
-      "CoordX": -332.7,
-      "CoordY": 585.2
+      "ID": 884,
+      "CoordX": -332.70001220703127,
+      "CoordY": 585.2000122070313
     },
     {
       "Name": "Parnassos",
-      "CoordX": -366.1,
-      "CoordY": 342.9
+      "ID": 885,
+      "CoordX": -366.1000061035156,
+      "CoordY": 342.8999938964844
     },
     {
       "Name": "Qoribu",
-      "CoordX": -334.9,
-      "CoordY": 279.3
+      "ID": 886,
+      "CoordX": -334.8999938964844,
+      "CoordY": 279.29998779296877
     },
     {
       "Name": "Yoggoy",
-      "CoordX": -326.2,
-      "CoordY": 237.2
+      "ID": 887,
+      "CoordX": -326.20001220703127,
+      "CoordY": 237.1999969482422
     },
     {
       "Name": "Thrago",
-      "CoordX": -383.6,
-      "CoordY": -159.2
+      "ID": 888,
+      "CoordX": -383.6000061035156,
+      "CoordY": -159.1999969482422
     },
     {
       "Name": "Vagar Praxut",
-      "CoordX": -376.7,
-      "CoordY": 160.6
+      "ID": 889,
+      "CoordX": -376.70001220703127,
+      "CoordY": 160.60000610351563
     },
     {
       "Name": "Crustai",
-      "CoordX": -387.1,
-      "CoordY": 125.9
+      "ID": 890,
+      "CoordX": -387.1000061035156,
+      "CoordY": 125.9000015258789
     },
     {
       "Name": "Jedha",
-      "CoordX": -335.9,
-      "CoordY": -6.9
+      "ID": 891,
+      "CoordX": -335.8999938964844,
+      "CoordY": -6.900000095367432
     },
     {
       "Name": "O'reen",
-      "CoordX": -394,
-      "CoordY": -354
+      "ID": 892,
+      "CoordX": -394.0,
+      "CoordY": -354.0
     },
     {
       "Name": "Bormter",
-      "CoordX": -392.6,
-      "CoordY": -472.6
+      "ID": 893,
+      "CoordX": -392.6000061035156,
+      "CoordY": -472.6000061035156
     },
     {
       "Name": "Iskadrell",
-      "CoordX": -384.3,
-      "CoordY": -493.3
+      "ID": 894,
+      "CoordX": -384.29998779296877,
+      "CoordY": -493.29998779296877
     },
     {
       "Name": "Zaddja",
-      "CoordX": -377.1,
-      "CoordY": -514.9
+      "ID": 895,
+      "CoordX": -377.1000061035156,
+      "CoordY": -514.9000244140625
     },
     {
       "Name": "Codia",
-      "CoordX": -341,
-      "CoordY": -520.6
+      "ID": 896,
+      "CoordX": -341.0,
+      "CoordY": -520.5999755859375
     },
     {
       "Name": "Gannaria",
-      "CoordX": -375.8,
-      "CoordY": -544.7
+      "ID": 897,
+      "CoordX": -375.79998779296877,
+      "CoordY": -544.7000122070313
     },
     {
       "Name": "Batuu",
-      "CoordX": -387.8,
-      "CoordY": -555.6
+      "ID": 898,
+      "CoordX": -387.79998779296877,
+      "CoordY": -555.5999755859375
     },
     {
       "Name": "Pam'ba",
-      "CoordX": -311.8,
-      "CoordY": -553.6
+      "ID": 899,
+      "CoordX": -311.79998779296877,
+      "CoordY": -553.5999755859375
     },
     {
       "Name": "Beixander",
-      "CoordX": -340,
-      "CoordY": -581.3
+      "ID": 900,
+      "CoordX": -340.0,
+      "CoordY": -581.2999877929688
     },
     {
       "Name": "Rattatak",
-      "CoordX": -370.1,
-      "CoordY": -608.8
+      "ID": 901,
+      "CoordX": -370.1000061035156,
+      "CoordY": -608.7999877929688
     },
     {
       "Name": "Panatha",
+      "ID": 902,
       "CoordX": -388.5,
-      "CoordY": -626
+      "CoordY": -626.0
     },
     {
       "Name": "Bunduki",
-      "CoordX": -375,
-      "CoordY": -630.3
+      "ID": 903,
+      "CoordX": -375.0,
+      "CoordY": -630.2999877929688
     },
     {
       "Name": "Ravaath",
-      "CoordX": -393.7,
-      "CoordY": -637.9
+      "ID": 904,
+      "CoordX": -393.70001220703127,
+      "CoordY": -637.9000244140625
     },
     {
       "Name": "Rodis",
-      "CoordX": -369.9,
-      "CoordY": -646.7
+      "ID": 905,
+      "CoordX": -369.8999938964844,
+      "CoordY": -646.7000122070313
     },
     {
       "Name": "Ponemah",
-      "CoordX": -307.1,
-      "CoordY": -670.4
+      "ID": 906,
+      "CoordX": -307.1000061035156,
+      "CoordY": -670.4000244140625
     },
     {
       "Name": "UR-2650",
-      "CoordX": -335.6,
-      "CoordY": -673.3
+      "ID": 907,
+      "CoordX": -335.6000061035156,
+      "CoordY": -673.2999877929688
     },
     {
       "Name": "UR-9353",
-      "CoordX": -332.8,
+      "ID": 908,
+      "CoordX": -332.79998779296877,
       "CoordY": -673.5
     },
     {
       "Name": "UR-1060",
-      "CoordX": -338.6,
-      "CoordY": -675.1
+      "ID": 909,
+      "CoordX": -338.6000061035156,
+      "CoordY": -675.0999755859375
     },
     {
       "Name": "UR-8827",
-      "CoordX": -334.4,
-      "CoordY": -676.3
+      "ID": 910,
+      "CoordX": -334.3999938964844,
+      "CoordY": -676.2999877929688
     },
     {
       "Name": "UR-3741",
-      "CoordX": -343.3,
-      "CoordY": -678.6
+      "ID": 911,
+      "CoordX": -343.29998779296877,
+      "CoordY": -678.5999755859375
     },
     {
       "Name": "Endor Gate",
-      "CoordX": -343.8,
-      "CoordY": -683.3
+      "ID": 912,
+      "CoordX": -343.79998779296877,
+      "CoordY": -683.2999877929688
     },
     {
       "Name": "Din Pulsar",
-      "CoordX": -339.8,
-      "CoordY": -683
+      "ID": 913,
+      "CoordX": -339.79998779296877,
+      "CoordY": -683.0
     },
     {
       "Name": "Murk",
-      "CoordX": -340.3,
+      "ID": 914,
+      "CoordX": -340.29998779296877,
       "CoordY": -684.5
     },
     {
       "Name": "Shalm",
-      "CoordX": -359.8,
-      "CoordY": -683.8
+      "ID": 915,
+      "CoordX": -359.79998779296877,
+      "CoordY": -683.7999877929688
     },
     {
       "Name": "Cermau",
-      "CoordX": -392.7,
-      "CoordY": -697
+      "ID": 916,
+      "CoordX": -392.70001220703127,
+      "CoordY": -697.0
     },
     {
       "Name": "Xala",
+      "ID": 917,
       "CoordX": -383.5,
       "CoordY": -695.5
     },
     {
       "Name": "Fusai",
-      "CoordX": -358.4,
-      "CoordY": -693.3
+      "ID": 918,
+      "CoordX": -358.3999938964844,
+      "CoordY": -693.2999877929688
     },
     {
       "Name": "Xal 3",
-      "CoordX": -348.8,
-      "CoordY": -691.3
+      "ID": 919,
+      "CoordX": -348.79998779296877,
+      "CoordY": -691.2999877929688
     },
     {
       "Name": "Caaraz",
-      "CoordX": -304.9,
-      "CoordY": -707
+      "ID": 920,
+      "CoordX": -304.8999938964844,
+      "CoordY": -707.0
     },
     {
       "Name": "Vengler",
-      "CoordX": -351,
-      "CoordY": -722.9
+      "ID": 921,
+      "CoordX": -351.0,
+      "CoordY": -722.9000244140625
     },
     {
       "Name": "Verkuyl",
-      "CoordX": -321.1,
-      "CoordY": -723.2
+      "ID": 922,
+      "CoordX": -321.1000061035156,
+      "CoordY": -723.2000122070313
     },
     {
       "Name": "Dakuyl",
-      "CoordX": -306.1,
-      "CoordY": -724.2
+      "ID": 923,
+      "CoordX": -306.1000061035156,
+      "CoordY": -724.2000122070313
     },
     {
       "Name": "Bursoll II",
-      "CoordX": -378.2,
-      "CoordY": -762.3
+      "ID": 924,
+      "CoordX": -378.20001220703127,
+      "CoordY": -762.2999877929688
     },
     {
       "Name": "Tholon",
-      "CoordX": -318.7,
+      "ID": 925,
+      "CoordX": -318.70001220703127,
       "CoordY": -774.5
     },
     {
       "Name": "Skye",
-      "CoordX": -322.4,
-      "CoordY": -992.1
+      "ID": 926,
+      "CoordX": -322.3999938964844,
+      "CoordY": -992.0999755859375
     },
     {
       "Name": "Dosuun",
-      "CoordX": -368.2,
-      "CoordY": -1019.9
+      "ID": 927,
+      "CoordX": -368.20001220703127,
+      "CoordY": -1019.9000244140625
     },
     {
       "Name": "Baralou",
-      "CoordX": -310.7,
+      "ID": 928,
+      "CoordX": -310.70001220703127,
       "CoordY": -1017.5
     },
     {
       "Name": "Mephout",
-      "CoordX": -368.6,
-      "CoordY": -1061.2
+      "ID": 929,
+      "CoordX": -368.6000061035156,
+      "CoordY": -1061.199951171875
     },
     {
       "Name": "Seoul 5",
-      "CoordX": -391.2,
-      "CoordY": -1076.4
+      "ID": 930,
+      "CoordX": -391.20001220703127,
+      "CoordY": -1076.4000244140625
     },
     {
       "Name": "Crystal Nest",
-      "CoordX": -309.6,
+      "ID": 931,
+      "CoordX": -309.6000061035156,
       "CoordY": -1084.5
     },
     {
       "Name": "Nirauan",
-      "CoordX": -219.7,
-      "CoordY": 403.9
+      "ID": 932,
+      "CoordX": -219.6999969482422,
+      "CoordY": 403.8999938964844
     },
     {
       "Name": "Esfandia",
-      "CoordX": -280.1,
-      "CoordY": 351.4
+      "ID": 933,
+      "CoordX": -280.1000061035156,
+      "CoordY": 351.3999938964844
     },
     {
       "Name": "Kariek",
-      "CoordX": -236.4,
-      "CoordY": 362.1
+      "ID": 934,
+      "CoordX": -236.39999389648438,
+      "CoordY": 362.1000061035156
     },
     {
       "Name": "The Red Twins",
-      "CoordX": -250.3,
-      "CoordY": 293.8
+      "ID": 935,
+      "CoordX": -250.3000030517578,
+      "CoordY": 293.79998779296877
     },
     {
       "Name": "Acherin",
+      "ID": 936,
       "CoordX": -286.5,
-      "CoordY": 287
+      "CoordY": 287.0
     },
     {
       "Name": "Ankus",
-      "CoordX": -261.6,
-      "CoordY": 280.6
+      "ID": 937,
+      "CoordX": -261.6000061035156,
+      "CoordY": 280.6000061035156
     },
     {
       "Name": "Regel Eight",
-      "CoordX": -290,
-      "CoordY": 266.4
+      "ID": 938,
+      "CoordX": -290.0,
+      "CoordY": 266.3999938964844
     },
     {
       "Name": "Burska",
-      "CoordX": -257.8,
-      "CoordY": 263.8
+      "ID": 939,
+      "CoordX": -257.79998779296877,
+      "CoordY": 263.79998779296877
     },
     {
       "Name": "Kril'Dor",
+      "ID": 940,
       "CoordX": -239.5,
       "CoordY": 250.5
     },
     {
       "Name": "Voniss",
-      "CoordX": -272.6,
-      "CoordY": 225.2
+      "ID": 941,
+      "CoordX": -272.6000061035156,
+      "CoordY": 225.1999969482422
     },
     {
       "Name": "Geroon",
-      "CoordX": -298.6,
-      "CoordY": 172.2
+      "ID": 942,
+      "CoordX": -298.6000061035156,
+      "CoordY": 172.1999969482422
     },
     {
       "Name": "Celdaru",
-      "CoordX": -242.7,
-      "CoordY": 180.3
+      "ID": 943,
+      "CoordX": -242.6999969482422,
+      "CoordY": 180.3000030517578
     },
     {
       "Name": "Mendicat",
-      "CoordX": -238.4,
-      "CoordY": 166.7
+      "ID": 944,
+      "CoordX": -238.39999389648438,
+      "CoordY": 166.6999969482422
     },
     {
       "Name": "Roxuli",
-      "CoordX": -227.4,
-      "CoordY": 160.1
+      "ID": 945,
+      "CoordX": -227.39999389648438,
+      "CoordY": 160.10000610351563
     },
     {
       "Name": "Pesitiin",
-      "CoordX": -215.4,
-      "CoordY": 163.7
+      "ID": 946,
+      "CoordX": -215.39999389648438,
+      "CoordY": 163.6999969482422
     },
     {
       "Name": "Soun IV",
-      "CoordX": -202.6,
-      "CoordY": 146
+      "ID": 947,
+      "CoordX": -202.60000610351563,
+      "CoordY": 146.0
     },
     {
       "Name": "Selvaris",
-      "CoordX": -209.4,
-      "CoordY": 65.6
+      "ID": 948,
+      "CoordX": -209.39999389648438,
+      "CoordY": 65.5999984741211
     },
     {
       "Name": "Jakku",
+      "ID": 949,
       "CoordX": -275.5,
-      "CoordY": -316.8
+      "CoordY": -316.79998779296877
     },
     {
       "Name": "Frewwil",
-      "CoordX": -244,
-      "CoordY": -481.9
+      "ID": 950,
+      "CoordX": -244.0,
+      "CoordY": -481.8999938964844
     },
     {
       "Name": "Aruza",
-      "CoordX": -223.9,
-      "CoordY": -479
+      "ID": 951,
+      "CoordX": -223.89999389648438,
+      "CoordY": -479.0
     },
     {
       "Name": "Lequabis",
-      "CoordX": -213.1,
-      "CoordY": -471.4
+      "ID": 952,
+      "CoordX": -213.10000610351563,
+      "CoordY": -471.3999938964844
     },
     {
       "Name": "Taloraan",
-      "CoordX": -242.3,
-      "CoordY": -509.2
+      "ID": 953,
+      "CoordX": -242.3000030517578,
+      "CoordY": -509.20001220703127
     },
     {
       "Name": "Kayri III",
-      "CoordX": -207.8,
-      "CoordY": -514.4
+      "ID": 954,
+      "CoordX": -207.8000030517578,
+      "CoordY": -514.4000244140625
     },
     {
       "Name": "Aesolian",
-      "CoordX": -268.3,
+      "ID": 955,
+      "CoordX": -268.29998779296877,
       "CoordY": -528.5
     },
     {
       "Name": "Marzoon",
-      "CoordX": -268.8,
-      "CoordY": -634.1
+      "ID": 956,
+      "CoordX": -268.79998779296877,
+      "CoordY": -634.0999755859375
     },
     {
       "Name": "Xoemefel",
-      "CoordX": -241.2,
-      "CoordY": -637.2
+      "ID": 957,
+      "CoordX": -241.1999969482422,
+      "CoordY": -637.2000122070313
     },
     {
       "Name": "Castillon",
-      "CoordX": -221.4,
-      "CoordY": -622.6
+      "ID": 958,
+      "CoordX": -221.39999389648438,
+      "CoordY": -622.5999755859375
     },
     {
       "Name": "Trenwyth",
-      "CoordX": -285.2,
-      "CoordY": -696.6
+      "ID": 959,
+      "CoordX": -285.20001220703127,
+      "CoordY": -696.5999755859375
     },
     {
       "Name": "Sareet",
-      "CoordX": -279.3,
-      "CoordY": -709
+      "ID": 960,
+      "CoordX": -279.29998779296877,
+      "CoordY": -709.0
     },
     {
       "Name": "Corbett Cluster",
+      "ID": 961,
       "CoordX": -238.5,
-      "CoordY": -711.3
+      "CoordY": -711.2999877929688
     },
     {
       "Name": "Kaellin III",
-      "CoordX": -233.3,
-      "CoordY": -720.7
+      "ID": 962,
+      "CoordX": -233.3000030517578,
+      "CoordY": -720.7000122070313
     },
     {
       "Name": "Bastooine",
-      "CoordX": -224.6,
-      "CoordY": -737.2
+      "ID": 963,
+      "CoordX": -224.60000610351563,
+      "CoordY": -737.2000122070313
     },
     {
       "Name": "Lanteeb",
-      "CoordX": -254.7,
-      "CoordY": -749.6
+      "ID": 964,
+      "CoordX": -254.6999969482422,
+      "CoordY": -749.5999755859375
     },
     {
       "Name": "Kalzeron",
+      "ID": 965,
       "CoordX": -225.5,
-      "CoordY": -765.9
+      "CoordY": -765.9000244140625
     },
     {
       "Name": "Bri'ahl",
-      "CoordX": -244.1,
-      "CoordY": -773.8
+      "ID": 966,
+      "CoordX": -244.10000610351563,
+      "CoordY": -773.7999877929688
     },
     {
       "Name": "Vassek",
-      "CoordX": -207.7,
-      "CoordY": -776.3
+      "ID": 967,
+      "CoordX": -207.6999969482422,
+      "CoordY": -776.2999877929688
     },
     {
       "Name": "Lotho Minor",
-      "CoordX": -211,
-      "CoordY": -792.9
+      "ID": 968,
+      "CoordX": -211.0,
+      "CoordY": -792.9000244140625
     },
     {
       "Name": "Coveway",
-      "CoordX": -226.3,
+      "ID": 969,
+      "CoordX": -226.3000030517578,
       "CoordY": -818.5
     },
     {
       "Name": "Usean II",
-      "CoordX": -265.1,
-      "CoordY": -892.8
+      "ID": 970,
+      "CoordX": -265.1000061035156,
+      "CoordY": -892.7999877929688
     },
     {
       "Name": "Thakwaa",
-      "CoordX": -243.9,
-      "CoordY": -918.9
+      "ID": 971,
+      "CoordX": -243.89999389648438,
+      "CoordY": -918.9000244140625
     },
     {
       "Name": "Veccacopia",
-      "CoordX": -209.2,
-      "CoordY": -923.7
+      "ID": 972,
+      "CoordX": -209.1999969482422,
+      "CoordY": -923.7000122070313
     },
     {
       "Name": "Delantine",
-      "CoordX": -274.4,
-      "CoordY": -933.9
+      "ID": 973,
+      "CoordX": -274.3999938964844,
+      "CoordY": -933.9000244140625
     },
     {
       "Name": "Varada V",
-      "CoordX": -294.9,
-      "CoordY": -961
+      "ID": 974,
+      "CoordX": -294.8999938964844,
+      "CoordY": -961.0
     },
     {
       "Name": "Rhamalai",
-      "CoordX": -261.3,
-      "CoordY": -956.2
+      "ID": 975,
+      "CoordX": -261.29998779296877,
+      "CoordY": -956.2000122070313
     },
     {
       "Name": "Bestal Three",
-      "CoordX": -289.8,
+      "ID": 976,
+      "CoordX": -289.79998779296877,
       "CoordY": -985.5
     },
     {
       "Name": "Needan",
-      "CoordX": -230.8,
-      "CoordY": -1081.9
+      "ID": 977,
+      "CoordX": -230.8000030517578,
+      "CoordY": -1081.9000244140625
     },
     {
       "Name": "Yalara",
-      "CoordX": -273.1,
-      "CoordY": -1174.9
+      "ID": 978,
+      "CoordX": -273.1000061035156,
+      "CoordY": -1174.9000244140625
     },
     {
       "Name": "Rimcee Station",
-      "CoordX": -116.9,
-      "CoordY": 641
+      "ID": 979,
+      "CoordX": -116.9000015258789,
+      "CoordY": 641.0
     },
     {
       "Name": "Taspir III",
-      "CoordX": -137.2,
-      "CoordY": 598.9
+      "ID": 980,
+      "CoordX": -137.1999969482422,
+      "CoordY": 598.9000244140625
     },
     {
       "Name": "Guiteica",
-      "CoordX": -176.4,
-      "CoordY": 584.2
+      "ID": 981,
+      "CoordX": -176.39999389648438,
+      "CoordY": 584.2000122070313
     },
     {
       "Name": "Vexta",
-      "CoordX": -141.8,
-      "CoordY": 576.4
+      "ID": 982,
+      "CoordX": -141.8000030517578,
+      "CoordY": 576.4000244140625
     },
     {
       "Name": "Huk",
-      "CoordX": -185.6,
-      "CoordY": 560.4
+      "ID": 983,
+      "CoordX": -185.60000610351563,
+      "CoordY": 560.4000244140625
     },
     {
       "Name": "Kalee",
-      "CoordX": -164,
-      "CoordY": 566.4
+      "ID": 984,
+      "CoordX": -164.0,
+      "CoordY": 566.4000244140625
     },
     {
       "Name": "Tovarskl",
+      "ID": 985,
       "CoordX": -165.5,
-      "CoordY": 552.4
+      "CoordY": 552.4000244140625
     },
     {
       "Name": "Baramorra",
-      "CoordX": -142,
-      "CoordY": 556.1
+      "ID": 986,
+      "CoordX": -142.0,
+      "CoordY": 556.0999755859375
     },
     {
       "Name": "Abbaji",
-      "CoordX": -190.3,
-      "CoordY": 516.4
+      "ID": 987,
+      "CoordX": -190.3000030517578,
+      "CoordY": 516.4000244140625
     },
     {
       "Name": "Dactruria",
+      "ID": 988,
       "CoordX": -125.5,
-      "CoordY": 534.6
+      "CoordY": 534.5999755859375
     },
     {
       "Name": "Bettok",
-      "CoordX": -119.1,
-      "CoordY": 523.8
+      "ID": 989,
+      "CoordX": -119.0999984741211,
+      "CoordY": 523.7999877929688
     },
     {
       "Name": "Endex",
-      "CoordX": -111.6,
-      "CoordY": 498.4
+      "ID": 990,
+      "CoordX": -111.5999984741211,
+      "CoordY": 498.3999938964844
     },
     {
       "Name": "Ryloon",
-      "CoordX": -132.1,
-      "CoordY": 492.2
+      "ID": 991,
+      "CoordX": -132.10000610351563,
+      "CoordY": 492.20001220703127
     },
     {
       "Name": "Churruma",
-      "CoordX": -122.1,
-      "CoordY": 489.1
+      "ID": 992,
+      "CoordX": -122.0999984741211,
+      "CoordY": 489.1000061035156
     },
     {
       "Name": "Betal",
-      "CoordX": -190.1,
-      "CoordY": 471.8
+      "ID": 993,
+      "CoordX": -190.10000610351563,
+      "CoordY": 471.79998779296877
     },
     {
       "Name": "Poln System",
-      "CoordX": -114.4,
-      "CoordY": 446.4
+      "ID": 994,
+      "CoordX": -114.4000015258789,
+      "CoordY": 446.3999938964844
     },
     {
       "Name": "Alashan",
-      "CoordX": -144.2,
-      "CoordY": 422.1
+      "ID": 995,
+      "CoordX": -144.1999969482422,
+      "CoordY": 422.1000061035156
     },
     {
       "Name": "Comra",
-      "CoordX": -129.7,
-      "CoordY": 408.6
+      "ID": 996,
+      "CoordX": -129.6999969482422,
+      "CoordY": 408.6000061035156
     },
     {
       "Name": "Bid'jerma",
-      "CoordX": -110.3,
-      "CoordY": 413.4
+      "ID": 997,
+      "CoordX": -110.30000305175781,
+      "CoordY": 413.3999938964844
     },
     {
       "Name": "Diab",
-      "CoordX": -189.3,
-      "CoordY": 384.4
+      "ID": 998,
+      "CoordX": -189.3000030517578,
+      "CoordY": 384.3999938964844
     },
     {
       "Name": "Aeten",
-      "CoordX": -169.2,
-      "CoordY": 387
+      "ID": 999,
+      "CoordX": -169.1999969482422,
+      "CoordY": 387.0
     },
     {
       "Name": "Bakarr",
-      "CoordX": -162.3,
-      "CoordY": 382.8
+      "ID": 1000,
+      "CoordX": -162.3000030517578,
+      "CoordY": 382.79998779296877
     },
     {
       "Name": "Katorr",
-      "CoordX": -179.9,
-      "CoordY": 370.9
+      "ID": 1001,
+      "CoordX": -179.89999389648438,
+      "CoordY": 370.8999938964844
     },
     {
       "Name": "Troska",
-      "CoordX": -147.7,
-      "CoordY": 372.3
+      "ID": 1002,
+      "CoordX": -147.6999969482422,
+      "CoordY": 372.29998779296877
     },
     {
       "Name": "Adumar",
-      "CoordX": -194,
+      "ID": 1003,
+      "CoordX": -194.0,
       "CoordY": 352.5
     },
     {
       "Name": "Imdaar",
+      "ID": 1004,
       "CoordX": -132.5,
-      "CoordY": 359.7
+      "CoordY": 359.70001220703127
     },
     {
       "Name": "Cirrus",
-      "CoordX": -124.6,
-      "CoordY": 349.1
+      "ID": 1005,
+      "CoordX": -124.5999984741211,
+      "CoordY": 349.1000061035156
     },
     {
       "Name": "Quadrant Seven",
-      "CoordX": -104.6,
-      "CoordY": 345.7
+      "ID": 1006,
+      "CoordX": -104.5999984741211,
+      "CoordY": 345.70001220703127
     },
     {
       "Name": "Uba IV",
-      "CoordX": -108.8,
-      "CoordY": 337.8
+      "ID": 1007,
+      "CoordX": -108.80000305175781,
+      "CoordY": 337.79998779296877
     },
     {
       "Name": "Dalron 5",
-      "CoordX": -154.7,
-      "CoordY": 331.8
+      "ID": 1008,
+      "CoordX": -154.6999969482422,
+      "CoordY": 331.79998779296877
     },
     {
       "Name": "Bars Barka",
-      "CoordX": -128.2,
-      "CoordY": 327.9
+      "ID": 1009,
+      "CoordX": -128.1999969482422,
+      "CoordY": 327.8999938964844
     },
     {
       "Name": "Ubertica",
-      "CoordX": -115.7,
-      "CoordY": 329.1
+      "ID": 1010,
+      "CoordX": -115.69999694824219,
+      "CoordY": 329.1000061035156
     },
     {
       "Name": "Varvva",
-      "CoordX": -116.6,
-      "CoordY": 318.2
+      "ID": 1011,
+      "CoordX": -116.5999984741211,
+      "CoordY": 318.20001220703127
     },
     {
       "Name": "Rustibar",
-      "CoordX": -183.1,
+      "ID": 1012,
+      "CoordX": -183.10000610351563,
       "CoordY": 288.5
     },
     {
       "Name": "Iridonia",
+      "ID": 1013,
       "CoordX": -115.5,
-      "CoordY": 293.6
+      "CoordY": 293.6000061035156
     },
     {
       "Name": "Belshar Othaccu",
-      "CoordX": -172.7,
-      "CoordY": 262.3
+      "ID": 1014,
+      "CoordX": -172.6999969482422,
+      "CoordY": 262.29998779296877
     },
     {
       "Name": "Londor",
-      "CoordX": -145.8,
-      "CoordY": 268.9
+      "ID": 1015,
+      "CoordX": -145.8000030517578,
+      "CoordY": 268.8999938964844
     },
     {
       "Name": "Fef",
-      "CoordX": -127.9,
-      "CoordY": 284.1
+      "ID": 1016,
+      "CoordX": -127.9000015258789,
+      "CoordY": 284.1000061035156
     },
     {
       "Name": "Valrar",
-      "CoordX": -118.8,
-      "CoordY": 273.6
+      "ID": 1017,
+      "CoordX": -118.80000305175781,
+      "CoordY": 273.6000061035156
     },
     {
       "Name": "Fornax",
-      "CoordX": -100.2,
-      "CoordY": 263.4
+      "ID": 1018,
+      "CoordX": -100.19999694824219,
+      "CoordY": 263.3999938964844
     },
     {
       "Name": "Darkon III",
-      "CoordX": -129.4,
-      "CoordY": 253.6
+      "ID": 1019,
+      "CoordX": -129.39999389648438,
+      "CoordY": 253.60000610351563
     },
     {
       "Name": "Altarrn",
-      "CoordX": -108.2,
-      "CoordY": 243.7
+      "ID": 1020,
+      "CoordX": -108.19999694824219,
+      "CoordY": 243.6999969482422
     },
     {
       "Name": "Mondress",
-      "CoordX": -189.2,
-      "CoordY": 209.7
+      "ID": 1021,
+      "CoordX": -189.1999969482422,
+      "CoordY": 209.6999969482422
     },
     {
       "Name": "Bezim",
-      "CoordX": -129.9,
-      "CoordY": 215.8
+      "ID": 1022,
+      "CoordX": -129.89999389648438,
+      "CoordY": 215.8000030517578
     },
     {
       "Name": "Kashir",
+      "ID": 1023,
       "CoordX": -197.5,
-      "CoordY": 184.9
+      "CoordY": 184.89999389648438
     },
     {
       "Name": "Hijo",
-      "CoordX": -173.3,
-      "CoordY": 174.3
+      "ID": 1024,
+      "CoordX": -173.3000030517578,
+      "CoordY": 174.3000030517578
     },
     {
       "Name": "Belassar",
+      "ID": 1025,
       "CoordX": -155.5,
       "CoordY": 181.5
     },
     {
       "Name": "Rafft",
-      "CoordX": -136,
+      "ID": 1026,
+      "CoordX": -136.0,
       "CoordY": 163.5
     },
     {
       "Name": "Neshtab",
-      "CoordX": -91.9,
+      "ID": 1027,
+      "CoordX": -91.9000015258789,
       "CoordY": 152.5
     },
     {
       "Name": "Reecee",
-      "CoordX": -133.6,
-      "CoordY": 104.6
+      "ID": 1028,
+      "CoordX": -133.60000610351563,
+      "CoordY": 104.5999984741211
     },
     {
       "Name": "Batorine",
-      "CoordX": -130.4,
-      "CoordY": 89.4
+      "ID": 1029,
+      "CoordX": -130.39999389648438,
+      "CoordY": 89.4000015258789
     },
     {
       "Name": "Thrantin",
-      "CoordX": -146,
-      "CoordY": 49.2
+      "ID": 1030,
+      "CoordX": -146.0,
+      "CoordY": 49.20000076293945
     },
     {
       "Name": "Xa Fel",
-      "CoordX": -92.7,
-      "CoordY": 33.1
+      "ID": 1031,
+      "CoordX": -92.69999694824219,
+      "CoordY": 33.099998474121097
     },
     {
       "Name": "Ragoon VI",
-      "CoordX": -81.7,
-      "CoordY": 16.1
+      "ID": 1032,
+      "CoordX": -81.69999694824219,
+      "CoordY": 16.100000381469728
     },
     {
       "Name": "Tzarib",
-      "CoordX": -108,
+      "ID": 1033,
+      "CoordX": -108.0,
       "CoordY": 8.5
     },
     {
       "Name": "Kokash",
-      "CoordX": -110.3,
+      "ID": 1034,
+      "CoordX": -110.30000305175781,
       "CoordY": -65.5
     },
     {
       "Name": "Pollillus",
-      "CoordX": -101.3,
-      "CoordY": -63.9
+      "ID": 1035,
+      "CoordX": -101.30000305175781,
+      "CoordY": -63.900001525878909
     },
     {
       "Name": "Ossorck Nebulae",
-      "CoordX": -101.6,
-      "CoordY": -266.9
+      "ID": 1036,
+      "CoordX": -101.5999984741211,
+      "CoordY": -266.8999938964844
     },
     {
       "Name": "Questal",
-      "CoordX": -117.7,
-      "CoordY": -273.8
+      "ID": 1037,
+      "CoordX": -117.69999694824219,
+      "CoordY": -273.79998779296877
     },
     {
       "Name": "Inysh",
-      "CoordX": -108,
-      "CoordY": -295.8
-    },
-    {
-      "Name": "Hjaff",
-      "CoordX": -127.5,
-      "CoordY": -304.7
+      "ID": 1038,
+      "CoordX": -108.0,
+      "CoordY": -295.79998779296877
     },
     {
       "Name": "Zardossa Stix",
-      "CoordX": -146,
-      "CoordY": -314.6
+      "ID": 1039,
+      "CoordX": -146.0,
+      "CoordY": -314.6000061035156
     },
     {
       "Name": "Candoria",
-      "CoordX": -127.8,
-      "CoordY": -335.4
+      "ID": 1040,
+      "CoordX": -127.80000305175781,
+      "CoordY": -335.3999938964844
     },
     {
       "Name": "Bardotta",
-      "CoordX": -118.9,
-      "CoordY": -345.6
+      "ID": 1041,
+      "CoordX": -118.9000015258789,
+      "CoordY": -345.6000061035156
     },
     {
       "Name": "Absit",
+      "ID": 1042,
       "CoordX": -179.5,
-      "CoordY": -358.6
+      "CoordY": -358.6000061035156
     },
     {
       "Name": "Mindabaal",
-      "CoordX": -160,
-      "CoordY": -374
+      "ID": 1043,
+      "CoordX": -160.0,
+      "CoordY": -374.0
     },
     {
       "Name": "Donadus",
-      "CoordX": -157.8,
-      "CoordY": -382.7
+      "ID": 1044,
+      "CoordX": -157.8000030517578,
+      "CoordY": -382.70001220703127
     },
     {
       "Name": "Walalla",
-      "CoordX": -154.8,
-      "CoordY": -395.9
+      "ID": 1045,
+      "CoordX": -154.8000030517578,
+      "CoordY": -395.8999938964844
     },
     {
       "Name": "Trunska",
-      "CoordX": -115.6,
-      "CoordY": -358
+      "ID": 1046,
+      "CoordX": -115.5999984741211,
+      "CoordY": -358.0
     },
     {
       "Name": "Phu",
-      "CoordX": -107.1,
-      "CoordY": -374.1
+      "ID": 1047,
+      "CoordX": -107.0999984741211,
+      "CoordY": -374.1000061035156
     },
     {
       "Name": "Korbin",
-      "CoordX": -108.7,
-      "CoordY": -408.2
+      "ID": 1048,
+      "CoordX": -108.69999694824219,
+      "CoordY": -408.20001220703127
     },
     {
       "Name": "Tasariq",
-      "CoordX": -160.9,
-      "CoordY": -417.3
+      "ID": 1049,
+      "CoordX": -160.89999389648438,
+      "CoordY": -417.29998779296877
     },
     {
       "Name": "Guagenia",
+      "ID": 1050,
       "CoordX": -110.5,
-      "CoordY": -429.8
+      "CoordY": -429.79998779296877
     },
     {
       "Name": "Jandur",
-      "CoordX": -128.1,
-      "CoordY": -434.8
+      "ID": 1051,
+      "CoordX": -128.10000610351563,
+      "CoordY": -434.79998779296877
     },
     {
       "Name": "Shasfath Cluster",
-      "CoordX": -185.8,
-      "CoordY": -457
+      "ID": 1052,
+      "CoordX": -185.8000030517578,
+      "CoordY": -457.0
     },
     {
       "Name": "Abatrarg",
-      "CoordX": -130,
-      "CoordY": -465.7
+      "ID": 1053,
+      "CoordX": -130.0,
+      "CoordY": -465.70001220703127
     },
     {
       "Name": "K'taktaxka",
-      "CoordX": -196.3,
-      "CoordY": -467.2
+      "ID": 1054,
+      "CoordX": -196.3000030517578,
+      "CoordY": -467.20001220703127
     },
     {
       "Name": "Ahug",
-      "CoordX": -196.7,
-      "CoordY": -481.6
+      "ID": 1055,
+      "CoordX": -196.6999969482422,
+      "CoordY": -481.6000061035156
     },
     {
       "Name": "Poviduze",
-      "CoordX": -190.8,
+      "ID": 1056,
+      "CoordX": -190.8000030517578,
       "CoordY": -489.5
     },
     {
       "Name": "Ring of Kafrene",
-      "CoordX": -140.1,
+      "ID": 1057,
+      "CoordX": -140.10000610351563,
       "CoordY": -515.5
     },
     {
       "Name": "Montitia",
+      "ID": 1058,
       "CoordX": -166.5,
-      "CoordY": -555.4
+      "CoordY": -555.4000244140625
     },
     {
       "Name": "Lahag Erli",
-      "CoordX": -155.1,
-      "CoordY": -577.8
+      "ID": 1059,
+      "CoordX": -155.10000610351563,
+      "CoordY": -577.7999877929688
     },
     {
       "Name": "Porchello",
-      "CoordX": -147.1,
-      "CoordY": -766
+      "ID": 1060,
+      "CoordX": -147.10000610351563,
+      "CoordY": -766.0
     },
     {
       "Name": "Iast",
-      "CoordX": -155.4,
-      "CoordY": -778.2
+      "ID": 1061,
+      "CoordX": -155.39999389648438,
+      "CoordY": -778.2000122070313
     },
     {
       "Name": "Karinda",
-      "CoordX": -148.9,
-      "CoordY": -820.9
+      "ID": 1062,
+      "CoordX": -148.89999389648438,
+      "CoordY": -820.9000244140625
     },
     {
       "Name": "Port Jerrel",
+      "ID": 1063,
       "CoordX": -181.5,
-      "CoordY": -859.8
+      "CoordY": -859.7999877929688
     },
     {
       "Name": "Tancon",
+      "ID": 1064,
       "CoordX": -192.5,
-      "CoordY": -871.9
+      "CoordY": -871.9000244140625
     },
     {
       "Name": "Tegrat",
-      "CoordX": -157.2,
-      "CoordY": -868.4
+      "ID": 1065,
+      "CoordX": -157.1999969482422,
+      "CoordY": -868.4000244140625
     },
     {
       "Name": "Varlinaar",
-      "CoordX": -160.9,
-      "CoordY": -879.6
+      "ID": 1066,
+      "CoordX": -160.89999389648438,
+      "CoordY": -879.5999755859375
     },
     {
       "Name": "Taul",
-      "CoordX": -111,
-      "CoordY": -878.6
+      "ID": 1067,
+      "CoordX": -111.0,
+      "CoordY": -878.5999755859375
     },
     {
       "Name": "Abridon",
-      "CoordX": -134.8,
-      "CoordY": -886.7
+      "ID": 1068,
+      "CoordX": -134.8000030517578,
+      "CoordY": -886.7000122070313
     },
     {
       "Name": "R'terleD'er",
-      "CoordX": -119.2,
-      "CoordY": -892.8
-    },
-    
-    {
-      "Name": "Tython",
-      "CoordX": 1.3,
-      "CoordY": -78.3
+      "ID": 1069,
+      "CoordX": -119.19999694824219,
+      "CoordY": -892.7999877929688
     },
     {
-      "Name": "Had Abbadon",
-      "CoordX": 74.4,
-      "CoordY": -78.8
+      "Name": "Borlov",
+      "ID": 1567,
+      "CoordX": -195.1699981689453,
+      "CoordY": -914.9099731445313
     },
     {
-      "Name": "Galactic Center",
-      "CoordX": 0,
-      "CoordY": -142.1
+      "Name": "Dahvil",
+      "ID": 1568,
+      "CoordX": -181.3800048828125,
+      "CoordY": -910.9500122070313
+    },
+    {
+      "Name": "Karra",
+      "ID": 1569,
+      "CoordX": 157.0399932861328,
+      "CoordY": -917.719970703125
+    },
+    {
+      "Name": "Bancar",
+      "ID": 1570,
+      "CoordX": -134.44000244140626,
+      "CoordY": -909.4600219726563
+    },
+    {
+      "Name": "Quintas",
+      "ID": 1571,
+      "CoordX": -115.06999969482422,
+      "CoordY": -913.27001953125
+    },
+    {
+      "Name": "Pako Ramoon",
+      "ID": 1573,
+      "CoordX": -163.16000366210938,
+      "CoordY": -933.1699829101563
+    },
+    {
+      "Name": "Najarka",
+      "ID": 1574,
+      "CoordX": -146.4199981689453,
+      "CoordY": -945.22998046875
+    },
+    {
+      "Name": "Salteract",
+      "ID": 1575,
+      "CoordX": -125.8499984741211,
+      "CoordY": -980.0
+    },
+    {
+      "Name": "Cantros 7",
+      "ID": 1576,
+      "CoordX": -151.02999877929688,
+      "CoordY": -1066.4599609375
+    },
+    {
+      "Name": "Anoth",
+      "ID": 1577,
+      "CoordX": -173.69000244140626,
+      "CoordY": -1097.81005859375
+    },
+    {
+      "Name": "Kinooine",
+      "ID": 1578,
+      "CoordX": -192.6199951171875,
+      "CoordY": -1144.3699951171875
+    },
+    {
+      "Name": "Zonju V",
+      "ID": 1579,
+      "CoordX": -129.92999267578126,
+      "CoordY": -1153.06005859375
+    },
+    {
+      "Name": "Zeta Zero Nine",
+      "ID": 1580,
+      "CoordX": -75.41999816894531,
+      "CoordY": 739.0700073242188
+    },
+    {
+      "Name": "Mortis",
+      "ID": 1581,
+      "CoordX": -55.959999084472659,
+      "CoordY": 733.3900146484375
+    },
+    {
+      "Name": "Anorelga",
+      "ID": 1582,
+      "CoordX": -83.12999725341797,
+      "CoordY": 672.1199951171875
+    },
+    {
+      "Name": "Astation",
+      "ID": 1583,
+      "CoordX": -9.550000190734864,
+      "CoordY": 694.6699829101563
+    },
+    {
+      "Name": "Criton's Point",
+      "ID": 1584,
+      "CoordX": -42.119998931884769,
+      "CoordY": 649.4099731445313
+    },
+    {
+      "Name": "Bnar VII",
+      "ID": 1585,
+      "CoordX": -57.54999923706055,
+      "CoordY": 630.6699829101563
+    },
+    {
+      "Name": "Equanus",
+      "ID": 1586,
+      "CoordX": -10.619999885559082,
+      "CoordY": 637.1400146484375
+    },
+    {
+      "Name": "Artorias",
+      "ID": 1587,
+      "CoordX": -12.960000038146973,
+      "CoordY": 911.4500122070313
+    },
+    {
+      "Name": "Karavis",
+      "ID": 1588,
+      "CoordX": -67.63999938964844,
+      "CoordY": 590.5
+    },
+    {
+      "Name": "Quanton",
+      "ID": 1589,
+      "CoordX": -74.47000122070313,
+      "CoordY": 564.0399780273438
+    },
+    {
+      "Name": "Ord Sedra",
+      "ID": 1590,
+      "CoordX": -79.9800033569336,
+      "CoordY": 538.0499877929688
+    },
+    {
+      "Name": "Bar Neth",
+      "ID": 1591,
+      "CoordX": -69.88999938964844,
+      "CoordY": 490.75
+    },
+    {
+      "Name": "Morishim",
+      "ID": 1592,
+      "CoordX": -31.31999969482422,
+      "CoordY": 489.1600036621094
+    },
+    {
+      "Name": "Scipio",
+      "ID": 1593,
+      "CoordX": -64.52999877929688,
+      "CoordY": 481.9599914550781
+    },
+    {
+      "Name": "Haverling",
+      "ID": 1594,
+      "CoordX": -32.29999923706055,
+      "CoordY": 478.1499938964844
+    },
+    {
+      "Name": "Anemcoro",
+      "ID": 1595,
+      "CoordX": -3.5199999809265138,
+      "CoordY": 491.5
+    },
+    {
+      "Name": "Biitu",
+      "ID": 1596,
+      "CoordX": -43.029998779296878,
+      "CoordY": 456.1400146484375
+    },
+    {
+      "Name": "Reynon",
+      "ID": 1597,
+      "CoordX": -74.95999908447266,
+      "CoordY": 431.6600036621094
+    },
+    {
+      "Name": "Forsen",
+      "ID": 1598,
+      "CoordX": -23.1299991607666,
+      "CoordY": 424.1099853515625
+    },
+    {
+      "Name": "Isiring",
+      "ID": 1599,
+      "CoordX": -3.930000066757202,
+      "CoordY": 423.4700012207031
+    },
+    {
+      "Name": "Carlac",
+      "ID": 1600,
+      "CoordX": -91.51000213623047,
+      "CoordY": 413.9800109863281
+    },
+    {
+      "Name": "Ord Canfre",
+      "ID": 1601,
+      "CoordX": -26.219999313354493,
+      "CoordY": 414.1400146484375
+    },
+    {
+      "Name": "Yorgraxx",
+      "ID": 1602,
+      "CoordX": -92.81999969482422,
+      "CoordY": 405.8599853515625
     }
-
   ]
 }

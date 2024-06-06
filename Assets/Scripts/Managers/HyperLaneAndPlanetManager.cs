@@ -91,10 +91,17 @@ namespace SwNavComp
                 {
                     
                 }
+                
             }
+            int index = planetList.Get(1).ID;
+            for (int i = 1; i < planetList.Count(); i++)
+            {
+                if (planetList.Get(i - 1).ID < index) index = planetList.Get(i).ID;
+                else if (planetList.Get(i - 1).ID > index) index = planetList.Get(i - 1).ID;
+            }
+            Debug.Log(index);
 
-
-            if(DEVtoggleSubLight) await Task.Run(() => ConnectAllPlanetsSublight());
+            if (DEVtoggleSubLight) await Task.Run(() => ConnectAllPlanetsSublight());
 
             Debug.Log("Done");
             //presentHyperLanes.Raise();

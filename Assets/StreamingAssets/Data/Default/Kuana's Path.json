@@ -3,12 +3,14 @@
   "JsonPlanets": [
     {
       "Name": "Kuna's Fist",
-      "CoordX": -338.9,
+      "ID": 725,
+			"CoordX": -338.9,
       "CoordY": -690.6
     },
     {
       "Name": "Kuna's Horn",
-      "CoordX": -338,
+      "ID": 727,
+			"CoordX": -338,
       "CoordY": -688.9
     }
   ]

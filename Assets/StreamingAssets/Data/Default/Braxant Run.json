@@ -3,131 +3,157 @@
 	"JsonPlanets": [
 		{
 			"Name": "Xerton Nine",
+			"ID": 102,
 			"CoordX": -143.8,
 			"CoordY": 664.8
 		},
 		{
 			"Name": "Qonto",
+			"ID": 103,
 			"CoordX": -121,
 			"CoordY": 664.1
 		},
 		{
 			"Name": "Bastion",
+			"ID": 104,
 			"CoordX": -89.3,
 			"CoordY": 646.7
 		},
 		{
 			"Name": "Bescane",
+			"ID": 105,
 			"CoordX": -88.1,
 			"CoordY": 608.8
 		},
 		{
 			"Name": "Jaemus",
+			"ID": 106,
 			"CoordX": -86,
 			"CoordY": 587.8
 		},
 		{
 			"Name": "Muunilinst",
+			"ID": 107,
 			"CoordX": -80.5,
 			"CoordY": 550.3
 		},
 		{
 			"Name": "Venestria",
+			"ID": 108,
 			"CoordX": -56,
 			"CoordY": 542.7
 		},
 		{
 			"Name": "Kwevron",
+			"ID": 109,
 			"CoordX": -34.54,
 			"CoordY": 537
 		},
 		{
 			"Name": "Fodro",
+			"ID": 110,
 			"CoordX": -17.3,
 			"CoordY": 524.7
 		},
 		{
 			"Name": "Gwori",
+			"ID": 111,
 			"CoordX": -4.6,
 			"CoordY": 521
 		},
 		{
 			"Name": "Ord Trasi",
+			"ID": 112,
 			"CoordX": 15,
 			"CoordY": 511.3
 		},
 		{
 			"Name": "Aris",
+			"ID": 113,
 			"CoordX": -31.2,
 			"CoordY": 497.6
 		},
 		{
 			"Name": "Mygeeto",
+			"ID": 114,
 			"CoordX": -50.494,
 			"CoordY": 494
 		},
 		{
 			"Name": "Minashee",
+			"ID": 115,
 			"CoordX": -55.3,
 			"CoordY": 461.8
 		},
 		{
 			"Name": "Garqi",
+			"ID": 116,
 			"CoordX": -39.2,
 			"CoordY": 446.3
 		},
 		{
 			"Name": "Cassander",
+			"ID": 117,
 			"CoordX": -18.8,
 			"CoordY": 436.9
 		},
 		{
 			"Name": "New Bakstre",
+			"ID": 118,
 			"CoordX": -8.5,
 			"CoordY": 432.6
 		},
 		{
 			"Name": "Vuchelle",
+			"ID": 119,
 			"CoordX": 58,
 			"CoordY": 423.2
 		},
 		{
 			"Name": "Fedje",
+			"ID": 120,
 			"CoordX": 74.1,
 			"CoordY": 426.9
 		},
 		{
 			"Name": "Ketaris",
+			"ID": 121,
 			"CoordX": 96.9,
 			"CoordY": 408.2
 		},
 		{
 			"Name": "Agamar",
+			"ID": 122,
 			"CoordX": 145.7,
 			"CoordY": 419.7
 		},
 		{
 			"Name": "Borgo Prime",
+			"ID": 123,
 			"CoordX": 173,
 			"CoordY": 373.1
 		},
 		{
 			"Name": "Er'Kit",
+			"ID": 124,
 			"CoordX": 175,
 			"CoordY": 332.5
 		},
 		{
 			"Name": "G'wenee",
+			"ID": 125,
 			"CoordX": 249.7,
 			"CoordY": 331.1
 		},
 		{
 			"Name": "Halmad",
+			"ID": 126,
 			"CoordX": 289.4,
 			"CoordY": 333.7
 		},
 		{
 			"Name": "Bandomeer",
+			"ID": 127,
 			"CoordX": 319,
 			"CoordY": 322.3
 		}

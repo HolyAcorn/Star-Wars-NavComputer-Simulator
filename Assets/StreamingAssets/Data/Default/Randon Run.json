@@ -3,42 +3,50 @@
   "JsonPlanets": [
     {
       "Name": "Lantilles",
-      "CoordX": 431,
+      "ID": 1237,
+			"CoordX": 431,
       "CoordY": 122
     },
     {
       "Name": "Phaseera",
-      "CoordX": 453.5,
+      "ID": 1238,
+			"CoordX": 453.5,
       "CoordY": 106.2
     },
     {
       "Name": "Uyter",
-      "CoordX": 452.9,
+      "ID": 742,
+			"CoordX": 452.9,
       "CoordY": 71.9
     },
     {
       "Name": "Kashyyk",
-      "CoordX": 472.5,
+      "ID": 858,
+			"CoordX": 472.5,
       "CoordY": 11.2
     },
     {
       "Name": "Rakhuun",
-      "CoordX": 489.8,
+      "ID": 1239,
+			"CoordX": 489.8,
       "CoordY": 4
     },
     {
       "Name": "Chamble",
-      "CoordX": 504,
+      "ID": 1240,
+			"CoordX": 504,
       "CoordY": -13
     },
     {
       "Name": "Messert",
-      "CoordX": 516,
+      "ID": 1241,
+			"CoordX": 516,
       "CoordY": -24.1
     },
     {
       "Name": "Randon",
-      "CoordX": 526.5,
+      "ID": 1103,
+			"CoordX": 526.5,
       "CoordY": -34.9
     }
   ]

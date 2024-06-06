@@ -3,227 +3,272 @@
   "JsonPlanets": [
     {
       "Name": "Rynmar",
-      "CoordX": 353.6,
+      "ID": 470,
+			"CoordX": 353.6,
       "CoordY": 62.5
     },
     {
       "Name": "Unnamed",
-      "CoordX": 354.7,
+      "ID": 471,
+			"CoordX": 354.7,
       "CoordY": 61.9
     },
     {
       "Name": "Zalori",
-      "CoordX": 355.6,
+      "ID": 472,
+			"CoordX": 355.6,
       "CoordY": 61.5
     },
     {
       "Name": "Terephon",
-      "CoordX": 355.9,
+      "ID": 473,
+			"CoordX": 355.9,
       "CoordY": 60.8
     },
     {
       "Name": "Unnamed",
-      "CoordX": 356.2,
+      "ID": 474,
+			"CoordX": 356.2,
       "CoordY": 60.2
     },
     {
       "Name": "Unnamed",
-      "CoordX": 356.5,
+      "ID": 475,
+			"CoordX": 356.5,
       "CoordY": 59.2
     },
     {
       "Name": "Unnamed",
-      "CoordX": 356.4,
+      "ID": 476,
+			"CoordX": 356.4,
       "CoordY": 58.3
     },
     {
       "Name": "Unnamed",
-      "CoordX": 357.2,
+      "ID": 477,
+			"CoordX": 357.2,
       "CoordY": 57.7
     },
     {
       "Name": "Unnamed",
-      "CoordX": 357.5,
+      "ID": 478,
+			"CoordX": 357.5,
       "CoordY": 56.5
     },
     {
       "Name": "Unnamed",
-      "CoordX": 357.9,
+      "ID": 479,
+			"CoordX": 357.9,
       "CoordY": 55.9
     },
     {
       "Name": "Unnamed",
-      "CoordX": 358.7,
+      "ID": 480,
+			"CoordX": 358.7,
       "CoordY": 55.4
     },
     {
       "Name": "Unnamed",
-      "CoordX": 359.2,
+      "ID": 481,
+			"CoordX": 359.2,
       "CoordY": 54.9
     },
     {
       "Name": "Unnamed",
-      "CoordX": 359.8,
+      "ID": 482,
+			"CoordX": 359.8,
       "CoordY": 54.3
     },
     {
       "Name": "Reboam",
-      "CoordX": 360.1,
+      "ID": 483,
+			"CoordX": 360.1,
       "CoordY": 53.7
     },
     {
       "Name": "Unnamed",
-      "CoordX": 359.8,
+      "ID": 484,
+			"CoordX": 359.8,
       "CoordY": 53.1
     },
     {
       "Name": "Unnamed",
-      "CoordX": 358.5,
+      "ID": 485,
+			"CoordX": 358.5,
       "CoordY": 51.3
     },
     {
       "Name": "Unnamed",
-      "CoordX": 358.5,
+      "ID": 486,
+			"CoordX": 358.5,
       "CoordY": 50.3
     },
     {
       "Name": "Dreena",
-      "CoordX": 358.5,
+      "ID": 487,
+			"CoordX": 358.5,
       "CoordY": 49.3
     },
     {
       "Name": "Unnamed",
-      "CoordX": 357.3,
+      "ID": 488,
+			"CoordX": 357.3,
       "CoordY": 48.8
     },
     {
       "Name": "Unnamed",
-      "CoordX": 356.3,
+      "ID": 489,
+			"CoordX": 356.3,
       "CoordY": 48
     },
     {
       "Name": "Calfa-5",
-      "CoordX": 356.1,
+      "ID": 490,
+			"CoordX": 356.1,
       "CoordY": 47
     },
     {
       "Name": "Unnamed",
-      "CoordX": 355,
+      "ID": 491,
+			"CoordX": 355,
       "CoordY": 46.6
     },
     {
       "Name": "Unnamed",
-      "CoordX": 353,
+      "ID": 492,
+			"CoordX": 353,
       "CoordY": 46.1
     },
     {
       "Name": "Unnamed",
-      "CoordX": 351.8,
+      "ID": 493,
+			"CoordX": 351.8,
       "CoordY": 45.5
     },
     {
       "Name": "Unnamed",
-      "CoordX": 350.2,
+      "ID": 494,
+			"CoordX": 350.2,
       "CoordY": 44.7
     },
     {
       "Name": "Unnamed",
-      "CoordX": 349,
+      "ID": 495,
+			"CoordX": 349,
       "CoordY": 43.4
     },
     {
       "Name": "Unnamed",
-      "CoordX": 348.3,
+      "ID": 496,
+			"CoordX": 348.3,
       "CoordY": 42.6
     },
     {
       "Name": "k'Farri",
-      "CoordX": 347.5,
+      "ID": 497,
+			"CoordX": 347.5,
       "CoordY": 42.4
     },
     {
       "Name": "Unnamed",
-      "CoordX": 346.8,
+      "ID": 498,
+			"CoordX": 346.8,
       "CoordY": 43
     },
     {
       "Name": "Unnamed",
-      "CoordX": 345.7,
+      "ID": 499,
+			"CoordX": 345.7,
       "CoordY": 43.2
     },
     {
       "Name": "Unnamed",
-      "CoordX": 345,
+      "ID": 500,
+			"CoordX": 345,
       "CoordY": 44.2
     },
     {
       "Name": "Nantuker",
-      "CoordX": 344.1,
+      "ID": 501,
+			"CoordX": 344.1,
       "CoordY": 44.9
     },
     {
       "Name": "Unnamed",
-      "CoordX": 343.2,
+      "ID": 502,
+			"CoordX": 343.2,
       "CoordY": 45.3
     },
     {
       "Name": "Unnamed",
-      "CoordX": 342.7,
+      "ID": 503,
+			"CoordX": 342.7,
       "CoordY": 46.4
     },
     {
       "Name": "Stalsinek IV",
-      "CoordX": 341.7,
+      "ID": 504,
+			"CoordX": 341.7,
       "CoordY": 47
     },
     {
       "Name": "Unnamed",
-      "CoordX": 342.1,
+      "ID": 505,
+			"CoordX": 342.1,
       "CoordY": 48.2
     },
     {
       "Name": "Jodaka",
-      "CoordX": 341.4,
+      "ID": 506,
+			"CoordX": 341.4,
       "CoordY": 49.2
     },
     {
       "Name": "Unnamed",
-      "CoordX": 341.7,
+      "ID": 507,
+			"CoordX": 341.7,
       "CoordY": 50.1
     },
     {
       "Name": "Unnamed",
-      "CoordX": 342,
+      "ID": 508,
+			"CoordX": 342,
       "CoordY": 51.7
     },
     {
       "Name": "Unnamed",
-      "CoordX": 341.6,
+      "ID": 509,
+			"CoordX": 341.6,
       "CoordY": 52.3
     },
     {
       "Name": "Divora",
-      "CoordX": 341.6,
+      "ID": 510,
+			"CoordX": 341.6,
       "CoordY": 53.7
     },
     {
       "Name": "Unnamed",
-      "CoordX": 342.1,
+      "ID": 511,
+			"CoordX": 342.1,
       "CoordY": 54.5
     },
     {
       "Name": "Unnamed",
-      "CoordX": 342.8,
+      "ID": 512,
+			"CoordX": 342.8,
       "CoordY": 54.8
     },
     {
       "Name": "Wodan",
-      "CoordX": 343.6,
+      "ID": 19,
+			"CoordX": 343.6,
       "CoordY": 55.1
     },
     {
       "Name": "Relephon",
-      "CoordX": 344.3,
+      "ID": 20,
+			"CoordX": 344.3,
       "CoordY": 56
     }
   ]

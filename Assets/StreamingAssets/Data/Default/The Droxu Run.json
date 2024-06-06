@@ -3,17 +3,20 @@
   "JsonPlanets": [
     {
       "Name": "Saqqar",
-      "CoordX": 850.5,
+      "ID": 1455,
+			"CoordX": 850.5,
       "CoordY": -136.1
     },
     {
       "Name": "Nar Haaska",
-      "CoordX": 881,
+      "ID": 1457,
+			"CoordX": 881,
       "CoordY": -149
     },
     {
       "Name": "Droxu",
-      "CoordX": 894.2,
+      "ID": 1458,
+			"CoordX": 894.2,
       "CoordY": -139.8
     }
   ]

@@ -3,82 +3,98 @@
   "JsonPlanets": [
     {
       "Name": "Merren",
-      "CoordX": 359.6,
+      "ID": 433,
+			"CoordX": 359.6,
       "CoordY": -436.3
     },
     {
       "Name": "Milagro",
-      "CoordX": 260.2,
+      "ID": 542,
+			"CoordX": 260.2,
       "CoordY": -450.9
     },
     {
       "Name": "Amthau",
-      "CoordX": 360.3,
+      "ID": 543,
+			"CoordX": 360.3,
       "CoordY": -466.2
     },
     {
       "Name": "Sika",
-      "CoordX": 346.6,
+      "ID": 544,
+			"CoordX": 346.6,
       "CoordY": -513
     },
     {
       "Name": "Coonee",
-      "CoordX": 345.3,
+      "ID": 545,
+			"CoordX": 345.3,
       "CoordY": -520
     },
     {
       "Name": "Krann",
-      "CoordX": 338.6,
+      "ID": 546,
+			"CoordX": 338.6,
       "CoordY": -542.8
     },
     {
       "Name": "Momansi",
-      "CoordX": 333.7,
+      "ID": 547,
+			"CoordX": 333.7,
       "CoordY": -550.5
     },
     {
       "Name": "Brevost",
-      "CoordX": 314.4,
+      "ID": 548,
+			"CoordX": 314.4,
       "CoordY": -566.7
     },
     {
       "Name": "Ruten",
-      "CoordX": 293.8,
+      "ID": 549,
+			"CoordX": 293.8,
       "CoordY": -580
     },
     {
       "Name": "Kira",
-      "CoordX": 252.3,
+      "ID": 369,
+			"CoordX": 252.3,
       "CoordY": -599.1
     },
     {
       "Name": "Arrgaw",
-      "CoordX": 222,
+      "ID": 550,
+			"CoordX": 222,
       "CoordY": -605.7
     },
     {
       "Name": "Jurzan",
-      "CoordX": 193.4,
+      "ID": 551,
+			"CoordX": 193.4,
       "CoordY": -590.3
     },
     {
       "Name": "Lohopa II",
-      "CoordX": 157.5,
+      "ID": 552,
+			"CoordX": 157.5,
       "CoordY": -562.5
     },
     {
       "Name": "Droecil",
-      "CoordX": 108.1,
+      "ID": 553,
+			"CoordX": 108.1,
       "CoordY": -525.7
     },
     {
       "Name": "Wroona",
-      "CoordX": 97.3,
+      "ID": 554,
+			"CoordX": 97.3,
       "CoordY": -517.5
     },
     {
       "Name": "Harrin",
-      "CoordX": 81.6,
+      "ID": 264,
+			"CoordX": 81.6,
       "CoordY": -502.2
     }
   ]

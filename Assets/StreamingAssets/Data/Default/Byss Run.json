@@ -3,36 +3,43 @@
 	"JsonPlanets": [
 		{
 			"Name": "Byss",
+			"ID": 140,
 			"CoordX": -48,
 			"CoordY": -182
 		},
 		{
 			"Name": "Prakith",
+			"ID": 141,
 			"CoordX": -44.6,
 			"CoordY": -88.8
 		},
 		{
 			"Name": "Keeara Major",
+			"ID": 142,
 			"CoordX": -7.3,
 			"CoordY": -58.4
 		},
 		{
 			"Name": "Empress Teta",
+			"ID": 143,
 			"CoordX": 2,
 			"CoordY": -52.1
 		},
 		{
 			"Name": "Jerrilek",
+			"ID": 144,
 			"CoordX": 2,
 			"CoordY": -24
 		},
 		{
 			"Name": "Ruan",
+			"ID": 145,
 			"CoordX": 0,
 			"CoordY": -13.9
 		},
 		{
 			"Name": "Coruscant",
+			"ID": 146,
 			"CoordX": 0,
 			"CoordY": 0
 		}

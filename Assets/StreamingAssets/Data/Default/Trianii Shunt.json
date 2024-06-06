@@ -3,22 +3,26 @@
   "JsonPlanets": [
     {
       "Name": "Etti IV",
-      "CoordX": 730.3,
+      "ID": 393,
+			"CoordX": 730.3,
       "CoordY": 598.1
     },
     {
       "Name": "Lythos Nine",
-      "CoordX": 713.2,
+      "ID": 645,
+			"CoordX": 713.2,
       "CoordY": 607.8
     },
     {
       "Name": "Hiit",
-      "CoordX": 712.5,
+      "ID": 71,
+			"CoordX": 712.5,
       "CoordY": 625.6
     },
     {
       "Name": "Brochiib",
-      "CoordX": 710.5,
+      "ID": 136,
+			"CoordX": 710.5,
       "CoordY": 635.1
     }
   ]

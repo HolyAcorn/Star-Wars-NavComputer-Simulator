@@ -3,37 +3,44 @@
   "JsonPlanets": [
     {
       "Name": "Bothawui",
-      "CoordX": 622.2,
+      "ID": 101,
+			"CoordX": 622.2,
       "CoordY": -434
     },
     {
       "Name": "Spirador",
-      "CoordX": 568.2,
+      "ID": 1246,
+			"CoordX": 568.2,
       "CoordY": -448.8
     },
     {
       "Name": "Nexus Ortai",
-      "CoordX": 547.9,
+      "ID": 1247,
+			"CoordX": 547.9,
       "CoordY": -454.3
     },
     {
       "Name": "Masterra",
-      "CoordX": 537.4,
+      "ID": 1248,
+			"CoordX": 537.4,
       "CoordY": -463
     },
     {
       "Name": "Monestary",
-      "CoordX": 510.6,
+      "ID": 1249,
+			"CoordX": 510.6,
       "CoordY": -496.3
     },
     {
       "Name": "Haseria",
-      "CoordX": 491.8,
+      "ID": 1250,
+			"CoordX": 491.8,
       "CoordY": -518.9
     },
     {
       "Name": "Druckenwell",
-      "CoordX": 437.2,
+      "ID": 236,
+			"CoordX": 437.2,
       "CoordY": -534
     }
   ]

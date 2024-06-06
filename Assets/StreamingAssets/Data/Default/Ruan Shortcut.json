@@ -3,56 +3,67 @@
 	"JsonPlanets": [
 		{
 			"Name": "Cal-Seti",
+			"ID": 803,
 			"CoordX": -73.9,
 			"CoordY": -34.1
 		},
 		{
 			"Name": "Fresia",
+			"ID": 1292,
 			"CoordX": -58.2,
 			"CoordY": -29.5
 		},
 		{
 			"Name": "Galand",
+			"ID": 1293,
 			"CoordX": -53.6,
 			"CoordY": -23.7
 		},
 		{
 			"Name": "Worru'du",
+			"ID": 1294,
 			"CoordX": -38.6,
 			"CoordY": -17.9
 		},
 		{
 			"Name": "Salliche",
+			"ID": 1295,
 			"CoordX": -25.7,
 			"CoordY": -18.5
 		},
 		{
 			"Name": "Stassia",
+			"ID": 1296,
 			"CoordX": -13.3,
 			"CoordY": -11.4
 		},
 		{
 			"Name": "Ruan",
+			"ID": 145,
 			"CoordX": 0,
 			"CoordY": -13.9
 		},
 		{
 			"Name": "Yulant",
+			"ID": 1297,
 			"CoordX": 34.4,
 			"CoordY": -16.2
 		},
 		{
 			"Name": "Aargau",
+			"ID": 1298,
 			"CoordX": 40.2,
 			"CoordY": -19.9
 		},
 		{
 			"Name": "Broest",
+			"ID": 1299,
 			"CoordX": 65.3,
 			"CoordY": -24.5
 		},
 		{
 			"Name": "Xorth",
+			"ID": 210,
 			"CoordX": 82.5,
 			"CoordY": -28.4
 		}

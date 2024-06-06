@@ -3,27 +3,32 @@
   "JsonPlanets": [
     {
       "Name": "Kashyyyk",
-      "CoordX": 472.5,
+      "ID": 343,
+			"CoordX": 472.5,
       "CoordY": 11.2
     },
     {
       "Name": "Kwokrrr",
-      "CoordX": 523.7,
+      "ID": 344,
+			"CoordX": 523.7,
       "CoordY": 5
     },
     {
       "Name": "Sneeve",
-      "CoordX": 559.1,
+      "ID": 345,
+			"CoordX": 559.1,
       "CoordY": -9.1
     },
     {
       "Name": "Durkteel",
-      "CoordX": 579.3,
+      "ID": 346,
+			"CoordX": 579.3,
       "CoordY": -22.2
     },
     {
       "Name": "Yitabo",
-      "CoordX": 590.2,
+      "ID": 347,
+			"CoordX": 590.2,
       "CoordY": -29.5
     }
   ]

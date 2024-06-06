@@ -3,12 +3,14 @@
   "JsonPlanets": [
     {
       "Name": "Near Indosa",
-      "CoordX": 442.4,
+      "ID": 653,
+			"CoordX": 442.4,
       "CoordY": 368.3
     },
     {
       "Name": "Far Indosa",
-      "CoordX": 432.1,
+      "ID": 654,
+			"CoordX": 432.1,
       "CoordY": 357.3
     }
   ]

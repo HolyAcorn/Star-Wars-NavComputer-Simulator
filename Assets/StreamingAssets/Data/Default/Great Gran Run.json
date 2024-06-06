@@ -3,57 +3,68 @@
   "JsonPlanets": [
     {
       "Name": "Kinyen",
-      "CoordX": 10.8,
+      "ID": 270,
+			"CoordX": 10.8,
       "CoordY": -594
     },
     {
       "Name": "New Balosar",
-      "CoordX": -32.1,
+      "ID": 454,
+			"CoordX": -32.1,
       "CoordY": -600.2
     },
     {
       "Name": "Noe'ha'on",
-      "CoordX": -82.8,
+      "ID": 455,
+			"CoordX": -82.8,
       "CoordY": -623
     },
     {
       "Name": "Natalon",
-      "CoordX": -96.9,
+      "ID": 456,
+			"CoordX": -96.9,
       "CoordY": -627.6
     },
     {
       "Name": "Har Binande",
-      "CoordX": -117.6,
+      "ID": 457,
+			"CoordX": -117.6,
       "CoordY": -631.5
     },
     {
       "Name": "Halm",
-      "CoordX": -171,
+      "ID": 458,
+			"CoordX": -171,
       "CoordY": -630.2
     },
     {
       "Name": "Petabys Station",
-      "CoordX": -186.5,
+      "ID": 459,
+			"CoordX": -186.5,
       "CoordY": -631.3
     },
     {
       "Name": "Takonda",
-      "CoordX": -193.1,
+      "ID": 460,
+			"CoordX": -193.1,
       "CoordY": -632.6
     },
     {
       "Name": "Tashtor Seneca",
-      "CoordX": -196.4,
+      "ID": 461,
+			"CoordX": -196.4,
       "CoordY": -633.5
     },
     {
       "Name": "Chalcedon",
-      "CoordX": -211.5,
+      "ID": 462,
+			"CoordX": -211.5,
       "CoordY": -638.7
     },
     {
       "Name": "Cerea",
-      "CoordX": -242.4,
+      "ID": 185,
+			"CoordX": -242.4,
       "CoordY": -664.3
     }
   ]

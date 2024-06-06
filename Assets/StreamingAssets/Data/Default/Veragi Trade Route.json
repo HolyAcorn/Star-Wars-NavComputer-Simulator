@@ -3,82 +3,98 @@
   "JsonPlanets": [
     {
       "Name": "Ord Trasi",
-      "CoordX": 15,
+      "ID": 112,
+			"CoordX": 15,
       "CoordY": 511.3
     },
     {
       "Name": "Anx Minor",
-      "CoordX": 28.7,
+      "ID": 452,
+			"CoordX": 28.7,
       "CoordY": 541.2
     },
     {
       "Name": "Sinsang",
-      "CoordX": 19.1,
+      "ID": 1545,
+			"CoordX": 19.1,
       "CoordY": 547
     },
     {
       "Name": "Dantooine",
-      "CoordX": 1,
+      "ID": 814,
+			"CoordX": 1,
       "CoordY": 558.6
     },
     {
       "Name": "Ahakista",
-      "CoordX": -30.6,
+      "ID": 1546,
+			"CoordX": -30.6,
       "CoordY": 615
     },
     {
       "Name": "Dubrillion",
-      "CoordX": -33.2,
+      "ID": 91,
+			"CoordX": -33.2,
       "CoordY": 624.4
     },
     {
       "Name": "Trassitan",
-      "CoordX": 23,
+      "ID": 1547,
+			"CoordX": 23,
       "CoordY": 662.1
     },
     {
       "Name": "Veragi",
-      "CoordX": 39.3,
+      "ID": 557,
+			"CoordX": 39.3,
       "CoordY": 673.3
     },
     {
       "Name": "Sernpidal",
-      "CoordX": 70.4,
+      "ID": 1548,
+			"CoordX": 70.4,
       "CoordY": 693.1
     },
     {
       "Name": "Seline",
-      "CoordX": 115,
+      "ID": 1549,
+			"CoordX": 115,
       "CoordY": 674.8
     },
     {
       "Name": "Birigs",
-      "CoordX": 182.5,
+      "ID": 1550,
+			"CoordX": 182.5,
       "CoordY": 650
     },
     {
       "Name": "Bimmiel",
-      "CoordX": 232,
+      "ID": 1551,
+			"CoordX": 232,
       "CoordY": 561.6
     },
     {
       "Name": "Argazda",
-      "CoordX": 250.3,
+      "ID": 1552,
+			"CoordX": 250.3,
       "CoordY": 524.9
     },
     {
       "Name": "Corvis Minor",
-      "CoordX": 251.9,
+      "ID": 1553,
+			"CoordX": 251.9,
       "CoordY": 493.2
     },
     {
       "Name": "Ciutric",
-      "CoordX": 251.7,
+      "ID": 1554,
+			"CoordX": 251.7,
       "CoordY": 475.2
     },
     {
       "Name": "Salin",
-      "CoordX": 275.8,
+      "ID": 1319,
+			"CoordX": 275.8,
       "CoordY": 422.2
     }
   ]

@@ -3,36 +3,43 @@
 	"JsonPlanets": [
 		{
 			"Name": "Gerrenthum",
+			"ID": 195,
 			"CoordX": -90.2,
 			"CoordY": -840.7
 		},
 		{
 			"Name": "Council",
+			"ID": 1075,
 			"CoordX": -82.4,
 			"CoordY": -840.7
 		},
 		{
 			"Name": "Nothoiin",
+			"ID": 1076,
 			"CoordX": -75.2,
 			"CoordY": -843
 		},
 		{
 			"Name": "Saila Na",
+			"ID": 1077,
 			"CoordX": -70.3,
 			"CoordY": -842.3
 		},
 		{
 			"Name": "Bavva",
+			"ID": 1078,
 			"CoordX": -65.7,
 			"CoordY": -841.3
 		},
 		{
 			"Name": "Dolla",
+			"ID": 1079,
 			"CoordX": 25,
 			"CoordY": -843.6
 		},
 		{
 			"Name": "Eriadu",
+			"ID": 579,
 			"CoordX": 155.5,
 			"CoordY": -829.3
 		}

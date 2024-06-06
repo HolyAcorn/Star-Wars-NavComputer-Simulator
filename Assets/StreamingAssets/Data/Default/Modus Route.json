@@ -3,17 +3,20 @@
   "JsonPlanets": [
     {
       "Name": "Modus",
-      "CoordX": 340,
+      "ID": 808,
+			"CoordX": 340,
       "CoordY": 58.9
     },
     {
       "Name": "Unnamed",
-      "CoordX": 340,
+      "ID": 809,
+			"CoordX": 340,
       "CoordY": 59.9
     },
     {
       "Name": "Unnamed",
-      "CoordX": 341.1,
+      "ID": 810,
+			"CoordX": 341.1,
       "CoordY": 61.1
     }
   ]

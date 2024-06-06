@@ -5,12 +5,14 @@
     
     {
       "Name": "Trindello",
-      "CoordX": -335.1,
+      "ID": 1125,
+			"CoordX": -335.1,
       "CoordY": -682.2
     },
     {
       "Name": "Endor",
-      "CoordX": -343.2,
+      "ID": 1127,
+			"CoordX": -343.2,
       "CoordY": -683
     }
   ]

@@ -3,22 +3,26 @@
   "JsonPlanets": [
     {
       "Name": "Pasmin",
-      "CoordX": 729.4,
+      "ID": 519,
+			"CoordX": 729.4,
       "CoordY": 336.9
     },
     {
       "Name": "Murkhana",
-      "CoordX": 732.6,
+      "ID": 1115,
+			"CoordX": 732.6,
       "CoordY": 326.7
     },
     {
       "Name": "Wyndigal 2",
-      "CoordX": 752.6,
+      "ID": 1562,
+			"CoordX": 752.6,
       "CoordY": 290.8
     },
     {
       "Name": "Altratonne",
-      "CoordX": 771.6,
+      "ID": 56,
+			"CoordX": 771.6,
       "CoordY": 263.6
     }
   ]

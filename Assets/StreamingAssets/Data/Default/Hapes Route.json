@@ -3,57 +3,68 @@
   "JsonPlanets": [
     {
       "Name": "Selab",
-      "CoordX": 349.3,
+      "ID": 531,
+			"CoordX": 349.3,
       "CoordY": 51.6
     },
     {
       "Name": "Harterra",
-      "CoordX": 349.9,
+      "ID": 532,
+			"CoordX": 349.9,
       "CoordY": 52.1
     },
     {
       "Name": "Ut",
-      "CoordX": 350.4,
+      "ID": 533,
+			"CoordX": 350.4,
       "CoordY": 52.6
     },
     {
       "Name": "Hapes",
-      "CoordX": 350.6,
+      "ID": 534,
+			"CoordX": 350.6,
       "CoordY": 53.4
     },
     {
       "Name": "Arabanth",
-      "CoordX": 350.3,
+      "ID": 535,
+			"CoordX": 350.3,
       "CoordY": 54.2
     },
     {
       "Name": "Carlania",
-      "CoordX": 350.1,
+      "ID": 536,
+			"CoordX": 350.1,
       "CoordY": 55.2
     },
     {
       "Name": "Ediorung",
-      "CoordX": 349.4,
+      "ID": 537,
+			"CoordX": 349.4,
       "CoordY": 56.2
     },
     {
       "Name": "Unnamed",
-      "CoordX": 349,
+      "ID": 538,
+			"CoordX": 349,
       "CoordY": 56.8
     },
     {
       "Name": "Phelope",
-      "CoordX": 348.4,
+      "ID": 539,
+			"CoordX": 348.4,
       "CoordY": 57.9
     },
     {
       "Name": "Zadaria",
-      "CoordX": 348.5,
+      "ID": 540,
+			"CoordX": 348.5,
       "CoordY": 58.9
     },
     {
       "Name": "Febrini",
-      "CoordX": 347.7,
+      "ID": 541,
+			"CoordX": 347.7,
       "CoordY": 59.9
     }
   ]

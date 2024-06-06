@@ -3,32 +3,38 @@
   "JsonPlanets": [
     {
       "Name": "Senex",
-      "CoordX": 44.7,
+      "ID": 1355,
+			"CoordX": 44.7,
       "CoordY": -790.9
     },
     {
       "Name": "Knores",
-      "CoordX": 42.8,
+      "ID": 854,
+			"CoordX": 42.8,
       "CoordY": -791.8
     },
     {
       "Name": "Adoris",
-      "CoordX": 36.7,
+      "ID": 1380,
+			"CoordX": 36.7,
       "CoordY": -792.7
     },
     {
       "Name": "Caltinia",
-      "CoordX": 33.2,
+      "ID": 1376,
+			"CoordX": 33.2,
       "CoordY": -791.3
     },
     {
       "Name": "Rulaar",
-      "CoordX": 28.1,
+      "ID": 1302,
+			"CoordX": 28.1,
       "CoordY": -791
     },
     {
       "Name": "Nantama",
-      "CoordX": 25.1,
+      "ID": 1381,
+			"CoordX": 25.1,
       "CoordY": -792.2
     }
   ]

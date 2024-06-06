@@ -3,22 +3,26 @@
   "JsonPlanets": [
     {
       "Name": "Birgia",
-      "CoordX": 811,
+      "ID": 1139,
+			"CoordX": 811,
       "CoordY": 342.9
     },
     {
       "Name": "Mullan",
-      "CoordX": 819.6,
+      "ID": 1140,
+			"CoordX": 819.6,
       "CoordY": 352.7
     },
     {
       "Name": "Gbu",
-      "CoordX": 839.4,
+      "ID": 1141,
+			"CoordX": 839.4,
       "CoordY": 374.2
     },
     {
       "Name": "Pakuuni",
-      "CoordX": 851.9,
+      "ID": 1119,
+			"CoordX": 851.9,
       "CoordY": 386.3
     }
   ]

@@ -3,67 +3,80 @@
   "JsonPlanets": [
     {
       "Name": "Ulicia",
-      "CoordX": 736.9,
+      "ID": 134,
+			"CoordX": 736.9,
       "CoordY": 623.2
     },
     {
       "Name": "Atchorb",
-      "CoordX": 734.1,
+      "ID": 70,
+			"CoordX": 734.1,
       "CoordY": 611.4
     },
     {
       "Name": "D'ian",
-      "CoordX": 733,
+      "ID": 646,
+			"CoordX": 733,
       "CoordY": 603.9
     },
     {
       "Name": "Etti IV",
-      "CoordX": 730.3,
+      "ID": 393,
+			"CoordX": 730.3,
       "CoordY": 598.1
     },
     {
       "Name": "Ession",
-      "CoordX": 730,
+      "ID": 779,
+			"CoordX": 730,
       "CoordY": 593.1
     },
     {
       "Name": "Kalla VII",
-      "CoordX": 734,
+      "ID": 1386,
+			"CoordX": 734,
       "CoordY": 589.5
     },
     {
       "Name": "Pondut Station",
-      "CoordX": 736.2,
+      "ID": 1387,
+			"CoordX": 736.2,
       "CoordY": 587.8
     },
     {
       "Name": "Cantonica",
-      "CoordX": 737.4,
+      "ID": 1388,
+			"CoordX": 737.4,
       "CoordY": 585.7
     },
     {
       "Name": "Oslumpex V",
-      "CoordX": 739,
+      "ID": 65,
+			"CoordX": 739,
       "CoordY": 581.1
     },
     {
       "Name": "Zygerria",
-      "CoordX": 703.3,
+      "ID": 762,
+			"CoordX": 703.3,
       "CoordY": 547.6
     },
     {
       "Name": "Ranroon",
-      "CoordX": 685.1,
+      "ID": 360,
+			"CoordX": 685.1,
       "CoordY": 484.4
     },
     {
       "Name": "Syngia",
-      "CoordX": 685.8,
+      "ID": 1351,
+			"CoordX": 685.8,
       "CoordY": 450
     },
     {
       "Name": "Lianna",
-      "CoordX": 704.6,
+      "ID": 147,
+			"CoordX": 704.6,
       "CoordY": 371.1
     }
   ]

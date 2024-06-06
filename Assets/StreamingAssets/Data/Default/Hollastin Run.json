@@ -3,37 +3,44 @@
   "JsonPlanets": [
     {
       "Name": "Circumtore",
-      "CoordX": 708.7,
+      "ID": 443,
+			"CoordX": 708.7,
       "CoordY": -244.5
     },
     {
       "Name": "Affavan",
-      "CoordX": 734,
+      "ID": 561,
+			"CoordX": 734,
       "CoordY": -259.1
     },
     {
       "Name": "Hollastin",
-      "CoordX": 759.3,
+      "ID": 562,
+			"CoordX": 759.3,
       "CoordY": -269.8
     },
     {
       "Name": "Aylayl",
-      "CoordX": 789,
+      "ID": 563,
+			"CoordX": 789,
       "CoordY": -289.5
     },
     {
       "Name": "Tsyk",
-      "CoordX": 806.6,
+      "ID": 564,
+			"CoordX": 806.6,
       "CoordY": -310.1
     },
     {
       "Name": "Unagin",
-      "CoordX": 841,
+      "ID": 565,
+			"CoordX": 841,
       "CoordY": -339.9
     },
     {
       "Name": "Syvris",
-      "CoordX": 848.7,
+      "ID": 566,
+			"CoordX": 848.7,
       "CoordY": -344.8
     }
   ]

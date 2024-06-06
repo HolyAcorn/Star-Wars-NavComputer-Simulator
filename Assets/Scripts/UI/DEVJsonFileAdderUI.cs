@@ -31,43 +31,58 @@ namespace SwNavComp
             {
                 string file = files[f];
                 string jsonFile = File.ReadAllText(file);
-                if (createID) CreateIDs(jsonFile);
+
+                MatchCollection planetIDMatches = null;
+
+                if (createID) planetIDMatches = CreateIDs(jsonFile);
                 Regex regex = new Regex(regexPattern);
                 MatchCollection matches = regex.Matches(jsonFile);
+                Debug.Log(matches.Count);
                 for (int m = 0; m < matches.Count; m++)
                 {
+                    
                     if (createID)
                     {
-                        value = "\n\t\t\t" + parameterName + ": " + planetIDs[matches[m].Groups[1].Value] + ",";
+                        string mName = matches[m].Groups[2].Value + ", " + planetIDMatches[m].Groups[3].Value + ", " + planetIDMatches[m].Groups[4].Value;
+                        value = parameterName + ": " + planetIDs[mName] + "," + "\n\t\t\t";
                     }
                     string newText = "";
-                    if (add) newText = matches[m].Value + value;
+                    if (add && !createID) newText = matches[m].Value + value;
+                    else if (add && createID) newText = matches[m].Groups[1].Value + value + matches[m].Groups[3].Value;
                     jsonFile = jsonFile.Replace(matches[m].Value, newText);
                 }
                 JsonConverter.SaveFileToJson(file, jsonFile);
             }
 
-            void CreateIDs(string jsonFile)
+            MatchCollection CreateIDs(string jsonFile)
             {
-                string regPattern = "\"Name\": \"(.*)\",\r\n.*(\"CoordX\": .*,\r\n.*\":.*)";
+                string regPattern = "\"Name\": \"(.*)\",\r\n.*(\"CoordX\": (.*),\r\n.*\": (.*))";
                 Regex regex = new Regex(regPattern);
                 MatchCollection matches = regex.Matches(jsonFile);
 
                 Debug.Log(matches[0].Groups[0].Value);
-                if (planetIDs.Count == 0) planetIDs.Add(matches[0].Groups[1].Value, 0);
-                if (planetCoords.Count == 0) planetCoords.Add(matches[0].Groups[1].Value, matches[0].Groups[2].Value);
+
+                string planetNameCoord = matches[0].Groups[1].Value + ", " + matches[0].Groups[3].Value + ", " + matches[0].Groups[4].Value;
+
+                if (planetIDs.Count == 0) planetIDs.Add(planetNameCoord, 0);
+                if (planetCoords.Count == 0) planetCoords.Add(planetNameCoord, matches[0].Groups[2].Value);
                 for (int i = 0; i < matches.Count; i++)
                 {
+                    planetNameCoord = matches[i].Groups[1].Value + ", " + matches[i].Groups[3].Value + ", " + matches[i].Groups[4].Value;
+                    Debug.Log("Matches count: " + matches.Count);
                     bool allreadyExists = false;
                     int id = 0;
                     string coords = "";
-                    string currentPlanetName = matches[i].Groups[1].Value;
-                    string currentPlanetCoords = matches[i].Groups[2].Value;
+                    string currentPlanetName = planetNameCoord;
+                    string currentPlanetCoords = planetNameCoord;
+                    Debug.Log("currentPlanetName: " + currentPlanetName);
+                    Debug.Log("currentPlanetCoords: " +currentPlanetCoords);
                     for (int y = 0; y < planetIDs.Count; y++)
                     {
-                        if (planetIDs.Keys.ElementAt(y) == currentPlanetName && planetCoords[planetIDs.Keys.ElementAt(y)] == currentPlanetCoords)
+                        if (planetIDs.Keys.ElementAt(y) == currentPlanetName)
                         {
                             allreadyExists = true;
+                            Debug.Log(currentPlanetName + ": ID: " + id);
                             id = planetIDs[currentPlanetName];
                             coords = planetCoords[currentPlanetName];
                         }
@@ -79,7 +94,7 @@ namespace SwNavComp
                         planetCoords.Add(currentPlanetName, currentPlanetCoords);
                     }
                 }
-
+                return matches;
             }
         }
 

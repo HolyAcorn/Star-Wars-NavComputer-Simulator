@@ -3,26 +3,31 @@
 	"JsonPlanets": [
 		{
 			"Name": "Lutrillia",
+			"ID": 712,
 			"CoordX": -109.4,
 			"CoordY": -843.9
 		},
 		{
 			"Name": "Cuthbern",
+			"ID": 713,
 			"CoordX": -139.1,
 			"CoordY": -839.4
 		},
 		{
 			"Name": "Remitik",
+			"ID": 714,
 			"CoordX": -172.7,
 			"CoordY": -821
 		},
 		{
 			"Name": "Ryoone",
+			"ID": 715,
 			"CoordX": -235.2,
 			"CoordY": -795.4
 		},
 		{
 			"Name": "Koda Station",
+			"ID": 716,
 			"CoordX": -279.2,
 			"CoordY": -810
 		}

@@ -3,136 +3,163 @@
 	"JsonPlanets": [
 		{
 			"Name": "Abregado-rae",
+			"ID": 1268,
 			"CoordX": -4.3,
 			"CoordY": -316.7
 		},
 		{
 			"Name": "Dentaal",
+			"ID": 1269,
 			"CoordX": -4.3,
 			"CoordY": -325.8
 		},
 		{
 			"Name": "Giju",
+			"ID": 1270,
 			"CoordX": 3,
 			"CoordY": -354.8
 		},
 		{
 			"Name": "Ghorman",
+			"ID": 1271,
 			"CoordX": 28,
 			"CoordY": -397.7
 		},
 		{
 			"Name": "Thyferra",
+			"ID": 1272,
 			"CoordX": 66,
 			"CoordY": -442.2
 		},
 		{
 			"Name": "Tauber",
+			"ID": 1273,
 			"CoordX": 74.3,
 			"CoordY": -456.9
 		},
 		{
 			"Name": "Yag'Dhul",
+			"ID": 263,
 			"CoordX": 86.5,
 			"CoordY": -489.9
 		},
 		{
 			"Name": "Sukkult",
+			"ID": 1274,
 			"CoordX": 90.5,
 			"CoordY": -497.6
 		},
 		{
 			"Name": "Wroona",
+			"ID": 554,
 			"CoordX": 97.3,
 			"CoordY": -517.5
 		},
 		{
 			"Name": "Tregillis",
+			"ID": 1275,
 			"CoordX": 107,
 			"CoordY": -548.4
 		},
 		{
 			"Name": "Vandelhelm",
+			"ID": 1276,
 			"CoordX": 120.3,
 			"CoordY": -584.9
 		},
 		{
 			"Name": "Woostri",
+			"ID": 1277,
 			"CoordX": 129.7,
 			"CoordY": -615.4
 		},
 		{
 			"Name": "Daemen",
+			"ID": 1278,
 			"CoordX": 134,
 			"CoordY": -635.4
 		},
 		{
 			"Name": "Alakatha",
+			"ID": 1279,
 			"CoordX": 139.4,
 			"CoordY": -659.3
 		},
 		{
 			"Name": "Lanthe",
+			"ID": 1280,
 			"CoordX": 142.9,
 			"CoordY": -675.6
 		},
 		{
 			"Name": "Vondarc",
+			"ID": 1281,
 			"CoordX": 149.7,
 			"CoordY": -692.9
 		},
 		{
 			"Name": "Medth",
+			"ID": 3,
 			"CoordX": 149.9,
 			"CoordY": -728
 		},
 		{
 			"Name": "Tshindral III",
+			"ID": 1282,
 			"CoordX": 152.1,
 			"CoordY": -745.2
 		},
 		{
 			"Name": "Sullust",
+			"ID": 1283,
 			"CoordX": 156,
 			"CoordY": -781.3
 		},
 		{
 			"Name": "Eriadu",
+			"ID": 579,
 			"CoordX": 155.5,
 			"CoordY": -829.3
 		},
 		{
 			"Name": "Bith",
+			"ID": 1284,
 			"CoordX": 156.9,
 			"CoordY": -876.8
 		},
 		{
 			"Name": "Triton",
+			"ID": 1285,
 			"CoordX": 160.2,
 			"CoordY": -885.5
 		},
 		{
 			"Name": "Sluis Van",
+			"ID": 1286,
 			"CoordX": 160.7,
 			"CoordY": -917.5
 		},
 		{
 			"Name": "Denab",
+			"ID": 1287,
 			"CoordX": 158.8,
 			"CoordY": -934.4
 		},
 		{
 			"Name": "Tarabba",
+			"ID": 1288,
 			"CoordX": 162.1,
 			"CoordY": -980.8
 		},
 		{
 			"Name": "Adarlon",
+			"ID": 1289,
 			"CoordX": 162.6,
 			"CoordY": -1055.9
 		},
 		{
 			"Name": "Karideph",
+			"ID": 1290,
 			"CoordX": 162.4,
 			"CoordY": -1069.9
 		}

@@ -3,31 +3,37 @@
 	"JsonPlanets": [
 		{
 			"Name": "Coruscant",
+			"ID": 146,
 			"CoordX": 0,
 			"CoordY": 0
 		},
 		{
 			"Name": "Tanjay IV",
+			"ID": 783,
 			"CoordX": -9,
 			"CoordY": 11.7
 		},
 		{
 			"Name": "Weerden",
+			"ID": 784,
 			"CoordX": -13.8,
 			"CoordY": 18
 		},
 		{
 			"Name": "Galvoni III",
+			"ID": 785,
 			"CoordX": -15,
 			"CoordY": 29.6
 		},
 		{
 			"Name": "Farrfin",
+			"ID": 786,
 			"CoordX": -25.2,
 			"CoordY": 52
 		},
 		{
 			"Name": "Mamendin",
+			"ID": 787,
 			"CoordX": -9.3,
 			"CoordY": 58.7
 		}

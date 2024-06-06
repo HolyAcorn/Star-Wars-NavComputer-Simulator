@@ -3,62 +3,74 @@
   "JsonPlanets": [
     {
       "Name": "Enarc",
-      "CoordX": 340.8,
+      "ID": 352,
+			"CoordX": 340.8,
       "CoordY": -716.1
     },
     {
       "Name": "Naboo",
-      "CoordX": 334.4,
+      "ID": 363,
+			"CoordX": 334.4,
       "CoordY": -707.2
     },
     {
       "Name": "Alassa Major",
-      "CoordX": 337.1,
+      "ID": 364,
+			"CoordX": 337.1,
       "CoordY": -648.5
     },
     {
       "Name": "Kalinda",
-      "CoordX": 324.1,
+      "ID": 365,
+			"CoordX": 324.1,
       "CoordY": -622.1
     },
     {
       "Name": "Nigel",
-      "CoordX": 274.6,
+      "ID": 366,
+			"CoordX": 274.6,
       "CoordY": -604.8
     },
     {
       "Name": "Roldalna",
-      "CoordX": 271.2,
+      "ID": 367,
+			"CoordX": 271.2,
       "CoordY": -603.9
     },
     {
       "Name": "Seltaya Minor",
-      "CoordX": 264.5,
+      "ID": 368,
+			"CoordX": 264.5,
       "CoordY": -601.7
     },
     {
       "Name": "Kira",
-      "CoordX": 252.3,
+      "ID": 369,
+			"CoordX": 252.3,
       "CoordY": -599.1
     },
     {
       "Name": "Plagen",
-      "CoordX": 220.4,
+      "ID": 370,
+			"CoordX": 220.4,
       "CoordY": -621
     },
     {
       "Name": "Opiteihr",
-      "CoordX": 185.5,
+      "ID": 371,
+			"CoordX": 185.5,
       "CoordY": -651.6
     },
     {
       "Name": "Vogel 7",
-      "CoordX": 167.2,
+      "ID": 372,
+			"CoordX": 167.2,
       "CoordY": -675.6
     },
     {
       "Name": "Vondarc",
-      "CoordX": 146.7,
+      "ID": 373,
+			"CoordX": 146.7,
       "CoordY": -692.9
     }
   ]

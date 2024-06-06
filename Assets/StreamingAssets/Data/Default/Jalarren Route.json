@@ -3,27 +3,32 @@
   "JsonPlanets": [
     {
       "Name": "Port Evokk",
-      "CoordX": 36.3,
+      "ID": 36,
+			"CoordX": 36.3,
       "CoordY": -809.5
     },
     {
       "Name": "Jalarren",
-      "CoordX": 34,
+      "ID": 669,
+			"CoordX": 34,
       "CoordY": -807.7
     },
     {
       "Name": "Suliana",
-      "CoordX": 30.5,
+      "ID": 333,
+			"CoordX": 30.5,
       "CoordY": -807.2
     },
     {
       "Name": "Bator Bai",
-      "CoordX": 26.6,
+      "ID": 670,
+			"CoordX": 26.6,
       "CoordY": -804.8
     },
     {
       "Name": "Kalgo 13",
-      "CoordX": 25.3,
+      "ID": 671,
+			"CoordX": 25.3,
       "CoordY": -802.3
     }
   ]

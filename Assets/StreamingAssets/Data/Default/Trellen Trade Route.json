@@ -3,27 +3,32 @@
   "JsonPlanets": [
     {
       "Name": "Trellen",
-      "CoordX": 164.3,
+      "ID": 606,
+			"CoordX": 164.3,
       "CoordY": -100.5
     },
     {
       "Name": "Humbarine",
-      "CoordX": 188.2,
+      "ID": 1500,
+			"CoordX": 188.2,
       "CoordY": -99.9
     },
     {
       "Name": "Commenor",
-      "CoordX": 231.1,
+      "ID": 206,
+			"CoordX": 231.1,
       "CoordY": -98.3
     },
     {
       "Name": "Rasterous",
-      "CoordX": 306.7,
+      "ID": 1501,
+			"CoordX": 306.7,
       "CoordY": -90.8
     },
     {
       "Name": "Zeltros",
-      "CoordX": 353,
+      "ID": 469,
+			"CoordX": 353,
       "CoordY": -69.6
     }
   ]

@@ -3,32 +3,38 @@
   "JsonPlanets": [
     {
       "Name": "Circumtore",
-      "CoordX": 708.7,
+      "ID": 443,
+			"CoordX": 708.7,
       "CoordY": -244.5
     },
     {
       "Name": "Carnovia",
-      "CoordX": 708.5,
+      "ID": 684,
+			"CoordX": 708.5,
       "CoordY": -291.2
     },
     {
       "Name": "Nar Kaaga",
-      "CoordX": 704.5,
+      "ID": 685,
+			"CoordX": 704.5,
       "CoordY": -331
     },
     {
       "Name": "Dohlban",
-      "CoordX": 679.7,
+      "ID": 686,
+			"CoordX": 679.7,
       "CoordY": -390.8
     },
     {
       "Name": "Void Station",
-      "CoordX": 653.2,
+      "ID": 687,
+			"CoordX": 653.2,
       "CoordY": -411.6
     },
     {
       "Name": "Bothawui",
-      "CoordX": 622.2,
+      "ID": 101,
+			"CoordX": 622.2,
       "CoordY": -434
     }
   ]

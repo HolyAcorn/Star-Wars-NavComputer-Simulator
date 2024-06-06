@@ -3,32 +3,38 @@
   "JsonPlanets": [
     {
       "Name": "Kinnos",
-      "CoordX": -650.8,
+      "ID": 311,
+			"CoordX": -650.8,
       "CoordY": 122.4
     },
     {
       "Name": "Avidich",
-      "CoordX": -610.1,
+      "ID": 1472,
+			"CoordX": -610.1,
       "CoordY": 120.4
     },
     {
       "Name": "Csilla",
-      "CoordX": -592.9,
+      "ID": 314,
+			"CoordX": -592.9,
       "CoordY": 122.1
     },
     {
       "Name": "Cormit",
-      "CoordX": -557.7,
+      "ID": 1536,
+			"CoordX": -557.7,
       "CoordY": 111.8
     },
     {
       "Name": "Celwis",
-      "CoordX": -523.7,
+      "ID": 1537,
+			"CoordX": -523.7,
       "CoordY": 107.3
     },
     {
       "Name": "Umaren'k",
-      "CoordX": -460.1,
+      "ID": 1538,
+			"CoordX": -460.1,
       "CoordY": 74.9
     }
   ]

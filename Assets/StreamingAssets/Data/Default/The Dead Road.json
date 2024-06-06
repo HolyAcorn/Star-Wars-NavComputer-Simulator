@@ -3,52 +3,62 @@
   "JsonPlanets": [
     {
       "Name": "Nimia",
-      "CoordX": 780.7,
+      "ID": 865,
+			"CoordX": 780.7,
       "CoordY": 98
     },
     {
       "Name": "Kafane",
-      "CoordX": 778.9,
+      "ID": 1451,
+			"CoordX": 778.9,
       "CoordY": 49.6
     },
     {
       "Name": "Ulmatra",
-      "CoordX": 798.2,
+      "ID": 1452,
+			"CoordX": 798.2,
       "CoordY": -17.7
     },
     {
       "Name": "Zisia",
-      "CoordX": 797.7,
+      "ID": 1453,
+			"CoordX": 797.7,
       "CoordY": -46.3
     },
     {
       "Name": "Elgit",
-      "CoordX": 805.5,
+      "ID": 357,
+			"CoordX": 805.5,
       "CoordY": -77.4
     },
     {
       "Name": "Usk",
-      "CoordX": 830.2,
+      "ID": 1454,
+			"CoordX": 830.2,
       "CoordY": -85.4
     },
     {
       "Name": "Saqqar",
-      "CoordX": 850.5,
+      "ID": 1455,
+			"CoordX": 850.5,
       "CoordY": -136.1
     },
     {
       "Name": "Tisht",
-      "CoordX": 849.4,
+      "ID": 1456,
+			"CoordX": 849.4,
       "CoordY": -177.3
     },
     {
       "Name": "M'Hanna",
-      "CoordX": 815,
+      "ID": 359,
+			"CoordX": 815,
       "CoordY": -163
     },
     {
       "Name": "Varl",
-      "CoordX": 770.1,
+      "ID": 1129,
+			"CoordX": 770.1,
       "CoordY": -155.7
     }
   ]

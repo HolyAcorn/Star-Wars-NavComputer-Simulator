@@ -3,26 +3,31 @@
 	"JsonPlanets": [
 		{
 			"Name": "Bakura",
+			"ID": 1406,
 			"CoordX": -438.2,
 			"CoordY": -670.9
 		},
 		{
 			"Name": "Timora",
+			"ID": 1407,
 			"CoordX": -404,
 			"CoordY": -686.6
 		},
 		{
 			"Name": "Ast Kikorie",
+			"ID": 1408,
 			"CoordX": -347.7,
 			"CoordY": -680.3
 		},
 		{
 			"Name": "Sanyassa IV",
+			"ID": 1409,
 			"CoordX": -346.2,
 			"CoordY": -685.7
 		},
 		{
 			"Name": "Endor",
+			"ID": 1127,
 			"CoordX": -343.2,
 			"CoordY": -683
 		}

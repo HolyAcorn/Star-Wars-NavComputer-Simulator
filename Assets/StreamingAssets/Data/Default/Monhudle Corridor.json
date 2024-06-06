@@ -3,16 +3,19 @@
 	"JsonPlanets": [
 		{
 			"Name": "Borosk",
+			"ID": 383,
 			"CoordX": -94.3,
 			"CoordY": 456.5
 		},
 		{
 			"Name": "Monhudle",
+			"ID": 811,
 			"CoordX": -62.9,
 			"CoordY": 445.1
 		},
 		{
 			"Name": "Garqi",
+			"ID": 116,
 			"CoordX": -39.2,
 			"CoordY": 446.3
 		}

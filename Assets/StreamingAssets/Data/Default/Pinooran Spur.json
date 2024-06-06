@@ -3,42 +3,50 @@
   "JsonPlanets": [
     {
       "Name": "Pinoora",
-      "CoordX": 432.4,
+      "ID": 330,
+			"CoordX": 432.4,
       "CoordY": 382.6
     },
     {
       "Name": "Krylon",
-      "CoordX": 441.4,
+      "ID": 1203,
+			"CoordX": 441.4,
       "CoordY": 401.6
     },
     {
       "Name": "Ladarra",
-      "CoordX": 453.6,
+      "ID": 1204,
+			"CoordX": 453.6,
       "CoordY": 414.2
     },
     {
       "Name": "Marrovia",
-      "CoordX": 463.5,
+      "ID": 1205,
+			"CoordX": 463.5,
       "CoordY": 424
     },
     {
       "Name": "Kli'aar",
-      "CoordX": 476,
+      "ID": 1206,
+			"CoordX": 476,
       "CoordY": 430.9
     },
     {
       "Name": "Betshish",
-      "CoordX": 485.2,
+      "ID": 798,
+			"CoordX": 485.2,
       "CoordY": 440.8
     },
     {
       "Name": "Mogoshyn",
-      "CoordX": 483.7,
+      "ID": 1207,
+			"CoordX": 483.7,
       "CoordY": 452.8
     },
     {
       "Name": "Kushibah",
-      "CoordX": 486,
+      "ID": 1208,
+			"CoordX": 486,
       "CoordY": 462.3
     }
   ]

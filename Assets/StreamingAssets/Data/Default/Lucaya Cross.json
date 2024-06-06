@@ -3,17 +3,20 @@
   "JsonPlanets": [
     {
       "Name": "Media",
-      "CoordX": 722.5,
+      "ID": 778,
+			"CoordX": 722.5,
       "CoordY": 590.9
     },
     {
       "Name": "Ession",
-      "CoordX": 730,
+      "ID": 779,
+			"CoordX": 730,
       "CoordY": 593.1
     },
     {
       "Name": "Saffalore",
-      "CoordX": 736.6,
+      "ID": 780,
+			"CoordX": 736.6,
       "CoordY": 594.5
     }
   ]

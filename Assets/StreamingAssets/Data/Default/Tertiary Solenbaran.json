@@ -3,32 +3,38 @@
   "JsonPlanets": [
     {
       "Name": "Deltooine",
-      "CoordX": 752.9,
+      "ID": 407,
+			"CoordX": 752.9,
       "CoordY": 602.1
     },
     {
       "Name": "Issagra",
-      "CoordX": 747.6,
+      "ID": 1444,
+			"CoordX": 747.6,
       "CoordY": 595.4
     },
     {
       "Name": "Kalla VII",
-      "CoordX": 734,
+      "ID": 1386,
+			"CoordX": 734,
       "CoordY": 589.5
     },
     {
       "Name": "Biewa",
-      "CoordX": 728.5,
+      "ID": 658,
+			"CoordX": 728.5,
       "CoordY": 586.4
     },
     {
       "Name": "Duroon",
-      "CoordX": 721.5,
+      "ID": 1445,
+			"CoordX": 721.5,
       "CoordY": 581.1
     },
     {
       "Name": "Saclas",
-      "CoordX": 718.7,
+      "ID": 1314,
+			"CoordX": 718.7,
       "CoordY": 579.6
     }
   ]

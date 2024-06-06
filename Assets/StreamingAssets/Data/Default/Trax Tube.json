@@ -3,37 +3,44 @@
   "JsonPlanets": [
     {
       "Name": "Randon",
-      "CoordX": 526.5,
+      "ID": 1103,
+			"CoordX": 526.5,
       "CoordY": -34.9
     },
     {
       "Name": "Deysum III",
-      "CoordX": 530.2,
+      "ID": 1440,
+			"CoordX": 530.2,
       "CoordY": -58.3
     },
     {
       "Name": "Lexrul",
-      "CoordX": 529.6,
+      "ID": 1497,
+			"CoordX": 529.6,
       "CoordY": -75.1
     },
     {
       "Name": "Uogo'cor",
-      "CoordX": 536.6,
+      "ID": 1498,
+			"CoordX": 536.6,
       "CoordY": -90.3
     },
     {
       "Name": "Nanth'ri",
-      "CoordX": 529.3,
+      "ID": 849,
+			"CoordX": 529.3,
       "CoordY": -207.3
     },
     {
       "Name": "Nixor",
-      "CoordX": 530.2,
+      "ID": 1499,
+			"CoordX": 530.2,
       "CoordY": -240.6
     },
     {
       "Name": "Daalang",
-      "CoordX": 567,
+      "ID": 97,
+			"CoordX": 567,
       "CoordY": -272
     }
   ]

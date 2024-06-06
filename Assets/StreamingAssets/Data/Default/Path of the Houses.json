@@ -3,62 +3,74 @@
   "JsonPlanets": [
     {
       "Name": "Schesa",
-      "CoordX": -559.8,
+      "ID": 1150,
+			"CoordX": -559.8,
       "CoordY": 166.6
     },
     {
       "Name": "Noris",
-      "CoordX": -559.9,
+      "ID": 1073,
+			"CoordX": -559.9,
       "CoordY": 162.4
     },
     {
       "Name": "Sharb",
-      "CoordX": -550.1,
+      "ID": 1151,
+			"CoordX": -550.1,
       "CoordY": 158.1
     },
     {
       "Name": "Ornfra",
-      "CoordX": -556.8,
+      "ID": 1074,
+			"CoordX": -556.8,
       "CoordY": 152.7
     },
     {
       "Name": "Naporar",
-      "CoordX": -581.8,
+      "ID": 852,
+			"CoordX": -581.8,
       "CoordY": 150.5
     },
     {
       "Name": "Sposia",
-      "CoordX": -591.9,
+      "ID": 1152,
+			"CoordX": -591.9,
       "CoordY": 142.1
     },
     {
       "Name": "Csilla",
-      "CoordX": -592.9,
+      "ID": 314,
+			"CoordX": -592.9,
       "CoordY": 122.1
     },
     {
       "Name": "Cioral",
-      "CoordX": -590,
+      "ID": 1153,
+			"CoordX": -590,
       "CoordY": 115.7
     },
     {
       "Name": "Sarvchi",
-      "CoordX": -566.2,
+      "ID": 1154,
+			"CoordX": -566.2,
       "CoordY": 98.1
     },
     {
       "Name": "Copero",
-      "CoordX": -571.6,
+      "ID": 1155,
+			"CoordX": -571.6,
       "CoordY": 92.8
     },
     {
       "Name": "Csaus",
-      "CoordX": -581.5,
+      "ID": 1156,
+			"CoordX": -581.5,
       "CoordY": 89.2
     },
     {
       "Name": "Rhigar",
-      "CoordX": -603.3,
+      "ID": 316,
+			"CoordX": -603.3,
       "CoordY": 84.6
     }
   ]

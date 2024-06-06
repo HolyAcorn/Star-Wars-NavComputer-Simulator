@@ -3,22 +3,26 @@
   "JsonPlanets": [
     {
       "Name": "Kor Desilijic",
-      "CoordX": 765.5,
+      "ID": 414,
+			"CoordX": 765.5,
       "CoordY": -109.7
     },
     {
       "Name": "Groth",
-      "CoordX": 771.6,
+      "ID": 523,
+			"CoordX": 771.6,
       "CoordY": -118.1
     },
     {
       "Name": "Kor Gejalli",
-      "CoordX": 777.9,
+      "ID": 524,
+			"CoordX": 777.9,
       "CoordY": -113
     },
     {
       "Name": "Kor Trinivii",
-      "CoordX": 786.8,
+      "ID": 525,
+			"CoordX": 786.8,
       "CoordY": -117
     }
   ]

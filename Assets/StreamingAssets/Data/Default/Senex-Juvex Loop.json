@@ -3,142 +3,170 @@
   "JsonPlanets": [
     {
       "Name": "Juvex",
-      "CoordX": 23,
+      "ID": 1358,
+			"CoordX": 23,
       "CoordY": -802.4
     },
     {
       "Name": "Kimm Aurek",
-      "CoordX": 20.1,
+      "ID": 1359,
+			"CoordX": 20.1,
       "CoordY": -803.7
     },
     {
       "Name": "Kimm Besh",
-      "CoordX": 19.6,
+      "ID": 1360,
+			"CoordX": 19.6,
       "CoordY": -804.2
     },
     {
       "Name": "Kimm Cresh",
-      "CoordX": 19,
+      "ID": 1361,
+			"CoordX": 19,
       "CoordY": -804.7
     },
     {
       "Name": "Tinallis",
-      "CoordX": 17.9,
+      "ID": 1362,
+			"CoordX": 17.9,
       "CoordY": -806.7
     },
     {
       "Name": "Loovria",
-      "CoordX": 16.2,
+      "ID": 1363,
+			"CoordX": 16.2,
       "CoordY": -809.5
     },
     {
       "Name": "Velga",
-      "CoordX": 10.4,
+      "ID": 1364,
+			"CoordX": 10.4,
       "CoordY": -812.7
     },
     {
       "Name": "Pieldi",
-      "CoordX": 6.7,
+      "ID": 8,
+			"CoordX": 6.7,
       "CoordY": -811.4
     },
     {
       "Name": "Pirralor",
-      "CoordX": 5.9,
+      "ID": 1365,
+			"CoordX": 5.9,
       "CoordY": -807.1
     },
     {
       "Name": "Resti Kel",
-      "CoordX": 8.5,
+      "ID": 1366,
+			"CoordX": 8.5,
       "CoordY": -801.8
     },
     {
       "Name": "Malador",
-      "CoordX": 10.2,
+      "ID": 705,
+			"CoordX": 10.2,
       "CoordY": -798.6
     },
     {
       "Name": "Zaria",
-      "CoordX": 13.4,
+      "ID": 1367,
+			"CoordX": 13.4,
       "CoordY": -798.1
     },
     {
       "Name": "Anstares VI",
-      "CoordX": 15.5,
+      "ID": 1368,
+			"CoordX": 15.5,
       "CoordY": -793.8
     },
     {
       "Name": "Deminol",
-      "CoordX": 17.5,
+      "ID": 1369,
+			"CoordX": 17.5,
       "CoordY": -791.8
     },
     {
       "Name": "Ossiathora",
-      "CoordX": 14.4,
+      "ID": 1370,
+			"CoordX": 14.4,
       "CoordY": -789.5
     },
     {
       "Name": "Kassido",
-      "CoordX": 11.7,
+      "ID": 317,
+			"CoordX": 11.7,
       "CoordY": -787.8
     },
     {
       "Name": "Manforgon",
-      "CoordX": 15.4,
+      "ID": 1371,
+			"CoordX": 15.4,
       "CoordY": -785.2
     },
     {
       "Name": "Mussubir Three",
-      "CoordX": 19.8,
+      "ID": 1372,
+			"CoordX": 19.8,
       "CoordY": -780.8
     },
     {
       "Name": "Cyimarra",
-      "CoordX": 26.1,
+      "ID": 1373,
+			"CoordX": 26.1,
       "CoordY": -780.8
     },
     {
       "Name": "Veron",
-      "CoordX": 31.4,
+      "ID": 1374,
+			"CoordX": 31.4,
       "CoordY": -782.3
     },
     {
       "Name": "Presteen",
-      "CoordX": 31.7,
+      "ID": 1375,
+			"CoordX": 31.7,
       "CoordY": -785.8
     },
     {
       "Name": "Caltinia",
-      "CoordX": 33.2,
+      "ID": 1376,
+			"CoordX": 33.2,
       "CoordY": -791.3
     },
     {
       "Name": "Nepoy",
-      "CoordX": 35.5,
+      "ID": 1377,
+			"CoordX": 35.5,
       "CoordY": -795.9
     },
     {
       "Name": "Hutlar",
-      "CoordX": 37.8,
+      "ID": 1378,
+			"CoordX": 37.8,
       "CoordY": -800.5
     },
     {
       "Name": "Karfeddion",
-      "CoordX": 38.4,
+      "ID": 34,
+			"CoordX": 38.4,
       "CoordY": -805.8
     },
     {
       "Name": "Anturus",
-      "CoordX": 36.1,
+      "ID": 1379,
+			"CoordX": 36.1,
       "CoordY": -804.4
     },
     {
       "Name": "Denebia",
-      "CoordX": 30.6,
+      "ID": 332,
+			"CoordX": 30.6,
       "CoordY": -803.3
     },
     {
       "Name": "Kalgo 13",
-      "CoordX": 25.3,
+      "ID": 671,
+			"CoordX": 25.3,
       "CoordY": -802.3
     }
   ]

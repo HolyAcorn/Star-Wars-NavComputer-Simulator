@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 namespace SwNavComp
 {
@@ -23,6 +24,14 @@ namespace SwNavComp
             if (!items.Contains(thingToAdd)) items.Add(thingToAdd);
         }
 
+        public void Add(List<T> thingsToAdd)
+        {
+            foreach (T item in thingsToAdd)
+            {
+                if(items.Contains(item)) items.Add(item);
+            }
+        }
+
         public void Remove(T thingToRemove)
         {
             if (items.Contains(thingToRemove)) items.Remove(thingToRemove);
@@ -39,5 +48,7 @@ namespace SwNavComp
             if(items.Contains(t)) value = true;
             return value;
         }
+
+
     }
 }

@@ -3,32 +3,38 @@
   "JsonPlanets": [
     {
       "Name": "Karfeddion",
-      "CoordX": 38.4,
+      "ID": 34,
+			"CoordX": 38.4,
       "CoordY": -805.8
     },
     {
       "Name": "Atron",
-      "CoordX": 37.4,
+      "ID": 35,
+			"CoordX": 37.4,
       "CoordY": -807.7
     },
     {
       "Name": "Port Evokk",
-      "CoordX": 36.3,
+      "ID": 36,
+			"CoordX": 36.3,
       "CoordY": -809.5
     },
     {
       "Name": "Tekurr'k",
-      "CoordX": 34.9,
+      "ID": 37,
+			"CoordX": 34.9,
       "CoordY": -811.5
     },
     {
       "Name": "Yetoom Na Uun",
-      "CoordX": 31.7,
+      "ID": 38,
+			"CoordX": 31.7,
       "CoordY": -815.8
     },
     {
       "Name": "Dolla",
-      "CoordX": 25.1,
+      "ID": 39,
+			"CoordX": 25.1,
       "CoordY": -843.6
     }
   ]

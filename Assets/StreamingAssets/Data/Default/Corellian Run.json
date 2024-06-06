@@ -3,226 +3,271 @@
 	"JsonPlanets": [
 		{
 			"Name": "Coruscant",
+			"ID": 146,
 			"CoordX": 0,
 			"CoordY": 0
 		},
 		{
 			"Name": "Ixtlar",
+			"ID": 207,
 			"CoordX": 37,
 			"CoordY": -4
 		},
 		{
 			"Name": "Wukkar",
+			"ID": 208,
 			"CoordX": 56.7,
 			"CoordY": -12.5
 		},
 		{
 			"Name": "Kailor V",
+			"ID": 209,
 			"CoordX": 69.1,
 			"CoordY": -20
 		},
 		{
 			"Name": "Xorth",
+			"ID": 210,
 			"CoordX": 82.5,
 			"CoordY": -28.4
 		},
 		{
 			"Name": "Vuma",
+			"ID": 211,
 			"CoordX": 112.7,
 			"CoordY": -59.2
 		},
 		{
 			"Name": "Leria Kerlsil",
+			"ID": 212,
 			"CoordX": 125.3,
 			"CoordY": -83.1
 		},
 		{
 			"Name": "Perma",
+			"ID": 213,
 			"CoordX": 134.7,
 			"CoordY": -106.7
 		},
 		{
 			"Name": "Lolnar",
+			"ID": 214,
 			"CoordX": 138.4,
 			"CoordY": -117.6
 		},
 		{
 			"Name": "Rehemsa",
+			"ID": 215,
 			"CoordX": 148.6,
 			"CoordY": -151
 		},
 		{
 			"Name": "Sedratis",
+			"ID": 216,
 			"CoordX": 152.2,
 			"CoordY": -162.2
 		},
 		{
 			"Name": "Rydonni Prime",
+			"ID": 217,
 			"CoordX": 155,
 			"CoordY": -174.3
 		},
 		{
 			"Name": "Corellia",
+			"ID": 218,
 			"CoordX": 157.6,
 			"CoordY": -186
 		},
 		{
 			"Name": "Tinnel IV",
+			"ID": 219,
 			"CoordX": 170.5,
 			"CoordY": -213.5
 		},
 		{
 			"Name": "Loronar",
+			"ID": 220,
 			"CoordX": 184.2,
 			"CoordY": -247.9
 		},
 		{
 			"Name": "Byblos",
+			"ID": 221,
 			"CoordX": 191.7,
 			"CoordY": -264.1
 		},
 		{
 			"Name": "Pencael IV",
+			"ID": 222,
 			"CoordX": 198.7,
 			"CoordY": -275.2
 		},
 		{
 			"Name": "Havricus",
+			"ID": 223,
 			"CoordX": 209.9,
 			"CoordY": -291.4
 		},
 		{
 			"Name": "Iseno",
+			"ID": 224,
 			"CoordX": 220.3,
 			"CoordY": -307.7
 		},
 		{
 			"Name": "Denon",
+			"ID": 225,
 			"CoordX": 227.9,
 			"CoordY": -316.6
 		},
 		{
 			"Name": "Perithal VI",
+			"ID": 226,
 			"CoordX": 243.5,
 			"CoordY": -330.1
 		},
 		{
 			"Name": "Spirana",
+			"ID": 227,
 			"CoordX": 257.1,
 			"CoordY": -343.6
 		},
 		{
 			"Name": "Rhommamool",
+			"ID": 228,
 			"CoordX": 279.5,
 			"CoordY": -362.8
 		},
 		{
 			"Name": "Tlactehon",
+			"ID": 229,
 			"CoordX": 305.4,
 			"CoordY": -395.4
 		},
 		{
 			"Name": "Allanteen VI",
+			"ID": 230,
 			"CoordX": 319.1,
 			"CoordY": -409.4
 		},
 		{
 			"Name": "Gamor",
+			"ID": 231,
 			"CoordX": 350.3,
 			"CoordY": -441.4
 		},
 		{
 			"Name": "Milagro",
+			"ID": 232,
 			"CoordX": 360.1,
 			"CoordY": -450.9
 		},
 		{
 			"Name": "Thaere",
+			"ID": 233,
 			"CoordX": 383.7,
 			"CoordY": -476.3
 		},
 		{
 			"Name": "New Cov",
+			"ID": 234,
 			"CoordX": 404.328,
 			"CoordY": -496
 		},
 		{
 			"Name": "Doldur",
+			"ID": 235,
 			"CoordX": 430.5,
 			"CoordY": -525
 		},
 		{
 			"Name": "Druckenwell",
+			"ID": 236,
 			"CoordX": 437.2,
 			"CoordY": -534
 		},
 		{
 			"Name": "Kabray",
+			"ID": 237,
 			"CoordX": 469.3,
 			"CoordY": -567.3
 		},
 		{
 			"Name": "Algara",
+			"ID": 238,
 			"CoordX": 482.2,
 			"CoordY": -579.7
 		},
 		{
 			"Name": "Andosha II",
+			"ID": 239,
 			"CoordX": 495,
 			"CoordY": -595.6
 		},
 		{
 			"Name": "Mon Gazza",
+			"ID": 240,
 			"CoordX": 516.2,
 			"CoordY": -614.5
 		},
 		{
 			"Name": "Herdessa",
+			"ID": 241,
 			"CoordX": 539.8,
 			"CoordY": -638
 		},
 		{
 			"Name": "Radnor",
+			"ID": 242,
 			"CoordX": 554.4,
 			"CoordY": -654
 		},
 		{
 			"Name": "Christophsis",
+			"ID": 243,
 			"CoordX": 576.8,
 			"CoordY": -676
 		},
 		{
 			"Name": "Savareen",
+			"ID": 244,
 			"CoordX": 591.9,
 			"CoordY": -688.3
 		},
 		{
 			"Name": "Arkanis",
+			"ID": 245,
 			"CoordX": 614,
 			"CoordY": -708.9
 		},
 		{
 			"Name": "Sirpar",
+			"ID": 246,
 			"CoordX": 622.8,
 			"CoordY": -716.7
 		},
 		{
 			"Name": "Gorno",
+			"ID": 247,
 			"CoordX": 627,
 			"CoordY": -720.7
 		},
 		{
 			"Name": "Dalchon",
+			"ID": 248,
 			"CoordX": 645.4,
 			"CoordY": -742.7
 		},
 		{
 			"Name": "Ryloth",
+			"ID": 249,
 			"CoordX": 671.3,
 			"CoordY": -762
 		},
 		{
 			"Name": "Wrea",
+			"ID": 250,
 			"CoordX": 710.2,
 			"CoordY": -793.2
 		}

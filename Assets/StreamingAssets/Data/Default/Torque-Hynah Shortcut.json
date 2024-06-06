@@ -3,32 +3,38 @@
   "JsonPlanets": [
     {
       "Name": "Torque",
-      "CoordX": 461.4,
+      "ID": 674,
+			"CoordX": 461.4,
       "CoordY": 381
     },
     {
       "Name": "Yavin",
-      "CoordX": 458.4,
+      "ID": 1493,
+			"CoordX": 458.4,
       "CoordY": 398.7
     },
     {
       "Name": "Ladarra",
-      "CoordX": 453.6,
+      "ID": 1204,
+			"CoordX": 453.6,
       "CoordY": 414.2
     },
     {
       "Name": "Feswe Corridor",
-      "CoordX": 428.4,
+      "ID": 404,
+			"CoordX": 428.4,
       "CoordY": 412
     },
     {
       "Name": "Feswe Prime",
-      "CoordX": 411.6,
+      "ID": 1494,
+			"CoordX": 411.6,
       "CoordY": 417.1
     },
     {
       "Name": "Hynah",
-      "CoordX": 396.8,
+      "ID": 632,
+			"CoordX": 396.8,
       "CoordY": 425.9
     }
   ]

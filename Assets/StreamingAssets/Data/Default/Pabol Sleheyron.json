@@ -3,72 +3,86 @@
   "JsonPlanets": [
     {
       "Name": "Randon",
-      "CoordX": 526.5,
+      "ID": 1103,
+			"CoordX": 526.5,
       "CoordY": -34.9
     },
     {
       "Name": "Yitabo",
-      "CoordX": 590.2,
+      "ID": 347,
+			"CoordX": 590.2,
       "CoordY": -29.5
     },
 	{
       "Name": "Chalacta",
-      "CoordX": 654.8,
+      "ID": 1133,
+			"CoordX": 654.8,
       "CoordY": -20.7
     },
     {
       "Name": "Ilos",
-      "CoordX": 677.9,
+      "ID": 1134,
+			"CoordX": 677.9,
       "CoordY": -26.4
     },
     {
       "Name": "Ilos Minor",
-      "CoordX": 691.5,
+      "ID": 647,
+			"CoordX": 691.5,
       "CoordY": -30.6
     },
     {
       "Name": "Nar Kreeta",
-      "CoordX": 709.3,
+      "ID": 1132,
+			"CoordX": 709.3,
       "CoordY": -35.6
     },
     {
       "Name": "Nimban",
-      "CoordX": 723.2,
+      "ID": 1135,
+			"CoordX": 723.2,
       "CoordY": -33.6
     },
     {
       "Name": "Sleheyron",
-      "CoordX": 769.8,
+      "ID": 1130,
+			"CoordX": 769.8,
       "CoordY": -22.6
     },
     {
       "Name": "Ulmatra",
-      "CoordX": 796.2,
+      "ID": 1136,
+			"CoordX": 796.2,
       "CoordY": -17.7
     },
     {
       "Name": "Zerm",
-      "CoordX": 826.7,
+      "ID": 709,
+			"CoordX": 826.7,
       "CoordY": -20.3
     },
     {
       "Name": "Aeneid",
-      "CoordX": 845.6,
+      "ID": 1137,
+			"CoordX": 845.6,
       "CoordY": -19.7
     },
     {
       "Name": "Little Kessel",
-      "CoordX": 863.5,
+      "ID": 567,
+			"CoordX": 863.5,
       "CoordY": -21.1
     },
     {
       "Name": "Prishella III",
-      "CoordX": 881.6,
+      "ID": 1138,
+			"CoordX": 881.6,
       "CoordY": -24.1
     },
     {
       "Name": "Formos",
-      "CoordX": 893.7,
+      "ID": 707,
+			"CoordX": 893.7,
       "CoordY": -25.3
     }
   ]

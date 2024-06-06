@@ -3,97 +3,116 @@
   "JsonPlanets": [
     {
       "Name": "Gyndine",
-      "CoordX": 313,
+      "ID": 844,
+			"CoordX": 313,
       "CoordY": -223.5
     },
     {
       "Name": "Reytha",
-      "CoordX": 333.8,
+      "ID": 1096,
+			"CoordX": 333.8,
       "CoordY": -203.8
     },
     {
       "Name": "Chanosant",
-      "CoordX": 354.6,
+      "ID": 1097,
+			"CoordX": 354.6,
       "CoordY": -167.5
     },
     {
       "Name": "Trammen",
-      "CoordX": 365.4,
+      "ID": 1098,
+			"CoordX": 365.4,
       "CoordY": -160.6
     },
     {
       "Name": "Belasco",
-      "CoordX": 386,
+      "ID": 1099,
+			"CoordX": 386,
       "CoordY": -136.8
     },
     {
       "Name": "Zirulast",
-      "CoordX": 408.4,
+      "ID": 1100,
+			"CoordX": 408.4,
       "CoordY": -110.2
     },
     {
       "Name": "New Apsolon",
-      "CoordX": 457.8,
+      "ID": 1101,
+			"CoordX": 457.8,
       "CoordY": -40.5
     },
     {
       "Name": "Terr'skiar",
-      "CoordX": 479.5,
+      "ID": 861,
+			"CoordX": 479.5,
       "CoordY": -32.3
     },
     {
       "Name": "Coachelle Prime",
-      "CoordX": 496.8,
+      "ID": 1102,
+			"CoordX": 496.8,
       "CoordY": -34.6
     },
     {
       "Name": "Ota",
-      "CoordX": 513.2,
+      "ID": 329,
+			"CoordX": 513.2,
       "CoordY": -35.9
     },
     {
       "Name": "Randon",
-      "CoordX": 526.5,
+      "ID": 1103,
+			"CoordX": 526.5,
       "CoordY": -34.9
     },
     {
       "Name": "Blimph",
-      "CoordX": 545,
+      "ID": 1104,
+			"CoordX": 545,
       "CoordY": -45.3
     },
     {
       "Name": "Ubrikkia",
-      "CoordX": 595.6,
+      "ID": 1105,
+			"CoordX": 595.6,
       "CoordY": -64.7
     },
     {
       "Name": "Kwenn",
-      "CoordX": 652.4,
+      "ID": 1106,
+			"CoordX": 652.4,
       "CoordY": -82.8
     },
     {
       "Name": "Keldooine",
-      "CoordX": 656.9,
+      "ID": 1107,
+			"CoordX": 656.9,
       "CoordY": -84.1
     },
     {
       "Name": "Nar Bo Sholla",
-      "CoordX": 685.9,
+      "ID": 1108,
+			"CoordX": 685.9,
       "CoordY": -93.7
     },
     {
       "Name": "Irith",
-      "CoordX": 704.5,
+      "ID": 1109,
+			"CoordX": 704.5,
       "CoordY": -129.9
     },
     {
       "Name": "Du Hutta",
-      "CoordX": 713.1,
+      "ID": 1110,
+			"CoordX": 713.1,
       "CoordY": -171.9
     },
     {
       "Name": "Nal Hutta",
-      "CoordX": 704,
+      "ID": 1088,
+			"CoordX": 704,
       "CoordY": -205.8
     }
   ]

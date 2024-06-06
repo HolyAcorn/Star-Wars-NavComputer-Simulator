@@ -3,12 +3,14 @@
   "JsonPlanets": [
     {
       "Name": "Pinoora",
-      "CoordX": 432.4,
+      "ID": 330,
+			"CoordX": 432.4,
       "CoordY": 382.6
     },
     {
       "Name": "Denarii Station",
-      "CoordX": 422.6,
+      "ID": 331,
+			"CoordX": 422.6,
       "CoordY": 377.8
     }
   ]

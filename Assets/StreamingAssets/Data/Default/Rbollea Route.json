@@ -3,22 +3,26 @@
   "JsonPlanets": [
     {
       "Name": "Ediorung",
-      "CoordX": 349.4,
+      "ID": 537,
+			"CoordX": 349.4,
       "CoordY": 56.2
     },
     {
       "Name": "Tumani",
-      "CoordX": 350.7,
+      "ID": 1243,
+			"CoordX": 350.7,
       "CoordY": 56.1
     },
     {
       "Name": "Tinta",
-      "CoordX": 351.7,
+      "ID": 1244,
+			"CoordX": 351.7,
       "CoordY": 55.7
     },
     {
       "Name": "Rbollea",
-      "CoordX": 352.2,
+      "ID": 1245,
+			"CoordX": 352.2,
       "CoordY": 55.3
     }
   ]

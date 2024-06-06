@@ -3,42 +3,50 @@
   "JsonPlanets": [
     {
       "Name": "New Cov",
-      "CoordX": 404.3,
+      "ID": 348,
+			"CoordX": 404.3,
       "CoordY": -496
     },
     {
       "Name": "Kalarba",
-      "CoordX": 404,
+      "ID": 349,
+			"CoordX": 404,
       "CoordY": -517
     },
     {
       "Name": "Triffis",
-      "CoordX": 383.5,
+      "ID": 350,
+			"CoordX": 383.5,
       "CoordY": -556.8
     },
     {
       "Name": "Bannistar Station",
-      "CoordX": 384,
+      "ID": 351,
+			"CoordX": 384,
       "CoordY": -572.7
     },
     {
       "Name": "Enarc",
-      "CoordX": 340.8,
+      "ID": 352,
+			"CoordX": 340.8,
       "CoordY": -716.1
     },
     {
       "Name": "Alui",
-      "CoordX": 308.4,
+      "ID": 353,
+			"CoordX": 308.4,
       "CoordY": -727.4
     },
     {
       "Name": "Sanrafsix",
-      "CoordX": 223.1,
+      "ID": 354,
+			"CoordX": 223.1,
       "CoordY": -742.9
     },
     {
       "Name": "Darkknell",
-      "CoordX": 188.7,
+      "ID": 355,
+			"CoordX": 188.7,
       "CoordY": -754.6
     }
   ]

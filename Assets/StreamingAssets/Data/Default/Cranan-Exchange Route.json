@@ -3,32 +3,38 @@
   "JsonPlanets": [
     {
       "Name": "Vor Deo",
-      "CoordX": 650.1,
+      "ID": 305,
+			"CoordX": 650.1,
       "CoordY": -702.3
     },
     {
       "Name": "Gedi IV",
-      "CoordX": 657,
+      "ID": 306,
+			"CoordX": 657,
       "CoordY": -692.2
     },
     {
       "Name": "Cranan 12",
-      "CoordX": 663,
+      "ID": 307,
+			"CoordX": 663,
       "CoordY": -684.1
     },
     {
       "Name": "Melnea's World",
-      "CoordX": 671.9,
+      "ID": 308,
+			"CoordX": 671.9,
       "CoordY": -682.4
     },
     {
       "Name": "Dagu",
-      "CoordX": 783.1,
+      "ID": 309,
+			"CoordX": 783.1,
       "CoordY": -671.9
     },
     {
       "Name": "Excarga",
-      "CoordX": 833,
+      "ID": 310,
+			"CoordX": 833,
       "CoordY": -658.3
     }
   ]

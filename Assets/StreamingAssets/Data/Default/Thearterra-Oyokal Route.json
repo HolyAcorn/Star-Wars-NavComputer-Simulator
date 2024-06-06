@@ -3,27 +3,32 @@
   "JsonPlanets": [
     {
       "Name": "Thearterra",
-      "CoordX": -620.4,
+      "ID": 1471,
+			"CoordX": -620.4,
       "CoordY": 135.7
     },
     {
       "Name": "Avidich",
-      "CoordX": -610.1,
+      "ID": 1472,
+			"CoordX": -610.1,
       "CoordY": 120.4
     },
     {
       "Name": "Ool",
-      "CoordX": -620.2,
+      "ID": 1473,
+			"CoordX": -620.2,
       "CoordY": 115.8
     },
     {
       "Name": "Shihon",
-      "CoordX": -618.2,
+      "ID": 1474,
+			"CoordX": -618.2,
       "CoordY": 110.9
     },
     {
       "Name": "Oyokal",
-      "CoordX": -629.8,
+      "ID": 1475,
+			"CoordX": -629.8,
       "CoordY": 106.8
     }
   ]
