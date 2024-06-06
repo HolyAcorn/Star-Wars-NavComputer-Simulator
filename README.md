@@ -1,7 +1,7 @@
 ![logo](https://i.imgur.com/DcmRqjk.png)
 ![GitHub last commit](https://img.shields.io/github/last-commit/HolyAcorn/Star-Wars-NavComputer-Simulator)
 
-The Star Wars NavComputer Simulator (swNavSIM) is a free and open source software that simulates the Navigation Computers from Star Wars. It is meant to look like something that could exist in the Star Wars universe and that is able to calculate the distance and time required to travel from planet to planet.
+The Star Wars NavComputer Simulator (swNavSIM) is a free and that simulates the Navigation Computers from Star Wars. It is meant to look like something that could exist in the Star Wars universe and that is able to calculate the distance and time required to travel from planet to planet.
 
 ## Key Features List
 
