@@ -18,6 +18,8 @@ namespace SwNavComp
 
         [SerializeField] FloatReference size;
 
+        [SerializeField] BoolVariable editMode;
+
         private void Start()
         {
             
@@ -29,6 +31,7 @@ namespace SwNavComp
             selectedPlanet.Add(planet);
             newSelectedPlanetEvent.Raise();
         }
+
 
         public void FlipOutline()
         {

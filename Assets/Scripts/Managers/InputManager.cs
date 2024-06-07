@@ -8,7 +8,7 @@ using static UnityEngine.InputSystem.InputAction;
 
 namespace SwNavComp
 {
-    
+
     public class InputManager : MonoBehaviour
     {
         PlayerInput playerInput;
@@ -20,6 +20,9 @@ namespace SwNavComp
 
         [SerializeField] PlanetRuntimeSet selectedPlanet;
         [SerializeField] GameEvent clickedBlankEvent;
+
+        
+    
 
         float edgeSize = 10f;
 
@@ -58,6 +61,11 @@ namespace SwNavComp
             if (EventSystem.current.IsPointerOverGameObject()) return;
             selectedPlanet.Clear();
             clickedBlankEvent.Raise();
+        }
+
+        public void FlipMode(bool editMode)
+        {
+
         }
     }
 }

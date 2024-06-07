@@ -10,6 +10,7 @@ namespace SwNavComp
     public class GameManager : MonoBehaviour
     {
         [SerializeField] GameEvent presentHyperlanes;
+        [SerializeField] BoolVariable editMode;
 
         private void Start()
         {
@@ -19,6 +20,11 @@ namespace SwNavComp
         public void ReloadMap()
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
+        public void ToggleEditMode()
+        {
+            editMode.Value = !editMode.Value;
         }
 
     }
